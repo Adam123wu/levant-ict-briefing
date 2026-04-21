@@ -1,0 +1,36 @@
+[build]
+  publish = "/"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+[[redirects]]
+  from = "/latest"
+  to = "/w15-16.html"
+  status = 302
+
+[[redirects]]
+  from = "/issues/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/levant_dashboard_w16.html"
+  to = "/w15-16.html"
+  status = 301
+
+[[redirects]]
+  from = "/levant_dashboard_w13-14.html"
+  to = "/w13-14.html"
+  status = 301
