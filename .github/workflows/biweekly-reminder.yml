@@ -1,0 +1,74 @@
+name: Biweekly reminder
+
+# 每双周一 UTC 05:00 (巴格达时间 08:00) 检查是否该出新期
+on:
+  schedule:
+    - cron: '0 5 * * 1'  # 每周一 UTC 5:00
+  workflow_dispatch:     # 支持手动触发测试
+
+jobs:
+  check-and-remind:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Check if new issue due
+        id: check
+        run: python scripts/check_issue_due.py
+      
+      - name: Create reminder issue
+        if: steps.check.outputs.due == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const nextWeeks = '${{ steps.check.outputs.next_weeks }}' || 'N-N+1';
+            const msg = `${{ steps.check.outputs.message }}`;
+            
+            // 检查是否已有待办提醒 issue 避免重复
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'biweekly-reminder',
+              state: 'open'
+            });
+            
+            if (existing.length > 0) {
+              console.log(`已有 ${existing.length} 个待办提醒, 跳过创建`);
+              return;
+            }
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📅 该出第 ${nextWeeks} 周双周简报了`,
+              body: [
+                `## 🔔 双周简报提醒`,
+                ``,
+                msg,
+                ``,
+                `### 下一步操作`,
+                ``,
+                `1. 找 Claude 生成 **第 ${nextWeeks} 周** 双周简报 HTML`,
+                `2. 命名为 \`w${nextWeeks}.html\``,
+                `3. 上传到本仓库 \`issues/\` 目录`,
+                `4. GitHub Actions 自动重建 index + Cloudflare Pages 自动部署`,
+                ``,
+                `完成后关闭此 Issue 即可。`,
+                ``,
+                `---`,
+                `*自动提醒 · 发送人: 吴昊 679001*`
+              ].join('\n'),
+              labels: ['biweekly-reminder', 'automation']
+            });
+            
+            console.log('✅ 提醒 Issue 已创建');
