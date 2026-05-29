@@ -10,7 +10,7 @@
 
 ```
 levant-ict-briefing/
-├── index.html               ← 最新期副本（= w15-16.html，自动生成）
+├── index.html               ← 最新期副本（= w20-21.html，自动生成）
 ├── w15-16.html              ← 第 15—16 周（根目录）
 ├── w13-14.html              ← 第 13—14 周（根目录）
 ├── _headers / _redirects / netlify.toml
