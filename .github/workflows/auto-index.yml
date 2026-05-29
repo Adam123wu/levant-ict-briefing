@@ -1,27 +1,25 @@
 name: Auto rebuild index
 
-# 触发条件: issues/ 目录有变化时, 自动重建首页
+# 触发条件: 任何 w*-*.html 变化时, 自动把最新期复制为 index.html
 on:
   push:
     paths:
-      - 'issues/**'
+      - 'w*-*.html'
       - 'scripts/rebuild_index.py'
       - '.github/workflows/auto-index.yml'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 jobs:
   rebuild:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 允许 bot 提交 index.html
+      contents: write
     
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # fetch-depth: 0 需要完整历史, 否则无法 push
           fetch-depth: 0
-          # 允许后续 workflow 能被触发
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Python
@@ -29,18 +27,18 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Rebuild index.html
+      - name: Rebuild index.html (copy latest week to index)
         run: python scripts/rebuild_index.py
       
-      - name: Commit changes if any
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html
           if git diff --staged --quiet; then
-            echo "index.html 无变化, 跳过提交"
+            echo "index.html unchanged, skip commit"
           else
-            git commit -m "🤖 auto: rebuild index.html"
+            git commit -m "auto: update index.html to latest week"
             git push
-            echo "✅ index.html 已更新并推送"
+            echo "index.html updated and pushed"
           fi
