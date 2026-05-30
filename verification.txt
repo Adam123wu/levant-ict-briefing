@@ -1,0 +1,7 @@
+下期必须追踪的触发器: 0
+tab-next: 0
+homepage_iraq: 0
+homepage_jordan: 0
+homepage_lebanon: 0
+history_top_button: 3
+country_fold_sections: 3

@@ -4,5 +4,10 @@
 
 [[redirects]]
   from = "/latest"
-  to = "/w21-22.html"
+  to = "/w20-21.html"
   status = 302
+
+[[redirects]]
+  from = "/w21-22.html"
+  to = "/w20-21.html"
+  status = 301

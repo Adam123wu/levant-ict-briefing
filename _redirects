@@ -1,1 +1,4 @@
-/latest /w21-22.html 302
+/latest        /w20-21.html   302
+/w21-22.html   /w20-21.html   301
+/w22-23.html   /w20-21.html   301
+/              /index.html    200

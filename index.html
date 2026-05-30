@@ -1,771 +1,815 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>伊拉克代表处 ICT 双周简报 · 第21—22周</title>
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>伊拉克代表处 ICT 双周简报 · 第20—21周 · 最终保留版</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:#EDEAE4;color:#1a1a1a;padding:20px 12px 40px;}
-.db{max-width:720px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #ddd;box-shadow:0 12px 28px rgba(4,44,83,.08);}
-.top-bar{background:#042C53;color:#fff;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;}
-.top-title{font-size:16px;font-weight:600;}
-.top-meta{font-size:11px;color:rgba(255,255,255,.55);margin-top:3px;}
-.top-week{font-size:11px;background:rgba(255,255,255,.12);padding:3px 12px;border-radius:20px;color:#B5D4F4;white-space:nowrap;}
-.top-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
-.retro-btn{background:#E8C76F;color:#3D2F05;border:none;padding:7px 14px;border-radius:18px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;}
-.kpi-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:14px 16px;background:#F5F3EF;}
-.kpi{background:#fff;border:0.5px solid #e0ddd8;border-radius:8px;padding:10px 12px;}
-.kpi-lbl{font-size:11px;color:#888780;margin-bottom:4px;}
-.kpi-val{font-size:20px;font-weight:600;color:#1a1a1a;}
-.kpi-sub{font-size:11px;color:#b4b2a9;margin-top:2px;}
-.nav{display:flex;padding:0 16px;border-bottom:0.5px solid #e0ddd8;margin-top:4px;overflow-x:auto;}
-.nav-btn{font-size:12px;font-weight:600;padding:9px 14px;cursor:pointer;border:none;background:none;color:#888780;border-bottom:2px solid transparent;white-space:nowrap;}
-.nav-btn.active{color:#185FA5;border-bottom-color:#185FA5;}
-.country-panel{display:none;padding:14px 16px 0;}
-.country-panel.active{display:block;}
-.flag-row{display:flex;align-items:center;gap:8px;margin-bottom:14px;}
-.flag-ico{font-size:20px;} .flag-name{font-size:16px;font-weight:600;}
-.flag-badge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:20px;margin-left:4px;background:#FAEEDA;color:#633806;}
-.ch-list{display:flex;flex-direction:column;gap:8px;padding-bottom:16px;}
-.ch-card{border:0.5px solid #e0ddd8;border-radius:8px;overflow:hidden;background:#fff;}
-.ch-head{display:flex;align-items:center;gap:8px;padding:9px 13px;background:#fafaf8;cursor:pointer;user-select:none;}
-.ch-ico{font-size:14px;width:18px;text-align:center;}
-.ch-lbl{font-size:13px;font-weight:600;flex:1;}
-.ch-tag{font-size:10px;font-weight:600;padding:1px 8px;border-radius:20px;}
-.tag-blue{background:#E6F1FB;color:#0C447C;}
-.ch-arr{font-size:11px;color:#b4b2a9;transition:transform .2s;}
-.ch-arr.open{transform:rotate(90deg);}
-.ch-body{display:none;border-top:0.5px solid #e0ddd8;}
-.ch-body.open{display:block;}
-.ni{padding:11px 13px;}
-.ni+.ni{border-top:0.5px solid #ece9e4;}
-.ni-meta{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap;}
-.tier-dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
-.t1{background:#A32D2D;} .t2{background:#BA7517;} .t3{background:#3B6D11;}
-.ni-date{font-size:11px;color:#b4b2a9;}
-.vbadge{font-size:10px;font-weight:600;padding:1px 6px;border-radius:10px;background:#EAF3DE;color:#27500A;}
-.ni-title{font-size:13px;font-weight:600;color:#111;margin-bottom:5px;line-height:1.4;}
-.ni-text{font-size:13px;color:#444;line-height:1.65;}
-.ni-src{font-size:11px;color:#185FA5;margin-top:7px;line-height:1.6;} .ni-src a{color:#185FA5;text-decoration:none;margin-right:6px;}
-.opp-box{background:#FAEEDA;border-left:3px solid #BA7517;padding:7px 10px;margin-top:8px;font-size:12px;color:#633806;line-height:1.55;border-radius:0 4px 4px 0;}
-.opp-lbl{font-weight:700;margin-bottom:2px;font-size:10px;letter-spacing:.5px;}
-.rumor-box{background:#EEEDFE;border-left:3px solid #534AB7;padding:7px 10px;margin-top:8px;font-size:12px;color:#3C3489;line-height:1.55;border-radius:0 4px 4px 0;}
-.rumor-lbl{font-weight:700;margin-bottom:2px;font-size:10px;color:#534AB7;letter-spacing:.5px;}
-.overview-box{background:#F5F3EF;border-radius:8px;padding:13px 15px;margin-bottom:14px;}
-.ov-lbl{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#888780;margin-bottom:9px;}
-.ov-list{list-style:none;display:flex;flex-direction:column;gap:6px;}
-.ov-list li{font-size:13px;color:#444;padding-left:13px;position:relative;line-height:1.6;}
-.ov-list li::before{content:'';position:absolute;left:0;top:8px;width:4px;height:4px;border-radius:50%;background:#185FA5;}
-.topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px;}
-.topic-card{border:0.5px solid #e0ddd8;border-radius:10px;padding:12px;background:#fff;}
-.topic-card h4{font-size:13px;margin-bottom:6px;color:#042C53;}
-.topic-card p{font-size:12px;color:#555;line-height:1.55;}
-.matrix-note{background:#F0F6FC;border-left:3px solid #185FA5;padding:9px 12px;margin:10px 0 14px;border-radius:0 6px 6px 0;font-size:12px;color:#0C447C;line-height:1.6;}
-.slogan-banner{background:#E8C76F;padding:14px 24px;text-align:center;margin-top:16px;border-radius:0 0 12px 12px;}
-.slogan-zh{color:#3D2F05;font-size:14px;font-weight:700;line-height:22px;letter-spacing:1px;}
-.slogan-en{color:#5A4208;font-size:11px;font-style:italic;margin-top:4px;line-height:16px;}
-@media(max-width:520px){.kpi-row{grid-template-columns:repeat(2,1fr);}.topic-grid{grid-template-columns:1fr;}.top-bar{flex-direction:column;align-items:flex-start;gap:8px;}.top-right{flex-direction:row;align-items:center;gap:8px;align-self:stretch;justify-content:space-between;}}
-</style>
-</head>
-<body>
-<div class="db">
-<div class="top-bar">
-  <div>
-    <div class="top-title">伊拉克代表处 ICT与行业数字化双周简报</div>
-    <div class="top-meta">伊拉克代表处 MSSD AI团队 · 行业数字化监测 · 社媒评论分析版 · 2026年5月30日</div>
+:root{--navy:#042C53;--blue:#185FA5;--gold:#E8C76F;--bg:#EDEAE4;--text:#1a1a1a;--muted:#7b7a74;--line:#e0ddd8;--red:#A32D2D;--orange:#BA7517;--green:#3B6D11;--purple:#5A4FCF;}
+*{box-sizing:border-box;margin:0;padding:0} body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',Arial,sans-serif;background:radial-gradient(circle at top,#F7F1DF 0,#EDEAE4 38%,#E7E5DF 100%);color:var(--text);padding:20px 12px 48px;}
+.db{max-width:920px;margin:0 auto;background:#fff;border-radius:22px;overflow:hidden;border:1px solid rgba(4,44,83,.08);box-shadow:0 16px 45px rgba(4,44,83,.12)}
+.hero{position:relative;background:linear-gradient(135deg,#041F3D 0%,#0A4A87 58%,#0B6CA8 100%);color:#fff;padding:28px 28px 24px;overflow:hidden}
+.hero:after{content:'';position:absolute;right:-80px;top:-80px;width:260px;height:260px;background:radial-gradient(circle,rgba(232,199,111,.35),rgba(255,255,255,0));border-radius:50%}
+.hero-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;position:relative;z-index:1} .title-wrap h1{font-size:23px;letter-spacing:.3px;margin-bottom:7px} .title-wrap p{font-size:12px;color:rgba(255,255,255,.72);line-height:1.6}
+.week-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2);padding:7px 14px;border-radius:999px;font-size:12px;color:#CFE6FF;white-space:nowrap;font-weight:700}
+.hero-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px;position:relative;z-index:1} .kpi{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.16);border-radius:15px;padding:13px 14px;backdrop-filter:blur(8px)} .kpi .lbl{font-size:11px;color:rgba(255,255,255,.65);margin-bottom:5px} .kpi .val{font-size:23px;font-weight:900} .kpi .sub{font-size:10.5px;color:rgba(255,255,255,.68);margin-top:4px;line-height:1.35}
+.nav{display:flex;gap:8px;padding:12px 16px;background:#FBFAF7;border-bottom:1px solid var(--line);overflow-x:auto;position:sticky;top:0;z-index:30} .nav-btn{border:0;background:#fff;color:#777;text-decoration:none;display:inline-flex;align-items:center;font-size:12px;font-weight:800;padding:9px 14px;border-radius:999px;cursor:pointer;border:1px solid #ece9e4;white-space:nowrap} .nav-btn.active{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:0 5px 12px rgba(4,44,83,.18)}
+.panel{display:block;padding:18px;border-top:1px solid var(--line);scroll-margin-top:72px} .panel.active{display:block} .exec-note{background:linear-gradient(135deg,#FFF9E6,#F7FBFF);border:1px solid #E7D28A;border-radius:16px;padding:15px 16px;margin-bottom:16px} .exec-note h2{font-size:15px;margin-bottom:9px;color:#3D2F05} .exec-note ul{list-style:none;display:flex;flex-direction:column;gap:8px} .exec-note li{font-size:13px;line-height:1.65;color:#45433c;position:relative;padding-left:12px} .exec-note li:before{content:'';position:absolute;left:0;top:10px;width:4px;height:4px;border-radius:50%;background:var(--blue)}
+.headline-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px} .headline-card{border:1px solid var(--line);border-radius:16px;padding:14px;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.04);border-top:4px solid var(--blue)} .headline-card.iq{border-top-color:#BA7517} .headline-card.jo{border-top-color:#3B6D11} .headline-card.lb{border-top-color:#A32D2D} .headline-meta{display:flex;justify-content:space-between;color:#888;font-size:10.5px;margin-bottom:8px} .headline-card h3{font-size:13.5px;line-height:1.45;margin-bottom:7px} .headline-card p{font-size:12.2px;color:#555;line-height:1.6}
+.country-hero{display:flex;align-items:center;justify-content:space-between;gap:15px;border-radius:18px;padding:17px 18px;margin-bottom:14px;color:#fff;overflow:hidden;position:relative} .country-hero.iq{background:linear-gradient(135deg,#8B4D08,#D49935)} .country-hero.jo{background:linear-gradient(135deg,#1F4E16,#5D9E3D)} .country-hero.lb{background:linear-gradient(135deg,#741B1B,#C65B58)} .country-hero h2{font-size:20px;margin:3px 0 6px} .country-hero p{font-size:12px;line-height:1.55;color:rgba(255,255,255,.86)} .country-flag{font-size:26px} .country-stat{min-width:110px;text-align:center;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);border-radius:15px;padding:11px} .country-stat b{font-size:28px;display:block} .country-stat span{font-size:11px;color:rgba(255,255,255,.78)}
+details.module{margin:12px 0;border:1px solid var(--line);border-radius:15px;background:#fff;overflow:hidden} details.module>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 15px;background:linear-gradient(90deg,#F7F5F1,#fff);font-size:13px;font-weight:900;color:var(--navy)} details.module>summary::-webkit-details-marker, details.news-card>summary::-webkit-details-marker{display:none} details.module>summary:after{content:'展开';font-size:10.5px;color:var(--blue);background:#E6F1FB;padding:3px 8px;border-radius:9px} details.module[open]>summary:after{content:'收起';background:#EEE;color:#666} .module-count{margin-left:auto;font-size:10.5px;color:#666;background:#EDEAE4;border-radius:999px;padding:3px 8px} .cards{padding:11px;display:flex;flex-direction:column;gap:10px}
+details.news-card{border:1px solid #e7e2d9;border-radius:13px;background:#fff;overflow:hidden} details.news-card>summary{list-style:none;cursor:pointer;padding:13px;background:#fff} details.news-card>summary:hover{background:#FAFAF8} details.news-card[open]>summary{border-bottom:1px solid #ece9e4;background:#FFFDF8} .summary-line{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:7px} .dot{width:8px;height:8px;border-radius:50%} .p0{background:var(--red)} .p1{background:var(--orange)} .p2{background:var(--green)} .date{font-size:11px;color:#999} .tag{font-size:10px;font-weight:800;padding:2px 7px;border-radius:999px;background:#E6F1FB;color:#0C447C} .pri{margin-left:auto;font-size:10px;font-weight:900;padding:2px 7px;border-radius:999px;background:#FCEBEB;color:#8C2C2C}
+.news-title{font-size:14px;font-weight:900;line-height:1.45;margin-bottom:5px;color:#111} .mini-impact{font-size:12.2px;color:#666;line-height:1.55} .news-body{padding:0 13px 13px} .para{font-size:12.7px;line-height:1.72;color:#444;margin-top:8px} .para b{color:#222} .action{margin-top:9px;background:#FAEEDA;border-left:3px solid var(--orange);padding:8px 10px;border-radius:0 6px 6px 0;color:#633806;font-size:12.4px;line-height:1.65} .src{font-size:11px;color:#185FA5;line-height:1.6;margin-top:9px} .src a{color:#185FA5;text-decoration:none;margin-right:8px} .src a:hover{text-decoration:underline}
+.toolbar{display:flex;gap:8px;margin:12px 0 4px} .tool-btn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 11px;font-size:11px;font-weight:800;color:#555;cursor:pointer} .slogan-banner{background:#E8C76F;padding:16px 24px;text-align:center} .slogan-zh{color:#3D2F05;font-size:15px;font-weight:900;letter-spacing:1px} .slogan-en{color:#5A4208;font-size:11px;font-style:italic;margin-top:4px}
+.retro-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.62);z-index:999;padding:20px;overflow-y:auto} .retro-modal.show{display:flex;align-items:flex-start;justify-content:center} .retro-panel{background:#fff;max-width:620px;width:100%;border-radius:16px;overflow:hidden;margin:20px auto} .retro-head{background:linear-gradient(135deg,#042C53,#0A4A87);color:#fff;padding:16px 20px;display:flex;justify-content:space-between;align-items:center} .retro-close{background:rgba(255,255,255,.15);color:#fff;border:none;width:28px;height:28px;border-radius:50%;cursor:pointer} .retro-body{padding:16px} .retro-item{border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:10px;background:#fff;cursor:pointer} .retro-current{background:#FFF9E6;border-color:#E8C76F} .retro-week{font-size:11px;background:#EDEAE4;color:#042C53;padding:3px 9px;border-radius:10px;font-weight:800} .retro-title{font-size:13px;font-weight:800;margin:7px 0 4px} .retro-summary{font-size:11.5px;color:#555;line-height:1.55}
+@media(max-width:700px){.hero-top{flex-direction:column}.hero-grid{grid-template-columns:repeat(2,1fr)}.headline-grid{grid-template-columns:1fr}.country-hero{align-items:flex-start;flex-direction:column}.panel{padding:14px}}
+.matrix-note{background:#F0F6FC;border-left:3px solid var(--blue);padding:10px 12px;margin:12px 0;border-radius:0 10px 10px 0;font-size:12px;color:#0C447C;line-height:1.6}
+
+.hero-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.retro-top-btn{border:1px solid rgba(255,255,255,.28);background:var(--gold);color:#3D2F05;border-radius:999px;padding:8px 14px;font-weight:700;font-size:12px;cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.12)}
+.retro-top-btn:hover{filter:brightness(1.03)}
+.country-fold{display:block;padding:0 18px 18px;border-top:1px solid var(--line);background:#fff;scroll-margin-top:72px}
+.country-fold>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0;border-bottom:1px solid var(--line)}
+.country-fold>summary::-webkit-details-marker{display:none}
+.country-name{font-size:22px;font-weight:800;color:var(--navy)}
+.fold-desc{font-size:12px;color:var(--muted);background:#F5F3EF;border:1px solid var(--line);border-radius:999px;padding:5px 10px;white-space:nowrap}
+.country-fold>summary:after{content:'收起';font-size:12px;color:var(--blue);font-weight:700}
+.country-fold:not([open])>summary:after{content:'展开'}
+.country-panel-inner{padding:16px 0 0;border-top:none}
+@media(max-width:640px){.hero-top{align-items:flex-start}.hero-actions{justify-content:flex-start}.country-name{font-size:18px}.fold-desc{white-space:normal}}
+
+
+.compact-overview{padding:16px 18px;margin-bottom:12px}
+.compact-overview h2{font-size:18px;margin-bottom:10px}
+.compact-overview ul{gap:5px}
+.compact-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 4px}
+.compact-toolbar .tool-btn{text-decoration:none;display:inline-flex;align-items:center}
+.country-standard{margin:12px 18px 16px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 8px 18px rgba(4,44,83,.04)}
+.country-standard>summary{padding:16px 18px;background:linear-gradient(90deg,#F7F5F1,#fff);border-bottom:1px solid var(--line)}
+.country-standard .country-panel-inner{padding:10px 14px 16px}
+.country-standard .module{margin:10px 0}
+.country-standard .module>summary{min-height:48px}
+.country-standard .cards{padding:10px}
+.country-standard .news-card{border-radius:12px}
+.country-standard.iq>summary{border-left:5px solid #BA7517}
+.country-standard.jo>summary{border-left:5px solid #3B6D11}
+.country-standard.lb>summary{border-left:5px solid #A32D2D}
+
+
+.overview-lead{font-size:13px;line-height:1.75;color:#444;margin:4px 0 10px}
+.compact-overview{padding:16px 18px;margin-bottom:10px}
+.compact-overview h2{font-size:18px;margin-bottom:8px}
+.compact-overview ul{gap:5px}
+.compact-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 4px}
+.compact-toolbar .tool-btn{text-decoration:none;display:inline-flex;align-items:center}
+
+</style></head><body><div class="db">
+<header class="hero"><div class="hero-top"><div class="title-wrap"><h1>伊拉克代表处 ICT 双周简报</h1><p>MSSD AI团队 · 最终保留版 · 2026年5月30日<br/>定位：ICT与行业数字化机会简报（通信 / ISP / 金融 / 电力 / 油气 / 内政安防 / 商业分销 / 数据中心 / 政务）</p></div><div class="hero-actions"><div class="week-pill">第20—21周 · 5月13日—5月26日</div><button class="retro-top-btn" onclick="openRetro()">历史回顾</button></div></div>
+<div class="hero-grid"><div class="kpi"><div class="lbl">本期核心新闻</div><div class="val">40</div><div class="sub">含约旦/黎巴嫩行业扩展</div></div><div class="kpi"><div class="lbl">P0 高优先级</div><div class="val">13</div><div class="sub">需尽快跟进</div></div><div class="kpi"><div class="lbl">行业覆盖</div><div class="val">11</div><div class="sub">通信/ISP/金融/电力/油气/内政/商业分销/安防/数据中心/政务/海缆/数字身份</div></div><div class="kpi"><div class="lbl">伊拉克5G四牌</div><div class="val" style="color:#FFE19A">黄灯</div><div class="sub">部长推动/司法未解</div></div></div></header>
+<nav class="nav">
+  <a class="nav-btn active" href="#tab-ov">首页</a>
+  <a class="nav-btn" href="#tab-iq">伊拉克</a>
+  <a class="nav-btn" href="#tab-jo">约旦</a>
+  <a class="nav-btn" href="#tab-lb">黎巴嫩</a>
+</nav>
+
+
+<div class="panel active" id="tab-ov">
+  <div class="exec-note compact-overview">
+    <h2>本期综述</h2>
+    <p class="overview-lead">本期ICT与行业数字化简报聚焦四条主线：5G与第四运营商进展、运营商与ISP网络治理、行业数字化机会、企业/RFP与社媒信号。正文按国家折叠展示，首页仅保留总体判断，便于快速传阅。</p>
+    <ul>
+      <li><b>政策与监管：</b>通信监管、频谱、牌照、ISP合规、数字政府和产业政策仍是项目机会的前置变量。</li>
+      <li><b>行业数字化：</b>金融支付、电力能源、油气工业、内政安防、商业分销、交通港口、数据中心与海缆均纳入ICT机会跟踪。</li>
+      <li><b>商机判断：</b>优先关注有明确政策动作、招标窗口、企业采购、融资支持或关键人物社媒信号的事项；无实质进展不占位。</li>
+    </ul>
   </div>
-  <div class="top-right">
-    <span class="top-week">第21—22周 · 5月18日—5月31日 · 最终版</span>
-    <button class="retro-btn" onclick="location.href='w20-21.html'">📚 上期回顾</button>
+  <div class="toolbar compact-toolbar">
+    <button class="tool-btn" onclick="openAll()">展开全部</button>
+    <button class="tool-btn" onclick="closeAll()">收起新闻卡片</button>
   </div>
 </div>
-
-<div class="kpi-row">
-  <div class="kpi"><div class="kpi-lbl">核心新闻</div><div class="kpi-val">34</div><div class="kpi-sub">条</div></div>
-  <div class="kpi"><div class="kpi-lbl">产业覆盖</div><div class="kpi-val">10</div><div class="kpi-sub">重点领域</div></div>
-  <div class="kpi"><div class="kpi-lbl">覆盖国家</div><div class="kpi-val">3</div><div class="kpi-sub">伊/约/黎</div></div>
-  <div class="kpi"><div class="kpi-lbl">5G&四牌</div><div class="kpi-val" style="color:#BA7517;">黄灯</div><div class="kpi-sub">冻结未解</div></div>
+<details class="country-fold country-standard iq" id="tab-iq">
+  <summary><span class="country-name">伊拉克</span><span class="fold-desc">18条核心新闻 / 5G、四牌、ISP、金融与能源</span></summary>
+  <div class="panel country-panel-inner">
+<details class="module iq" open>
+<summary><span>部委 / 监管 / 产业政策</span><span class="module-count">3条 · P0 2</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-20</span><span class="tag">通信部</span><span class="tag">ISP/互联网质量</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">通信部长 Mustafa Sanad 承诺 2027 年初前改善全国互联网质量与价格</div>
+  <div class="mini-impact">这把伊拉克互联网问题从运营商投诉提升为通信部直接治理议题，后续会牵动 ITPC 骨干、ISP接入、出口带宽、服务质量监管和非法转售整治。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>新任通信部长 Mustafa Sanad 宣布将推进一揽子互联网基础设施计划，目标是在 2027 年初前提供更高质量、更可负担的互联网服务。</div>
+  <div class="para"><b>影响：</b>这把伊拉克互联网问题从运营商投诉提升为通信部直接治理议题，后续会牵动 ITPC 骨干、ISP接入、出口带宽、服务质量监管和非法转售整治。</div>
+  <div class="action"><b>商机动作：</b>代表处应把通信部、ITPC、CMC、三大运营商和本地ISP放进同一张客户地图，准备“全国互联网质量提升包”：骨干扩容、QoE监测、DNS/CDN、网络安全与监管报表。</div>
+  <div class="src"><b>来源：</b><a href="https://www.iraqinews.com/iraq/iraq-communications-minister-internet-infrastructure-2027/" target="_blank" rel="noopener">Iraqi News 5/20</a> <a href="https://www.facebook.com/moc.gov.iq/posts/1436108115229220/" target="_blank" rel="noopener">通信部FB线索</a></div>
 </div>
+</details>
 
-<div class="nav">
-  <button class="nav-btn active" onclick="switchTab('ov',this)">综述</button>
-  <button class="nav-btn" onclick="switchTab('iq',this)">🇮🇶 伊拉克</button>
-  <button class="nav-btn" onclick="switchTab('jo',this)">🇯🇴 约旦</button>
-  <button class="nav-btn" onclick="switchTab('lb',this)">🇱🇧 黎巴嫩</button>
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-26</span><span class="tag">5G四牌</span><span class="tag">NMTC/Vodafone</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Sanad 表态恢复停滞的国家 5G 运营商项目，但司法冻结仍是关键障碍</div>
+  <div class="mini-impact">伊拉克5G第四运营商进入“政策升温、司法未解”的黄灯状态：通信部想推，但项目能否走到融资、采购和商用阶段仍取决于法院、内阁、股东方与CMC节奏。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Sanad 对外表示将推动恢复国家5G运营商/NMTC项目；但公开报道同时指出，与 Vodafone 相关的项目此前受司法冻结影响，尚不能判断为正式解冻或启动招标。</div>
+  <div class="para"><b>影响：</b>伊拉克5G第四运营商进入“政策升温、司法未解”的黄灯状态：通信部想推，但项目能否走到融资、采购和商用阶段仍取决于法院、内阁、股东方与CMC节奏。</div>
+  <div class="action"><b>商机动作：</b>短期不要押注“第四牌照已落地”，应并行经营三大运营商5G准备、CMC频谱规则、ITPC承载网和NMTC股东方；只有看到司法/内阁/CMC文件交叉，才升级为绿灯。</div>
+  <div class="src"><b>来源：</b><a href="https://shafaq.com/en/Economy/Communications-Minister-vows-to-revive-stalled-5G-operator-in-Iraq" target="_blank" rel="noopener">Shafaq 5/26</a> <a href="https://ina.iq/en/local/36785-moc-an-agreement-with-vodafone-to-establish-a-5g-communications-network.html" target="_blank" rel="noopener">历史背景 INA</a></div>
 </div>
+</details>
 
-<div id="tab-ov" class="country-panel active">
-<div class="overview-box">
-  <div class="ov-lbl">本期核心判断</div>
-  <ul class="ov-list">
-    <li><b>伊拉克进入ISP合规整治窗口</b>：Sanad预告7月拆解非法互联网分销网络，影响用户实名、计费、税费和QoE。</li>
-    <li><b>NMTC/第四运营商仍是黄灯</b>：政策意愿升温，但法院冻结未解除，不得写成已恢复。</li>
-    <li><b>约旦数字化更均衡</b>：数字政府、金融支付、能源管道、电力表计、Aqaba港口、GreenMed数字走廊并行推进。</li>
-    <li><b>黎巴嫩优先看真实RFP</b>：Touch信令防火墙、光纤、CCTV、IPBB支持服务比宏观5G口号更接近订单。</li>
-  </ul>
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-18</span><span class="tag">通信部</span><span class="tag">数字服务质量</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">通信部召开基础设施与数字服务质量会议，ITPC/国企侧执行链条开始被拉动</div>
+  <div class="mini-impact">这类部内会议虽不是招标公告，但说明“部长表态”开始向通信部执行层传导，后续应观察 ITPC、Al-Salam、国营企业和省级项目是否出现RFP。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>通信部官方社媒显示，Sanad 召集高级团队讨论基础设施发展和数字服务质量，议题与互联网质量、国营通信公司和服务能力直接相关。</div>
+  <div class="para"><b>影响：</b>这类部内会议虽不是招标公告，但说明“部长表态”开始向通信部执行层传导，后续应观察 ITPC、Al-Salam、国营企业和省级项目是否出现RFP。</div>
+  <div class="action"><b>商机动作：</b>对接通信部技术团队时，不只谈5G，应同时打包互联网质量、数据中心、IP骨干、监控平台、网络安全和工程运维能力。</div>
+  <div class="src"><b>来源：</b><a href="https://www.facebook.com/moc.gov.iq/posts/1434322338741131/" target="_blank" rel="noopener">通信部FB 5月线索</a></div>
 </div>
-<div class="topic-grid">
-  <div class="topic-card"><h4>🇮🇶 伊拉克 P0 · 5G&四牌</h4><p>第四家运营商/NMTC保持专题跟踪：政策升温，但法院冻结未解除，当前仍为黄灯。</p></div>
-  <div class="topic-card"><h4>🇯🇴 约旦 P0/P1</h4><p>GreenMed、数字政府、支付、能源OT、Aqaba物流一起看。</p></div>
-  <div class="topic-card"><h4>🇱🇧 黎巴嫩 P1</h4><p>运营商RFP、应急通信、数字身份、FWA/频谱重耕是优先方向。</p></div>
+</details>
 </div>
+</details>
+
+<details class="module iq" >
+<summary><span>金融 / 支付 / 宏观预算</span><span class="module-count">4条 · P0 1</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-18</span><span class="tag">CBI</span><span class="tag">电子支付</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">伊拉克央行与电子支付机构扩大会议，数字支付监管进入执行窗口</div>
+  <div class="mini-impact">伊拉克无现金化、支付清算、金融包容和数字钱包进入更强监管周期；金融云、支付安全、灾备、数据治理和反欺诈平台需求会升温。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>CBI在巴格达与持牌电子支付服务商总经理召开扩大会议，讨论电子支付行业运行与监管议题。</div>
+  <div class="para"><b>影响：</b>伊拉克无现金化、支付清算、金融包容和数字钱包进入更强监管周期；金融云、支付安全、灾备、数据治理和反欺诈平台需求会升温。</div>
+  <div class="action"><b>商机动作：</b>优先建立 CBI—支付公司—私营银行联盟的客户地图，跟进支付网关、数据中心容灾、合规审计、电子收单和网络安全机会。</div>
+  <div class="src"><b>来源：</b><a href="https://www.iraq-businessnews.com/2026/05/18/central-bank-of-iraq-in-talks-with-electronic-payment-providers/" target="_blank" rel="noopener">Iraq Business News 5/18</a> <a href="https://cbi.iq/language/change/english/https%3A----cbi.iq--news--index--" target="_blank" rel="noopener">CBI News</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-18</span><span class="tag">CBI</span><span class="tag">Blockchain/支付牌照</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">CBI 向 Al-Nahla 发放金融服务、电子支付、区块链与数字技术牌照</div>
+  <div class="mini-impact">这意味着伊拉克金融科技市场不只停留在POS/卡支付，还开始进入区块链、数字技术和合规牌照化阶段。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>CBI官网新闻列表显示，5月18日授予 Al-Nahla Company 金融服务、电子支付、区块链和数字技术相关牌照。</div>
+  <div class="para"><b>影响：</b>这意味着伊拉克金融科技市场不只停留在POS/卡支付，还开始进入区块链、数字技术和合规牌照化阶段。</div>
+  <div class="action"><b>商机动作：</b>跟踪 Al-Nahla 及同类牌照公司的技术栈，评估其云资源、KYC/AML、密钥管理、网络安全和支付灾备需求。</div>
+  <div class="src"><b>来源：</b><a href="https://cbi.iq/language/change/english/https%3A----cbi.iq--news--index--" target="_blank" rel="noopener">CBI News 5/18</a> <a href="https://cbi.iq/language/change/english/https%3A----cbi.iq--news--section--77--" target="_blank" rel="noopener">CBI Popularization</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-16</span><span class="tag">金融稳定委员会</span><span class="tag">预算风险</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">新政府成立金融稳定委员会，油收下滑背景下ICT预算需要重新评估</div>
+  <div class="mini-impact">财政稳定会影响政府ICT项目付款能力，尤其是通信、能源、电力、内政、数据中心和数字政府项目。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Shafaq 报道，伊拉克总理 Ali al-Zaidi 在新政府启动后主持金融稳定委员会首次会议，成员包括财政部长和CBI行长。</div>
+  <div class="para"><b>影响：</b>财政稳定会影响政府ICT项目付款能力，尤其是通信、能源、电力、内政、数据中心和数字政府项目。</div>
+  <div class="action"><b>商机动作：</b>代表处要把“财政可承受性”纳入项目优先级：优先推动分期、融资租赁、OPEX化、PPP和多边开发银行资金支持。</div>
+  <div class="src"><b>来源：</b><a href="https://shafaq.com/en/Economy/PM-Al-Zaidi-chairs-first-Financial-Stability-Council-meeting-hours-after-launch" target="_blank" rel="noopener">Shafaq 5/16</a> <a href="https://www.reuters.com/world/middle-east/iraq-sought-financial-assistance-imf-result-iran-war-source-close-imf-says-2026-05-14/" target="_blank" rel="noopener">Reuters 5/14 背景</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-14/23</span><span class="tag">IMF/World Bank</span><span class="tag">财政风险</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">伊拉克寻求 IMF/World Bank 金融支持，ICT项目需关注预算与付款风险</div>
+  <div class="mini-impact">宏观融资不是ICT项目本身，但会直接影响政府付款周期、美元流动性、进口设备、财政预算和大项目审批。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Reuters 报道称，伊拉克已就战事导致的收入缺口与IMF/World Bank进行初步融资讨论；另有报道提到多国正寻求快速危机融资工具。</div>
+  <div class="para"><b>影响：</b>宏观融资不是ICT项目本身，但会直接影响政府付款周期、美元流动性、进口设备、财政预算和大项目审批。</div>
+  <div class="action"><b>商机动作：</b>对政府项目做红黄绿分层：现金流强的运营商/企业项目优先；政府大项目要绑定融资、分期和本地化服务方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.reuters.com/world/middle-east/iraq-sought-financial-assistance-imf-result-iran-war-source-close-imf-says-2026-05-14/" target="_blank" rel="noopener">Reuters 5/14</a> <a href="https://www.reuters.com/world/middle-east/world-bank-document-shows-27-countries-seeking-ensure-access-crisis-funds-2026-05-23/" target="_blank" rel="noopener">Reuters 5/23</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module iq" >
+<summary><span>运营商 / ISP / 5G / 固网</span><span class="module-count">3条 · P0 2</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-18</span><span class="tag">Asiacell</span><span class="tag">PSG/内容生态</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Asiacell 与 Paris Saint-Germain 达成伊拉克首个顶级体育俱乐部战略合作</div>
+  <div class="mini-impact">运营商竞争从流量和覆盖转向内容、会员、品牌和高价值用户运营；视频分发、CDN、用户画像、计费和5G套餐绑定价值提升。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Asiacell 与 Paris Saint-Germain 宣布里程碑式合作，这是PSG在伊拉克市场的首个此类合作。</div>
+  <div class="para"><b>影响：</b>运营商竞争从流量和覆盖转向内容、会员、品牌和高价值用户运营；视频分发、CDN、用户画像、计费和5G套餐绑定价值提升。</div>
+  <div class="action"><b>商机动作：</b>推动“OTT/体育内容体验保障包”：CDN、MEC、视频QoE、计费系统、用户数据平台和高价值套餐运营。</div>
+  <div class="src"><b>来源：</b><a href="https://www.prnewswire.com/ae/news-releases/asiacell-and-paris-saint-germain-announce-landmark-partnership--a-first-in-iraqs-history-302774629.html" target="_blank" rel="noopener">PRNewswire 5/18</a> <a href="https://www.asiacell.com/en/about-us/news-and-event/press-releases/PR2026" target="_blank" rel="noopener">Asiacell PR列表</a></div>
+</div>
+</details>
+
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-23</span><span class="tag">Asiacell</span><span class="tag">财务/分红</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Asiacell AGM 批准 150% 现金分红，释放强现金流与股东回报信号</div>
+  <div class="mini-impact">这表明Asiacell具备较强现金生成能力，是伊拉克三大运营商中最值得优先经营的5G、AI网络、数据中心和内容生态客户之一。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Asiacell 年度股东大会批准按公司资本150%派发现金股息，折合每股 IQD 1.5。</div>
+  <div class="para"><b>影响：</b>这表明Asiacell具备较强现金生成能力，是伊拉克三大运营商中最值得优先经营的5G、AI网络、数据中心和内容生态客户之一。</div>
+  <div class="action"><b>商机动作：</b>优先对接 Asiacell CFO/CTO/战略部，将5G、AI网络、存储、CDN、客户体验管理和ICT Academy 打包成中长期合作路线图。</div>
+  <div class="src"><b>来源：</b><a href="https://www.asiacell.com/en/about-us/news-and-event/press-releases/PR2026/AGM2026" target="_blank" rel="noopener">Asiacell 5/23</a> <a href="https://www.telecompaper.com/news/asiacell-approves-150-cash-dividend-payment--1572128" target="_blank" rel="noopener">Telecompaper</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-13</span><span class="tag">Zain Iraq</span><span class="tag">AI网络</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">Zain Iraq 宣布使用AI技术增强网络，运营商进入智能体验管理阶段</div>
+  <div class="mini-impact">这说明伊拉克运营商开始把AI从营销概念落到网络运维、QoE、故障预测、节能和客服体验。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Zain Iraq 宣布在网络中部署和扩展AI能力，用于提升网络质量、客户体验和运营效率，并表示2026年将持续扩大智能能力。</div>
+  <div class="para"><b>影响：</b>这说明伊拉克运营商开始把AI从营销概念落到网络运维、QoE、故障预测、节能和客服体验。</div>
+  <div class="action"><b>商机动作：</b>对Zain Iraq推介AI网络运维、SON、体验保障、能耗优化、智能客服和网络安全运营中心方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.iq.zain.com/en/zain-iraq/media-coverage" target="_blank" rel="noopener">Zain Iraq 5/13</a> <a href="https://www.telecompaper.com/news/zain-iraq-outlines-ai-upgrades-across-network-customer-service--1572127" target="_blank" rel="noopener">Telecompaper</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module iq" >
+<summary><span>数据中心 / 海缆 / 骨干网</span><span class="module-count">1条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-24</span><span class="tag">WorldLink</span><span class="tag">数字走廊</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">WorldLink 伊拉克—UAE—土耳其数据走廊在本地媒体再发酵，AI互联成为新叙事</div>
+  <div class="mini-impact">这不是新签约，但说明伊拉克数字走廊议题仍在发酵，ITPC、Faw登陆站、陆地DWDM、IP骨干和数据中心节点值得继续跟踪。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Reuters此前报道的 WorldLink 计划包括从UAE到伊拉克Faw再陆路到土耳其的海陆混合数据线路；5月下旬本地媒体再次讨论伊拉克加入海湾—欧洲数据连接项目。</div>
+  <div class="para"><b>影响：</b>这不是新签约，但说明伊拉克数字走廊议题仍在发酵，ITPC、Faw登陆站、陆地DWDM、IP骨干和数据中心节点值得继续跟踪。</div>
+  <div class="action"><b>商机动作：</b>关注Faw、Basra、Baghdad、Mosul/Erbil方向的陆地侧传输、DCI、路由器、网络安全、运维和机房配套项目。</div>
+  <div class="src"><b>来源：</b><a href="https://www.reuters.com/world/middle-east/iraqi-uae-consortium-plans-700-million-fast-data-cable-network-2026-02-16/" target="_blank" rel="noopener">Reuters 背景</a> <a href="https://www.muslimnetwork.tv/iraq-joins-major-gulf-europe-cable-project/" target="_blank" rel="noopener">Muslim Network TV 5/24</a></div>
+</div>
+</details>
+</div>
+</details>
+
+
+<details class="module iq" open>
+<summary><span>油气 / 内政 / 商业分销行业数字化</span><span class="module-count">3条 · P0 1</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-19</span><span class="tag">内政部</span><span class="tag">边境安防</span><span class="tag">视频/热成像/无人机</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">内政部边境安防系统扩展：热成像摄像头、无人机和多重屏障成为边境管控主线</div>
+  <div class="mini-impact">这不是普通安全新闻，而是内政行业数字化机会：边境专网、视频监控、热成像、无人机回传、指挥中心、AI识别和统一运维平台都在同一条链路上。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>5月19日本地媒体报道，伊拉克在边境方向安装自然屏障，并使用热成像摄像头与无人机进行监控；报道提到边境沿线已有数百套热成像摄像头，安防系统正在向“多重屏障+智能监控”升级。</div>
+  <div class="para"><b>影响：</b>该事项应从“内政/边防安全”改写为“内政安防ICT”：需要边境通信专网、视频汇聚平台、热成像设备、无人机数据回传、指挥中心大屏、AI识别、存储和网络安全。</div>
+  <div class="action"><b>商机动作：</b>将伊拉克内政部、边防司令部、国家安全机构、通信部/ITPC专网能力放进同一张行业客户地图；准备“边境智能监控+专网+指挥中心+视频云存储”的方案包。</div>
+  <div class="src"><b>来源：</b><a href="https://thenewregion.com/posts/5408" target="_blank" rel="noopener">The New Region · 2026-05-19</a> <a href="https://www.facebook.com/ministry.of.interior.iraq/" target="_blank" rel="noopener">伊拉克内政部 Facebook</a></div>
+</div>
+</details>
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">矩阵常驻 / 非本期新增</span><span class="tag">油气</span><span class="tag">数字油田</span><span class="tag">网络安全</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">油气数字化基线保留：Missan Digital Oilfield ICT升级与网络安全项目继续作为油气行业监控触发器</div>
+  <div class="mini-impact">虽然该招标不是W20-21新增，但它是油气ICT机会的明确样本，后续同类SCADA、工业网络安全、油田专网、IoT与数据中心项目必须持续跟踪。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>CNOOC Iraq此前发布 Missan Digital Oilfield-ICT upgrade and cyber security enhancement 招标，范围明确指向数字油田ICT升级与网络安全。该项目已过投标节点，因此不计入本期新增新闻，但必须作为油气行业数字化监控基线保留。</div>
+  <div class="para"><b>影响：</b>油气行业机会不只来自石油产量和管道工程，真正与华为相关的是油田ICT、SCADA/IoT、工业网络安全、边缘计算、生产数据平台、专网和数据中心容灾。</div>
+  <div class="action"><b>商机动作：</b>监控 Missan Oil、Basra Oil、CNOOC、PetroChina、BP、Lukoil、TotalEnergies Iraq 等客户的“digital oilfield / SCADA / cyber security / telecom / CCTV / fiber / data center”关键词。</div>
+  <div class="src"><b>来源：</b><a href="https://www.cnoociraq.com/wcmqs/bid/CMIT-PRT-10.30-250087%2BMissan%2BDigital%2BOilfield-ICT%2Bupgrade%2Band%2Bcyber%2Bsecurity%2Benhancement" target="_blank" rel="noopener">CNOOC Iraq · Missan Digital Oilfield ICT tender</a></div>
+</div>
+</details>
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">矩阵常驻 / W20前后持续</span><span class="tag">商业分销</span><span class="tag">企业注册</span><span class="tag">电商/支付</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">商业分销数字化纳入监控：企业注册平台、电商增长和数字支付构成商业ICT闭环</div>
+  <div class="mini-impact">商业分销不是泛消费信息，而是企业注册、商户入网、电子支付、电商、物流、税务合规和数据安全的综合ICT机会。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>伊拉克贸易部此前推出企业注册电子平台，目标是简化企业注册、提升营商环境；同期，伊拉克数字支付和电商讨论升温，说明商业分销链条正在从现金/线下向数字商户、支付和平台化运营转型。</div>
+  <div class="para"><b>影响：</b>商业分销场景会带来云资源、商户平台、支付网关、风控、数据合规、电子发票、物流可视化、客户运营和网络安全需求。</div>
+  <div class="action"><b>商机动作：</b>把贸易部、CBI、支付服务商、Qi Card、TBI、主流电商/零售商和物流公司纳入“商业分销数字化”监控池，关注平台建设、电子支付、税务/发票和商户数字化RFP。</div>
+  <div class="src"><b>来源：</b><a href="https://shafaq.com/en/Economy/Iraq-expands-e-governance-with-new-company-registration-system" target="_blank" rel="noopener">Shafaq · 企业注册平台</a> <a href="https://www.iraq-businessnews.com/2026/04/27/new-digital-platform-for-company-registration-in-iraq/" target="_blank" rel="noopener">Iraq Business News</a> <a href="https://www.realisticoptimist.io/ro-long-read-iraqs-incremental-shift-to-digital-payments-part-ii/" target="_blank" rel="noopener">Realistic Optimist · 数字支付</a></div>
+</div>
+</details>
+</div>
+</details>
+<details class="module iq" open>
+<summary><span>关键人物社媒与通信矩阵常驻源</span><span class="module-count">2条 · P0 1</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">正式监控矩阵</span><span class="tag">关键人物</span><span class="tag">NMTC股东方</span><span class="tag">Facebook/官网</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Mustafa Sanad、通信部、CMC/Baligh Abu Kalal、Al-Salam、ITPC、TBI、养老金基金纳入常驻监控</div>
+  <div class="mini-impact">这些不是普通社媒账号，而是5G四牌/NMTC、国营通信资产、融资股东方和监管执行链条的核心信号源，不能在后续版本中丢失。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>通信矩阵必须保留以下P0/P1源：Mustafa Sanad个人官方Facebook、通信部Facebook/官网、CMC官方/Baligh Abu Kalal、Al-Salam General Company、ITPC、Trade Bank of Iraq、State Employees Pension Fund/国家养老金机构。</div>
+  <div class="para"><b>影响：</b>Sanad负责政策推动；通信部负责执行；CMC控制频谱、牌照与平台治理；Al-Salam、TBI、养老金基金是NMTC/国家5G运营商股东方链条；ITPC是骨干网、海缆、政府互联网和数字走廊执行主体。</div>
+  <div class="action"><b>商机动作：</b>后续每期至少检查一次这些源是否出现“5G、国家移动公司、Vodafone、Al-Salam、TBI、养老金基金、频谱、ITPC、海缆、政府互联网、互联网整治”等关键词；出现交叉信号时立即升级为P0新闻。</div>
+  <div class="src"><b>来源：</b><a href="https://www.facebook.com/mustafa.j.sanad/" target="_blank" rel="noopener">Mustafa Sanad FB</a> <a href="https://www.facebook.com/moc.gov.iq/" target="_blank" rel="noopener">通信部FB</a> <a href="https://www.facebook.com/iraqcmc/" target="_blank" rel="noopener">CMC FB</a> <a href="https://www.facebook.com/alSalamStateCompany/" target="_blank" rel="noopener">Al-Salam FB</a> <a href="https://www.facebook.com/Iraq.ITPC/" target="_blank" rel="noopener">ITPC FB</a> <a href="https://www.facebook.com/tbiraq/" target="_blank" rel="noopener">TBI FB</a> <a href="https://mof.gov.iq/en/Public-PensionBody.aspx" target="_blank" rel="noopener">State Employees Pension Fund</a></div>
+</div>
+</details>
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date"></span><span class="tag">评论采样</span><span class="tag">不可伪造</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">关键人物社媒必须做评论采样，但评论区不能替代正式新闻</div>
+  <div class="mini-impact">评论采样用于判断舆情和政策压力，尤其是网速、价格、民间ISP、5G/NMTC、Vodafone、非法转售和政府互联网服务。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Sanad、通信部和CMC近期围绕互联网质量、数字服务、频谱、平台治理和国营通信公司频繁发声；但评论区若没有截图或可核验原文，不得写成事实新闻。</div>
+  <div class="para"><b>影响：</b>社媒评论是早期信号层，可以提前识别政策压力和客户痛点，但必须与通信部、CMC、司法、内阁、股东方或主流媒体交叉后才能进入正式新闻判断。</div>
+  <div class="action"><b>商机动作：</b>下期对Sanad、通信部、CMC、ITPC、Al-Salam、Asiacell、Zain、Korek和4G Iraq群组采样10-20条高赞评论，输出“舆情痛点—可能新闻—商机动作—验证门槛”。</div>
+  <div class="src"><b>来源：</b><a href="https://www.facebook.com/moc.gov.iq/" target="_blank" rel="noopener">通信部FB</a> <a href="https://www.facebook.com/mustafa.j.sanad/" target="_blank" rel="noopener">Sanad FB</a> <a href="https://www.facebook.com/iraqcmc/" target="_blank" rel="noopener">CMC FB</a></div>
+</div>
+</details>
+</div>
+</details>
+  </div>
+</details>
+<details class="country-fold country-standard jo" id="tab-jo">
+  <summary><span class="country-name">约旦</span><span class="fold-desc">11条核心新闻 / 数字政府、数据中心、金融与能源</span></summary>
+  <div class="panel country-panel-inner">
+<details class="module jo" open>
+<summary><span>部委 / 监管 / 产业政策</span><span class="module-count">3条 · P0 1</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-21</span><span class="tag">数字政府</span><span class="tag">82.5%</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">约旦政府服务数字化率达到82.5%，数字政府进入规模化运营阶段</div>
+  <div class="mini-impact">政务数字化从“服务上线”进入“稳定运营、统一身份、云资源、数据治理和网络安全”阶段。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Petra报道称，约旦在2026年一季度加速推进数字化转型，经济现代化愿景执行计划下政府服务累计数字化率达到82.5%。</div>
+  <div class="para"><b>影响：</b>政务数字化从“服务上线”进入“稳定运营、统一身份、云资源、数据治理和网络安全”阶段。</div>
+  <div class="action"><b>商机动作：</b>重点经营MoDEE、数字政府平台、国家身份/签名、政务云、数据交换、灾备和安全运营项目。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/index.php/en/news/jordan-expands-digital-government-services-under-economic-modernization-vision" target="_blank" rel="noopener">Petra 5/21</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-23</span><span class="tag">网络安全</span><span class="tag">EMV</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">约旦经济现代化愿景Q1报告提及国家级网络安全三项举措</div>
+  <div class="mini-impact">网络安全正从企业IT预算上升为国家数字经济基础能力，和政务云、金融科技、数据中心、关键基础设施同时发生。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Petra报道，经济现代化愿景2026-2029执行报告列示了网络安全领域在第一季度的关键进展，包括国家层面三项网络安全举措。</div>
+  <div class="para"><b>影响：</b>网络安全正从企业IT预算上升为国家数字经济基础能力，和政务云、金融科技、数据中心、关键基础设施同时发生。</div>
+  <div class="action"><b>商机动作：</b>对国家网络安全中心、MoDEE、金融机构和数据中心客户推介SOC、威胁情报、数据安全、零信任和合规评估。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/news/report-highlights-emvs-advances-in-jordans-cybersecurity-sector-during-q1-2026" target="_blank" rel="noopener">Petra 5/23</a></div>
+</div>
+</details>
+
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date">2026-05-18</span><span class="tag">Femi Tech</span><span class="tag">数字人才</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">MoDEE 支持首届 Femi Tech Jordan，数字人才与女性科技生态成为政策抓手</div>
+  <div class="mini-impact">这类事件不是大项目，但说明约旦数字经济政策关注人才、创业和包容性增长，适合与ICT Academy、网络安全培训和数据中心学院结合。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>约旦数字经济与创业部新闻列表显示，Samira Al-Zoubi 出席并支持首届 Femi Tech Jordan 活动。</div>
+  <div class="para"><b>影响：</b>这类事件不是大项目，但说明约旦数字经济政策关注人才、创业和包容性增长，适合与ICT Academy、网络安全培训和数据中心学院结合。</div>
+  <div class="action"><b>商机动作：</b>与MoDEE、ADH Digital Academy和高校建立“女性ICT/网络安全/云计算培训”合作包。</div>
+  <div class="src"><b>来源：</b><a href="https://www.modee.gov.jo/En/Modules/News" target="_blank" rel="noopener">MoDEE News 5/18</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module jo" >
+<summary><span>数据中心 / 海缆 / 骨干网</span><span class="module-count">2条 · P0 2</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-19/26</span><span class="tag">GreenMed</span><span class="tag">NaiTel/iLevant</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Sparkle、NaiTel、iLevant 签署MoU，将GreenMed经约旦延伸为欧亚数字走廊</div>
+  <div class="mini-impact">NaiTel/ADH从单一数据中心客户升级为海缆、陆缆、DCI、云互联和区域中转节点客户。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Sparkle与NaiTel、iLevant签署MoU，计划把GreenMed与约旦陆地光纤和区域互联结合，构建连接欧洲、中东和亚洲的新数字走廊。</div>
+  <div class="para"><b>影响：</b>NaiTel/ADH从单一数据中心客户升级为海缆、陆缆、DCI、云互联和区域中转节点客户。</div>
+  <div class="action"><b>商机动作：</b>重点跟进ADH/NaiTel的DWDM、DCI、IP骨干、网络安全、云互联、数据中心扩容和绿色供电项目。</div>
+  <div class="src"><b>来源：</b><a href="https://www.eeas.europa.eu/delegations/jordan/sparkle-signs-mou-naitel-and-ilevant-build-new-eu-supported-digital-corridor-connecting-europe-asia_en" target="_blank" rel="noopener">EEAS 5/19</a> <a href="https://www.datacenterdynamics.com/en/news/sparkle-signs-mou-to-expand-greenmed-subsea-cable-to-jordan/" target="_blank" rel="noopener">DCD 5/26</a></div>
+</div>
+</details>
+
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-07/11</span><span class="tag">ADH</span><span class="tag">EBRD/EU融资</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">EBRD/EU支持Aqaba Digital Hub扩建数据中心，并建设Aqaba Digital Academy</div>
+  <div class="mini-impact">ADH不只是机房扩容，也承担本地ICT和网络安全人才建设，与GreenMed数字走廊形成同一产业链。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>EBRD向ADH提供JOD 1000万贷款，支持Tier III数据中心扩建；欧盟EFSD+提供担保，并配套技术援助支持Aqaba Digital Academy。</div>
+  <div class="para"><b>影响：</b>ADH不只是机房扩容，也承担本地ICT和网络安全人才建设，与GreenMed数字走廊形成同一产业链。</div>
+  <div class="action"><b>商机动作：</b>推进模块化DC、DCI、液冷/节能、云互联、安全运维和ICT Academy认证培训合作。</div>
+  <div class="src"><b>来源：</b><a href="https://www.ebrd.com/home/news-and-events/news/2026/ebrd-and-eu-support-growth-of-aqaba-digital-hub-in-jordan.html" target="_blank" rel="noopener">EBRD 5/7</a> <a href="https://developingtelecoms.com/telecom-business/telecom-investment-mergers/20228-ebrd-loan-to-boost-data-centre-expansion-in-jordan.html" target="_blank" rel="noopener">Developing Telecoms 5/11</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module jo" >
+<summary><span>电力 / 能源数字化</span><span class="module-count">1条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-19</span><span class="tag">能源部</span><span class="tag">智能电网</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">约旦能源官员称数字化将在电力转型下一阶段发挥关键作用</div>
+  <div class="mini-impact">电力机会从传统输配电扩展到AMI、配网自动化、SCADA、能耗数据平台、OT安全和需求侧管理。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Petra报道，约旦能源与矿产资源部官员表示，数字化将在下一阶段能源转型中发挥关键作用，并提到智能表计和分时电价等进展。</div>
+  <div class="para"><b>影响：</b>电力机会从传统输配电扩展到AMI、配网自动化、SCADA、能耗数据平台、OT安全和需求侧管理。</div>
+  <div class="action"><b>商机动作：</b>面向NEPCO、配电公司和能源部设计“智能电网ICT包”：通信专网、调度系统、数据平台、网络安全和储能监测。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/news/jordan-has-strong-base-of-achievements-in-energy-sector-official" target="_blank" rel="noopener">Petra 5/19</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module jo" >
+<summary><span>金融 / 数字经济</span><span class="module-count">1条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-21</span><span class="tag">Fintech</span><span class="tag">Money20/20</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">约旦金融科技与数字方案企业组团参加Money20/20 Europe</div>
+  <div class="mini-impact">约旦金融ICT机会集中在支付、数字银行、电子发票、金融云、合规、安全和区域出海。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>int@j与荷兰驻约旦使馆组织约旦金融科技和数字方案企业参加Money20/20 Europe，Petra与Jordan Times均报道该活动。</div>
+  <div class="para"><b>影响：</b>约旦金融ICT机会集中在支付、数字银行、电子发票、金融云、合规、安全和区域出海。</div>
+  <div class="action"><b>商机动作：</b>围绕JoPACC、银行、支付企业和int@j建立金融云/支付安全/合规数据平台客户地图。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/news/20-europe-conference" target="_blank" rel="noopener">Petra 5/21</a> <a href="https://jordantimes.com/news/business/jordanian-fintech-firms-join-trade-mission-to-money-2020-europe-in-amsterdam" target="_blank" rel="noopener">Jordan Times 5/21</a></div>
+</div>
+</details>
+</div>
+</details>
+
+
+<details class="module jo" >
+<summary><span>油气 / 内政 / 商业分销行业数字化</span><span class="module-count">4条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-14</span><span class="tag">能源部</span><span class="tag">天然气管道</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">约旦能源部发布天然气传输管道系统咨询招标，油气/能源ICT进入项目层</div>
+  <div class="mini-impact">管道完整性、压力提升和容量升级不是纯工程问题，后续会牵动SCADA、传感器、OT网络安全、数字孪生和调度数据平台。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>约旦能源与矿产资源部发布 Tender No. 5/M/WORKS/2026，采购咨询服务以审查约旦天然气传输管道系统的管道完整性验证和压力提升准备评估报告，目标是升级天然气传输系统能力。</div>
+  <div class="para"><b>影响：</b>这是约旦油气/能源基础设施从规划转向项目执行的信号；ICT侧重点不在主设备，而在工业专网、管道监测、OT安全、数据采集、GIS和调度可视化。</div>
+  <div class="action"><b>商机动作：</b>建立MEMR、National Petroleum Company、Risha Gas Pipeline和EPC咨询方客户地图，准备“管道SCADA+OT安全+远程运维+视频/无人机巡检”方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.memr.gov.jo/En/ArchivedTendersDetails/2026040701" target="_blank" rel="noopener">MEMR Tender 5/M/WORKS/2026</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-18</span><span class="tag">电商支付</span><span class="tag">商业分销</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">Network International Jordan 推出 Click to Pay，约旦电商与商业分销支付能力升级</div>
+  <div class="mini-impact">商业分销链条正在从现金/卡支付向商户云、无感支付、反欺诈和数据合规演进。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Network International Jordan宣布通过 Mastercard Merchant Cloud 为电商商户推出 Click to Pay，面向约旦快速发展的支付生态提供更安全、无缝的数字支付能力。</div>
+  <div class="para"><b>影响：</b>这把“商业分销”从传统零售渠道扩展到电商、商户平台、支付安全、云端收单、身份认证和客户数据治理。</div>
+  <div class="action"><b>商机动作：</b>对Network International、JoPACC、银行、支付网关和大型商户推介金融云、支付安全、反欺诈、灾备和数据合规方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/may/network-international-jordan-launches-click-to-pay-through-mastercard-merchant-cloud-expanding-access-to-secure-digital-payments/" target="_blank" rel="noopener">Mastercard 5/18</a></div>
+</div>
+</details>
+
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date">2026-05-13</span><span class="tag">内政/车辆</span><span class="tag">电子拍卖</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">约旦车辆牌照号码电子拍卖上线，内政/车管数字服务继续扩展</div>
+  <div class="mini-impact">这类“小型政务数字服务”体现内政、车管、财政和支付系统的线上化，适合跟踪统一身份、支付、通知、数据交换和安全认证。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Petra报道，约旦驾驶员与车辆许可部门宣布对高价值车牌号码开展电子拍卖，收益用于大学生支持基金，并与财政部协同执行。</div>
+  <div class="para"><b>影响：</b>该事件体量不大，但它说明约旦内政/车管类公共服务正在继续电子化，并和财政支付、身份认证、通知系统连接。</div>
+  <div class="action"><b>商机动作：</b>后续关注DVLD、Civil Status、MoDEE和财政部相关平台的一体化入口、电子支付、数字身份、短信/推送通知和安全审计需求。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/news/premium-license-plates-offered-in-online-auction-to-support-student-fund" target="_blank" rel="noopener">Petra 5/13</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-09/11</span><span class="tag">数字身份</span><span class="tag">内政系统</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">Sanad数字身份获得法律地位，约旦内政与数字政府系统进入强绑定阶段</div>
+  <div class="mini-impact">数字身份是政务服务、金融支付、司法通知、车管和商业注册的共同底座，影响远高于单一App。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Petra报道，修订后的民事状态法在官方公报发布后，Sanad数字身份在公共和电子交易中获得与实体身份证同等法律效力，并要求公共和私营机构接受。</div>
+  <div class="para"><b>影响：</b>这是约旦内政系统、MoDEE和各行业数字服务的基础设施升级，后续会带动身份认证、数字签名、电子通知、数据交换和隐私合规建设。</div>
+  <div class="action"><b>商机动作：</b>围绕Sanad、Civil Status、金融机构和车管/税务/商业注册系统，跟踪IAM、PKI、数据交换、安全审计和高可用云资源机会。</div>
+  <div class="src"><b>来源：</b><a href="https://petra.gov.jo/en/news/amended-civil-status-law-published-in-official-gazette" target="_blank" rel="noopener">Petra 5/9</a> <a href="https://petra.gov.jo/en/news/civil-status-department-digital-identity-supports-government-integration" target="_blank" rel="noopener">Petra 5/11</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module jo" >
+<summary><span>社媒信号与</span><span class="module-count">1条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date"></span><span class="tag">ADH/GreenMed</span><span class="tag">评论采样</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">ADH、GreenMed、Money20/20相关社媒需采样就业、数据主权和网络安全评论</div>
+  <div class="mini-impact">评论采样可以帮助判断约旦数字走廊项目的公众接受度和政府优先叙事。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>ADH、GreenMed和金融科技新闻具备较强传播性，评论区可能集中在就业、培训、数据主权、欧盟资金合规和网络安全。</div>
+  <div class="para"><b>影响：</b>评论采样可以帮助判断约旦数字走廊项目的公众接受度和政府优先叙事。</div>
+  <div class="action"><b>商机动作：</b>下期社媒采样重点：ADH、NaiTel、MoDEE、int@j、TRC、能源部官方账号。</div>
+  <div class="src"><b>来源：</b><a href="https://www.facebook.com/intajICTJO/" target="_blank" rel="noopener">int@j Facebook</a> <a href="https://www.modee.gov.jo/En/Modules/News" target="_blank" rel="noopener">MoDEE News</a></div>
+</div>
+</details>
+</div>
+</details>
 
 </div>
-
-<div id="tab-iq" class="country-panel">
-  <div class="flag-row"><span class="flag-ico">🇮🇶</span><span class="flag-name">伊拉克</span><span class="flag-badge biq">本期 9 条 + 社媒评论分析</span></div>
-  <div class="ch-list">
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">💬</span><span class="ch-lbl">推文 / 社媒与评论分析</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">每日监控</span><span class="vbadge">P0</span></div>
-        <div class="ni-title">Sanad / 通信部：ISP整治与互联网质量相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控 Mustafa Sanad 个人官方Facebook、通信部Facebook中关于非法互联网分销、7月整治、互联网质量、公共免费网络、ITPC/GCCI协同的帖文。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：用户是否支持整治、是否担心涨价、是否抱怨网速/断网、地方ISP是否被点名、是否出现对三大运营商或政府监管的情绪反弹。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>如果评论集中在“网速差、价格高、地方ISP垄断、政府只整治不改善服务”，说明ISP整治会快速从执法议题转为服务质量和用户体验议题；若评论支持整治，则政策阻力较小。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>准备ISP合规、用户实名/计费、QoE监测、家宽Wi-Fi优化、网络投诉闭环、税务接口和安全网关方案，并以“改善用户体验”而非单纯监管为切入点。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">每日监控</span><span class="vbadge">P0</span></div>
-        <div class="ni-title">Sanad / CMC / Al-Salam：NMTC与第四家运营商相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控5G、第四家运营商、NMTC、Vodafone、Al-Salam、TBI、养老金基金、法院冻结、CMC牌照和频谱相关帖文。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：公众是否期待第四运营商降低资费、是否质疑国营运营商效率、是否提到Vodafone、是否出现法院/政治阻力讨论。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>如果评论中降价和竞争诉求强，第四家运营商可被包装为改善竞争和服务质量；如果评论质疑国营公司效率，则项目落地后会需要强品牌、强网络质量和透明资费设计。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>继续保留黄灯判断。短期围绕三大运营商和ITPC承载网推进；中长期维护Al-Salam、TBI、养老金基金、CMC、通信部关系链，等待司法/内阁/监管交叉文件。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Asiacell / Zain / Korek：内容生态、AI网络和5G体验相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控Asiacell PSG/1001内容合作、Zain AI网络增强、Korek网络覆盖/套餐/用户投诉等官方帖和用户评论。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：用户是否关注价格、流量包、视频卡顿、覆盖弱区、客服响应、网络质量和品牌活动是否带来实际体验提升。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>运营商从“卖流量”转向“内容+体验+AI网络”时，评论区会直接反映用户是否认可网络质量提升；若投诉集中在视频卡顿和覆盖，内容合作反而会放大网络体验压力。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>重点推进CDN、边缘缓存、视频体验保障、AI网络优化、QoE预测、用户投诉闭环和套餐/内容权益数据分析。</div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">📶</span><span class="ch-lbl">5G & 第四家运营商专题</span>
-        <span class="ch-tag tag-blue">持续跟踪</span><span class="ch-arr open">▶</span>
-      </div>
-      <div class="ch-body open">
-        <div class="ni">
-          <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">2026-05-26</span><span class="vbadge">P0专题</span></div>
-          <div class="ni-title">NMTC/第四家运营商继续保持专题跟踪：政策意愿升温，但司法冻结仍是关键约束</div>
-          <div class="ni-text">伊拉克新任通信部长 Mustafa Sanad 表态希望恢复国家5G运营商项目，但公开新闻仍显示法院冻结令尚未解除。当前判断不应写成“项目已解冻”或“合同已恢复”，而应保持<b>黄灯</b>：政策层面推动、司法层面待突破、股东方和监管侧需继续验证。</div>
-          <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>短期继续围绕三大运营商、ISP整治、ITPC承载网和公共互联网服务推进；中长期围绕 Al-Salam、ITPC、TBI、养老金基金、CMC 与通信部保持关系经营。一旦出现法院、内阁、CMC或股东方交叉文件，再升级为重大项目机会。</div>
-          <div class="rumor-box"><div class="rumor-lbl">监控矩阵</div>Mustafa Sanad个人官方Facebook、通信部Facebook、CMC/Baligh Abu Kalal、Al-Salam、ITPC、TBI、养老金基金为常驻P0源；新闻网站、官网、社媒必须交叉验证。</div>
-          <div class="ni-src">来源：<a href="https://shafaq.com/en/Economy/Communications-Minister-vows-to-revive-stalled-5G-operator-in-Iraq" target="_blank" rel="noopener">Shafaq NMTC</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏢</span><span class="ch-lbl">运营商 / 金融 / 商业数字化补充</span>
-        <span class="ch-tag tag-blue">5条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-15/18</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Asiacell与PSG达成多年战略合作：运营商内容生态与高价值用户运营加强</div>
-        <div class="ni-text">Asiacell宣布与巴黎圣日耳曼达成多年战略合作，后续Iraqi News亦报道其将作为官方合作伙伴共同在伊拉克市场运营两大品牌。这条来自运营商与新闻网站双源的信号，说明Asiacell正在从连接服务向内容、体育IP和数字营销生态延伸。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>可围绕高价值用户运营、内容分发、APP运营、CDN、移动视频体验、用户画像、计费和营销数据平台做客户经营；这类内容合作会反向拉动网络质量、边缘缓存和数据分析能力。</div>
-        <div class="rumor-box"><div class="rumor-lbl">信息监控</div>来自运营商官方源 + 新闻网站，作为企业客户P1新闻纳入伊拉克栏目。</div>
-        <div class="ni-src">来源：<a href="https://www.asiacell.com/en/about-us/news-and-event/press-releases/PR2026/AsiacellPSG" target="_blank" rel="noopener">Asiacell官方</a> <a href="https://www.iraqinews.com/sports/asiacell-paris-saint-germain-partnership-2026/" target="_blank" rel="noopener">Iraqi News</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-27左右</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Asiacell与1001合作扩展OTT流媒体：移动套餐、视频体验和本地内容生态继续增强</div>
-        <div class="ni-text">BroadcastPro ME报道，Asiacell与伊拉克合法OTT平台1001达成战略合作，为部分移动套餐用户提供Premium licensed entertainment访问。PRNewswire亦报道该合作将通过运营商套餐推动本地化内容服务。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这是运营商从纯流量经营向内容捆绑、视频权益和数字生活入口升级的典型动作。可关注CDN、视频体验保障、套餐计费、内容安全、用户增长分析和OTT合作平台能力。</div>
-        <div class="rumor-box"><div class="rumor-lbl">信息监控</div>来自运营商合作外部新闻源；后续需跟踪Asiacell官网、1001社媒和用户套餐宣传。</div>
-        <div class="ni-src">来源：<a href="https://www.broadcastprome.com/news/asiacell-partners-with-1001-to-expand-streaming-access-across-iraq/" target="_blank" rel="noopener">BroadcastPro ME</a> <a href="https://www.prnewswire.com/ae/news-releases/asiacell-and-1001-accelerate-iraqs-digital-transformation-through-telco-powered-streaming-innovation-302768253.html" target="_blank" rel="noopener">PRNewswire</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-13/26</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Zain Iraq推动AI网络增强：网络智能化、QoE预测和自动化运维进入运营商主线</div>
-        <div class="ni-text">Zain Iraq官方新闻稿显示其正在引入AI驱动能力以提升网络稳定性、网速和覆盖，并支持5G-ready网络能力；Telecompaper进一步报道Zain Iraq正扩大AI技术在网络和客服中的应用。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条新闻与华为的AI网络、自治网络、NOC智能化、QoE预测、容量规划、客户体验管理高度相关。可作为运营商智能化转型和5G前置能力建设机会跟踪。</div>
-        <div class="ni-src">来源：<a href="https://www.iq.zain.com/en/about-us/media-coverage/zain-iraq-enhances-its-network-artificial-intelligence-technologies" target="_blank" rel="noopener">Zain Iraq</a> <a href="https://www.telecompaper.com/news/zain-iraq-outlines-ai-upgrades-across-network-customer-service--1572127" target="_blank" rel="noopener">Telecompaper</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-18</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">伊拉克央行与电子支付服务商会谈：金融科技监管、支付平台和合规云进入执行窗口</div>
-        <div class="ni-text">Iraq Business News报道，伊拉克央行与电子支付服务商举行会谈，讨论电子支付企业面临的技术、行政和监管挑战，以及改进金融服务和支持金融包容的未来计划。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条来自央行/金融科技监控线，补充了金融行业数字化机会。可关注支付平台、金融云、eKYC、反欺诈、数据安全、灾备、清算接口和商户支付生态。</div>
-        <div class="rumor-box"><div class="rumor-lbl">信息监控</div>来自金融矩阵，纳入伊拉克金融/商业市场新闻，不再只放通信专题。</div>
-        <div class="ni-src">来源：<a href="https://www.iraq-businessnews.com/2026/05/18/central-bank-of-iraq-in-talks-with-electronic-payment-providers/" target="_blank" rel="noopener">Iraq Business News</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05下旬</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">CBI与银行/支付机构筹备金融包容计划：工资、养老金与商户支付数字化仍需跟踪</div>
-        <div class="ni-text">伊拉克私人银行联盟披露，其与伊拉克央行组织扩大会，讨论2026金融包容周准备工作；另有金融监管信息显示，CBI地方分支与银行及支付企业正在协调金融包容计划落地机制。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>金融包容直接关联政府工资、养老金、商户支付、POS、钱包、数据合规和金融基础设施。它与TBI、养老金基金、数字支付和商业市场数字化可形成联动监控。</div>
-        <div class="rumor-box"><div class="rumor-lbl">信息监控</div>与TBI、养老金基金、央行和支付服务商一并进入金融监控矩阵。</div>
-        <div class="ni-src">来源：<a href="https://ipbl-iraq.org/content.php?id=493&lngg=en" target="_blank" rel="noopener">Iraqi Private Banks League</a></div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏛️</span><span class="ch-lbl">部委 / 监管 / 产业政策</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr open">▶</span>
-      </div>
-      <div class="ch-body open">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">2026-05-27前后</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">Sanad预告7月整治非法互联网分销：ISP牌照、实名与计费秩序进入重塑窗口</div>
-        <div class="ni-text">伊拉克通信部长 Mustafa Sanad 表示，当局将于7月中旬开始拆解非法互联网分销网络并追责；其称约150万互联网用户未在国家体系内正式登记，相关订阅不产生税费。这是对 ISP 分销层、批发带宽、最后一公里接入、税费结算和用户实名体系的重塑。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>重点跟进通信部、CMC、ITPC 与地方ISP的协同动作；准备 ISP合规改造、用户实名/计费、QoE监测、运维审计和安全网关方案。</div>
-        <div class="rumor-box"><div class="rumor-lbl">社媒/矩阵信号</div>Mustafa Sanad个人官方Facebook、通信部Facebook、CMC/Baligh Abu Kalal必须每日扫描；评论区仅做人工截图采样，不伪造评论。</div>
-        <div class="ni-src">来源：<a href="https://shafaq.com/en/society/Iraqi-minister-warns-crackdown-on-illegal-internet-networks" target="_blank" rel="noopener">Shafaq非法ISP整治</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-30</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">通信部将在宗教圣地周边提供免费互联网：公共Wi-Fi与热点保障成为政务服务场景</div>
-        <div class="ni-text">Sanad 表示将在Dhu al-Hijjah 18日启动圣地周边免费互联网服务，由 General Company for Communications and Informatics 与签约ISP协调，覆盖纳杰夫、卡尔巴拉、卡迪米亚、萨迈拉等圣地，并计划每周四、周五持续提供。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>可跟进公共Wi-Fi、临时容量保障、边缘缓存、场馆/圣地高密覆盖、用户认证、内容安全和QoE监测。</div>
-        <div class="rumor-box"><div class="rumor-lbl">社媒/矩阵信号</div>跟踪通信部、GCCI、ITPC及本地ISP是否公布承包商、点位、容量、认证方式。</div>
-        <div class="ni-src">来源：<a href="https://shiawaves.com/english/news/atabat/142703-iraq-to-launch-free-internet-at-holy-shrines-for-eid-al-ghadir/" target="_blank" rel="noopener">ShiaWaves圣地免费网络</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">2026-05-26</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">NMTC/第四运营商仍是黄灯：部长要恢复国家5G运营商，但法院冻结未解除</div>
-        <div class="ni-text">Sanad 表态要恢复停滞的国家5G运营商项目，但新闻源明确写到法院冻结令仍有效；当前任务是解决法律障碍。因此不能写成“已解冻/已招标/已恢复合同”。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>短期抓三大运营商、ISP整治、ITPC承载与公共服务项目；长期继续经营 Al-Salam/TBI/养老金基金股东方链路，等待司法/内阁/CMC文件。</div>
-        <div class="rumor-box"><div class="rumor-lbl">社媒/矩阵信号</div>常驻P0源：Mustafa Sanad、通信部FB、CMC/Baligh Abu Kalal、Al-Salam、ITPC、TBI、State Employees Pension Fund。</div>
-        <div class="ni-src">来源：<a href="https://shafaq.com/en/Economy/Communications-Minister-vows-to-revive-stalled-5G-operator-in-Iraq" target="_blank" rel="noopener">Shafaq NMTC</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🌐</span><span class="ch-lbl">运营商 / ISP / 家宽 / 骨干网</span>
-        <span class="ch-tag tag-blue">2条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-24后持续</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">WorldLink经伊拉克连接UAE—土耳其：云、数据中心、DCI与骨干网机会继续发酵</div>
-        <div class="ni-text">WorldLink Transit Cable 项目将支持云计算、数据中心和高级数字应用，建设周期约五年，并强化伊拉克作为区域数据枢纽的地位。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>跟进DWDM、IP骨干、DCI、海缆登陆站、网络安全、云节点和数据中心能源配套；这是5G四牌之外的承载网主线。</div>
-        <div class="rumor-box"><div class="rumor-lbl">社媒/矩阵信号</div>ITPC官网/FB、Al-Salam、TBI及WorldLink相关投资方进入常驻监控。</div>
-        <div class="ni-src">来源：<a href="https://www.iraqinews.com/iraq/iraq-to-be-part-of-worldlink-transit-cable-project/" target="_blank" rel="noopener">IraqiNews WorldLink</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-27后续</span><span class="vbadge">研判</span></div>
-        <div class="ni-title">ISP整治将外溢到家宽和商宽：认证、BRAS、计费、税务接口成为关键</div>
-        <div class="ni-text">非法分销整治不仅是执法，也会影响家宽和商宽市场：未登记用户、灰色转售、批发带宽、商户宽带和企业专线都可能重新纳入监管和结算体系。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>提前准备家宽/商宽接入网、BRAS、AAA、计费、实名、QoE、家宽Wi-Fi、FWA CPE、税务接口和安全审计方案。</div>
-        
-        <div class="ni-src">来源：<a href="https://shafaq.com/en/society/Iraqi-minister-warns-crackdown-on-illegal-internet-networks" target="_blank" rel="noopener">Shafaq非法ISP整治</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">⚡</span><span class="ch-lbl">电力 / 内政 / 油气 / 交通</span>
-        <span class="ch-tag tag-blue">2条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-28</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">夏季电力短缺风险上升：站点备电、数据中心供电和智能电网需求同步抬升</div>
-        <div class="ni-text">伊拉克面临夏季断电风险，天然气供应和财政压力冲击电力系统。电力是无线站点、ISP机房、数据中心、政务平台和支付系统的底层约束。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>准备站点备电、混合能源、智能电表、负载管理、数据中心UPS/冷却、电力调度通信专网和政企灾备方案。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.ft.com/content/f121e88a-46c7-42e2-a19e-82f5f3df53ac" target="_blank" rel="noopener">FT伊拉克电力风险</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-05-19后持续</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">内政边境智能监控继续跟踪：热成像、无人机、国家级视频回传形成安防ICT需求</div>
-        <div class="ni-text">伊拉克边境加固包括热成像摄像头、无人机和壕沟等措施，报道提及905个热成像摄像头和无人机监控。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>核心机会在视频回传、指挥中心、边境专网、无人机平台、AI识别和数据存储；若出现内政部/边境部队招标，升级为P1。</div>
-        
-        <div class="ni-src">来源：<a href="https://thenewregion.com/posts/5408" target="_blank" rel="noopener">TheNewRegion边境监控</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏪</span><span class="ch-lbl">商业市场 / 公司注册 / 分销数字化</span>
-        <span class="ch-tag tag-blue">1条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-04-27后持续</span><span class="vbadge">持续跟踪</span></div>
-        <div class="ni-title">公司注册电子平台纳入商业市场数字化矩阵：企业开办、税务与支付链路可联动</div>
-        <div class="ni-text">伊拉克贸易部Companies Registration Directorate已推出企业注册电子平台，目标是简化企业设立和注册流程。这不是本周新新闻，但直接影响商业市场数字化、企业身份、税务和商户支付生态。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>纳入常驻矩阵：关注电子营业执照、税务接口、企业账户、电子发票、商户支付、KYC和企业数据平台。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.iraq-businessnews.com/2026/04/27/new-digital-platform-for-company-registration-in-iraq/" target="_blank" rel="noopener">IraqBusinessNews公司注册</a></div>
-      </div>
-    
-      </div>
-    </div>
-    </div>
+  </div>
+</details>
+<details class="country-fold country-standard lb" id="tab-lb">
+  <summary><span class="country-name">黎巴嫩</span><span class="fold-desc">11条核心新闻 / 5G、频谱、RFP与应急通信</span></summary>
+  <div class="panel country-panel-inner">
+<details class="module lb" open>
+<summary><span>部委 / 监管 / 产业政策</span><span class="module-count">3条 · P0 2</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-16</span><span class="tag">通信部</span><span class="tag">5G/光纤</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">黎巴嫩通信部提出三年5G与光纤升级愿景，数字经济基础设施成为政策主线</div>
+  <div class="mini-impact">黎巴嫩通信机会从宏观重建叙事转为“5G、FTTH、服务质量、数字经济”的政策路线图，但落地仍取决于资金、频谱与国有移动网络采购机制。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>黎巴嫩通信部在世界电信日相关采访中提出三年愿景，重点包括现代化基础设施、扩展全国光纤网络、分阶段引入5G，并将通信作为创新、创业和中小企业数字经济基础。</div>
+  <div class="para"><b>影响：</b>黎巴嫩通信机会从宏观重建叙事转为“5G、FTTH、服务质量、数字经济”的政策路线图，但落地仍取决于资金、频谱与国有移动网络采购机制。</div>
+  <div class="action"><b>商机动作：</b>准备“5G/FWA + 光纤承载 + 网络质量提升 + 能源备电”组合方案，重点经营通信部、Ogero、Alfa、Touch。</div>
+  <div class="src"><b>来源：</b><a href="https://enmaeya.com/en/news/6a08617eec8dad9f5084595e" target="_blank" rel="noopener">Enmaeya 5/16</a></div>
 </div>
+</details>
 
-
-
-<div id="tab-jo" class="country-panel">
-  <div class="flag-row"><span class="flag-ico">🇯🇴</span><span class="flag-name">约旦</span><span class="flag-badge biq">本期 13 条 + 社媒评论分析</span></div>
-  <div class="ch-list">
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">💬</span><span class="ch-lbl">推文 / 社媒与评论分析</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">MoDEE / Sanad：数字身份与政务服务数字化相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控MoDEE、Sanad数字身份、政府服务数字化率、电子政务和公共服务入口相关帖文。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：用户是否认可线上服务、是否抱怨认证复杂、是否担心隐私、是否反馈银行/政务场景可用性。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>如果评论聚焦身份认证难、隐私和跨部门数据共享，则后续政务云和身份平台需要强调安全、可用性和数据治理；如果评论积极，说明数字政府推广阻力较小。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>关注数字身份、电子签名、IAM、政务云、数据治理、移动端体验、金融eKYC和商户/公司注册联动机会。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">ADH / NaiTel / GreenMed：数字走廊与数据中心相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控ADH、NaiTel、iLevant、TRC、MoDEE、EU/EBRD对GreenMed、数据中心扩容、DCI、海缆/陆缆和云互联的发布。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：产业界是否关注就业、云服务、国际带宽、数据主权、能源供电和Aqaba区域发展。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>若评论关注就业和投资，则数字走廊可作为国家产业升级叙事；若担心数据安全和能源消耗，则需要配套安全、绿色数据中心和合规云方案。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>跟进DWDM、IP骨干、DCI、数据中心供配电、云节点、网络安全、ICT Academy和本地生态合作。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">金融支付 / 商户云：Click to Pay与Money20/20相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控Network International Jordan、Mastercard、JoPACC、CBJ、int@j关于Click to Pay、金融科技、Money20/20、商户支付和反欺诈的发布。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：商户是否关注手续费、接入便利性、欺诈风险、跨境支付、消费者支付体验和数据安全。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>若商户评论集中在费用和接入门槛，说明支付数字化需要低成本SaaS化；若关注诈骗和安全，反欺诈和支付安全将成为切入点。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>可跟进金融云、支付安全、反欺诈、令牌化、商户云、eKYC、灾备和数据合规。</div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏢</span><span class="ch-lbl">数据中心 / 金融科技 / 数字身份补充</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-07/11</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">ADH获EBRD/EU支持扩建：约旦最大Tier 3运营商中立数据中心进入二期扩容</div>
-        <div class="ni-text">EBRD宣布向Aqaba Digital Hub提供融资，用于现有数据中心的fit-out和扩建，包括结算供应商承诺并建设第二个机房；该站点被定位为约旦最大的Tier 3运营商中立数据中心。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条新闻来自ADH/NaiTel/数据中心矩阵，是约旦数字走廊与云互联的核心支撑。关注数据中心供配电、制冷、DCI、IP骨干、网络安全、云节点、灾备和ICT Academy机会。</div>
-        <div class="ni-src">来源：<a href="https://www.ebrd.com/home/news-and-events/news/2026/ebrd-and-eu-support-growth-of-aqaba-digital-hub-in-jordan.html" target="_blank" rel="noopener">EBRD</a> <a href="https://developingtelecoms.com/telecom-business/telecom-investment-mergers/20228-ebrd-loan-to-boost-data-centre-expansion-in-jordan.html" target="_blank" rel="noopener">Developing Telecoms</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-21</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">约旦金融科技企业参加Money20/20 Europe：数字金融、支付与商户生态国际化</div>
-        <div class="ni-text">Petra报道，约旦金融科技与数字方案企业将参加Money20/20 Europe；int@j将该会议定位为金融科技、数字银行、电子支付和金融创新的重要全球平台。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条来自金融/商业市场矩阵，说明约旦金融科技企业正在连接国际支付与数字金融生态。可跟进金融云、支付安全、商户平台、反欺诈、eKYC和跨境支付能力。</div>
-        <div class="ni-src">来源：<a href="https://org.petra.gov.jo/Include/InnerPage.jsp?ID=84935&lang=en&name=en_news" target="_blank" rel="noopener">Petra</a> <a href="https://www.money2020.com/" target="_blank" rel="noopener">Money20/20</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-09/11</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Sanad数字身份获得法律效力：数字政府、金融开户和商业注册底座进一步明确</div>
-        <div class="ni-text">约旦修订后的《民事身份法》在官方公报发布后，Sanad数字身份获得与实体身份证同等法律效力。Petra和Jordan Times均报道，该电子身份可用于法律认可的交易和程序。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这是数字政府、金融eKYC、商业登记、公共服务和支付场景的底座变化。可关注身份认证、电子签名、政务云、数据治理、金融开户和企业服务入口。</div>
-        <div class="ni-src">来源：<a href="https://petra.gov.jo/en/news/amended-civil-status-law-published-in-official-gazette" target="_blank" rel="noopener">Petra</a> <a href="https://jordantimes.com/news/local/sanad-digital-id-gains-full-legal-status-under-amended-civil-status-law" target="_blank" rel="noopener">Jordan Times</a></div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">📡</span><span class="ch-lbl">通信与行业信息监控</span>
-        <span class="ch-tag tag-blue">3类源</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        <div class="ni">
-          <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">持续跟踪</span><span class="vbadge">P1</span></div>
-          <div class="ni-title">TRC / MoDEE / ADH-NaiTel / 三大运营商：5G、数字政府、数据中心与数字走廊并行监控</div>
-          <div class="ni-text">约旦侧的通信信息不再单独成专题展示，而是并入国家新闻跟踪。重点源包括 TRC、MoDEE、ADH/NaiTel/iLevant、Zain Jordan、Orange Jordan、Umniah、JoPACC、MEMR。重点观察 5G、数字政府、Sanad数字身份、GreenMed数字走廊、金融支付、能源OT、电力表计、网络安全和Aqaba港口数字化。</div>
-          <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>约旦不是单一运营商市场机会，而是“数字政府 + 数据中心/海缆 + 金融支付 + 能源电力 + 港口物流”的组合机会。GreenMed/ADH、Click to Pay、MEMR/NEPCO、MoDEE/Sanad应形成统一客户地图。</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏛️</span><span class="ch-lbl">部委 / 数字政府 / 产业政策</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr open">▶</span>
-      </div>
-      <div class="ch-body open">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-23</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">Invest.Jo被列为Q1投资引擎成果：投资数字化和产业招商平台进入执行层</div>
-        <div class="ni-text">约旦Q1投资引擎成果包括开发 Invest.Jo 国家数字投资平台，用于展示投资机会、推广优先行业和战略项目，并支持吸引本地及外国资本。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>关注政务云、投资数据中台、企业画像、项目库、招商门户、跨部门数据集成和安全合规。</div>
-        
-        <div class="ni-src">来源：<a href="https://petra.gov.jo/en/news/report-outlines-investment-engine-achievements-in-q1" target="_blank" rel="noopener">Petra Invest.Jo</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-21</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">约旦政府服务数字化率达82.5%：政务云、身份认证与服务平台进入规模化阶段</div>
-        <div class="ni-text">约旦在经济现代化愿景2026-2029执行项目下，政府服务累计数字化率达到82.5%。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>继续跟进MoDEE、Sanad、政府数据中心、网络安全中心、数字身份和公共服务入口。</div>
-        
-        <div class="ni-src">来源：<a href="https://petra.gov.jo/en/news/jordan-expands-digital-government-services-under-economic-modernization-vision" target="_blank" rel="noopener">Petra数字政府</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-23</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">约旦Q1启动三项国家网络安全举措：网络安全从政策进入执行</div>
-        <div class="ni-text">经济现代化愿景执行进展显示，约旦在2026年初实施了3项国家级网络安全举措。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>与国家网络安全中心、MoDEE、银行、电力和运营商客户联动，形成SOC、云安全、关基保护方案包。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.jordannews.jo/Section-112/Economy/Economic-Modernization-Vision-Implementation-of-3-National-Cybersecurity-Initiatives-at-the-Start-of-2026-51589" target="_blank" rel="noopener">JordanNews网络安全</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">💳</span><span class="ch-lbl">金融 / 商业市场 / 支付</span>
-        <span class="ch-tag tag-blue">1条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-18</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">Network International Jordan通过Mastercard Merchant Cloud推出Click to Pay</div>
-        <div class="ni-text">Network International Jordan 面向电商商户推出 Click to Pay，并通过 Mastercard Merchant Cloud 提供支付、反欺诈、认证、令牌化和数据服务。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>跟进支付安全、商户云、风控、身份认证、数据合规、金融行业云与灾备需求。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/may/network-international-jordan-launches-click-to-pay-through-mastercard-merchant-cloud-expanding-access-to-secure-digital-payments/" target="_blank" rel="noopener">Mastercard Click to Pay</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">⚡</span><span class="ch-lbl">能源 / 油气 / 电力数字化</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-05-14</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">MEMR天然气管道系统能力升级咨询招标：能源OT、管道完整性与SCADA机会</div>
-        <div class="ni-text">约旦能源与矿产资源部发布天然气传输管道系统咨询服务招标，涉及管道完整性验证和升压准备评估。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>后续若进入实施阶段，可关注工业互联网、OT安全、传感器、管道监测平台和数据中心/灾备。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.memr.gov.jo/En/ArchivedTendersDetails/2026040701" target="_blank" rel="noopener">MEMR天然气管道</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-04-28—06-01</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">MEMR招标含Jafr油井钻探：能源现场通信与数据采集纳入矩阵</div>
-        <div class="ni-text">MEMR招标页面显示，当前招标包括Jafr油井钻探相关国际招标，窗口期到6月1日。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>油井钻探带来现场通信、生产数据采集、工业设备联网、安全视频、临时网络和OT安全需求；若出现ICT附属包再升级。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.memr.gov.jo/en/modules/tenders" target="_blank" rel="noopener">MEMR招标</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-04—05</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">NEPCO能源表计及附属设备招标：电力数字化线索持续</div>
-        <div class="ni-text">NEPCO Tender No.16/2026 涉及能源表计及附属设备供应，文件要求能源表计与AMR系统兼容。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>表计、AMR和配套通信关联智能计量、配电网数据采集和计费；持续跟踪配网自动化和通信专网机会。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.nepco.com.jo/store/DOCS/finance/16-2026.pdf" target="_blank" rel="noopener">NEPCO表计</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🛰️</span><span class="ch-lbl">数据中心 / 海缆 / 交通港口 / 数字走廊</span>
-        <span class="ch-tag tag-blue">2条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t1"></span><span class="ni-date">2026-05-19/26</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">GreenMed经约旦延伸仍是区域数字走廊核心主线</div>
-        <div class="ni-text">Sparkle、NaiTel、iLevant签署MoU，计划在欧盟支持下建设经约旦连接欧洲与亚洲的新数字走廊。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>跟进ADH/NaiTel、Aqaba、TRC、MoDEE及欧盟资金安排，重点关注DWDM、IP骨干、DCI、数据中心和网络安全。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.eeas.europa.eu/delegations/jordan/sparkle-signs-mou-naitel-and-ilevant-build-new-eu-supported-digital-corridor-connecting-europe-asia_en" target="_blank" rel="noopener">EEAS GreenMed</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-05-23</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">Aqaba从传统港口升级为区域物流枢纽：智慧港口和交通数字化进入监控</div>
-        <div class="ni-text">Jordan News报道Aqaba在港口体系、南部港口、多用途主港、能源和矿业港、APM Terminals与Abu Dhabi Ports Group合作等方面持续升级。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>交通/港口数字化机会包括园区网络、港口专网、海关系统、物流追踪、视频AI、网络安全和数据平台。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.jordannews.jo/Section-112/Economy/80th-Independence-Day-Aqaba-Transforms-from-a-Traditional-Port-into-a-Global-Economic-and-Tourism-Hub-51584" target="_blank" rel="noopener">JordanNews Aqaba</a></div>
-      </div>
-    
-      </div>
-    </div>
-    </div>
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-21</span><span class="tag">TRA</span><span class="tag">频谱重耕/FWA</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">TRA频谱重耕工作坊明确FWA、FTTH、DSP许可与未来5G/6G框架方向</div>
+  <div class="mini-impact">这比泛泛的5G口号更关键，因为它涉及许可证、频谱、FWA、DSP市场规范和宽带竞争格局。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>TRA在5月21日举行频谱重耕工作坊，其材料提出以FWA作为光纤补充，规范DSP和无证转售市场，并为未来5G/6G许可建立框架。</div>
+  <div class="para"><b>影响：</b>这比泛泛的5G口号更关键，因为它涉及许可证、频谱、FWA、DSP市场规范和宽带竞争格局。</div>
+  <div class="action"><b>商机动作：</b>跟踪TRA咨询反馈与最终规则；对MIC1/Alfa、MIC2/Touch、Ogero和DSP准备FWA、CPE、核心网、计费和合规方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.tra.gov.lb/Library/Files/Uploaded%20files/TRAPresentations/21052026%20-%20TRA%20Presentation%20Spectrum%20Refarming%20Workshop.pdf" target="_blank" rel="noopener">TRA 5/21 Workshop</a> <a href="https://www.tra.gov.lb/NewsDetails.aspx?pageid=3812" target="_blank" rel="noopener">TRA News</a></div>
 </div>
+</details>
 
-
-<div id="tab-lb" class="country-panel">
-  <div class="flag-row"><span class="flag-ico">🇱🇧</span><span class="flag-name">黎巴嫩</span><span class="flag-badge biq">本期 8 条 + 社媒评论分析</span></div>
-  <div class="ch-list">
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">💬</span><span class="ch-lbl">推文 / 社媒与评论分析</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Touch / Alfa：RFP、网络质量和5G愿景相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控Touch、Alfa、通信部关于RFP、网络维护、核心网安全、光纤、5G愿景和用户服务的帖文。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：用户是否抱怨价格、覆盖、网络中断、客服、充值和5G是否只是口号。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>黎巴嫩用户评论往往能快速暴露网络韧性和服务体验痛点。若评论集中在覆盖与断网，则RFP之外还需要站点恢复、备电、传输和QoE治理。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>优先跟进Touch/Alfa的信令防火墙、IPBB、CCTV、光纤材料、核心站点、安全与网络体验项目。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">TRA / 通信部：频谱重耕、FWA与5G/6G许可框架相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控TRA、通信部、Ogero对频谱重耕、FWA、无牌市场治理、5G/6G许可框架和光纤补充的发布。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：ISP/用户是否支持FWA，是否担心资费和覆盖，市场是否质疑许可制度和监管执行力。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>如果行业评论关注无牌市场和FWA成本，则TRA频谱重耕会影响ISP、Ogero、移动运营商和设备商多方利益，需要关注监管节奏。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>可关注FWA CPE、频谱规划、微波回传、CPE管理、QoS测量、监管咨询和无牌市场合规改造。</div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">每周监控</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">应急通信 / 数字身份：内政与公共服务相关帖文</div>
-        <div class="ni-text"><b>推文/帖文摘要：</b>重点监控MoIM、OMSAR、MITAI、救援机构、LTC/ReliefWeb相关应急通信、国家告警、数字身份和公共服务数字化信息。</div>
-        <div class="rumor-box"><div class="rumor-lbl">评论分析</div>当前未抓取可核验评论原文，待人工截图采样。评论采样重点：公众是否关注告警可靠性、隐私、覆盖死角、弱势群体接入和政府服务可用性。</div>
-        <div class="opp-box"><div class="opp-lbl">新闻推演</div>若评论集中在告警不及时、网络脆弱和身份认证困难，则应急通信、灾备数据、移动告警和数字身份会成为公共安全数字化核心议题。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>关注应急告警平台、位置服务、运营商接口、备电、卫星/微波备份、政务身份认证和灾备云。</div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏛️</span><span class="ch-lbl">通信政策 / 频谱 / 运营商补充</span>
-        <span class="ch-tag tag-blue">3条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-16</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">黎巴嫩通信部提出三年5G/光纤/数字经济愿景：行业恢复与投资框架并行</div>
-        <div class="ni-text">Enmaeya采访显示，黎巴嫩通信部将基础设施现代化、光纤网络扩张、逐步引入5G服务和数字经济投资环境作为长期愿景核心。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条来自通信政策矩阵，说明黎巴嫩不仅是运营商RFP市场，也有5G、光纤、数字经济和ICT人才结合的中期规划。可关注光纤接入、移动网现代化、5G准备、网络质量、数字技能和投资合作。</div>
-        <div class="ni-src">来源：<a href="https://enmaeya.com/en/news/6a08617eec8dad9f5084595e" target="_blank" rel="noopener">Enmaeya</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-21</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">TRA频谱重耕工作坊推进：FWA、无牌市场治理和5G/6G许可框架进入监管讨论</div>
-        <div class="ni-text">TRA发布Spectrum Refarming相关公开咨询和工作坊材料，核心目标包括重组频谱、加速FWA宽带部署、规范无牌市场，并建立面向5G/6G的许可制度。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这是黎巴嫩5G前置条件，不应只写宏观愿景。可关注FWA CPE、频谱规划、无线回传、监管咨询、网络质量测量和运营商/ISP牌照结构变化。</div>
-        <div class="ni-src">来源：<a href="https://www.tra.gov.lb/Library/Files/Uploaded%20files/TRAPresentations/21052026%20-%20TRA%20Presentation%20Spectrum%20Refarming%20Workshop.pdf" target="_blank" rel="noopener">TRA工作坊材料</a> <a href="https://www.tra.gov.lb/Library/Files/Uploaded%20files/Spectrum%20Refarming%20Consultation%20Final%2030042026.pdf" target="_blank" rel="noopener">TRA咨询文件</a></div>
-      </div>
-
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05下旬</span><span class="vbadge">P1</span></div>
-        <div class="ni-title">Alfa与通信部讨论行业发展：运营商投资、光纤和5G服务仍需纳入跟踪</div>
-        <div class="ni-text">Alfa官网新闻显示，通信部长与Alfa管理层讨论电信行业最新发展；新闻提到通信部已形成长期计划，并强调投资该行业、推出光纤网络和5G服务的重要性。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这条来自运营商矩阵，补充Touch RFP之外的Alfa侧视角。后续应跟踪Alfa网络现代化、5G准备、光纤协同、采购和合作伙伴动作。</div>
-        <div class="ni-src">来源：<a href="https://www.alfa.com.lb/en/media-center/press-releases/minister-of-telecommunications-alfa-management-discuss-latest-developments-in-telecom-sector-" target="_blank" rel="noopener">Alfa官网</a></div>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">📡</span><span class="ch-lbl">通信与行业信息监控</span>
-        <span class="ch-tag tag-blue">3类源</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        <div class="ni">
-          <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">持续跟踪</span><span class="vbadge">P1</span></div>
-          <div class="ni-title">MoT / TRA / Ogero / Alfa / Touch：RFP、频谱、FWA、应急通信与数字身份并入黎巴嫩国家跟踪</div>
-          <div class="ni-text">黎巴嫩侧的通信信息不再单独成专题展示，而是并入国家新闻。重点源包括通信部、TRA、Ogero、Alfa、Touch、OMSAR、MoIM。优先跟踪运营商RFP、频谱重耕、FWA、FTTH、Ogero传输与数据中心、应急通信、数字身份和公共服务数字化。</div>
-          <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>黎巴嫩短期最接近订单的是Touch/Alfa/Ogero采购与RFP；中期看TRA频谱/FWA和通信部三年计划；长期看应急通信、数字身份与公共服务平台。</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">📡</span><span class="ch-lbl">运营商 / RFP / 企业采购</span>
-        <span class="ch-tag tag-blue">1条</span><span class="ch-arr open">▶</span>
-      </div>
-      <div class="ch-body open">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05—06</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">Touch多项RFP仍在窗口期：信令防火墙、光纤材料、CCTV、IPBB支持服务</div>
-        <div class="ni-text">Touch采购页面列出多项ICT相关RFP，包括信令防火墙、MIC2光纤材料、CCTV系统、IPBB Cisco支持服务等，多个截止日期集中在6月上旬至中旬。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>这是黎巴嫩最具体的企业采购信号，覆盖移动核心网安全、站点光纤、企业/机房安防和IP骨干维护。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.touch.com.lb/autoforms/portal/touch/about-touch/business-opportunities/requestproposal" target="_blank" rel="noopener">Touch RFP</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🚨</span><span class="ch-lbl">内政 / 应急通信 / 灾备</span>
-        <span class="ch-tag tag-blue">1条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05-15</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">黎巴嫩应急通信报告显示网络脆弱：灾备通信与应急告警系统需求上升</div>
-        <div class="ni-text">LTC 5月报告持续跟踪黎巴嫩通信网络在中东冲突升级下的脆弱性；WIRED也披露黎巴嫩正在推进基于移动网络的位置型国家应急告警系统。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>跟进运营商、Ogero、内政部、MITAI、救援机构和国际援助项目的应急通信、灾备数据、移动告警和安全平台。</div>
-        
-        <div class="ni-src">来源：<a href="https://reliefweb.int/report/lebanon/lebanon-middle-east-escalation-ltc-situation-report-telecoms-06-reporting-period-01-15-may-2026" target="_blank" rel="noopener">ReliefWeb LTC</a> <a href="https://www.wired.com/story/we-were-not-ready-for-this-lebanons-emergency-system-is-hanging-by-a-thread/" target="_blank" rel="noopener">WIRED应急系统</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🏛️</span><span class="ch-lbl">政务数字化 / 数字身份 / 金融支付底座</span>
-        <span class="ch-tag tag-blue">1条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">2026-02后持续推进</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">数字身份与LDAP仍是黎巴嫩政务数字化底座，内政部角色明确</div>
-        <div class="ni-text">黎巴嫩内政部长与技术/AI国务部长已讨论国家数字身份项目；World Bank/OMSAR的LDAP文件也将可靠互联网接入、数字能力和弱势群体访问作为风险点。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>继续作为常驻政策源；若出现招标、实施伙伴、试点区域或数据中心采购，升级为P1新闻。</div>
-        
-        <div class="ni-src">来源：<a href="https://enmaeya.com/en/news/6990b2036b5d92c96c8160fc-lebanon-advances-national-digital-transformation" target="_blank" rel="noopener">Enmaeya数字身份</a> <a href="https://omsar.gov.lb/wp-content/uploads/2026/01/Lebanon-Digital-Acceleration-Project-P506791-%E2%80%93-Stakeholder-Engagement-Plan-SEP.pdf" target="_blank" rel="noopener">OMSAR LDAP</a></div>
-      </div>
-    
-      </div>
-    </div>
-    
-    <div class="ch-card">
-      <div class="ch-head" onclick="toggleCh(this)">
-        <span class="ch-ico">🌐</span><span class="ch-lbl">家宽 / ISP / 固网 / 频谱</span>
-        <span class="ch-tag tag-blue">2条</span><span class="ch-arr">▶</span>
-      </div>
-      <div class="ch-body">
-        
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t3"></span><span class="ni-date">长期政策基线</span><span class="vbadge">持续跟踪</span></div>
-        <div class="ni-title">Ogero数字化/FTTH方向仍是黎巴嫩固网与政务连接基础</div>
-        <div class="ni-text">Ogero官网介绍数字化/FTTH方向，包括传输网络增强、用户侧光纤接入、海缆升级、IoT服务、创业孵化和数据中心等。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>保留在常驻矩阵，不作为本周新新闻；重点等Ogero新招标或部长计划更新。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.ogero.gov.lb/ar/article.php?id=29" target="_blank" rel="noopener">Ogero</a></div>
-      </div>
-    
-      <div class="ni">
-        <div class="ni-meta"><span class="tier-dot t2"></span><span class="ni-date">2026-05持续</span><span class="vbadge">已验证</span></div>
-        <div class="ni-title">TRA频谱重耕与FWA框架继续构成5G/宽带前置条件</div>
-        <div class="ni-text">TRA的Spectrum Refarming文件提出重组无线频谱、通过FWA提供宽带、补充光纤并为未来5G/6G许可体系做准备。</div>
-        <div class="opp-box"><div class="opp-lbl">🎯 商机研判</div>关注FWA设备、CPE、频谱规划、网络质量测量、微波回传和监管咨询机会。</div>
-        
-        <div class="ni-src">来源：<a href="https://www.tra.gov.lb/NewsDetails.aspx?pageid=3812" target="_blank" rel="noopener">TRA频谱</a></div>
-      </div>
-    
-      </div>
-    </div>
-    </div>
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-04-22/05-28</span><span class="tag">TRA RFP</span><span class="tag">移动过渡公司</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">TRA延长移动临时公司招标咨询RFP提交期限，移动市场重组进入执行前置阶段</div>
+  <div class="mini-impact">该RFP直接关系Alfa/Touch治理结构、财务模型、管理运营协议和未来移动市场重组，是5G前置制度建设的重要信号。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>TRA公告称，关于“Preparation of Tender Documents, Financial Model, and Management and Operating Agreement for Mobile Interim Companies”的RFP提交期限从4月28日延至5月28日。</div>
+  <div class="para"><b>影响：</b>该RFP直接关系Alfa/Touch治理结构、财务模型、管理运营协议和未来移动市场重组，是5G前置制度建设的重要信号。</div>
+  <div class="action"><b>商机动作：</b>关注咨询结果和后续招标文件；准备与移动临时公司治理、网络升级、FWA/5G投资和运维外包相关的方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.tra.gov.lb/NewsDetails.aspx?pageid=3802" target="_blank" rel="noopener">TRA 4/22</a></div>
 </div>
-
-
-<div class="slogan-banner">
-  <div class="slogan-zh">筑梦黎凡特，赢领数智化！</div>
-  <div class="slogan-en">Building Digital Levant · Leading Intelligent Transformation</div>
+</details>
 </div>
-</div>
+</details>
 
+<details class="module lb" >
+<summary><span>企业客户 / RFP / 采购</span><span class="module-count">3条 · P0 1</span></summary>
+<div class="cards">
+<details class="news-card p0">
+<summary>
+  <div class="summary-line">
+    <span class="dot p0"></span><span class="date">2026-05-08~15</span><span class="tag">Touch</span><span class="tag">RFP组合</span><span class="pri">P0</span>
+  </div>
+  <div class="news-title">Touch发布光纤材料、信令防火墙、CCTV、IPBB和核心站点改造等ICT采购机会</div>
+  <div class="mini-impact">这是黎巴嫩本期最具体的企业采购信号，覆盖承载网、安全、视频安防、核心站点和IP骨干。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Touch商业机会页面显示，5月开放/发布多个ICT相关RFP，包括MIC2光纤材料、CCTV、IPBB Cisco支持服务、核心站点基础设施增强和信令防火墙。</div>
+  <div class="para"><b>影响：</b>这是黎巴嫩本期最具体的企业采购信号，覆盖承载网、安全、视频安防、核心站点和IP骨干。</div>
+  <div class="action"><b>商机动作：</b>本地伙伴应立即下载RFP文件、确认截止日期与资质；华为可通过SI参与光纤、网络安全、CCTV、IPBB替换/运维和核心站点改造机会。</div>
+  <div class="src"><b>来源：</b><a href="https://www.touch.com.lb/autoforms/portal/touch/about-touch/business-opportunities/requestproposal" target="_blank" rel="noopener">Touch RFP页面</a> <a href="https://www.globaltenders.com/lebanon/lb-telecommunications-tenders" target="_blank" rel="noopener">GlobalTenders汇总</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-05~26</span><span class="tag">Alfa</span><span class="tag">MIC1光纤</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">Alfa发布150个MIC1站点光纤材料RFT，移动网络承载升级具备明确采购窗口</div>
+  <div class="mini-impact">这说明Alfa在移动站点光纤化/承载提升上已有明确采购动作，与未来5G/FWA和容量提升直接相关。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>Alfa商业机会页面显示，Fiber Materials for 150 MIC1 Sites RFT于5月5日启动，5月26日关闭。</div>
+  <div class="para"><b>影响：</b>这说明Alfa在移动站点光纤化/承载提升上已有明确采购动作，与未来5G/FWA和容量提升直接相关。</div>
+  <div class="action"><b>商机动作：</b>跟进后续中标结果和二期采购；准备光纤材料、站点传输、承载网、时钟同步和施工伙伴方案。</div>
+  <div class="src"><b>来源：</b><a href="https://www.alfa.com.lb/en/businessopportunity" target="_blank" rel="noopener">Alfa Business Opportunity</a></div>
+</div>
+</details>
+
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date">2026-05-12~06-01</span><span class="tag">Web Portal</span><span class="tag">数字平台</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">黎巴嫩出现互动门户类RFP，公共数字服务/内容平台仍有小型机会</div>
+  <div class="mini-impact">该机会体量不一定大，但说明黎巴嫩公共/准公共数字门户、内容交互和Web平台项目仍有零散采购。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>GlobalTenders页面列出LBN/CO/RFP/110/26 Lebanese ERA Interactive Web Portal，发布时间为5月12日、截止6月1日。</div>
+  <div class="para"><b>影响：</b>该机会体量不一定大，但说明黎巴嫩公共/准公共数字门户、内容交互和Web平台项目仍有零散采购。</div>
+  <div class="action"><b>商机动作：</b>如果本地伙伴具备软件交付能力，可作为低风险切入点；不建议主设备团队投入过多。</div>
+  <div class="src"><b>来源：</b><a href="https://www.globaltenders.com/lebanon/lb-telecommunications-tenders" target="_blank" rel="noopener">GlobalTenders Lebanon</a></div>
+</div>
+</details>
+</div>
+</details>
+
+
+<details class="module lb" >
+<summary><span>能源 / 内政 / 商业分销行业数字化</span><span class="module-count">4条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">2026-05-15</span><span class="tag">应急通信</span><span class="tag">南部覆盖</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">黎巴嫩通信网络仍运行但脆弱，南部覆盖受损和站点接入受限</div>
+  <div class="mini-impact">这把黎巴嫩ICT机会从扩容延伸到灾备、微波/卫星备份、电力备电、站点恢复和应急指挥通信。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>ReliefWeb发布的Lebanon Telecoms Situation Report #06显示，5月1日至15日期间黎巴嫩通信网络总体仍在运行，但南部因站点损毁和进入受限而覆盖降低。</div>
+  <div class="para"><b>影响：</b>黎巴嫩不只是5G和光纤问题，还存在高韧性网络、应急通信、备电、快速站点修复和安全接入需求。</div>
+  <div class="action"><b>商机动作：</b>面向MoT、Ogero、Alfa、Touch和救援体系准备“应急通信+微波备份+站点能源+网络监控+快速恢复”方案。</div>
+  <div class="src"><b>来源：</b><a href="https://reliefweb.int/report/lebanon/lebanon-middle-east-escalation-ltc-situation-report-telecoms-06-reporting-period-01-15-may-2026" target="_blank" rel="noopener">ReliefWeb LTC Report #06</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">常驻政策基线</span><span class="tag">内政部</span><span class="tag">数字身份</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">黎巴嫩内政部战略计划把数字身份列为国家数字化关键支柱</div>
+  <div class="mini-impact">数字身份会影响公共服务、边境/居留、金融KYC、社会保障和电子政务，是内政安防ICT长期主线。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>黎巴嫩内政部2025—2028战略计划明确提到数字身份是政府推动国家数字化转型的重要支柱；此前内政部会议已围绕数字身份项目进行推进。</div>
+  <div class="para"><b>影响：</b>虽然不是本双周新招标，但属于必须保留的关键行业政策基线，后续一旦出现招标/融资/实施伙伴，将直接关联身份认证、PKI、数据安全和政务云。</div>
+  <div class="action"><b>商机动作：</b>把MoIM、General Security、OMSAR、财政部、银行和社保体系纳入数字身份/身份认证客户地图；社媒层重点采样对隐私、费用、可用性的评论。</div>
+  <div class="src"><b>来源：</b><a href="https://moim.gov.lb/wp-content/uploads/2026/02/Strategie-EN-1.pdf" target="_blank" rel="noopener">MoIM Strategic Plan 2025–2028</a> <a href="https://enmaeya.com/en/news/6990b2036b5d92c96c8160fc-lebanon-advances-national-digital-transformation" target="_blank" rel="noopener">Enmaeya Digital ID</a></div>
+</div>
+</details>
+
+<details class="news-card p1">
+<summary>
+  <div class="summary-line">
+    <span class="dot p1"></span><span class="date">常驻项目基线</span><span class="tag">OMSAR</span><span class="tag">公共服务数字化</span><span class="pri">P1</span>
+  </div>
+  <div class="news-title">Lebanon Digital Acceleration Project 纳入正式监控，公共服务和跨部委数据治理是主线</div>
+  <div class="mini-impact">该项目覆盖数字基础、公共服务交付和多部委参与，是黎巴嫩数字政府、行业平台和云/安全机会的总入口。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>OMSAR发布的Lebanon Digital Acceleration Project旨在强化黎巴嫩数字基础和高影响公共服务交付，其利益相关方覆盖能源、水、财政、工业、交通、内政、电信、公共卫生等部门。</div>
+  <div class="para"><b>影响：</b>该项目不是单一网站，而是公共服务、数据治理、跨部委互联、身份体系、网络安全和云基础设施的总框架。</div>
+  <div class="action"><b>商机动作：</b>后续跟踪OMSAR、World Bank、MoT、MoIM、MoF和MoEW的采购包；优先关注政务云、数据交换平台、统一身份、SOC和灾备。</div>
+  <div class="src"><b>来源：</b><a href="https://omsar.gov.lb/en/lebanon-digital-acceleration-project/" target="_blank" rel="noopener">OMSAR Project Page</a> <a href="https://www.worldbank.org/en/news/press-release/2026/01/27/lebanon-world-bank-approves-us-350-million-financing-for-social-protection-economic-empowerment-and-digital-transformati" target="_blank" rel="noopener">World Bank $350M</a></div>
+</div>
+</details>
+
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date">常驻市场基线</span><span class="tag">Fintech</span><span class="tag">电商/钱包</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">黎巴嫩金融科技、电商和数字钱包继续作为商业分销数字化常驻监控层</div>
+  <div class="mini-impact">黎巴嫩现金依赖、银行信任不足和侨汇消费结构，使数字钱包、商户收单、合规风控和电商平台成为长期机会。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>美国商务部商业指南和The Fintech Times均指出，黎巴嫩电商、数字支付和金融科技仍具发展空间；MyMonty等钱包类企业与Mastercard生态合作，是数字支付和金融包容的重要市场信号。</div>
+  <div class="para"><b>影响：</b>商业分销机会应从“零售新闻”转化为支付基础设施、KYC、反欺诈、钱包平台、商户云、数据安全和灾备需求。</div>
+  <div class="action"><b>商机动作：</b>跟踪MyMonty、MontyPay、银行、MSB、商户平台和监管机构；下期若出现新融资、牌照、合作或招标，再升级为正式新闻卡。</div>
+  <div class="src"><b>来源：</b><a href="https://www.trade.gov/country-commercial-guides/lebanon-digital-economy" target="_blank" rel="noopener">U.S. Commercial Guide</a> <a href="https://thefintechtimes.com/lebanon-and-its-fintech-ecosystem-developments-in-2026/" target="_blank" rel="noopener">The Fintech Times 5/9</a> <a href="https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2025-1/july/mastercard-and-mymonty-collaborate-to-accelerate-digital-payments-adoption-and-drive-financial-inclusion-in-lebanon/" target="_blank" rel="noopener">Mastercard/MyMonty</a></div>
+</div>
+</details>
+</div>
+</details>
+
+<details class="module lb" >
+<summary><span>社媒信号与</span><span class="module-count">1条 · P0 0</span></summary>
+<div class="cards">
+<details class="news-card p2">
+<summary>
+  <div class="summary-line">
+    <span class="dot p2"></span><span class="date"></span><span class="tag">MoT/TRA/运营商</span><span class="pri">P2</span>
+  </div>
+  <div class="news-title">黎巴嫩下期重点采样TRA频谱咨询、Touch/Alfa RFP和5G三年计划的社媒反馈</div>
+  <div class="mini-impact">评论区可能体现供应商限制、预算压力、网络质量、5G优先级和市场开放争议。</div>
+</summary>
+<div class="news-body">
+  <div class="para"><b>事实：</b>黎巴嫩本期政策与采购信号较集中，但评论区和行业反馈尚需人工采样。</div>
+  <div class="para"><b>影响：</b>评论区可能体现供应商限制、预算压力、网络质量、5G优先级和市场开放争议。</div>
+  <div class="action"><b>商机动作：</b>下期采样MoT、TRA、Ogero、Alfa、Touch、行业顾问和本地媒体评论，形成“频谱重耕—采购—舆情”联动判断。</div>
+  <div class="src"><b>来源：</b><a href="https://www.tra.gov.lb/" target="_blank" rel="noopener">TRA</a> <a href="https://www.touch.com.lb/" target="_blank" rel="noopener">Touch</a> <a href="https://www.alfa.com.lb/" target="_blank" rel="noopener">Alfa</a></div>
+</div>
+</details>
+</div>
+</details>
+
+</div>
+  </div>
+</details>
+<div class="slogan-banner"><div class="slogan-zh">筑梦黎凡特，赢领数智化！</div><div class="slogan-en">Building Dreams in the Levant, Leading Digital Intelligence</div></div>
+</div>
+<div class="retro-modal" id="retroModal"><div class="retro-panel"><div class="retro-head"><h3>历史双周回顾</h3><button class="retro-close" onclick="closeRetro()">×</button></div><div class="retro-body"><div class="retro-item retro-current" onclick="location.href='w20-21.html'"><span class="retro-week">W20-21 最新期</span><div class="retro-title">ICT行业数字化与产业政策 · 最终保留版</div><div class="retro-summary">行业数字化与产业政策主线；保留5G/四牌、企业金融、能源、内政与关键社媒矩阵。</div></div><div class="retro-item" onclick="location.href='w18-19.html'"><span class="retro-week">W18-19</span><div class="retro-title">政府重组与早期5G/四牌线索</div></div><div class="retro-item" onclick="location.href='w17-19.html'"><span class="retro-week">W17-19</span><div class="retro-title">历史整合期</div></div><div class="retro-item" onclick="location.href='w17-18.html'"><span class="retro-week">W17-18</span><div class="retro-title">政府重组与区域风险</div></div><div class="retro-item" onclick="location.href='w15-16.html'"><span class="retro-week">W15-16</span><div class="retro-title">Zain CAPEX与Telegram事件</div></div><div class="retro-item" onclick="location.href='w13-14.html'"><span class="retro-week">W13-14</span><div class="retro-title">早期简报归档</div></div></div></div></div>
 <script>
-function switchTab(id, btn){
-  document.querySelectorAll('.country-panel').forEach(p=>p.classList.remove('active'));
-  const target=document.getElementById('tab-'+id);
-  if(target) target.classList.add('active');
-  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
-  if(btn) btn.classList.add('active');
-  window.scrollTo({top:0, behavior:'smooth'});
-}
-function toggleCh(head){
-  const body=head.nextElementSibling;
-  const arr=head.querySelector('.ch-arr');
-  if(!body) return;
-  body.classList.toggle('open');
-  if(arr) arr.classList.toggle('open');
-}
-</script>
-</body>
-</html>
+function switchTab(id,btn){const el=document.getElementById('tab-'+id); if(el){el.scrollIntoView({behavior:'smooth',block:'start'});} }
+function openRetro(){document.getElementById('retroModal').classList.add('show')} function closeRetro(){document.getElementById('retroModal').classList.remove('show')}
+function openAll(){document.querySelectorAll('details').forEach(d=>d.open=true)} function closeAll(){document.querySelectorAll('details.news-card').forEach(d=>d.open=false)}
+</script></body></html>
