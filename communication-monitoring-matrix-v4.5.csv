@@ -1,0 +1,13 @@
+﻿Country,Priority,Layer,Entity / Source,Platform,Monitoring Focus,Keywords,Frequency,Alert Rule,Verification Rule,Display Position
+Iraq,P0,Key Person,Mustafa Sanad,Facebook / News,部长表态、5G、NMTC、ISP整治、公共网络,5G; NMTC; Vodafone; ISP; illegal internet; Al-Salam; ITPC,Daily,命中5G/四牌/ISP整治立即提示,必须与通信部/CMC/新闻网站交叉验证,通信矩阵 + 伊拉克专题
+Iraq,P0,Ministry,Ministry of Communications,Website / Facebook,政策、会议、项目、ITPC/GCCI/Al-Salam,Ministry; Sanad; ITPC; GCCI; Al-Salam; internet quality,Daily,项目/会议/公告进入P0/P1,官网或FB作为官方源，仍需新闻网站补充背景,通信矩阵
+Iraq,P0,Regulator,CMC / Baligh Abu Kalal,Website / Facebook,频谱、牌照、QoS、运营商、固定宽带,spectrum; license; frequency; operators; fixed broadband; 5G,Daily,频谱/牌照/5G/运营商会议立即提示,CMC官方源 + 新闻网站验证,通信矩阵
+Iraq,P0,Shareholder,Al-Salam General Company,Website / Facebook,NMTC股东方、通信设备、国企资产,Al-Salam; national mobile; Vodafone; 5G; board,Weekly,出现NMTC/股东/合同/融资进入P0,股东方 + 通信部/CMC/新闻网站,通信矩阵
+Iraq,P0,Backbone,ITPC,Website / Facebook,骨干网、海缆、WorldLink、国际互联,ITPC; WorldLink; submarine cable; transit; data corridor,Weekly,国际通道/海缆/骨干网进入P1/P0,ITPC + 新闻网站/投资方,通信矩阵
+Iraq,P0,Finance/Shareholder,TBI,Website / Facebook,融资、国企项目、股东方链路,TBI; financing; national company; 5G; project finance,Weekly,出现融资/董事会/股权进入P0,TBI + 股东方/官方/新闻网站,通信矩阵
+Iraq,P0,Shareholder,State Employees Pension Fund,Official / News / Social,养老金基金、股权、融资,pension fund; shareholder; NMTC; national mobile,Weekly,出现股权/融资/董事会进入P0,官方/新闻网站交叉,通信矩阵
+Iraq,P1,Operator,Asiacell / Zain / Korek,Website / Social / News,5G、AI网络、OTT、CAPEX、RFP、QoE,5G; AI network; OTT; RFP; QoS; CAPEX,Daily/Weekly,RFP/5G/AI网络进入P1,运营商源 + 新闻/监管,国家栏目
+Iraq,P1,ISP/Home Broadband,Earthlink / FastIraq / local ISP,Website / Social / News,家宽、商宽、FTTH/FWA、非法分销整治,ISP; FTTH; FWA; broadband; illegal internet; QoE,Weekly,ISP整治/家宽扩容进入P1,通信部/CMC + ISP/新闻,国家栏目
+Jordan,P1,Regulator/Ministry,TRC / MoDEE,Website / News / Social,5G、数字政府、Sanad、频谱、网络安全,TRC; MoDEE; 5G; digital government; Sanad; cybersecurity,Weekly,5G/数字政府/安全举措进入P1,官网 + Petra/新闻网站,国家栏目
+Jordan,P1,Data Corridor,ADH / NaiTel / iLevant,Website / News,数据中心、GreenMed、DCI、海缆、数字走廊,ADH; NaiTel; GreenMed; DCI; data center; digital corridor,Weekly,融资/扩容/MoU/招标进入P1/P0,企业/EEAS/EBRD + 新闻网站,国家栏目
+Lebanon,P1,Regulator/Operator,MoT / TRA / Ogero / Alfa / Touch,Website / RFP / News,5G、频谱重耕、FWA、FTTH、RFP、应急通信,5G; spectrum refarming; FWA; FTTH; RFP; emergency telecom,Weekly,RFP/频谱/5G计划进入P1,官网/RFP + 新闻/援助机构,国家栏目
