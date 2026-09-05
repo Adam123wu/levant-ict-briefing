@@ -6,6 +6,8 @@ on:
     paths:
       - index.html
       - "w*-*.html"
+      - personnel-monitoring.html
+      - "政府人员监控矩阵_v1.0.xlsx"
       - .github/workflows/pages.yml
   workflow_dispatch:
 
@@ -31,7 +33,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir _site
-          cp index.html w35-36.html _site/
+          cp index.html w35-36.html personnel-monitoring.html "政府人员监控矩阵_v1.0.xlsx" _site/
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages
