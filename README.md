@@ -6,6 +6,7 @@
 
 - 决策总览：新闻、商机、国家分布、趋势和采集健康度
 - 双周简报：三国环境评分、新闻、商业机会及重要官方社媒快讯
+- 合规与营商：六维加权评分、国家风险、证据链、监控事项和行动建议
 - 政府人员：78 个关键岗位，可搜索、按国家筛选、排序和分页
 - 多平台信源：19 个已核验的政府官员、通信部、监管机构及政府账号，覆盖 X、Telegram、Facebook
 - 历史归档：保留旧版报告入口
@@ -26,7 +27,7 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-数据由 `scripts/sync-data.mjs` 自动识别 `legacy/` 中的最新简报，并将报告、归档、人员清单、`config/sources.json` 多平台信源以及 `config/social-signals.json` 重要社媒动态同步到 `data/`。该脚本在每次构建前自动执行。
+数据由 `scripts/sync-data.mjs` 自动识别 `legacy/` 中的最新简报，并将报告、归档、人员清单、`config/sources.json` 多平台信源、`config/social-signals.json` 重要社媒动态以及 `config/compliance-analysis.json` 合规营商分析同步到 `data/`。该脚本在每次构建前自动执行。
 
 ## 发布
 

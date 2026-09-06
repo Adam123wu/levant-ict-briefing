@@ -1,0 +1,69 @@
+{
+  "issue": "W35-36",
+  "generated": "2026-09-06",
+  "disclaimer": "评分为面向 ICT 商务决策的内部分析值，不等同于信用评级、法律意见或第三方营商指数。所有重大决策仍须完成项目级制裁、出口管制、反贿赂和客户尽调。",
+  "method": [
+    {"id":"stability","label":"政治与监管稳定性","weight":20,"description":"政府连续性、监管政策可预期性及执法一致性"},
+    {"id":"market","label":"市场准入与营商便利","weight":20,"description":"牌照、注册、进口、支付和日常经营摩擦"},
+    {"id":"integrity","label":"廉洁与透明度","weight":15,"description":"采购透明度、利益冲突与反贿赂控制环境"},
+    {"id":"sanctions","label":"制裁与交易合规","weight":20,"description":"制裁暴露、最终受益人、银行与付款路径风险"},
+    {"id":"ict","label":"ICT 监管成熟度","weight":15,"description":"频谱、型式核准、数据、网络安全和监管能力"},
+    {"id":"procurement","label":"采购与决策清晰度","weight":10,"description":"预算来源、决策权、招标机制和回款可见度"}
+  ],
+  "countries": [
+    {
+      "code":"iq","name":"伊拉克","flag":"🇮🇶","score":3.1,"risk":"高风险","trend":"承压","summary":"5G、跨境光缆和政务连接带来机会，但监管执法、采购分散、付款路径及关联方审查仍是交易前置条件。",
+      "dimensions":[
+        {"id":"stability","score":4.5,"assessment":"政策窗口存在，但监管与地方执行差异较大。"},
+        {"id":"market","score":2.0,"assessment":"准入、付款和运营流程摩擦较高。"},
+        {"id":"integrity","score":3.0,"assessment":"项目需强化第三方与采购廉洁审查。"},
+        {"id":"sanctions","score":2.0,"assessment":"关联方、银行路径及最终受益人筛查为强制门槛。"},
+        {"id":"ict","score":4.5,"assessment":"5G与型式核准数字化推进，但规则仍在快速变化。"},
+        {"id":"procurement","score":3.0,"assessment":"通信部、CMC、ITPC 与地方机构决策边界需逐项确认。"}
+      ],
+      "watchlist":["Korek 监管处置及司法进展","5G 频谱分配与第四张牌照","设备 Type Approval 数字平台","政府专线降价后的预算重分配"],
+      "actions":["Korek 相关机会升级至红色合规审查","报价前确认付款银行、最终受益人和交付主体","将监管许可作为合同生效前提条件"],
+      "evidence":[
+        {"label":"CMC：关闭 Korek 卡尔巴拉总部","date":"2026-08-31","url":"https://cmc.iq/2026/08/31/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%8F%D8%BA%D9%84%D9%82-%D8%A7%D9%84%D9%85%D9%82%D8%B1-%D8%A7/"},
+        {"label":"CMC：法院维持停止合作决定","date":"2026-08-26","url":"https://cmc.iq/2026/08/26/%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D9%8A%D9%84%D8%BA%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A8%D8%B4%D8%B1%D9%83%D8%A9/"},
+        {"label":"通信部：政府互联网价格与无线塔能力调整","date":"2026-09-03","url":"https://t.me/mociraq2023/1695"}
+      ]
+    },
+    {
+      "code":"jo","name":"约旦","flag":"🇯🇴","score":7.7,"risk":"较低风险","trend":"改善","summary":"监管机构职责清晰，数字身份、MNP 与 5G 建设路径相对可预期，适合作为区域合规基准和稳定交付市场。",
+      "dimensions":[
+        {"id":"stability","score":8.0,"assessment":"政策延续性和机构稳定性较好。"},
+        {"id":"market","score":7.5,"assessment":"市场规则较清晰，外部供应商进入路径可管理。"},
+        {"id":"integrity","score":6.5,"assessment":"仍需执行标准采购廉洁与第三方尽调。"},
+        {"id":"sanctions","score":8.5,"assessment":"总体暴露较低，常规名单筛查通常足够。"},
+        {"id":"ict","score":7.5,"assessment":"TRC 与 MoDEE 分工明确，数字化政策连续。"},
+        {"id":"procurement","score":8.0,"assessment":"项目责任主体与采购路径相对集中。"}
+      ],
+      "watchlist":["MNP 计划实施节奏","5G 扩容与站点承诺","Sanad 数字身份生态","数据与云监管细则"],
+      "actions":["优先布局 MNP、eKYC 与政务云生态合作","以约旦作为区域方案合规样板","持续核验招标条件与本地合作要求"],
+      "evidence":[
+        {"label":"约旦 TRC 官方账号","date":"持续监控","url":"https://x.com/TRCJO"},
+        {"label":"约旦 MoDEE 官方账号","date":"持续监控","url":"https://x.com/MoDEEJO"},
+        {"label":"MoDEE 官方网站","date":"持续监控","url":"https://www.modee.gov.jo/"}
+      ]
+    },
+    {
+      "code":"lb","name":"黎巴嫩","flag":"🇱🇧","score":4.5,"risk":"中高风险","trend":"改善","summary":"电信改革、光纤、LTE 和海缆建设释放机会，但财政、采购透明度、政治安全与回款风险仍限制项目可执行性。",
+      "dimensions":[
+        {"id":"stability","score":6.0,"assessment":"中央改革意愿增强，但外部安全因素仍会影响执行。"},
+        {"id":"market","score":3.5,"assessment":"金融与运营环境仍对大项目形成约束。"},
+        {"id":"integrity","score":2.5,"assessment":"采购治理与透明度需要项目级增强控制。"},
+        {"id":"sanctions","score":5.0,"assessment":"需关注政治关联方、最终受益人与付款链路。"},
+        {"id":"ict","score":5.0,"assessment":"TRA、MPT 与 Ogero 治理架构处于重建和调整期。"},
+        {"id":"procurement","score":4.5,"assessment":"改革方向明确，但预算、授权和回款需逐单核实。"}
+      ],
+      "watchlist":["TRA 监管重启与招标","Ogero 光纤和 LTE 扩容","新海缆与区域互联","南部安全和重建条件"],
+      "actions":["采用分阶段交付并设置回款保护","核验资金来源、授权链和最终受益人","优先选择国际融资或付款保障充分的项目"],
+      "evidence":[
+        {"label":"黎巴嫩 TRA 官方账号","date":"持续监控","url":"https://x.com/TRALebanon"},
+        {"label":"Ogero 官方账号","date":"持续监控","url":"https://x.com/OgeroTelecom"},
+        {"label":"EUAA：黎巴嫩近期政治发展","date":"持续评估","url":"https://www.euaa.europa.eu/lebanon-country-focus/21-recent-political-developments"}
+      ]
+    }
+  ]
+}
