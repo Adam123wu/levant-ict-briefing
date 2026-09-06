@@ -4,10 +4,18 @@ on:
   push:
     branches: [main]
     paths:
-      - index.html
-      - "w*-*.html"
-      - personnel-monitoring.html
-      - "政府人员监控矩阵_v1.0.xlsx"
+      - "app/**"
+      - "components/**"
+      - "data/**"
+      - "legacy/**"
+      - "lib/**"
+      - "public/**"
+      - "scripts/**"
+      - package.json
+      - package-lock.json
+      - next.config.mjs
+      - postcss.config.mjs
+      - tsconfig.json
       - .github/workflows/pages.yml
   workflow_dispatch:
 
@@ -28,13 +36,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - name: Prepare public site
-        run: |
-          mkdir _site
-          cp index.html w35-36.html personnel-monitoring.html "政府人员监控矩阵_v1.0.xlsx" _site/
-          touch _site/.nojekyll
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Disable Jekyll processing
+        run: touch out/.nojekyll
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -42,7 +59,7 @@ jobs:
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: out
 
       - name: Deploy GitHub Pages
         id: deployment

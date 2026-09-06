@@ -1,0 +1,56 @@
+[
+  {
+    "handle": "mociraq2023",
+    "name": "伊拉克通信部",
+    "owner": "Mustafa Sanad",
+    "country": "伊拉克",
+    "posts14d": 10,
+    "tier": "T1",
+    "status": "正常"
+  },
+  {
+    "handle": "iraqcmc",
+    "name": "伊拉克通信与媒体委员会",
+    "owner": "Baligh Abu Kalal",
+    "country": "伊拉克",
+    "posts14d": 16,
+    "tier": "T1",
+    "status": "正常"
+  },
+  {
+    "handle": "iqmofa",
+    "name": "伊拉克外交部",
+    "owner": "Fuad Hussein",
+    "country": "伊拉克",
+    "posts14d": 22,
+    "tier": "T1",
+    "status": "正常"
+  },
+  {
+    "handle": "MODiraq",
+    "name": "伊拉克国防部",
+    "owner": "机构账号",
+    "country": "伊拉克",
+    "posts14d": 21,
+    "tier": "T2",
+    "status": "正常"
+  },
+  {
+    "handle": "moiiraqi",
+    "name": "伊拉克内政部",
+    "owner": "机构账号",
+    "country": "伊拉克",
+    "posts14d": 98,
+    "tier": "T2",
+    "status": "正常"
+  },
+  {
+    "handle": "moheiq",
+    "name": "伊拉克高等教育与科研部",
+    "owner": "机构账号",
+    "country": "伊拉克",
+    "posts14d": 18,
+    "tier": "T2",
+    "status": "正常"
+  }
+]

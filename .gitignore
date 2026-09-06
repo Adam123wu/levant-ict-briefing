@@ -17,6 +17,13 @@ __pycache__/
 # Logs
 *.log
 
+# Next.js / Node
+node_modules/
+.next/
+out/
+.npm/
+*.tsbuildinfo
+
 # Temp
 *.tmp
 *.bak
