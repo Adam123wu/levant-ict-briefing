@@ -1,56 +1,21 @@
 [
-  {
-    "handle": "mociraq2023",
-    "name": "伊拉克通信部",
-    "owner": "Mustafa Sanad",
-    "country": "伊拉克",
-    "posts14d": 10,
-    "tier": "T1",
-    "status": "正常"
-  },
-  {
-    "handle": "iraqcmc",
-    "name": "伊拉克通信与媒体委员会",
-    "owner": "Baligh Abu Kalal",
-    "country": "伊拉克",
-    "posts14d": 16,
-    "tier": "T1",
-    "status": "正常"
-  },
-  {
-    "handle": "iqmofa",
-    "name": "伊拉克外交部",
-    "owner": "Fuad Hussein",
-    "country": "伊拉克",
-    "posts14d": 22,
-    "tier": "T1",
-    "status": "正常"
-  },
-  {
-    "handle": "MODiraq",
-    "name": "伊拉克国防部",
-    "owner": "机构账号",
-    "country": "伊拉克",
-    "posts14d": 21,
-    "tier": "T2",
-    "status": "正常"
-  },
-  {
-    "handle": "moiiraqi",
-    "name": "伊拉克内政部",
-    "owner": "机构账号",
-    "country": "伊拉克",
-    "posts14d": 98,
-    "tier": "T2",
-    "status": "正常"
-  },
-  {
-    "handle": "moheiq",
-    "name": "伊拉克高等教育与科研部",
-    "owner": "机构账号",
-    "country": "伊拉克",
-    "posts14d": 18,
-    "tier": "T2",
-    "status": "正常"
-  }
+  {"id":"iq-moc-tg","platform":"Telegram","handle":"mociraq2023","url":"https://t.me/mociraq2023","name":"伊拉克通信部","owner":"Mustafa Sanad","country":"伊拉克","category":"通信部","posts14d":10,"tier":"T1","status":"正常","verifiedBy":"机构频道"},
+  {"id":"iq-sanad-x","platform":"X","handle":"m_j_sanad","url":"https://x.com/m_j_sanad","name":"通信部长官方账号","owner":"Mustafa Sanad","country":"伊拉克","category":"政府官员","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"账号明确标注伊拉克通信部长官方账号"},
+  {"id":"iq-cmc-tg","platform":"Telegram","handle":"iraqcmc","url":"https://t.me/iraqcmc","name":"伊拉克通信与媒体委员会 CMC","owner":"Baligh Abu Kalal","country":"伊拉克","category":"通信监管","posts14d":16,"tier":"T1","status":"正常","verifiedBy":"CMC 官方频道"},
+  {"id":"iq-cmc-x","platform":"X","handle":"iraqcmc","url":"https://x.com/iraqcmc","name":"伊拉克通信与媒体委员会 CMC","owner":"Baligh Abu Kalal","country":"伊拉克","category":"通信监管","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"X 账号链接 cmc.iq，Telegram 官方频道反向列出"},
+  {"id":"iq-cmc-fb","platform":"Facebook","handle":"iraqicmc","url":"https://www.facebook.com/iraqicmc/","name":"伊拉克通信与媒体委员会 CMC","owner":"Baligh Abu Kalal","country":"伊拉克","category":"通信监管","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"CMC Telegram 官方频道反向列出"},
+  {"id":"iq-itpc-x","platform":"X","handle":"itpciq","url":"https://x.com/itpciq","name":"伊拉克电信和信息公司 ITPC","owner":"机构账号","country":"伊拉克","category":"国家骨干网","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"X 账号链接 itpc.gov.iq"},
+  {"id":"iq-pmo-x","platform":"X","handle":"IraqiPMO","url":"https://x.com/IraqiPMO","name":"伊拉克总理媒体办公室","owner":"总理府","country":"伊拉克","category":"政府决策","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"总理府官方媒体账号"},
+  {"id":"iq-mofa-x","platform":"X","handle":"iraqimofa","url":"https://x.com/iraqimofa","name":"伊拉克外交部","owner":"Fuad Hussein","country":"伊拉克","category":"政府官员","posts14d":null,"tier":"T2","status":"已核验","verifiedBy":"外交部机构账号"},
+  {"id":"iq-mofa-tg","platform":"Telegram","handle":"iqmofa","url":"https://t.me/iqmofa","name":"伊拉克外交部","owner":"Fuad Hussein","country":"伊拉克","category":"政府官员","posts14d":22,"tier":"T2","status":"正常","verifiedBy":"外交部机构频道"},
+  {"id":"jo-trc-x","platform":"X","handle":"TRCJO","url":"https://x.com/TRCJO","name":"约旦电信监管委员会 TRC","owner":"Lara Khateeb","country":"约旦","category":"通信监管","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"X 账号链接 trc.gov.jo"},
+  {"id":"jo-modee-x","platform":"X","handle":"MoDEEJO","url":"https://x.com/MoDEEJO","name":"约旦数字经济与创业部","owner":"Sami Smeirat","country":"约旦","category":"数字政府","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"MoDEE 机构账号"},
+  {"id":"jo-pm-x","platform":"X","handle":"PrimeMinistry","url":"https://x.com/PrimeMinistry","name":"约旦首相府","owner":"Jaafar Hassan","country":"约旦","category":"政府决策","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"账号明确标注约旦首相府官方账号并链接 pm.gov.jo"},
+  {"id":"jo-ytj-x","platform":"X","handle":"YTJJordan","url":"https://x.com/YTJJordan","name":"Youth, Technology and Jobs","owner":"MoDEE 项目","country":"约旦","category":"数字就业","posts14d":null,"tier":"T2","status":"已核验","verifiedBy":"账号链接 modee.gov.jo/ytj"},
+  {"id":"lb-tra-x","platform":"X","handle":"TRALebanon","url":"https://x.com/TRALebanon","name":"黎巴嫩电信监管局 TRA","owner":"机构账号","country":"黎巴嫩","category":"通信监管","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"TRA 机构账号，持续发布监管招标"},
+  {"id":"lb-ogero-x","platform":"X","handle":"OgeroTelecom","url":"https://x.com/OgeroTelecom","name":"Ogero Telecom","owner":"Imad Kreidieh","country":"黎巴嫩","category":"国家固网","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"X 账号链接 ogero.gov.lb"},
+  {"id":"lb-pm-x","platform":"X","handle":"grandserail","url":"https://x.com/grandserail","name":"黎巴嫩总理府","owner":"Nawaf Salam","country":"黎巴嫩","category":"政府决策","posts14d":null,"tier":"T1","status":"已核验","verifiedBy":"账号明确标注黎巴嫩总理府官方账号并链接 pcm.gov.lb"},
+  {"id":"iq-mod-tg","platform":"Telegram","handle":"MODiraq","url":"https://t.me/MODiraq","name":"伊拉克国防部","owner":"机构账号","country":"伊拉克","category":"政府机构","posts14d":21,"tier":"T2","status":"正常","verifiedBy":"机构频道"},
+  {"id":"iq-moi-tg","platform":"Telegram","handle":"moiiraqi","url":"https://t.me/moiiraqi","name":"伊拉克内政部","owner":"机构账号","country":"伊拉克","category":"政府机构","posts14d":98,"tier":"T2","status":"正常","verifiedBy":"机构频道"},
+  {"id":"iq-mohe-tg","platform":"Telegram","handle":"moheiq","url":"https://t.me/moheiq","name":"伊拉克高等教育与科研部","owner":"机构账号","country":"伊拉克","category":"政府机构","posts14d":18,"tier":"T2","status":"正常","verifiedBy":"机构频道"}
 ]

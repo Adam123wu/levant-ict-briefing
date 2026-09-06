@@ -5,6 +5,11 @@ const peopleHtml = await fs.readFile("personnel-monitoring.html", "utf8");
 const match = peopleHtml.match(/const people=(\[.*?\]);let country=/s);
 if (!match) throw new Error("Unable to extract personnel data");
 const people = JSON.parse(match[1]);
+const peopleSocialOverrides = JSON.parse(await fs.readFile("config/people-social-overrides.json", "utf8"));
+for (const override of peopleSocialOverrides) {
+  const person = people.find((candidate) => candidate.country === override.country && candidate.name === override.name);
+  if (person) Object.assign(person, override, { verified: new Date().toISOString().slice(0, 10) });
+}
 
 const reportFiles = (await fs.readdir("legacy"))
   .filter((name) => /^w\d+-\d+\.html$/i.test(name))
@@ -61,11 +66,13 @@ report.stats = {
 };
 
 const sources = JSON.parse(await fs.readFile("config/sources.json", "utf8"));
+const socialSignals = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
 
 await fs.mkdir("data", { recursive: true });
 await fs.writeFile("data/people.json", JSON.stringify(people, null, 2));
 await fs.writeFile("data/report.json", JSON.stringify(report, null, 2));
 await fs.writeFile("data/sources.json", JSON.stringify(sources, null, 2));
+await fs.writeFile("data/social-signals.json", JSON.stringify(socialSignals, null, 2));
 
 const archiveFiles = (await fs.readdir("public/archive"))
   .filter((name) => /^w\d+-\d+(?:-v\d+)?\.html$/i.test(name) && !/-v\d+\.html$/i.test(name))
@@ -87,4 +94,4 @@ for (const file of archiveFiles) {
   });
 }
 await fs.writeFile("data/archive.json", JSON.stringify(archive, null, 2));
-console.log(`Synced ${people.length} people, ${report.stats.news} news items, ${archive.length} archives and ${sources.length} Telegram sources from ${latestReport}.`);
+console.log(`Synced ${people.length} people, ${report.stats.news} news items, ${socialSignals.length} social signals, ${archive.length} archives and ${sources.length} multi-platform sources from ${latestReport}.`);
