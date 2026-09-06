@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Archive, LayoutDashboard, Newspaper, Radio, Users } from "lucide-react";
+import report from "@/data/report.json";
+import sources from "@/data/sources.json";
 
 const links = [
   {href:"/",label:"情报总览",icon:LayoutDashboard},
@@ -21,5 +23,6 @@ function Navigation({mobile=false}:{mobile?:boolean}) {
 }
 
 export function AppShell({children}:{children:React.ReactNode}) {
-  return <div className="shell"><aside className="sidebar"><div className="brand"><div className="brand-mark"><Radio size={20}/>黎凡特 ICT 情报中心</div><div className="brand-sub">Iraq · Jordan · Lebanon<br/>双周决策情报驾驶舱</div></div><Navigation/><div className="sidebar-foot"><span className="online"/>Telegram 采集正常<br/><span style={{opacity:.72}}>6 个政府信源 · 14天 185条</span></div></aside><main className="main"><header className="topbar"><div><div className="page-title">伊拉克代表处 ICT 双周简报</div><div className="top-meta">伊拉克代表处 吴昊679001 · MSSD AI团队</div></div><div className="top-actions"><span className="chip">W35—36</span><span className="chip">更新于 2026-09-06</span></div></header><div className="content">{children}</div></main><Navigation mobile/></div>;
+  const postCount=sources.reduce((sum,source)=>sum+source.posts14d,0);
+  return <div className="shell"><aside className="sidebar"><div className="brand"><div className="brand-mark"><Radio size={20}/>黎凡特 ICT 情报中心</div><div className="brand-sub">Iraq · Jordan · Lebanon<br/>双周决策情报驾驶舱</div></div><Navigation/><div className="sidebar-foot"><span className="online"/>Telegram 采集正常<br/><span style={{opacity:.72}}>{sources.length} 个政府信源 · 14天 {postCount}条</span></div></aside><main className="main"><header className="topbar"><div><div className="page-title">伊拉克代表处 ICT 双周简报</div><div className="top-meta">伊拉克代表处 吴昊679001 · MSSD AI团队</div></div><div className="top-actions"><span className="chip">{report.issue.replace("-","—")}</span><span className="chip">更新于 {report.generated}</span></div></header><div className="content">{children}</div></main><Navigation mobile/></div>;
 }
