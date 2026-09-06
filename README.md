@@ -22,7 +22,7 @@
 ## 本地运行
 
 ```bash
-npm ci --legacy-peer-deps
+npm install --legacy-peer-deps
 npm run dev
 ```
 
