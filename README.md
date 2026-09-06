@@ -26,7 +26,7 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-数据由 `scripts/sync-data.mjs` 从已核验的简报和人员清单同步到 `data/`，并在每次构建前自动执行。
+数据由 `scripts/sync-data.mjs` 自动识别 `legacy/` 中的最新简报，并将报告、归档、人员清单和 `config/sources.json` 信源配置同步到 `data/`。该脚本在每次构建前自动执行。
 
 ## 发布
 
