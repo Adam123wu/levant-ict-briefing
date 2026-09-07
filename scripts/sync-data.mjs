@@ -30,33 +30,42 @@ const generated = generatedMatch
   : new Date().toISOString().slice(0, 10);
 const period = $(".retro-date").first().text().replace(/\s+/g, " ").trim() || "最近完整14天";
 const report = { issue, period, generated, sourceFile: latestReport, summary, countries: {}, stats: {} };
-for (const [code, name] of [["iq","伊拉克"],["jo","约旦"],["lb","黎巴嫩"]]) {
-  const root = $(`#tab-${code}`);
+const countryMeta = [["iq","伊拉克","🇮🇶"],["jo","约旦","🇯🇴"],["lb","黎巴嫩","🇱🇧"]];
+const panelStarts = Object.fromEntries(countryMeta.map(([code]) => {
+  const match = new RegExp(`<div[^>]*id=["']tab-${code}["'][^>]*>`, "i").exec(reportHtml);
+  if (!match) throw new Error(`Missing country panel: ${code}`);
+  return [code, match.index];
+}));
+const countryCounts = {};
+for (const [code, name, flag] of countryMeta) {
+  const start = panelStarts[code];
+  const laterStarts = Object.values(panelStarts).filter((index) => index > start);
+  const end = laterStarts.length ? Math.min(...laterStarts) : reportHtml.length;
+  const panel$ = cheerio.load(reportHtml.slice(start, end));
+  const root = panel$(".country-panel").first();
   const sections = [];
   root.find(".channels > .ch-card").each((_, card) => {
-    const category = $(card).find(":scope > .ch-head .ch-lbl").first().text().trim();
+    const category = panel$(card).children(".ch-head").find(".ch-lbl").first().text().trim();
     const items = [];
-    $(card).find(":scope > .ch-body > .ni").each((_, item) => {
-      const title = $(item).find(".ni-title").first().text().replace(/\s+/g, " ").trim();
+    panel$(card).children(".ch-body").children(".ni").each((_, item) => {
+      const title = panel$(item).find(".ni-title").first().text().replace(/\s+/g, " ").trim();
       if (!title) return;
       items.push({
         title,
-        date: $(item).find(".ni-date").first().text().trim(),
-        badge: $(item).find(".vbadge,.sbadge,.unverified").first().text().trim(),
-        text: $(item).find(".ni-text").first().text().replace(/\s+/g, " ").trim(),
-        opportunity: $(item).find(".opp-box").first().text().replace(/\s+/g, " ").trim(),
-        links: $(item).find(".ni-src a").map((_, a) => ({ label: $(a).text().replace(/^→\s*/, "").trim(), url: $(a).attr("href") })).get()
+        date: panel$(item).find(".ni-date").first().text().trim(),
+        badge: panel$(item).find(".vbadge,.sbadge,.unverified").first().text().trim(),
+        text: panel$(item).find(".ni-text").first().text().replace(/\s+/g, " ").trim(),
+        opportunity: panel$(item).find(".opp-box").first().text().replace(/\s+/g, " ").trim(),
+        links: panel$(item).find(".ni-src a").map((_, a) => ({ label: panel$(a).text().replace(/^→\s*/, "").trim(), url: panel$(a).attr("href") })).get()
       });
     });
     if (items.length) sections.push({ category, items });
   });
-  report.countries[code] = { name, sections };
+  report.countries[code] = { name, flag, sections };
+  const stated = root.find(".flag-badge").first().text().match(/(\d+)\s*条新闻/);
+  countryCounts[code] = stated ? Number(stated[1]) : sections.reduce((total, section) => total + section.items.length, 0);
 }
 const kpis = Object.fromEntries($(".kpi").map((_, card) => [[$(card).find(".kpi-lbl").text().trim(), Number($(card).find(".kpi-val").text().trim())]]).get());
-const countryCounts = Object.fromEntries(Object.keys(report.countries).map((code) => {
-  const stated = $(`#tab-${code} .flag-badge`).first().text().match(/(\d+)\s*条新闻/);
-  return [code, stated ? Number(stated[1]) : 0];
-}));
 const allItems = Object.values(report.countries).flatMap((country) => country.sections.flatMap((section) => section.items));
 report.stats = {
   news: kpis["本期新闻"] || allItems.length,

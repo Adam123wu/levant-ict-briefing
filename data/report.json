@@ -258,226 +258,9 @@
               ]
             }
           ]
-        },
-        {
-          "category": "本国运营商最新动态",
-          "items": [
-            {
-              "title": "📌 8/24 Orange Jordan（JTEL）向安曼交易所提交例行披露，三家运营商处 690 站承诺执行期",
-              "date": "2026-08-24",
-              "badge": "Amman Stock Exchange 披露",
-              "text": "📰 要点：Jordan Telecommunications Company（JTEL / Orange Jordan）8/24 向约旦证券委员会与安曼交易所提交例行交易披露。三家运营商（Orange / Zain / Umniah）当前处于 TRC 690 站建设承诺的执行期，无重大新业务公告。研判：约旦运营商市场稳定，华为在三家 RAN 无存量突破空间，主战场在固网/金融 IT/eKYC 中台与数据中心差异化领域。",
-              "opportunity": "🎯 商机研判运营商 RAN 无突破口，聚焦 eKYC 中台+数据中心+政府云差异化",
-              "links": [
-                {
-                  "label": "MarketScreener 8/24",
-                  "url": "https://www.marketscreener.com/quote/stock/JORDAN-TELECOMMUNICATIONS-6497217/news/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国部委最新动态",
-          "items": [
-            {
-              "title": "⭐ TRC 2026 双优先明确：号码携转 MNP（2027/4 上线）+ 5G 扩容；主席 Lara Khateeb",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "TRC + Al-Mamlaka",
-              "text": "📰 要点：约旦电信监管委员会 TRC 将 2026 年两大重点定为号码携转（MNP）项目与 5G 服务扩容。MNP 允许用户携号转网，预计 2027 年 4 月在约旦市场全面可用。TRC 现任主席兼委员会主席为 Lara Khateeb，2026 年 TRC 营收约 $1.027 亿，员工 125 人。研判：① MNP 上线将加剧运营商竞争，推动其网络与 IT 系统升级——承载网/核心网/BSS 改造窗口；② 5G 扩容是持续机会，但 RAN 由 Nokia/Ericsson 占据，华为走承载+核心+数据中心差异化；③ TRC 监管成熟、亲欧标（ETSI），华为需以合规+差异化并重切入。",
-              "opportunity": "🎯 商机研判MNP（2027/4）驱动运营商 IT/承载升级 = BSS/核心网改造窗口；5G 扩容走承载+DC 差异化",
-              "links": [
-                {
-                  "label": "SAMENA / Al-Mamlaka",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国头部客户的新机会点",
-          "items": [
-            {
-              "title": "📌 MNP（2027/4）+ eKYC 生态延续：银行业与运营商 IT 升级窗口叠加",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "MNP 推演",
-              "text": "📰 机会拼图：TRC 号码携转 2027/4 上线，运营商须完成 BSS/核心网/中央数据库改造以支持携号转网；同时约旦银行业 eKYC 生态（Arab Bank 已落地 Sanad 数字 ID）持续铺开。两条 IT 升级需求叠加。研判：华为可在运营商侧（MNP 承载/数据库）+ 银行侧（eKYC 中台/灾备数据中心）双线切入，均属\"非核心系统差异化\"路径，避开 RAN 与核心银行系统壁垒。",
-              "opportunity": "🎯 商机研判MNP + eKYC 双 IT 升级窗口 = 运营商数据库/承载 + 银行中台/灾备双线切入",
-              "links": [
-                {
-                  "label": "SAMENA",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "社交媒体新闻追踪",
-          "items": [
-            {
-              "title": "📱 TRC · 号码携转 MNP 与 5G 扩容列为 2026 双优先",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "TRC 官方渠道",
-              "text": "📝 要点：TRC 通过官方渠道明确 2026 两大重点文件为 MNP 与 5G 扩容。🔍 解读：监管层主动释放 IT/网络升级信号，是华为承载+数据中心方案的对接切口。",
-              "opportunity": "🎯 商机研判监管驱动升级信号 = 主动对接 TRC 与运营商 IT 团队",
-              "links": [
-                {
-                  "label": "SAMENA",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
-                }
-              ]
-            },
-            {
-              "title": "📱 Orange Jordan · 8/24 交易所例行披露",
-              "date": "2026-08-24",
-              "badge": "Orange Jordan / JTEL",
-              "text": "📝 要点：JTEL 8/24 提交安曼交易所交易披露，无重大战略公告。🔍 解读：运营商处平稳执行期，无并购/大额投资信号。",
-              "opportunity": "🎯 商机研判维持对 Orange/Zain/Umniah IT 升级需求的常态监控",
-              "links": [
-                {
-                  "label": "MarketScreener",
-                  "url": "https://www.marketscreener.com/quote/stock/JORDAN-TELECOMMUNICATIONS-6497217/news/"
-                }
-              ]
-            },
-            {
-              "title": "📱 MoDEE · Sanad 数字 ID 生态持续推广（银行/政务多场景）",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "MoDEE 官方渠道",
-              "text": "📝 要点：MoDEE 持续推动 Sanad 数字身份在银行、政务等多场景落地，作为国家数字化 KPI。🔍 解读：生态落地阶段 = 政府云+身份中台采购需求逐步显性化。",
-              "opportunity": "🎯 商机研判保持 MoDEE 部级对话，捕捉政府云/身份中台采购信号",
-              "links": [
-                {
-                  "label": "MoDEE 官网",
-                  "url": "https://www.modee.gov.jo/"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国运营商最新动态",
-          "items": [
-            {
-              "title": "⭐ Hajj 部长改革蓝图落地延续：2025 投网络超 $5000 万，光纤一期覆盖 35 万户，三年宽带 5 万→50 万",
-              "date": "2026-07-30（本期延续）",
-              "badge": "NNA / Tele Liban",
-              "text": "📰 NNA / Tele Liban 原文要点：通信部长 Charles Hajj 在 Tele Liban 节目阐述改革进展——五年金融危机+疫情+战争后行业投资不足、网络接近服役末期，政府正推结构改革同时维持基本服务。关键数据：① 已启动 Law 431 落实（通过后 22 年首次），经由 TRA、部委重组与 Liban Telecom 设立；② 向 Ogero/部委员工保证转入新公司将保留并改善其权益薪资；③ 通过 Alfa 与 Touch 更严格支出，2025 年投网络超 $5000 万、增加国库转移约 $2500 万；④ 光纤一期覆盖约 35 万户，三年内宽带用户从 5 万提升至 50 万。研判：改革从\"总统审查\"转入\"部长执行+数据交付\"，Ogero/Alfa/Touch 三家进入网络重建与光纤扩容采购启动期。",
-              "opportunity": "🎯 商机研判（Ogero 🔴 核心）光纤一期 35 万户 + 三年 10 倍宽带增长 = FTTH 主干+OLT 大规模需求；华为经意大利+本地 SI 路径切入",
-              "links": [
-                {
-                  "label": "NNA / AMAN 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国部委最新动态",
-          "items": [
-            {
-              "title": "⭐ Hajj 定位黎巴嫩为\"东西方数字枢纽\"：伊-叙区域互联 + 新海缆 + Starlink 定位备份",
-              "date": "2026-07-30（本期延续）",
-              "badge": "NNA / Tele Liban",
-              "text": "📰 要点：Hajj 强调黎巴嫩要成为东西方之间的数字服务枢纽，规划：① 与伊拉克、叙利亚的区域连接；② 新海缆；③ 数据保护与网络安全；④ Starlink 定位为\"互补的、初期面向企业的备份服务\"，而非光纤或移动网络的替代。研判：① \"数字枢纽 + 区域互联\"叙事与伊拉克过境走廊（8/29 Sanad）形成黎凡特跨国数据走廊呼应——Basra→欧洲 与 黎巴嫩东西枢纽可拼接；② 新海缆 = 登陆站+OTN 机会；③ Starlink 定位为备份而非替代，给地面光纤/移动网络留足空间，对华为有利。",
-              "opportunity": "🎯 商机研判① 黎-伊-叙区域互联可与伊拉克过境走廊拼接，跨国方案联合提报；② 新海缆登陆站+OTN；③ Starlink 仅备份=地面网络空间充足",
-              "links": [
-                {
-                  "label": "NNA / AMAN 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国政治与大选进展及内幕",
-          "items": [
-            {
-              "title": "📌 Hezbollah 解武议程 + 以军持续袭击：南部重建的安全前提仍未落实",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "区域局势综合",
-              "text": "📰 背景：2025/9/5 内阁批准黎军独掌武器计划后，什叶派部长曾集体退场抗议。以军对黎南部的打击持续，Hezbollah 解武进程与南部安全形势仍是重建的前置变量。研判：① 南部 215 站重建的工程安全前提取决于停火稳固与解武进展；② Aoun-Salam 改革推进受银行业游说与教派政治掣肘；③ 对华为：南部重建窗口仍需等安全落实，但 Ogero 光纤扩容（非南部）可先行。",
-              "opportunity": "🎯 商机研判南部重建等安全落实；非南部光纤扩容（35 万户一期）可先推进",
-              "links": [
-                {
-                  "label": "EUAA Lebanon",
-                  "url": "https://www.euaa.europa.eu/lebanon-country-focus/21-recent-political-developments"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "本国头部客户的新机会点",
-          "items": [
-            {
-              "title": "⭐ Ogero 三件套 + 数字枢纽海缆：光纤一期 35 万户 / LTE 390 站 / 358 站太阳能 / 新海缆登陆",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "Hajj 蓝图综合",
-              "text": "📰 机会拼图：① 光纤一期覆盖约 35 万户，三年宽带 5 万→50 万（FTTH 主干+OLT）；② LTE 扩展至 390 站，LTE-A 容量 10→40Gbps；③ 358 站太阳能（4MW/463kAh，$960 万，年省 $850 万）；④ 新海缆登陆（数字枢纽战略）。研判：Hajj 改革从蓝图转入采购启动，四条线均有华为对口方案（FTTH/LTE-A/PowerCube/海缆登陆 OTN），经意大利+本地 SI 合规路径参与。",
-              "opportunity": "🎯 商机研判（Ogero 三件套+海缆）FTTH 主干+LTE-A 扩容+PowerCube 太阳能+海缆登陆 OTN，四线并进，经意大利+本地 SI 参与",
-              "links": [
-                {
-                  "label": "Arab News（Ogero 规划）",
-                  "url": "https://www.arabnews.pk/node/2587374/business-economy"
-                },
-                {
-                  "label": "NNA 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "category": "社交媒体新闻追踪",
-          "items": [
-            {
-              "title": "📱 Hajj 部长 · Tele Liban 专访阐述改革与数字枢纽战略",
-              "date": "2026-07-30（本期延续）",
-              "badge": "通信部 · Hajj 渠道",
-              "text": "📝 要点：Hajj 在 Tele Liban 节目系统阐述 Law 431 落实、Liban Telecom、光纤扩容、区域互联与海缆、数字枢纽定位。🔍 解读：部长亲自密集发声=改革进入实质交付期，采购信号密集释放。",
-              "opportunity": "🎯 商机研判改革实质交付期 = 密集对接 Ogero/TRA/Liban Telecom 技术团队",
-              "links": [
-                {
-                  "label": "NNA / AMAN",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            },
-            {
-              "title": "📱 Ogero · 持续 LTE 扩展与光纤一期宣传",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "Ogero 官方渠道",
-              "text": "📝 要点：Ogero 官方持续宣传 LTE 扩展（至 390 站）与光纤一期（35 万户）进展。🔍 解读：Ogero 是黎巴嫩采购主体，其宣传节奏反映项目推进节点。",
-              "opportunity": "🎯 商机研判维护 Ogero 主席 Kreidieh 技术团队关系，捕捉招标节点",
-              "links": [
-                {
-                  "label": "Ogero 官网",
-                  "url": "https://www.ogero.gov.lb/"
-                }
-              ]
-            },
-            {
-              "title": "📱 总统府 · 持续推动电信改革与南部重建议程",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "总统府 · Aoun 渠道",
-              "text": "📝 要点：Aoun 总统持续将电信改革与南部重建列为国家优先议程。🔍 解读：总统级背书使改革不可逆，华为可建立长期伙伴关系。",
-              "opportunity": "🎯 商机研判总统级背书=改革不可逆，建立长期技术伙伴定位",
-              "links": [
-                {
-                  "label": "黎总统府",
-                  "url": "https://www.presidency.gov.lb/"
-                }
-              ]
-            }
-          ]
         }
-      ]
+      ],
+      "flag": "🇮🇶"
     },
     "jo": {
       "name": "约旦",
@@ -580,7 +363,8 @@
             }
           ]
         }
-      ]
+      ],
+      "flag": "🇯🇴"
     },
     "lb": {
       "name": "黎巴嫩",
@@ -705,7 +489,8 @@
             }
           ]
         }
-      ]
+      ],
+      "flag": "🇱🇧"
     }
   },
   "stats": {
