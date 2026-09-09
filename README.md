@@ -41,12 +41,11 @@ Telegram API ID/API Hash 不能单独读取用户频道；需要在本机完成�
 ```bash
 python3 -m venv .venv-telegram
 .venv-telegram/bin/pip install -r requirements-telegram.txt
-.venv-telegram/bin/python scripts/telegram_authorize.py
-gh secret set -f .secrets/telegram.env -R Adam123wu/levant-ict-briefing
+.venv-telegram/bin/python scripts/telegram_authorize.py --repo Adam123wu/levant-ict-briefing
 gh workflow run telegram-refresh.yml -R Adam123wu/levant-ict-briefing
 ```
 
-授权文件位于 `.secrets/telegram.env`，权限为 `600` 且已被 `.gitignore` 排除。GitHub Actions 只读取 `TG_API_ID`、`TG_API_HASH`、`TG_SESSION`。建议使用专门的只读监控账号；如需撤销，请在 Telegram「设置 → 设备」终止对应会话，并删除或重新生成 `TG_SESSION`。
+授权脚本不会创建明文凭据文件。API ID、API Hash、手机号、验证码和二步验证密码只存在于首次授权进程内；生成会话后，脚本通过标准输入直接调用 GitHub CLI，将 `TG_API_ID`、`TG_API_HASH`、`TG_SESSION` 加密写入 GitHub Actions Secrets。建议使用专门的只读监控账号；如需撤销，请在 Telegram「设置 → 设备」终止对应会话，并删除或重新生成 `TG_SESSION`。
 
 定时任务 `.github/workflows/telegram-refresh.yml` 在每周日巴格达时间 01:30 预先抓取 `config/sources.json` 中所有 Telegram 信源，更新公开安全的 `config/telegram-feed.json`；02:00 的简报任务随后完成中文研判和发布。
 
