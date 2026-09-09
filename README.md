@@ -9,6 +9,7 @@
 - 合规与营商：六维加权评分、国家风险、证据链、监控事项和行动建议
 - 政府人员：78 个关键岗位，可搜索、按国家筛选、排序和分页
 - 多平台信源：19 个已核验的政府官员、通信部、监管机构及政府账号，覆盖 X、Telegram、Facebook
+- Telegram 自动监测：按信源配置抓取最近 14 天官方频道动态，初筛重点 ICT、监管、招标与合规信号
 - 历史归档：保留旧版报告入口
 
 ## 技术栈
@@ -32,5 +33,21 @@ npm run dev
 ## 发布
 
 推送到 `main` 后，`.github/workflows/pages.yml` 会安装依赖、生成静态站点并部署到 GitHub Pages。
+
+## Telegram 自动采集授权
+
+Telegram API ID/API Hash 不能单独读取用户频道；需要在本机完成一次账户授权并生成可撤销的会话。验证码和二步验证密码只在本机输入，不保存到仓库或 GitHub。
+
+```bash
+python3 -m venv .venv-telegram
+.venv-telegram/bin/pip install -r requirements-telegram.txt
+.venv-telegram/bin/python scripts/telegram_authorize.py
+gh secret set -f .secrets/telegram.env -R Adam123wu/levant-ict-briefing
+gh workflow run telegram-refresh.yml -R Adam123wu/levant-ict-briefing
+```
+
+授权文件位于 `.secrets/telegram.env`，权限为 `600` 且已被 `.gitignore` 排除。GitHub Actions 只读取 `TG_API_ID`、`TG_API_HASH`、`TG_SESSION`。建议使用专门的只读监控账号；如需撤销，请在 Telegram「设置 → 设备」终止对应会话，并删除或重新生成 `TG_SESSION`。
+
+定时任务 `.github/workflows/telegram-refresh.yml` 在每周日巴格达时间 01:30 预先抓取 `config/sources.json` 中所有 Telegram 信源，更新公开安全的 `config/telegram-feed.json`；02:00 的简报任务随后完成中文研判和发布。
 
 © 2026 伊拉克代表处 · 吴昊 679001 · MSSD AI 团队

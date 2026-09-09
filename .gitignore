@@ -27,3 +27,11 @@ out/
 # Temp
 *.tmp
 *.bak
+
+# Local credentials and Telegram sessions
+.secrets/
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
