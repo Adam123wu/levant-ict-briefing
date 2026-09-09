@@ -77,6 +77,7 @@ report.stats = {
 const sources = JSON.parse(await fs.readFile("config/sources.json", "utf8"));
 const socialSignals = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
 const complianceAnalysis = JSON.parse(await fs.readFile("config/compliance-analysis.json", "utf8"));
+const iraqLegalNews = JSON.parse(await fs.readFile("config/iraq-legal-news.json", "utf8"));
 
 await fs.mkdir("data", { recursive: true });
 await fs.writeFile("data/people.json", JSON.stringify(people, null, 2));
@@ -84,6 +85,7 @@ await fs.writeFile("data/report.json", JSON.stringify(report, null, 2));
 await fs.writeFile("data/sources.json", JSON.stringify(sources, null, 2));
 await fs.writeFile("data/social-signals.json", JSON.stringify(socialSignals, null, 2));
 await fs.writeFile("data/compliance-analysis.json", JSON.stringify(complianceAnalysis, null, 2));
+await fs.writeFile("data/iraq-legal-news.json", JSON.stringify(iraqLegalNews, null, 2));
 
 const archiveFiles = (await fs.readdir("public/archive"))
   .filter((name) => /^w\d+-\d+(?:-v\d+)?\.html$/i.test(name) && !/-v\d+\.html$/i.test(name))
@@ -105,4 +107,4 @@ for (const file of archiveFiles) {
   });
 }
 await fs.writeFile("data/archive.json", JSON.stringify(archive, null, 2));
-console.log(`Synced ${people.length} people, ${report.stats.news} news items, ${socialSignals.length} social signals, ${complianceAnalysis.countries.length} compliance profiles, ${archive.length} archives and ${sources.length} multi-platform sources from ${latestReport}.`);
+console.log(`Synced ${people.length} people, ${report.stats.news} news items, ${socialSignals.length} social signals, ${complianceAnalysis.countries.length} compliance profiles, ${iraqLegalNews.items.length} Iraq legal updates, ${archive.length} archives and ${sources.length} multi-platform sources from ${latestReport}.`);

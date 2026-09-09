@@ -5,7 +5,7 @@
   "scripts": {
     "sync-data": "node scripts/sync-data.mjs",
     "dev": "npm run sync-data && next dev",
-    "validate-data": "node scripts/validate-country-data.mjs",
+    "validate-data": "node scripts/validate-country-data.mjs && node scripts/validate-legal-news.mjs",
     "build": "npm run sync-data && npm run validate-data && next build",
     "start": "next start"
   },
