@@ -98,6 +98,28 @@ const accountNames: Record<string, string> = {
 };
 const priorityOrder: Record<string, number> = { "最高": 3, "高": 2, "中": 1 };
 
+const topicRules = [
+  { label: "部委与监管动态", labelEn: "Ministry and regulator updates", categories: ["通信部", "通信监管", "政府官员", "政府机构", "数字政府", "政府决策"], keywords: [] },
+  { label: "政治与选举", labelEn: "Politics and elections", categories: [], keywords: ["election", "parliament", "coalition", "cabinet", "appointment", "vote", "选举", "议会", "组阁", "任命"] },
+  { label: "运营商动态", labelEn: "Operator developments", categories: ["运营商", "国家固网"], keywords: ["zain", "asiacell", "korek", "orange jordan", "umniah", "touch", "alfa", "ogero", "operator", "运营商"] },
+  { label: "ICT 竞对动态", labelEn: "ICT competitor intelligence", categories: [], keywords: ["ericsson", "nokia", "zte", "samsung networks", "oracle", "aws", "microsoft", "google cloud", "中兴", "爱立信", "诺基亚"] },
+  { label: "外部干预与地缘政治", labelEn: "Foreign intervention and geopolitics", categories: [], keywords: ["united states", "u.s.", "embassy", "state department", "ofac", "sanction", "iran", "美国", "大使馆", "制裁", "伊朗"] },
+  { label: "华为媒体与声量", labelEn: "Huawei media coverage and sentiment", categories: [], keywords: ["huawei", "华为"] },
+  { label: "头部客户与商机", labelEn: "Key accounts and opportunities", categories: [], keywords: ["tender", "procurement", "contract", "investment", "budget", "project", "5g", "fiber", "data center", "cloud", "cybersecurity", "artificial intelligence", "采购", "招标", "合同", "投资", "项目", "数据中心", "云", "光纤"] },
+  { label: "合规与营商", labelEn: "Compliance and business environment", categories: [], keywords: ["law", "regulation", "license", "court", "tax", "customs", "sanction", "compliance", "法律", "监管", "许可", "法院", "税务", "海关", "合规"] },
+  { label: "伊拉克法律新闻解读", labelEn: "Iraq legal intelligence", countries: ["伊拉克"], categories: [], keywords: ["law", "court", "judgment", "decree", "official gazette", "draft law", "法律", "判决", "法令", "公报", "法律草案"] }
+];
+
+function topicsFor(item: UnifiedSignal, isEnglish: boolean) {
+  const explicit = isEnglish ? item.topicLabelsEn : item.topicLabels;
+  if (explicit?.length) return explicit;
+  const haystack = `${item.title} ${item.titleEn} ${item.summary} ${item.summaryEn} ${item.account} ${item.accountEn}`.toLocaleLowerCase();
+  return topicRules
+    .filter((rule) => !rule.countries || rule.countries.includes(item.country))
+    .filter((rule) => rule.categories.includes(item.category || "") || rule.keywords.some((keyword) => haystack.includes(keyword.toLocaleLowerCase())))
+    .map((rule) => isEnglish ? rule.labelEn : rule.label);
+}
+
 function platformInEnglish(platform: string) {
   return platform.replace("官网", "Official website").replace("Telegram Public Web", "Telegram");
 }
@@ -181,12 +203,14 @@ export function SocialSignals({ signals, telegramFeed, language }: { signals: Si
       </div>
     </div>
     <div className="signal-grid">
-      {visible.map((item) => <Card className={`signal-card ${item.reviewed ? "reviewed" : "automatic"}`} key={item.id}>
+      {visible.map((item) => {
+        const topics = topicsFor(item, isEnglish);
+        return <Card className={`signal-card ${item.reviewed ? "reviewed" : "automatic"}`} key={item.id}>
         <div className="feed-meta">
           <span>{item.date}</span><span>·</span><span>{isEnglish ? item.countryEn : item.country}</span>
           {item.category && <><span>·</span><span>{isEnglish ? item.categoryEn : item.category}</span></>}
-          {(item.topicLabels?.length || item.topicLabelsEn?.length) ? <>
-            <span>·</span><span>{labels.topics}：{(isEnglish ? item.topicLabelsEn : item.topicLabels)?.slice(0, 2).join(" / ")}</span>
+          {topics.length ? <>
+            <span>·</span><span>{labels.topics}：{topics.slice(0, 2).join(" / ")}</span>
           </> : null}
           <Badge tone={item.priority === "最高" ? "red" : item.priority === "高" ? "default" : "green"}>{priorityLabel(item.priority)}</Badge>
           <Badge tone={item.reviewed ? "green" : "amber"}>{item.reviewed ? labels.reviewed : labels.translated}</Badge>
@@ -202,7 +226,7 @@ export function SocialSignals({ signals, telegramFeed, language }: { signals: Si
           {item.forwards ? <span>{item.forwards.toLocaleString()} {labels.forwards}</span> : null}
         </div>
         <a className="feed-link" href={item.url} target="_blank" rel="noreferrer">{labels.original} <ExternalLink size={11} style={{ display: "inline" }}/></a>
-      </Card>)}
+      </Card>})}
     </div>
     {merged.length > 12 && <div className="signal-more"><button type="button" className="button secondary" onClick={() => setShowAll((value) => !value)}>{showAll ? labels.showLess : labels.showAll}</button></div>}
   </section>;
