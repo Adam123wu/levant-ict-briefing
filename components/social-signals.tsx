@@ -53,8 +53,8 @@ type TelegramItem = {
   views: number;
   forwards: number;
   url: string;
-  language: "中文";
-  translationStatus: "已翻译";
+  language: string;
+  translationStatus: string;
 };
 
 type TelegramFeedData = {
