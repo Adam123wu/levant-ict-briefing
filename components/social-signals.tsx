@@ -38,6 +38,11 @@ type TelegramItem = {
   views: number;
   forwards: number;
   url: string;
+  topicIds?: string[];
+  topicLabels?: string[];
+  topicLabelsEn?: string[];
+  targetSections?: string[];
+  targetSectionsEn?: string[];
 };
 
 type TelegramFeedData = {
@@ -68,6 +73,11 @@ type UnifiedSignal = {
   reviewed: boolean;
   views?: number;
   forwards?: number;
+  topicIds?: string[];
+  topicLabels?: string[];
+  topicLabelsEn?: string[];
+  targetSections?: string[];
+  targetSectionsEn?: string[];
 };
 
 const countryNames: Record<string, string> = { "伊拉克": "Iraq", "约旦": "Jordan", "黎巴嫩": "Lebanon" };
@@ -136,6 +146,7 @@ export function SocialSignals({ signals, telegramFeed, language }: { signals: Si
     original: "Open official source",
     reads: "views",
     forwards: "forwards",
+    topics: "Topics",
     showAll: `Show all ${merged.length}`,
     showLess: "Show top 12"
   } : {
@@ -152,6 +163,7 @@ export function SocialSignals({ signals, telegramFeed, language }: { signals: Si
     original: "查看官方原文",
     reads: "阅读",
     forwards: "转发",
+    topics: "专题",
     showAll: `查看全部 ${merged.length} 条`,
     showLess: "仅显示前 12 条"
   };
@@ -173,6 +185,9 @@ export function SocialSignals({ signals, telegramFeed, language }: { signals: Si
         <div className="feed-meta">
           <span>{item.date}</span><span>·</span><span>{isEnglish ? item.countryEn : item.country}</span>
           {item.category && <><span>·</span><span>{isEnglish ? item.categoryEn : item.category}</span></>}
+          {(item.topicLabels?.length || item.topicLabelsEn?.length) ? <>
+            <span>·</span><span>{labels.topics}：{(isEnglish ? item.topicLabelsEn : item.topicLabels)?.slice(0, 2).join(" / ")}</span>
+          </> : null}
           <Badge tone={item.priority === "最高" ? "red" : item.priority === "高" ? "default" : "green"}>{priorityLabel(item.priority)}</Badge>
           <Badge tone={item.reviewed ? "green" : "amber"}>{item.reviewed ? labels.reviewed : labels.translated}</Badge>
         </div>

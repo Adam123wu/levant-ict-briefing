@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "updated": "2026-09-10",
+  "platforms": [
+    "Official website",
+    "Telegram",
+    "X",
+    "Facebook",
+    "News media"
+  ],
+  "policy": {
+    "primarySourceRule": "T1 official sources may enter the candidate pool directly; T2 and media-only claims require independent corroboration.",
+    "deduplication": "Deduplicate by canonical URL, source message ID and semantic event identity before topic routing.",
+    "classification": "Assign one primary topic and any materially relevant secondary topics; never classify solely from the platform name.",
+    "language": "Public output must contain complete Chinese and English fields and must not expose untranslated Arabic text.",
+    "publication": "Automatic collection creates candidates. Analyst-reviewed items may be promoted into the corresponding briefing or compliance section."
+  },
+  "topics": [
+    {
+      "id": "government_updates",
+      "label": "部委与监管动态",
+      "labelEn": "Ministry and regulator updates",
+      "destinations": ["本国部委最新动态"],
+      "destinationsEn": ["Latest ministry and regulator updates"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["通信部", "通信监管", "政府官员", "政府机构", "数字政府", "政府决策"],
+      "keywords": ["ministry", "minister", "regulator", "commission", "authority", "cabinet", "government", "وزارة", "وزير", "هيئة", "حكومة", "委员会", "监管", "部长", "政府"],
+      "minScore": 2
+    },
+    {
+      "id": "politics_elections",
+      "label": "政治与选举",
+      "labelEn": "Politics and elections",
+      "destinations": ["本国政治与大选进展及内幕"],
+      "destinationsEn": ["Domestic politics and election developments"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["政府决策", "政府官员", "政治机构"],
+      "requireKeyword": true,
+      "keywords": ["election", "parliament", "coalition", "cabinet", "appointment", "vote", "political bloc", "انتخابات", "برلمان", "ائتلاف", "تصويت", "تعيين", "选举", "议会", "组阁", "任命"],
+      "minScore": 2
+    },
+    {
+      "id": "operator_market",
+      "label": "运营商动态",
+      "labelEn": "Operator developments",
+      "destinations": ["本国运营商最新动态"],
+      "destinationsEn": ["Latest operator developments"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["运营商", "国家固网"],
+      "keywords": ["zain", "asiacell", "korek", "orange jordan", "umniah", "touch", "alfa", "ogero", "operator", "subscriber", "tariff", "network expansion", "مشغل", "شبكة", "تعرفة", "运营商", "资费", "网络扩容"],
+      "minScore": 1
+    },
+    {
+      "id": "competitor_intelligence",
+      "label": "ICT 竞对动态",
+      "labelEn": "ICT competitor intelligence",
+      "destinations": ["ICT 竞争对手最新动态"],
+      "destinationsEn": ["Latest ICT competitor developments"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["产业媒体", "供应商", "运营商"],
+      "requireKeyword": true,
+      "keywords": ["ericsson", "nokia", "zte", "samsung networks", "oracle", "aws", "microsoft", "google cloud", "vendor", "supplier", "竞标", "供应商", "中兴", "爱立信", "诺基亚"],
+      "minScore": 1
+    },
+    {
+      "id": "foreign_intervention",
+      "label": "外部干预与地缘政治",
+      "labelEn": "Foreign intervention and geopolitics",
+      "destinations": ["美国对本国政治和经济活动的干预"],
+      "destinationsEn": ["US and foreign intervention in domestic political and economic activity"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["外交", "政府决策", "政治机构", "主流媒体"],
+      "requireKeyword": true,
+      "keywords": ["united states", "u.s.", "embassy", "state department", "ofac", "sanction", "iran", "geopolitical", "الولايات المتحدة", "سفارة", "عقوبات", "إيران", "美国", "大使馆", "制裁", "伊朗"],
+      "minScore": 2
+    },
+    {
+      "id": "huawei_media_sentiment",
+      "label": "华为媒体与声量",
+      "labelEn": "Huawei media coverage and sentiment",
+      "destinations": ["本国主流媒体对华为的报道与评价"],
+      "destinationsEn": ["Local mainstream-media coverage and assessment of Huawei"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["主流媒体", "政府官员", "运营商", "客户"],
+      "requireKeyword": true,
+      "keywords": ["huawei", "华为", "هواوي"],
+      "minScore": 1
+    },
+    {
+      "id": "key_account_opportunities",
+      "label": "头部客户与商机",
+      "labelEn": "Key accounts and opportunities",
+      "destinations": ["本国头部客户的新机会点"],
+      "destinationsEn": ["New opportunities at key accounts"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["通信部", "通信监管", "运营商", "客户", "数字政府", "国家骨干网", "国家固网"],
+      "requireKeyword": true,
+      "keywords": ["tender", "procurement", "contract", "investment", "budget", "project", "5g", "fiber", "data center", "cloud", "cybersecurity", "artificial intelligence", "مناقصة", "عقد", "استثمار", "مشروع", "مركز بيانات", "采购", "招标", "合同", "投资", "数据中心", "云", "光纤"],
+      "minScore": 2
+    },
+    {
+      "id": "compliance_business",
+      "label": "合规与营商",
+      "labelEn": "Compliance and business environment",
+      "destinations": ["合规与营商分析"],
+      "destinationsEn": ["Compliance and business-environment analysis"],
+      "countries": ["伊拉克", "约旦", "黎巴嫩"],
+      "sourceCategories": ["通信监管", "政府决策", "司法", "税务", "投资", "海关", "银行支付"],
+      "requireKeyword": true,
+      "keywords": ["law", "regulation", "license", "court", "tax", "customs", "sanction", "compliance", "investment rule", "company registration", "قانون", "تنظيم", "ترخيص", "محكمة", "ضريبة", "جمارك", "امتثال", "法律", "监管", "许可", "法院", "税务", "海关", "合规"],
+      "minScore": 2
+    },
+    {
+      "id": "iraq_legal_intelligence",
+      "label": "伊拉克法律新闻解读",
+      "labelEn": "Iraq legal intelligence",
+      "destinations": ["伊拉克法律新闻解读"],
+      "destinationsEn": ["Iraq legal-news interpretation"],
+      "countries": ["伊拉克"],
+      "sourceCategories": ["司法", "议会", "正式公报", "通信监管", "银行支付", "税务", "投资"],
+      "requireKeyword": true,
+      "keywords": ["law", "court", "judgment", "decree", "official gazette", "draft law", "legal effect", "قانون", "محكمة", "حكم", "مرسوم", "الوقائع العراقية", "مشروع قانون", "法律", "判决", "法令", "公报", "法律草案"],
+      "minScore": 2
+    }
+  ]
+}
