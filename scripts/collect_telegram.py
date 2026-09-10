@@ -7,7 +7,6 @@ import argparse
 import asyncio
 import json
 import os
-import re
 import sys
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -17,22 +16,12 @@ from typing import Any
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
+from telegram_common import compact_text, importance, make_title, public_safe_text
+
 
 SOURCES_PATH = Path("config/sources.json")
 OUTPUT_PATH = Path("config/telegram-feed.json")
 LOCAL_ENV_PATH = Path(".secrets/telegram.env")
-
-CRITICAL_TERMS = (
-    "5g", "الجيل الخامس", "spectrum", "طيف", "frequency", "تردد", "license", "ترخيص",
-    "tender", "مناقصة", "contract", "عقد", "shutdown", "إغلاق", "ban", "حظر",
-    "court", "محكمة", "law", "قانون", "regulation", "تنظيم", "sanction", "عقوبات",
-)
-BUSINESS_TERMS = (
-    "telecom", "اتصالات", "internet", "إنترنت", "fiber", "ألياف", "data center",
-    "مركز بيانات", "cloud", "سحابة", "cyber", "سيبراني", "digital", "رقمي",
-    "investment", "استثمار", "procurement", "شراء", "ai", "ذكاء اصطناعي",
-)
-
 
 def load_local_env() -> None:
     """Load the ignored local env file for manual runs; never print its values."""
@@ -57,29 +46,6 @@ def require_credentials() -> tuple[int, str, str]:
     if not api_id.isdigit():
         raise SystemExit("TG_API_ID 必须是数字")
     return int(api_id), api_hash, session
-
-
-def compact_text(text: str, limit: int) -> str:
-    value = re.sub(r"\s+", " ", text or "").strip()
-    return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
-
-
-def make_title(text: str) -> str:
-    first_line = next((line.strip() for line in text.splitlines() if line.strip()), text)
-    return compact_text(first_line, 150)
-
-
-def importance(source: dict[str, Any], text: str, views: int, forwards: int) -> tuple[str, int, list[str]]:
-    haystack = text.casefold()
-    matched_critical = sorted({term for term in CRITICAL_TERMS if term.casefold() in haystack})
-    matched_business = sorted({term for term in BUSINESS_TERMS if term.casefold() in haystack})
-    score = 3 if source.get("tier") == "T1" else 1
-    score += min(4, len(matched_critical) * 2)
-    score += min(2, len(matched_business))
-    if views >= 10_000 or forwards >= 100:
-        score += 1
-    priority = "最高" if score >= 8 else "高" if score >= 5 else "中"
-    return priority, score, (matched_critical + matched_business)[:8]
 
 
 async def collect(days: int, max_per_source: int, dry_run: bool) -> None:
@@ -116,6 +82,9 @@ async def collect(days: int, max_per_source: int, dry_run: bool) -> None:
                     forwards = int(message.forwards or 0)
                     priority, score, matched_terms = importance(source, text, views, forwards)
                     counts[source["id"]] += 1
+                    if priority == "中":
+                        continue
+                    safe_text = public_safe_text(text)
                     items.append({
                         "id": f"tg-{handle.casefold()}-{message.id}",
                         "messageId": message.id,
@@ -131,8 +100,8 @@ async def collect(days: int, max_per_source: int, dry_run: bool) -> None:
                         "priority": priority,
                         "importanceScore": score,
                         "matchedTerms": matched_terms,
-                        "title": make_title(text),
-                        "summary": compact_text(text, 520),
+                        "title": make_title(safe_text),
+                        "summary": compact_text(safe_text, 520),
                         "views": views,
                         "forwards": forwards,
                         "url": f"https://t.me/{handle}/{message.id}",
@@ -147,8 +116,11 @@ async def collect(days: int, max_per_source: int, dry_run: bool) -> None:
         items.sort(key=lambda item: (item["publishedAt"], item["importanceScore"]), reverse=True)
         payload = {
             "generatedAt": collected_at,
+            "collectionMode": "api",
+            "selection": "important-only",
             "windowDays": days,
             "sourceCount": len(telegram_sources) - len(errors),
+            "scannedMessageCount": sum(counts.values()),
             "messageCount": len(items),
             "errors": errors,
             "items": items,

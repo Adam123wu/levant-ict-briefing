@@ -1,5 +1,7 @@
 {
   "generatedAt": null,
+  "collectionMode": "waiting",
+  "selection": "important-only",
   "windowDays": 14,
   "sourceCount": 0,
   "messageCount": 0,
