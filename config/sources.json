@@ -12,7 +12,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   },
   {
     "id": "iq-sanad-x",
@@ -41,7 +41,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "CMC 官方频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   },
   {
     "id": "iq-cmc-x",
@@ -126,7 +126,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "外交部机构频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   },
   {
     "id": "jo-trc-x",
@@ -239,7 +239,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   },
   {
     "id": "iq-moi-tg",
@@ -254,7 +254,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   },
   {
     "id": "iq-mohe-tg",
@@ -269,6 +269,6 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-10T00:02:07Z"
+    "lastCollectedAt": "2026-09-10T00:05:12Z"
   }
 ]
