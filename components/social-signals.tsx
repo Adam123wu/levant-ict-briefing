@@ -98,7 +98,9 @@ const accountNames: Record<string, string> = {
 };
 const priorityOrder: Record<string, number> = { "最高": 3, "高": 2, "中": 1 };
 
-const topicRules = [
+type TopicRule = {label: string; labelEn: string; categories: string[]; keywords: string[]; countries?: string[]};
+
+const topicRules: TopicRule[] = [
   { label: "部委与监管动态", labelEn: "Ministry and regulator updates", categories: ["通信部", "通信监管", "政府官员", "政府机构", "数字政府", "政府决策"], keywords: [] },
   { label: "政治与选举", labelEn: "Politics and elections", categories: [], keywords: ["election", "parliament", "coalition", "cabinet", "appointment", "vote", "选举", "议会", "组阁", "任命"] },
   { label: "运营商动态", labelEn: "Operator developments", categories: ["运营商", "国家固网"], keywords: ["zain", "asiacell", "korek", "orange jordan", "umniah", "touch", "alfa", "ogero", "operator", "运营商"] },
