@@ -1,0 +1,55 @@
+{
+  "name": "Jordan",
+  "sections": [
+    {
+      "category": "Latest operator developments",
+      "items": [
+        {
+          "title": "Orange Jordan files a routine market disclosure as operators implement their 690-site commitments",
+          "text": "Jordan Telecommunications Company, or Orange Jordan, filed a routine trading disclosure with the Jordan Securities Commission and Amman Stock Exchange on 24 August. Orange, Zain and Umniah remain in the implementation period for the TRC's 690-site construction commitments, with no major new commercial announcement. The mobile market remains stable and the clearer differentiation opportunities lie in fixed networks, financial IT, eKYC platforms and data centres rather than RAN replacement.",
+          "opportunity": "With limited RAN entry space, prioritise eKYC platforms, data centres, government cloud and other differentiated IT opportunities."
+        }
+      ]
+    },
+    {
+      "category": "Latest ministry and regulator developments",
+      "items": [
+        {
+          "title": "TRC sets two 2026 priorities: mobile-number portability and continued 5G expansion",
+          "text": "Jordan's Telecommunications Regulatory Commission identifies mobile-number portability and 5G expansion as its two principal 2026 programmes. MNP is expected to become fully available in April 2027. The change will intensify operator competition and require BSS, core-network and transport upgrades. Jordan's mature, European-aligned regulatory environment favours a compliance-led approach, with Huawei differentiating in transport, core-adjacent platforms and data centres.",
+          "opportunity": "Use the April 2027 MNP deadline to pursue BSS, database and transport upgrades; approach 5G expansion through transport and data-centre differentiation."
+        }
+      ]
+    },
+    {
+      "category": "New opportunities at key customers",
+      "items": [
+        {
+          "title": "The MNP deadline and expanding eKYC adoption create overlapping operator and banking IT windows",
+          "text": "Operators must upgrade BSS, core-network interfaces and the central database before MNP goes live in April 2027. At the same time, Jordan's banking eKYC ecosystem continues to adopt the Sanad digital identity. These parallel programmes open opportunities in operator data and transport platforms and in banking identity middleware and disaster-recovery infrastructure.",
+          "opportunity": "Pursue operator databases and transport alongside banking eKYC middleware and disaster-recovery data centres, avoiding entrenched RAN and core-banking barriers."
+        }
+      ]
+    },
+    {
+      "category": "Official social-media tracking",
+      "items": [
+        {
+          "title": "TRC names mobile-number portability and 5G expansion as its two 2026 priorities",
+          "text": "TRC's official channels identify MNP and 5G expansion as its leading programmes. The regulator is signalling upcoming IT and network upgrades, creating a route into transport and data-centre discussions.",
+          "opportunity": "Engage TRC and operator IT teams early on the regulator-driven upgrade programme."
+        },
+        {
+          "title": "Orange Jordan submits a routine 24 August stock-exchange disclosure",
+          "text": "JTEL submitted a routine disclosure to the Amman Stock Exchange without announcing a major strategic change. The operators remain in a stable implementation period with no immediate merger or large-investment signal.",
+          "opportunity": "Maintain regular telecom operator watch coverage and continue tracking IT-upgrade demand at Orange, Zain and Umniah."
+        },
+        {
+          "title": "MoDEE continues expanding the Sanad digital-ID ecosystem across banking and government services",
+          "text": "The Ministry of Digital Economy and Entrepreneurship continues promoting Sanad digital identity across banking and public-service use cases as a national digitalisation KPI. Wider adoption should make government-cloud and identity-platform procurement requirements more visible.",
+          "opportunity": "Maintain ministry-level engagement and monitor procurement signals for government cloud and identity middleware."
+        }
+      ]
+    }
+  ]
+}

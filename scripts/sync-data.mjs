@@ -74,6 +74,38 @@ report.stats = {
   countryCounts
 };
 
+const reportTranslationMeta = JSON.parse(await fs.readFile("config/report-translations-en.json", "utf8"));
+const reportTranslationsByCountry = {
+  iq: JSON.parse(await fs.readFile("config/report-translations-en-iq.json", "utf8")),
+  jo: JSON.parse(await fs.readFile("config/report-translations-en-jo.json", "utf8")),
+  lb: JSON.parse(await fs.readFile("config/report-translations-en-lb.json", "utf8"))
+};
+if (reportTranslationMeta.summary.length !== report.summary.length) {
+  throw new Error(`English briefing summary count mismatch: ${reportTranslationMeta.summary.length}/${report.summary.length}`);
+}
+report.periodEn = reportTranslationMeta.period;
+report.summaryEn = reportTranslationMeta.summary;
+for (const [countryCode, country] of Object.entries(report.countries)) {
+  const translation = reportTranslationsByCountry[countryCode];
+  if (!translation || translation.sections.length !== country.sections.length) {
+    throw new Error(`English briefing section count mismatch: ${countryCode}`);
+  }
+  country.nameEn = translation.name;
+  country.sections.forEach((section, sectionIndex) => {
+    const sectionTranslation = translation.sections[sectionIndex];
+    if (sectionTranslation.items.length !== section.items.length) {
+      throw new Error(`English briefing item count mismatch: ${countryCode}/${sectionIndex}`);
+    }
+    section.categoryEn = sectionTranslation.category;
+    section.items.forEach((item, itemIndex) => {
+      const itemTranslation = sectionTranslation.items[itemIndex];
+      item.titleEn = itemTranslation.title;
+      item.textEn = itemTranslation.text;
+      item.opportunityEn = itemTranslation.opportunity;
+    });
+  });
+}
+
 const sources = JSON.parse(await fs.readFile("config/sources.json", "utf8"));
 const socialSignalsRaw = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
 const socialSignalTranslationsEn = JSON.parse(await fs.readFile("config/social-signal-translations-en.json", "utf8"));

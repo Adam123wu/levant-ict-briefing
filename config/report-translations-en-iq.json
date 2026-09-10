@@ -1,0 +1,115 @@
+{
+  "name": "Iraq",
+  "sections": [
+    {
+      "category": "Latest ministry and regulator developments",
+      "items": [
+        {
+          "title": "Sanad: Iraq will launch 5G nationwide, including the Kurdistan Region, under unified federal spectrum allocation",
+          "text": "Iraqi News and INA reported that Communications Minister Mustafa Sanad expects 5G commercial services to begin across all provinces and the Kurdistan Region in a coordinated manner. He described federal-KRG technical and administrative differences as manageable and said talks were moving towards unified regulatory protocols. The agenda links nationwide commercialisation, the Basra-to-Europe transit-fibre corridor, a single sovereign international representative and harmonised operator oversight. The unresolved judicial freeze on the NMTC licensing agreement remains the principal implementation constraint.",
+          "opportunity": "Highest priority: submit C-band/n78 design and refarming proposals to CMC before the NMTC case is resolved; pursue ITPC DWDM and border-PoP opportunities on the transit route; maintain parallel relationships in Baghdad and Erbil."
+        },
+        {
+          "title": "Sanad's Kurdistan visit puts 5G, the fourth licence and transit fibre on one negotiating track",
+          "text": "Sanad said his Kurdistan visit would address activation of the fourth mobile licence and 5G so that Baghdad and Erbil could proceed jointly. The talks also covered the strategic transit-fibre route and the federal ministry's role as Iraq's external sovereign representative. The initiative seeks to resolve divided licensing, spectrum and procurement arrangements that could otherwise fragment nationwide deployment.",
+          "opportunity": "Maintain coordinated engagement with ITPC and CMC in Baghdad and with Korek and the KRG transport and communications authorities in Erbil so that Huawei is not excluded by either framework."
+        }
+      ]
+    },
+    {
+      "category": "Politics and election outlook",
+      "items": [
+        {
+          "title": "With parliamentary elections approaching, the government enters a delivery sprint and treats 5G as a visible achievement",
+          "text": "Iraq's parliamentary elections are scheduled for November 2026. The government is seeking visible delivery in 5G, digitalisation, anti-corruption and restored oil exports. Judicial, fiscal and federal-KRG constraints make a decision or framework more likely than a complete commercial network before year-end. The election outcome may also affect continuity in the communications portfolio and the NMTC programme.",
+          "opportunity": "Use the pre-election window to propose rapidly deliverable 5G and transit-corridor pilots, while avoiding excessive dependence on uncertain post-election appointments."
+        }
+      ]
+    },
+    {
+      "category": "ICT competitor developments",
+      "items": [
+        {
+          "title": "Nationwide 5G signal triggers vendor positioning: Nokia defends NMTC, ZTE targets incremental work and Huawei links installed base with transit fibre",
+          "text": "Nokia holds the frozen three-year NMTC 5G arrangement and is delivering Zain Iraq's E-band microwave programme. ZTE has been active around incremental backbone and transit-corridor opportunities. Huawei retains a strong installed base and has previously reviewed 5G readiness with Sanad. Huawei's differentiation is strongest in large, complex and finance-intensive backbone programmes through its international references, financing capability and local delivery team.",
+          "opportunity": "Compete on backbone references, financing and local delivery rather than political proximity; submit the transit-corridor technical design to CMC and ITPC early enough to influence specifications."
+        }
+      ]
+    },
+    {
+      "category": "US political and economic influence",
+      "items": [
+        {
+          "title": "The 17 August US-Iran memorandum window has passed; sanctions and Hormuz remain core fiscal and ICT-compliance variables",
+          "text": "The 60-day negotiating window associated with the 17 June memorandum expired on 17 August. Uncertainty around subsequent talks affects oil exports, public finances and the OFAC environment for ICT procurement. Operators may become more cautious on capital expenditure, while total cost of ownership and phased delivery become more important under fiscal pressure.",
+          "opportunity": "Strengthen the value-for-money and phased-delivery proposition, maintain Tier-1 contract compliance review and track the effect of negotiations on payment and sanctions exposure."
+        }
+      ]
+    },
+    {
+      "category": "Mainstream media coverage of Huawei",
+      "items": [
+        {
+          "title": "The Communications Ministry's positive coverage of the Huawei-Sanad 5G meeting is cited again as the 5G agenda accelerates",
+          "text": "The ministry reported that Sanad chaired a meeting with Huawei to review 5G infrastructure readiness and implementation requirements. Parallel talks with Vodafone and the British embassy indicate an open, multi-party approach in which the national licence and equipment choices may follow different tracks. The renewed 5G policy signal creates an opportunity to extend Huawei's positive official positioning.",
+          "opportunity": "Seek visible participation in the ministry's next 5G technical meeting or pilot and reinforce the perception of Huawei as a 5G-readiness technology partner."
+        }
+      ]
+    },
+    {
+      "category": "New opportunities at key customers",
+      "items": [
+        {
+          "title": "ITPC's Basra-to-Europe transit fibre and unified national spectrum allocation create two priority opportunity tracks",
+          "text": "Sanad's 29 August statement moved two themes towards coordinated execution. ITPC would be the principal delivery body for DWDM, border points of presence, Kurdistan fibre sections and cable landing connectivity. Unified spectrum allocation would open a national specification window for C-band/n78 design and refarming. The fourth quarter is therefore a key period for technical input.",
+          "opportunity": "Submit an end-to-end DWDM, border-PoP and Kurdistan-section proposal to ITPC; provide C-band/n78 design and refarming input to CMC; coordinate engagement with Korek and the KRG authorities."
+        }
+      ]
+    },
+    {
+      "category": "Official social-media tracking",
+      "items": [
+        {
+          "title": "Sanad orders a 40% government internet price cut and a 40% speed increase for tower users outside fibre coverage",
+          "text": "The communications minister directed a 40% reduction in internet prices for government entities at unchanged capacity and a 40% speed increase for residents using tower-based access in areas not yet covered by fibre. Lower government pricing will pressure connectivity revenue, while higher tower speeds bring forward backhaul, microwave and edge-capacity requirements.",
+          "opportunity": "Offer ITPC and partner ISPs a low-TCO IP and optical expansion package and prepare a microwave-backhaul expansion list for areas without FTTH."
+        },
+        {
+          "title": "Sanad meets China's new ambassador to discuss telecoms, postal services and digital infrastructure",
+          "text": "Sanad and the new Chinese ambassador discussed telecommunications and postal cooperation, digital-infrastructure development and technical exchange. The meeting provides a senior bilateral channel for 5G, national backbone, data-centre and digital-government proposals.",
+          "opportunity": "Use the embassy-ministry dialogue to present a prioritised digital-infrastructure cooperation list and several rapidly deliverable demonstration projects."
+        },
+        {
+          "title": "CMC closes multiple Korek locations in Najaf, Diwaniyah and Babil, including the Najaf airport outlet",
+          "text": "CMC and the National Security Service closed Korek offices and service centres in three provinces after the earlier closure of the company's Karbala headquarters. The action materially raises regulatory and channel risk and may affect subscriber acquisition, payments and network-investment timing.",
+          "opportunity": "Continue monitoring Korek opportunities but apply stricter contractual, delivery and payment milestones, and assess how enforcement may affect Kurdistan 5G coordination."
+        },
+        {
+          "title": "CMC ends paper licence applications and moves all submissions to its electronic portal",
+          "text": "From 1 September, CMC stopped accepting paper licence applications. Companies and individuals must use the electronic portal. Mandatory digital processing may later extend to spectrum, equipment type approval, operator reporting and online supervision.",
+          "opportunity": "Track phase-two portal requirements in identity, workflow, data governance, electronic signatures and regulatory data-centre infrastructure."
+        },
+        {
+          "title": "CMC launches a network-quality application and begins a six-month AI training programme with Zain Iraq",
+          "text": "CMC introduced CMC Speed Test for crowdsourced communications and internet quality assessment and launched a six-month artificial-intelligence training programme with Zain Iraq. The regulator is broadening its focus from licensing to customer-experience data and AI capability.",
+          "opportunity": "Propose experience management, network intelligence and AI-enabled regulatory solutions to CMC, alongside intelligent operations and certification training for operators."
+        },
+        {
+          "title": "INA distributes Sanad's nationwide 5G coordination statement",
+          "text": "Sanad said federal-KRG technical and administrative differences were manageable and that talks were progressing towards unified protocols. Distribution through the national news agency makes this a policy-level signal and communicates confidence that the Kurdistan issue need not delay nationwide 5G.",
+          "opportunity": "Treat the statement as confirmation that the political window for spectrum and transit-corridor technical input is open."
+        },
+        {
+          "title": "Sanad press briefing: fourth mobile licence and 5G should begin jointly in Baghdad and Erbil",
+          "text": "Sanad said his Kurdistan visit would discuss activation of the fourth mobile licence and 5G so the processes could begin jointly and simultaneously in Baghdad and Erbil. Linking the two suggests an attempt to resolve legacy regional licensing and spectrum issues in one framework.",
+          "opportunity": "Maintain position in both the federal and Kurdistan procurement systems as the authorities work towards a unified settlement."
+        },
+        {
+          "title": "CMC seeks broader participation by international companies in project delivery",
+          "text": "CMC's board advanced measures to attract more international companies to commission projects in order to promote investment and improve services. Together with national spectrum coordination, this reinforces CMC's central role in future specifications and procurement signals.",
+          "opportunity": "Submit spectrum-technology input and an investment proposition to CMC in parallel, and maintain the board's announcements as a Tier-1 monitoring source."
+        }
+      ]
+    }
+  ]
+}

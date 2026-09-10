@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ExternalLink, Languages, Radio, ShieldAlert } from "lucide-react";
+import { ExternalLink, Radio, ShieldAlert } from "lucide-react";
 import { Badge, Card } from "@/components/ui";
 
 type Signal = {
@@ -92,8 +92,7 @@ function platformInEnglish(platform: string) {
   return platform.replace("官网", "Official website").replace("Telegram Public Web", "Telegram");
 }
 
-export function SocialSignals({ signals, telegramFeed }: { signals: Signal[]; telegramFeed: TelegramFeedData }) {
-  const [language, setLanguage] = useState<"zh" | "en">("zh");
+export function SocialSignals({ signals, telegramFeed, language }: { signals: Signal[]; telegramFeed: TelegramFeedData; language: "zh" | "en" }) {
   const [showAll, setShowAll] = useState(false);
 
   const merged = useMemo(() => {
@@ -167,11 +166,6 @@ export function SocialSignals({ signals, telegramFeed }: { signals: Signal[]; te
       </div>
       <div className="signal-head-actions">
         <Badge tone="green">{labels.count}</Badge>
-        <div className="language-toggle" aria-label="Language / 语言">
-          <Languages size={13}/>
-          <button type="button" className={language === "zh" ? "active" : ""} aria-pressed={language === "zh"} onClick={() => setLanguage("zh")}>中文</button>
-          <button type="button" className={language === "en" ? "active" : ""} aria-pressed={language === "en"} onClick={() => setLanguage("en")}>English</button>
-        </div>
       </div>
     </div>
     <div className="signal-grid">

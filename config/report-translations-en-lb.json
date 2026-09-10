@@ -1,0 +1,65 @@
+{
+  "name": "Lebanon",
+  "sections": [
+    {
+      "category": "Latest operator developments",
+      "items": [
+        {
+          "title": "Hajj's reform programme moves into delivery: over USD 50 million invested in 2025 and first-phase fibre reaches 350,000 homes",
+          "text": "Communications Minister Charles Hajj said the sector is pursuing structural reform while maintaining essential services after years of crisis and underinvestment. Implementation of Law 431 has begun through TRA, ministry restructuring and the proposed Liban Telecom. More than USD 50 million was invested in the network in 2025, government transfers increased by about USD 25 million, and first-phase fibre covers around 350,000 homes. The target is to raise broadband subscriptions from 50,000 to 500,000 within three years.",
+          "opportunity": "Core Ogero opportunity: first-phase coverage of 350,000 homes and a tenfold subscriber target point to substantial FTTH backbone and OLT demand, pursued through an Italy-plus-local-SI route."
+        }
+      ]
+    },
+    {
+      "category": "Latest ministry developments",
+      "items": [
+        {
+          "title": "Hajj positions Lebanon as an East-West digital hub through regional links, new submarine cables and enterprise backup",
+          "text": "Hajj's strategy combines connectivity with Iraq and Syria, new submarine cables, data protection and cybersecurity. Starlink is positioned as a complementary enterprise backup rather than a replacement for fibre or mobile networks. The digital-hub narrative could connect with Iraq's Basra-to-Europe corridor, while new cables create landing-station and OTN opportunities.",
+          "opportunity": "Develop a joint regional-connectivity proposition linking Lebanon with the Iraqi transit corridor; pursue submarine-cable landing and OTN work; use Starlink's backup positioning to reinforce terrestrial-network investment."
+        }
+      ]
+    },
+    {
+      "category": "Politics and security outlook",
+      "items": [
+        {
+          "title": "Hezbollah disarmament and continuing Israeli strikes leave the security condition for southern reconstruction unresolved",
+          "text": "Following the cabinet's 5 September 2025 approval of an army monopoly on weapons, Shia ministers walked out in protest. Continued strikes in southern Lebanon and the unresolved disarmament process remain prerequisites for reconstruction. Work on 215 southern sites depends on a durable ceasefire, while Ogero fibre expansion outside the south can proceed earlier.",
+          "opportunity": "Delay southern reconstruction exposure until security conditions are established, while advancing first-phase fibre opportunities outside the south."
+        }
+      ]
+    },
+    {
+      "category": "New opportunities at key customers",
+      "items": [
+        {
+          "title": "Ogero's four-track programme combines fibre, LTE, solar power and digital-hub cable landing",
+          "text": "The opportunity set includes first-phase fibre for 350,000 homes and a tenfold broadband target, LTE expansion to 390 sites with LTE-A capacity rising from 10 to 40 Gbps, solar power for 358 sites, and new submarine-cable landing infrastructure. Hajj's reform agenda is moving from policy design towards procurement, and each track maps to FTTH, LTE-A, PowerCube or OTN solutions.",
+          "opportunity": "Advance FTTH backbone, LTE-A expansion, solar-power and submarine-cable landing OTN proposals in parallel through compliant Italian and local systems-integration partners."
+        }
+      ]
+    },
+    {
+      "category": "Official social-media tracking",
+      "items": [
+        {
+          "title": "Hajj explains the reform and digital-hub strategy in a Tele Liban interview",
+          "text": "The minister outlined implementation of Law 431, Liban Telecom, fibre expansion, regional connectivity, submarine cables and Lebanon's digital-hub positioning. His direct and detailed communication indicates that reform is entering an execution phase and procurement signals may become more frequent.",
+          "opportunity": "Increase engagement with the technical teams at Ogero, TRA and the proposed Liban Telecom during the delivery phase."
+        },
+        {
+          "title": "Ogero continues promoting LTE expansion and first-phase fibre deployment",
+          "text": "Ogero's official channels continue reporting LTE expansion towards 390 sites and first-phase fibre coverage of 350,000 homes. The sustained communications reinforce the visibility of network-modernisation delivery.",
+          "opportunity": "Track FTTH, LTE-A, transmission and supporting power procurements against the published implementation milestones."
+        },
+        {
+          "title": "The presidency continues advancing telecom reform and southern reconstruction",
+          "text": "President Joseph Aoun continues to present telecommunications reform and reconstruction in southern Lebanon as national priorities. Presidential backing increases the durability of the reform agenda despite political and security constraints.",
+          "opportunity": "Use the sustained presidential support to establish a long-term technology-partner position while separating near-term fibre opportunities from security-dependent southern reconstruction."
+        }
+      ]
+    }
+  ]
+}
