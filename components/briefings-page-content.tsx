@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, type ComponentProps } from "react";
+import type { ComponentProps } from "react";
 import Link from "next/link";
 import { Languages, Scale } from "lucide-react";
 import { BriefingView } from "@/components/briefing-view";
 import { SocialSignals } from "@/components/social-signals";
+import { useLanguage } from "@/components/language-context";
 
 type Props = {
   report: {
@@ -20,7 +21,7 @@ type Props = {
 };
 
 export function BriefingsPageContent({ report, signals, telegramFeed }: Props) {
-  const [language, setLanguage] = useState<"zh" | "en">("zh");
+  const { language, setLanguage } = useLanguage();
   const isEnglish = language === "en";
 
   return <>
