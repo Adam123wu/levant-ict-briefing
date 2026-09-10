@@ -76,7 +76,50 @@ report.stats = {
 
 const sources = JSON.parse(await fs.readFile("config/sources.json", "utf8"));
 const socialSignals = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
-const telegramFeed = JSON.parse(await fs.readFile("config/telegram-feed.json", "utf8"));
+const telegramFeedRaw = JSON.parse(await fs.readFile("config/telegram-feed.json", "utf8"));
+const telegramTranslations = JSON.parse(await fs.readFile("config/telegram-translations.json", "utf8"));
+const arabicPattern = /[\u0600-\u06ff]/;
+const telegramItems = telegramFeedRaw.items.flatMap((item) => {
+  const translation = telegramTranslations[item.id];
+  if (!translation?.title || !translation?.summary) return [];
+  if (arabicPattern.test(translation.title) || arabicPattern.test(translation.summary)) {
+    throw new Error(`Arabic text leaked into Telegram translation: ${item.id}`);
+  }
+  return [{
+    id: item.id,
+    date: item.date,
+    publishedAt: item.publishedAt,
+    country: item.country,
+    platform: item.platform,
+    account: item.account,
+    owner: item.owner,
+    handle: item.handle,
+    category: item.category,
+    tier: item.tier,
+    priority: item.priority,
+    importanceScore: item.importanceScore,
+    title: translation.title,
+    summary: translation.summary,
+    views: item.views,
+    forwards: item.forwards,
+    url: item.url,
+    language: "中文",
+    translationStatus: "已翻译"
+  }];
+});
+const telegramFeed = {
+  generatedAt: telegramFeedRaw.generatedAt,
+  collectionMode: telegramFeedRaw.collectionMode,
+  selection: "important-and-translated-only",
+  windowDays: telegramFeedRaw.windowDays,
+  sourceCount: telegramFeedRaw.sourceCount,
+  scannedMessageCount: telegramFeedRaw.scannedMessageCount,
+  rawMessageCount: telegramFeedRaw.items.length,
+  messageCount: telegramItems.length,
+  untranslatedCount: telegramFeedRaw.items.length - telegramItems.length,
+  errors: telegramFeedRaw.errors,
+  items: telegramItems
+};
 const complianceAnalysis = JSON.parse(await fs.readFile("config/compliance-analysis.json", "utf8"));
 const iraqLegalNews = JSON.parse(await fs.readFile("config/iraq-legal-news.json", "utf8"));
 

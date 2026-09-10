@@ -53,13 +53,17 @@ type TelegramItem = {
   views: number;
   forwards: number;
   url: string;
+  language: "中文";
+  translationStatus: "已翻译";
 };
 
 type TelegramFeedData = {
   generatedAt: string | null;
   windowDays: number;
   sourceCount: number;
+  rawMessageCount: number;
   messageCount: number;
+  untranslatedCount: number;
   items: TelegramItem[];
 };
 
@@ -72,7 +76,7 @@ export function TelegramDigest({ feed }: { feed: TelegramFeedData }) {
     <div className="section-head" style={{ marginBottom: 10 }}>
       <div>
         <div className="section-title"><MessageCircle size={14} style={{ display: "inline", marginRight: 6 }}/>Telegram 自动监测</div>
-        <div className="section-sub">最近 {feed.windowDays} 天 · 官方频道原文 · 规则初筛后等待编辑研判</div>
+        <div className="section-sub">最近 {feed.windowDays} 天 · 中文标题与摘要 · 阿文仅保留在官方原文链接</div>
       </div>
       <Badge tone={feed.generatedAt ? "green" : "default"}><Clock3 size={10}/>{updated}</Badge>
     </div>
@@ -85,14 +89,14 @@ export function TelegramDigest({ feed }: { feed: TelegramFeedData }) {
         <h3 className="news-title">{item.title}</h3>
         <p className="news-text">{item.summary}</p>
         <div className="feed-meta" style={{ marginTop: 10 }}>
-          <span>{item.account}</span><span>·</span><span>@{item.handle}</span><span>·</span><span>{item.tier}</span>
+          <span>{item.account}</span><span>·</span><span>@{item.handle}</span><span>·</span><span>{item.tier}</span><span>·</span><span>{item.language}</span>
           {item.views > 0 && <span>{item.views.toLocaleString()} 阅读</span>}
           {item.forwards > 0 && <span>{item.forwards.toLocaleString()} 转发</span>}
         </div>
         <a className="feed-link" href={item.url} target="_blank" rel="noreferrer">查看 Telegram 原文 <ExternalLink size={11} style={{ display: "inline" }}/></a>
       </Card>)}
     </div> : <Card className="card-pad">
-      <div className="section-sub">采集器已经接入；完成一次本机 Telegram 授权并添加三个 GitHub Secret 后，这里会在每周日自动更新。</div>
+      <div className="section-sub">目前没有完成中文翻译并通过发布校验的新消息。未翻译的阿文消息不会显示在公开页面。</div>
     </Card>}
   </section>;
 }
