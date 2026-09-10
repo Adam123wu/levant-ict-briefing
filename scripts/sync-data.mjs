@@ -75,14 +75,31 @@ report.stats = {
 };
 
 const sources = JSON.parse(await fs.readFile("config/sources.json", "utf8"));
-const socialSignals = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
+const socialSignalsRaw = JSON.parse(await fs.readFile("config/social-signals.json", "utf8"));
+const socialSignalTranslationsEn = JSON.parse(await fs.readFile("config/social-signal-translations-en.json", "utf8"));
 const telegramFeedRaw = JSON.parse(await fs.readFile("config/telegram-feed.json", "utf8"));
 const telegramTranslations = JSON.parse(await fs.readFile("config/telegram-translations.json", "utf8"));
+const telegramTranslationsEn = JSON.parse(await fs.readFile("config/telegram-translations-en.json", "utf8"));
 const arabicPattern = /[\u0600-\u06ff]/;
+const socialSignals = socialSignalsRaw.flatMap((item) => {
+  const translationEn = socialSignalTranslationsEn[item.id];
+  if (!translationEn?.title || !translationEn?.summary || !translationEn?.impact) return [];
+  if (arabicPattern.test(`${item.title}${item.summary}${item.impact}${translationEn.title}${translationEn.summary}${translationEn.impact}`)) {
+    throw new Error(`Arabic text leaked into public social signal: ${item.id}`);
+  }
+  return [{
+    ...item,
+    accountEn: translationEn.account || item.account,
+    titleEn: translationEn.title,
+    summaryEn: translationEn.summary,
+    impactEn: translationEn.impact
+  }];
+});
 const telegramItems = telegramFeedRaw.items.flatMap((item) => {
   const translation = telegramTranslations[item.id];
-  if (!translation?.title || !translation?.summary) return [];
-  if (arabicPattern.test(translation.title) || arabicPattern.test(translation.summary)) {
+  const translationEn = telegramTranslationsEn[item.id];
+  if (!translation?.title || !translation?.summary || !translationEn?.title || !translationEn?.summary) return [];
+  if (arabicPattern.test(`${translation.title}${translation.summary}${translationEn.title}${translationEn.summary}`)) {
     throw new Error(`Arabic text leaked into Telegram translation: ${item.id}`);
   }
   return [{
@@ -100,11 +117,13 @@ const telegramItems = telegramFeedRaw.items.flatMap((item) => {
     importanceScore: item.importanceScore,
     title: translation.title,
     summary: translation.summary,
+    titleEn: translationEn.title,
+    summaryEn: translationEn.summary,
     views: item.views,
     forwards: item.forwards,
     url: item.url,
-    language: "中文",
-    translationStatus: "已翻译"
+    languages: ["中文", "English"],
+    translationStatus: "双语已完成"
   }];
 });
 const telegramFeed = {

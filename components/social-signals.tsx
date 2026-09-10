@@ -1,4 +1,7 @@
-import { Clock3, ExternalLink, MessageCircle, Radio, ShieldAlert } from "lucide-react";
+"use client";
+
+import { useMemo, useState } from "react";
+import { ExternalLink, Languages, Radio, ShieldAlert } from "lucide-react";
 import { Badge, Card } from "@/components/ui";
 
 type Signal = {
@@ -7,37 +10,17 @@ type Signal = {
   country: string;
   platform: string;
   account: string;
+  accountEn: string;
   priority: string;
   title: string;
+  titleEn: string;
   summary: string;
+  summaryEn: string;
   impact: string;
+  impactEn: string;
   url: string;
+  sourceMessageIds?: string[];
 };
-
-export function SocialSignals({ signals }: { signals: Signal[] }) {
-  return <section style={{ marginBottom: 18 }}>
-    <div className="section-head" style={{ marginBottom: 10 }}>
-      <div>
-        <div className="section-title"><Radio size={14} style={{ display: "inline", marginRight: 6 }}/>重要社媒快讯</div>
-        <div className="section-sub">政府官员、通信部与监管机构官方账号 · 重要内容自动进入简报</div>
-      </div>
-      <Badge tone="green">{signals.length} 条已核验</Badge>
-    </div>
-    <div className="signal-grid">
-      {signals.map(signal => <Card className="signal-card" key={signal.id}>
-        <div className="feed-meta">
-          <span>{signal.date}</span><span>·</span><span>{signal.country}</span>
-          <Badge tone={signal.priority === "最高" ? "red" : signal.priority === "高" ? "default" : "green"}>{signal.priority}优先级</Badge>
-        </div>
-        <h3 className="news-title">{signal.title}</h3>
-        <p className="news-text">{signal.summary}</p>
-        <div className="opportunity"><ShieldAlert size={13} style={{ display: "inline", marginRight: 5 }}/>业务影响：{signal.impact}</div>
-        <div className="feed-meta" style={{ marginTop: 10 }}><span>{signal.platform}</span><span>·</span><span>{signal.account}</span></div>
-        <a className="feed-link" href={signal.url} target="_blank" rel="noreferrer">查看官方原文 <ExternalLink size={11} style={{ display: "inline" }}/></a>
-      </Card>)}
-    </div>
-  </section>;
-}
 
 type TelegramItem = {
   id: string;
@@ -49,54 +32,169 @@ type TelegramItem = {
   tier: string;
   priority: string;
   title: string;
+  titleEn: string;
   summary: string;
+  summaryEn: string;
   views: number;
   forwards: number;
   url: string;
-  language: string;
-  translationStatus: string;
 };
 
 type TelegramFeedData = {
   generatedAt: string | null;
   windowDays: number;
-  sourceCount: number;
-  rawMessageCount: number;
   messageCount: number;
-  untranslatedCount: number;
   items: TelegramItem[];
 };
 
-export function TelegramDigest({ feed }: { feed: TelegramFeedData }) {
-  const important = feed.items.filter(item => item.priority === "最高" || item.priority === "高");
-  const visible = (important.length ? important : feed.items).slice(0, 12);
-  const updated = feed.generatedAt ? feed.generatedAt.slice(0, 10) : "等待首次授权采集";
+type UnifiedSignal = {
+  id: string;
+  date: string;
+  country: string;
+  countryEn: string;
+  platform: string;
+  account: string;
+  accountEn: string;
+  category?: string;
+  categoryEn?: string;
+  priority: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+  impact?: string;
+  impactEn?: string;
+  url: string;
+  reviewed: boolean;
+  views?: number;
+  forwards?: number;
+};
+
+const countryNames: Record<string, string> = { "伊拉克": "Iraq", "约旦": "Jordan", "黎巴嫩": "Lebanon" };
+const categoryNames: Record<string, string> = {
+  "通信部": "Ministry of Communications",
+  "通信监管": "Telecom regulation",
+  "政府官员": "Government official",
+  "政府机构": "Government institution",
+  "官方动态": "Official update"
+};
+const accountNames: Record<string, string> = {
+  "伊拉克通信部": "Iraq Ministry of Communications",
+  "伊拉克通信与媒体委员会 CMC": "Iraq Communications and Media Commission",
+  "伊拉克外交部": "Iraq Ministry of Foreign Affairs",
+  "伊拉克国防部": "Iraq Ministry of Defence",
+  "伊拉克内政部": "Iraq Ministry of Interior",
+  "伊拉克高等教育与科研部": "Iraq Ministry of Higher Education and Scientific Research"
+};
+const priorityOrder: Record<string, number> = { "最高": 3, "高": 2, "中": 1 };
+
+function platformInEnglish(platform: string) {
+  return platform.replace("官网", "Official website").replace("Telegram Public Web", "Telegram");
+}
+
+export function SocialSignals({ signals, telegramFeed }: { signals: Signal[]; telegramFeed: TelegramFeedData }) {
+  const [language, setLanguage] = useState<"zh" | "en">("zh");
+  const [showAll, setShowAll] = useState(false);
+
+  const merged = useMemo(() => {
+    const reviewedTelegramIds = new Set(signals.flatMap((signal) => signal.sourceMessageIds || []));
+    const reviewedUrls = new Set(signals.map((signal) => signal.url));
+    const reviewed: UnifiedSignal[] = signals.map((signal) => ({
+      ...signal,
+      countryEn: countryNames[signal.country] || signal.country,
+      reviewed: true
+    }));
+    const automatic: UnifiedSignal[] = telegramFeed.items
+      .filter((item) => !reviewedTelegramIds.has(item.id) && !reviewedUrls.has(item.url))
+      .map((item) => ({
+        ...item,
+        countryEn: countryNames[item.country] || item.country,
+        accountEn: accountNames[item.account] || item.account,
+        categoryEn: categoryNames[item.category] || item.category,
+        platform: "Telegram",
+        reviewed: false
+      }));
+    return [...reviewed, ...automatic].sort((a, b) =>
+      (priorityOrder[b.priority] || 0) - (priorityOrder[a.priority] || 0)
+      || b.date.localeCompare(a.date)
+      || Number(b.reviewed) - Number(a.reviewed)
+    );
+  }, [signals, telegramFeed.items]);
+
+  const isEnglish = language === "en";
+  const visible = showAll ? merged : merged.slice(0, 12);
+  const labels = isEnglish ? {
+    title: "Priority social-media intelligence",
+    subtitle: `Unified, deduplicated official updates from Telegram, X, Facebook and government websites · ${telegramFeed.windowDays}-day window`,
+    count: `${merged.length} priority signals`,
+    critical: "Critical",
+    high: "High",
+    medium: "Medium",
+    reviewed: "Analyst reviewed",
+    translated: "Translated · pending review",
+    impact: "Business impact",
+    pending: "Collected and translated automatically; pending cross-checking and business-impact assessment.",
+    original: "Open official source",
+    reads: "views",
+    forwards: "forwards",
+    showAll: `Show all ${merged.length}`,
+    showLess: "Show top 12"
+  } : {
+    title: "重要社媒快讯",
+    subtitle: `Telegram、X、Facebook 与政府官网统一聚合去重 · 最近 ${telegramFeed.windowDays} 天`,
+    count: `${merged.length} 条重要信号`,
+    critical: "最高",
+    high: "高",
+    medium: "中",
+    reviewed: "已研判",
+    translated: "已翻译 · 待研判",
+    impact: "业务影响",
+    pending: "已完成自动采集与中英翻译，正在等待交叉验证和商业影响研判。",
+    original: "查看官方原文",
+    reads: "阅读",
+    forwards: "转发",
+    showAll: `查看全部 ${merged.length} 条`,
+    showLess: "仅显示前 12 条"
+  };
+
+  const priorityLabel = (priority: string) => priority === "最高" ? labels.critical : priority === "高" ? labels.high : labels.medium;
 
   return <section style={{ marginBottom: 18 }}>
-    <div className="section-head" style={{ marginBottom: 10 }}>
+    <div className="section-head signal-section-head" style={{ marginBottom: 10 }}>
       <div>
-        <div className="section-title"><MessageCircle size={14} style={{ display: "inline", marginRight: 6 }}/>Telegram 自动监测</div>
-        <div className="section-sub">最近 {feed.windowDays} 天 · 中文标题与摘要 · 阿文仅保留在官方原文链接</div>
+        <div className="section-title"><Radio size={14} style={{ display: "inline", marginRight: 6 }}/>{labels.title}</div>
+        <div className="section-sub">{labels.subtitle}</div>
       </div>
-      <Badge tone={feed.generatedAt ? "green" : "default"}><Clock3 size={10}/>{updated}</Badge>
+      <div className="signal-head-actions">
+        <Badge tone="green">{labels.count}</Badge>
+        <div className="language-toggle" aria-label="Language / 语言">
+          <Languages size={13}/>
+          <button type="button" className={language === "zh" ? "active" : ""} aria-pressed={language === "zh"} onClick={() => setLanguage("zh")}>中文</button>
+          <button type="button" className={language === "en" ? "active" : ""} aria-pressed={language === "en"} onClick={() => setLanguage("en")}>English</button>
+        </div>
+      </div>
     </div>
-    {visible.length ? <div className="signal-grid">
-      {visible.map(item => <Card className="signal-card" key={item.id}>
+    <div className="signal-grid">
+      {visible.map((item) => <Card className={`signal-card ${item.reviewed ? "reviewed" : "automatic"}`} key={item.id}>
         <div className="feed-meta">
-          <span>{item.date}</span><span>·</span><span>{item.country}</span><span>·</span><span>{item.category}</span>
-          <Badge tone={item.priority === "最高" ? "red" : item.priority === "高" ? "default" : "green"}>{item.priority}优先级</Badge>
+          <span>{item.date}</span><span>·</span><span>{isEnglish ? item.countryEn : item.country}</span>
+          {item.category && <><span>·</span><span>{isEnglish ? item.categoryEn : item.category}</span></>}
+          <Badge tone={item.priority === "最高" ? "red" : item.priority === "高" ? "default" : "green"}>{priorityLabel(item.priority)}</Badge>
+          <Badge tone={item.reviewed ? "green" : "amber"}>{item.reviewed ? labels.reviewed : labels.translated}</Badge>
         </div>
-        <h3 className="news-title">{item.title}</h3>
-        <p className="news-text">{item.summary}</p>
+        <h3 className="news-title">{isEnglish ? item.titleEn : item.title}</h3>
+        <p className="news-text">{isEnglish ? item.summaryEn : item.summary}</p>
+        <div className={item.reviewed ? "opportunity" : "signal-pending"}>
+          <ShieldAlert size={13}/><span><strong>{labels.impact}: </strong>{item.reviewed ? (isEnglish ? item.impactEn : item.impact) : labels.pending}</span>
+        </div>
         <div className="feed-meta" style={{ marginTop: 10 }}>
-          <span>{item.account}</span><span>·</span><span>@{item.handle}</span><span>·</span><span>{item.tier}</span><span>·</span><span>{item.language}</span>
-          {item.views > 0 && <span>{item.views.toLocaleString()} 阅读</span>}
-          {item.forwards > 0 && <span>{item.forwards.toLocaleString()} 转发</span>}
+          <span>{isEnglish ? platformInEnglish(item.platform) : item.platform}</span><span>·</span><span>{isEnglish ? item.accountEn : item.account}</span>
+          {item.views ? <span>{item.views.toLocaleString()} {labels.reads}</span> : null}
+          {item.forwards ? <span>{item.forwards.toLocaleString()} {labels.forwards}</span> : null}
         </div>
-        <a className="feed-link" href={item.url} target="_blank" rel="noreferrer">查看 Telegram 原文 <ExternalLink size={11} style={{ display: "inline" }}/></a>
+        <a className="feed-link" href={item.url} target="_blank" rel="noreferrer">{labels.original} <ExternalLink size={11} style={{ display: "inline" }}/></a>
       </Card>)}
-    </div> : <Card className="card-pad">
-      <div className="section-sub">目前没有完成中文翻译并通过发布校验的新消息。未翻译的阿文消息不会显示在公开页面。</div>
-    </Card>}
+    </div>
+    {merged.length > 12 && <div className="signal-more"><button type="button" className="button secondary" onClick={() => setShowAll((value) => !value)}>{showAll ? labels.showLess : labels.showAll}</button></div>}
   </section>;
 }

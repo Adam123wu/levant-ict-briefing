@@ -1,0 +1,32 @@
+{
+  "iq-moc-price-20260903": {
+    "account": "Iraq Ministry of Communications / Mustafa Sanad",
+    "title": "Internet prices for government entities cut by 40%, with tower speeds raised by about 40%",
+    "summary": "The Ministry of Communications announced lower internet prices for government entities while increasing wireless-tower service capacity.",
+    "impact": "Budgets for government connectivity and cloud links may be reallocated. Track new bandwidth procurements by ITPC, the ministry and major public-sector customers."
+  },
+  "iq-cmc-korek-20260831": {
+    "account": "Iraq Communications and Media Commission",
+    "title": "CMC closes Korek's Karbala headquarters as enforcement intensifies",
+    "summary": "CMC's local office, working with national security and intelligence bodies, carried out the closure, showing that regulatory decisions against Korek have moved into physical enforcement.",
+    "impact": "Korek's network expansion, payments and procurement decisions now carry materially higher risk. Opportunities involving Korek require tighter licensing and payment-condition checks."
+  },
+  "iq-cmc-court-20260826": {
+    "account": "Iraq CMC / Baligh Abu Kalal",
+    "title": "Court lifts Korek's interim injunction while CMC's suspension decision remains in force",
+    "summary": "The Rusafa Court of First Instance lifted Korek's interim injunction and left CMC's decision to suspend dealings with the company in effect.",
+    "impact": "Regulatory uncertainty has become a defined judicial and enforcement risk. Network, channel and service contracts involving Korek need elevated compliance review."
+  },
+  "iq-cmc-type-approval-20260824": {
+    "account": "Iraq CMC / Baligh Abu Kalal",
+    "title": "CMC and Samsung explore an electronic type-approval platform",
+    "summary": "The parties discussed device entry procedures, certification fees and technical standards, as well as an automated platform for equipment type approval.",
+    "impact": "This is a direct opportunity in digital market access, including platform software, testing laboratories, data governance and systems integration."
+  },
+  "iq-cmc-ai-20260825": {
+    "account": "Iraq CMC / Zain Iraq",
+    "title": "CMC and Zain Iraq launch a six-month AI capability programme",
+    "summary": "The programme covers AI governance, data analytics and practical applications, with CMC incorporating AI capability into institutional talent development.",
+    "impact": "The near-term opportunity is training and advisory work; the medium-term opportunity may extend to regulatory data platforms, intelligent analytics and automated network supervision."
+  }
+}
