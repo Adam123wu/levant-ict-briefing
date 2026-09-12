@@ -12,7 +12,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-sanad-x",
@@ -41,7 +41,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "CMC 官方频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-cmc-x",
@@ -126,7 +126,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "外交部机构频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "jo-trc-x",
@@ -239,7 +239,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-moi-tg",
@@ -254,7 +254,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-mohe-tg",
@@ -269,7 +269,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T14:52:41Z"
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-ina-tg",
@@ -280,10 +280,11 @@
     "owner": "机构媒体",
     "country": "伊拉克",
     "category": "新闻媒体",
-    "posts14d": null,
+    "posts14d": 150,
     "tier": "T1",
-    "status": "已核验",
-    "verifiedBy": "INA 官方网站反向链接 Telegram 频道"
+    "status": "正常",
+    "verifiedBy": "INA 官方网站反向链接 Telegram 频道",
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-alsumaria-tg",
@@ -294,10 +295,11 @@
     "owner": "机构媒体",
     "country": "伊拉克",
     "category": "新闻媒体",
-    "posts14d": null,
+    "posts14d": 128,
     "tier": "T2",
-    "status": "已核验",
-    "verifiedBy": "Alsumaria 官方网站公布同名 Telegram 频道"
+    "status": "正常",
+    "verifiedBy": "Alsumaria 官方网站公布同名 Telegram 频道",
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-pmo-tg",
@@ -308,10 +310,11 @@
     "owner": "总理府",
     "country": "伊拉克",
     "category": "政府决策",
-    "posts14d": null,
+    "posts14d": 50,
     "tier": "T1",
-    "status": "已核验",
-    "verifiedBy": "Telegram 认证频道，且与英文频道交叉链接"
+    "status": "正常",
+    "verifiedBy": "Telegram 认证频道，且与英文频道交叉链接",
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   },
   {
     "id": "iq-pmo-en-tg",
@@ -322,9 +325,10 @@
     "owner": "总理府",
     "country": "伊拉克",
     "category": "政府决策",
-    "posts14d": null,
+    "posts14d": 34,
     "tier": "T1",
-    "status": "已核验",
-    "verifiedBy": "Telegram 认证频道，且与阿拉伯文频道交叉链接"
+    "status": "正常",
+    "verifiedBy": "Telegram 认证频道，且与阿拉伯文频道交叉链接",
+    "lastCollectedAt": "2026-09-12T15:13:12Z"
   }
 ]
