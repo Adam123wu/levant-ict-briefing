@@ -12,7 +12,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   },
   {
     "id": "iq-sanad-x",
@@ -41,7 +41,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "CMC 官方频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   },
   {
     "id": "iq-cmc-x",
@@ -126,7 +126,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "外交部机构频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   },
   {
     "id": "jo-trc-x",
@@ -239,7 +239,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   },
   {
     "id": "iq-moi-tg",
@@ -250,11 +250,11 @@
     "owner": "机构账号",
     "country": "伊拉克",
     "category": "政府机构",
-    "posts14d": 90,
+    "posts14d": 93,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   },
   {
     "id": "iq-mohe-tg",
@@ -269,6 +269,6 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-12T00:25:23Z"
+    "lastCollectedAt": "2026-09-12T14:52:41Z"
   }
 ]
