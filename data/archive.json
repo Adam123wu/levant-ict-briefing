@@ -1,9 +1,15 @@
 [
   {
+    "week": "W37—38",
+    "date": "2026-09-12",
+    "file": "w37-38.html",
+    "current": true
+  },
+  {
     "week": "W35—36",
     "date": "2026-09-05",
     "file": "w35-36.html",
-    "current": true
+    "current": false
   },
   {
     "week": "W20—21",

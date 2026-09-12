@@ -3,61 +3,79 @@
   "sections": [
     {
       "category": "Latest operator developments",
+      "items": []
+    },
+    {
+      "category": "Latest ministry and regulator developments",
+      "items": []
+    },
+    {
+      "category": "Local consortium investment developments",
+      "items": []
+    },
+    {
+      "category": "Political and electoral developments",
       "items": [
         {
-          "title": "Hajj's reform programme moves into delivery: over USD 50 million invested in 2025 and first-phase fibre reaches 350,000 homes",
-          "text": "Communications Minister Charles Hajj said the sector is pursuing structural reform while maintaining essential services after years of crisis and underinvestment. Implementation of Law 431 has begun through TRA, ministry restructuring and the proposed Liban Telecom. More than USD 50 million was invested in the network in 2025, government transfers increased by about USD 25 million, and first-phase fibre covers around 350,000 homes. The target is to raise broadband subscriptions from 50,000 to 500,000 within three years.",
-          "opportunity": "Core Ogero opportunity: first-phase coverage of 350,000 homes and a tenfold subscriber target point to substantial FTTH backbone and OLT demand, pursued through an Italy-plus-local-SI route."
+          "title": "President Joseph Aoun visits Nabatiyeh as post-ceasefire security and network-restoration conditions in the south come under renewed pressure",
+          "text": "Aoun visited Nabatiyeh accompanied by security chiefs. Reporting says tension remains around the Ali Taher ridge. This directly affects site-access approval, workforce safety, fuel and spare-parts logistics, and restoration schedules for southern telecom assets.",
+          "opportunity": "Use zone-by-zone access, dynamic security reviews, mobile-site/microwave temporary restoration and force-majeure milestones. Do not substitute a national plan for site-level security confirmation."
         }
       ]
     },
     {
-      "category": "Latest ministry developments",
+      "category": "ISP, DSP and internet-operator investment",
+      "items": []
+    },
+    {
+      "category": "Latest ICT competitor developments",
+      "items": []
+    },
+    {
+      "category": "Operator group-level intelligence",
+      "items": []
+    },
+    {
+      "category": "U.S. intervention and sanctions exposure",
       "items": [
         {
-          "title": "Hajj positions Lebanon as an East-West digital hub through regional links, new submarine cables and enterprise backup",
-          "text": "Hajj's strategy combines connectivity with Iraq and Syria, new submarine cables, data protection and cybersecurity. Starlink is positioned as a complementary enterprise backup rather than a replacement for fibre or mobile networks. The digital-hub narrative could connect with Iraq's Basra-to-Europe corridor, while new cables create landing-station and OTN opportunities.",
-          "opportunity": "Develop a joint regional-connectivity proposition linking Lebanon with the Iraqi transit corridor; pursue submarine-cable landing and OTN work; use Starlink's backup positioning to reinforce terrestrial-network investment."
+          "title": "OFAC sanctions Lebanese cash, gold and exchange networks, materially increasing payment-chain and beneficial-owner risk",
+          "text": "The U.S. Treasury action names Hussein Ibrahim, Abdallah Hamieh, Ghaith Hussein Wehbe and related gold and exchange entities, alleging participation in transfers to Hizballah. The notice reiterates the 50 Percent Rule and risks around providing or receiving funds, goods or services involving blocked persons.",
+          "opportunity": "Screen customers, subcontractors, exchange houses, receiving banks, controllers and 50%-owned entities. Do not use cash or opaque exchange channels to bypass banking review."
         }
       ]
     },
     {
-      "category": "Politics and security outlook",
+      "category": "Local mainstream-media coverage of Huawei",
+      "items": []
+    },
+    {
+      "category": "New opportunities with top customers",
       "items": [
         {
-          "title": "Hezbollah disarmament and continuing Israeli strikes leave the security condition for southern reconstruction unresolved",
-          "text": "Following the cabinet's 5 September 2025 approval of an army monopoly on weapons, Shia ministers walked out in protest. Continued strikes in southern Lebanon and the unresolved disarmament process remain prerequisites for reconstruction. Work on 215 southern sites depends on a durable ceasefire, while Ogero fibre expansion outside the south can proceed earlier.",
-          "opportunity": "Delay southern reconstruction exposure until security conditions are established, while advancing first-phase fibre opportunities outside the south."
+          "title": "Lebanon opportunities should be limited to funded network restoration; banking reform has not removed collection constraints",
+          "text": "The bank-restructuring law was published as Law 71 on 10 September, but public legal analysis says implementation still depends on financial-loss/deposit-recovery legislation. Combined with fresh OFAC action and security pressure in the south, large unsecured projects are not yet executable.",
+          "opportunity": "Prioritise FTTH, transport and LTE/5G restoration backed by international finance, escrow, advance payment or irrevocable guarantees. Apply enhanced due diligence to all local payment and subcontracting chains."
         }
       ]
     },
     {
-      "category": "New opportunities at key customers",
+      "category": "Social-media and official-channel tracking",
       "items": [
         {
-          "title": "Ogero's four-track programme combines fibre, LTE, solar power and digital-hub cable landing",
-          "text": "The opportunity set includes first-phase fibre for 350,000 homes and a tenfold broadband target, LTE expansion to 390 sites with LTE-A capacity rising from 10 to 40 Gbps, solar power for 358 sites, and new submarine-cable landing infrastructure. Hajj's reform agenda is moving from policy design towards procurement, and each track maps to FTTH, LTE-A, PowerCube or OTN solutions.",
-          "opportunity": "Advance FTTH backbone, LTE-A expansion, solar-power and submarine-cable landing OTN proposals in parallel through compliant Italian and local systems-integration partners."
-        }
-      ]
-    },
-    {
-      "category": "Official social-media tracking",
-      "items": [
-        {
-          "title": "Hajj explains the reform and digital-hub strategy in a Tele Liban interview",
-          "text": "The minister outlined implementation of Law 431, Liban Telecom, fibre expansion, regional connectivity, submarine cables and Lebanon's digital-hub positioning. His direct and detailed communication indicates that reform is entering an execution phase and procurement signals may become more frequent.",
-          "opportunity": "Increase engagement with the technical teams at Ogero, TRA and the proposed Liban Telecom during the delivery phase."
+          "title": "Aoun visits Nabatiyeh and assesses conditions in the south",
+          "text": "The president travelled south with security chiefs, showing that site access and workforce security still require dynamic assessment.",
+          "opportunity": "Routed to political developments and opportunity execution conditions."
         },
         {
-          "title": "Ogero continues promoting LTE expansion and first-phase fibre deployment",
-          "text": "Ogero's official channels continue reporting LTE expansion towards 390 sites and first-phase fibre coverage of 350,000 homes. The sustained communications reinforce the visibility of network-modernisation delivery.",
-          "opportunity": "Track FTTH, LTE-A, transmission and supporting power procurements against the published implementation milestones."
+          "title": "Bank-restructuring Law 71 is published, but implementation remains conditional on further legislation",
+          "text": "The law advances bank reform, but does not establish that deposit recovery, banking payment capacity or project collections have normalised.",
+          "opportunity": "Routed to the standalone business and compliance section."
         },
         {
-          "title": "The presidency continues advancing telecom reform and southern reconstruction",
-          "text": "President Joseph Aoun continues to present telecommunications reform and reconstruction in southern Lebanon as national priorities. Presidential backing increases the durability of the reform agenda despite political and security constraints.",
-          "opportunity": "Use the sustained presidential support to establish a long-term technology-partner position while separating near-term fibre opportunities from security-dependent southern reconstruction."
+          "title": "Lebanon's new media law enters the Gazette on 3 September, changing online-content and media-liability rules",
+          "text": "The law improves some protections for journalists and online expression while leaving contested provisions on false or harmful news, insult and defamation.",
+          "opportunity": "Media, content platforms and corporate communications should refresh local legal-review checklists."
         }
       ]
     }

@@ -1,17 +1,18 @@
 {
-  "issue": "W35-36",
-  "period": "2026年8月24日 — 9月4日",
-  "generated": "2026-09-05",
-  "sourceFile": "w35-36.html",
+  "issue": "W37-38",
+  "period": "2026年9月5日 — 9月12日（滚动更新，完整周期至9月18日）",
+  "generated": "2026-09-12",
+  "sourceFile": "w37-38.html",
   "summary": [
-    "🇮🇶🔥 ⭐ 本期头条：8/29 Sanad 宣布全国同步 5G（含库区）+ 频谱统一分配 — 巴格达与埃尔比勒\"联合、同步\"启动第四张牌照与 5G，联邦通信部为唯一主权代表；技术与行政分歧\"可控\"",
-    "🇮🇶📱 Telegram 一手源增量：Sanad 9/3 下调政府互联网价格 40%；CMC 电子化许可、推出测速应用，并对 Korek 多地网点采取关闭措施",
-    "🇮🇶 ⭐ Sanad 访库区谈判 5G + 过境光缆（Basra→欧洲）：把 5G 商用与过境走廊骨干绑定推进，NMTC 司法冻结仍是前置障碍",
-    "🇯🇴 ⭐ TRC 2026 双优先：MNP 号码携转（2027/4 上线）+ 5G 扩容；TRC 现任主席 Lara Khateeb，年度营收 $1.027 亿",
-    "🇯🇴 Orange Jordan（JTEL）8/24 向安曼交易所披露例行公告，三家运营商处 690 站承诺执行期",
-    "🇱🇧 ⭐ 7/30→本期延续：Hajj 部长改革蓝图落地 — Law 431 落实 + TRA + Liban Telecom；2025 已投网络超 $5000 万，光纤一期覆盖 35 万户，三年内宽带用户 5 万→50 万",
-    "🇱🇧 ⭐ Hajj 定位黎巴嫩为\"东西方数字枢纽\"：规划与伊拉克、叙利亚区域互联 + 新海缆；Starlink 定位为企业级备份而非替代",
-    "🌍 区域地缘：美伊 8/17 MOU 窗口已过，霍尔木兹与制裁走向仍是三国财政与合规的共同前置变量"
+    "🇮🇶 伊拉克与 Ooredoo 签署海湾—欧洲互联网过境合同，目标 3—4 个月接通；海缆登陆附件仍待下月签署并完成收益分成谈判。",
+    "🇮🇶 通信部研究将政府安全 LTE 网络扩展至全部政府机构并评估 5G；CMC 同期启动国家级 AI 基础设施论证。",
+    "🇮🇶 Korek 场所关闭扩大至基尔库克、尼尼微和萨拉赫丁，运营、采购与回款风险继续上升。",
+    "🇮🇶🇱🇧 9 月 10 日美国财政部新制裁同时触及伊拉克通信解决方案企业/承包网络与黎巴嫩现金、黄金和汇兑网络，第三方审查必须增量重跑。",
+    "🇯🇴 Umniah by Beyon 与 Ericsson 推进二期 5G 扩容；约旦与 HUMAIN 签署政府 AI 合作备忘录。",
+    "🇯🇴 投资环境条例的“合规承诺式许可”有利于开发区项目加速，但仍受后检查和适用范围约束。",
+    "🇱🇧 第 71 号银行重组法已发布，但回款环境仍取决于后续金融损失/存款回收立法。",
+    "🇱🇧 南部安全压力上升；网络恢复项目须按站点确认进入条件并采用资金保障。",
+    "📌 本期为 W37–38 滚动更新，信息截止 2026-09-12；9 月 18 日前的新事实将在周日自动任务继续补入同一期。"
   ],
   "countries": {
     "iq": {
@@ -19,248 +20,290 @@
       "flag": "🇮🇶",
       "sections": [
         {
+          "category": "本国运营商最新动态",
+          "items": [
+            {
+              "title": "Korek 关停行动扩大至基尔库克、尼尼微和萨拉赫丁，多省运营连续性风险进入执行阶段",
+              "date": "2026-09-06",
+              "badge": "CMC 官方 + Telegram 核验",
+              "text": "CMC 表示，其北部办公室与国家安全机构在三省关闭 Korek 办公和服务场所，延续此前在巴格达、卡尔巴拉、纳杰夫、迪瓦尼耶和巴比伦的行动。该变化不等于网络已在全国同一时点停服，但已把牌照争议转化为客户服务、渠道和付款的现实风险。",
+              "opportunity": "🎯 涉及 Korek 的网络扩容、备件、软件续保和回款必须升级为红色审查；合同中加入监管许可、服务连续性和终止付款保护。",
+              "links": [
+                {
+                  "label": "CMC 9/6",
+                  "url": "https://cmc.iq/2026/09/06/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B9-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA/"
+                }
+              ],
+              "titleEn": "Korek closures expand to Kirkuk, Nineveh and Salah al-Din as multi-governorate continuity risk becomes operational",
+              "textEn": "CMC said its northern office, working with the National Security Service, closed Korek offices and service locations across three governorates, extending earlier action in Baghdad, Karbala, Najaf, Diwaniyah and Babil. This does not establish a simultaneous nationwide network shutdown, but it turns the licensing dispute into a practical customer-service, channel and payment risk.",
+              "opportunityEn": "Treat Korek network expansion, spares, software renewal and collections as red-review items. Add regulatory-approval, service-continuity and protected-payment conditions to contracts."
+            }
+          ],
+          "categoryEn": "Latest operator developments"
+        },
+        {
           "category": "本国部委最新动态",
           "items": [
             {
-              "title": "⭐🔥 8/29 Sanad：伊拉克将全国同步启动 5G（含库区），联邦通信部统一频谱分配、担任唯一主权代表",
-              "date": "2026-08-29",
-              "badge": "INA + Iraqi News + Telecompaper 三源",
-              "text": "📰 Iraqi News 8/29 + INA 原文要点：Sanad 部长向 INA 表示联邦政府正推动 5G 服务在所有省份与库尔德斯坦地区同步商用落地，并称联邦部与 KRG 之间现存的技术与行政分歧\"可控\"，双边讨论正走向统一监管协议。四条关键信息：① 同步商用 — 库区此前已有 5G 探索性部署，联邦部要与其协调频谱分配与商用时点，全国一盘棋；② 过境光缆骨干（Basra→欧洲，经库区）— 协调这条战略国际过境光缆的相关协议；③ 统一国际代表 — 伊拉克须以单一主体面对国际电信机构与全球公司，联邦通信部为主权代表；④ 监管协调 — 处理因联邦/地区分治产生的运营商监管落差。深度研判：① 这是 Sanad 上任以来在 5G 议题上最具体的一次定调，把5G 商用 + 过境走廊 + 频谱分配三件事绑成一个\"主权统一\"叙事；② \"同步含库区\"是对 Korek（库区强势）与联邦运营商监管落差的一次收口尝试；③ 但 NMTC 与 CMC 的牌照签约司法冻结仍未解除（2025/10 一名议员起诉后法院叫停），这是全国 5G 落地的最大前置障碍。",
-              "opportunity": "🎯 商机研判（🔴 最高优先级）① 频谱统一分配 = C-band/n78 规格输入窗口就是现在——抢在 NMTC 司法解冻前把组网参数、清频路径、与 2.6G 协同方案递进 CMC 占位；② 过境光缆骨干（Basra→欧洲经库区）= ITPC DWDM + 边境 PoP 直接机会；③ 全国同步 = 联邦 + 库区双线并进，Korek（库区）关系需同步维护",
+              "title": "CMC 启动国家级人工智能基础设施论证，重点转向算力、先进数据处理和本地能力",
+              "date": "2026-09-10",
+              "badge": "CMC 官方 + Telegram 核验",
+              "text": "CMC 执行机构负责人 Baligh Abu Kalal 与总理人工智能事务顾问 Diaa Al-Jumaili 讨论建设国家级专业基础设施，用于运行人工智能应用和先进数据处理，并同意继续研究项目与合作机制。当前属于项目论证，不是已招标或已拨款项目。",
+              "opportunity": "🎯 优先准备主权 AI 云、GPU/存储、数据中心网络、安全、运维和人才培养的一体化方案；在预算和采购主体明确前仅列为 L2 机会。",
               "links": [
                 {
-                  "label": "Iraqi News 8/29",
-                  "url": "https://www.iraqinews.com/iraq/iraq-simultaneous-5g-rollout-kurdistan-region-mustafa-sanad-2026/"
-                },
-                {
-                  "label": "Telecompaper 8/31",
-                  "url": "https://www.telecompaper.com/news/iraq-seeks-unified-nationwide-5g-roll-out-including-kurdistan--1581168"
+                  "label": "CMC 9/10",
+                  "url": "https://cmc.iq/2026/09/10/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%83%D8%B4%D9%81-%D8%AE%D8%B7%D8%A9-%D9%84%D8%A8%D9%86%D8%A7/"
                 }
-              ]
+              ],
+              "titleEn": "CMC begins scoping national AI infrastructure, shifting focus to compute, advanced data processing and domestic capability",
+              "textEn": "CMC chief executive Baligh Abu Kalal and the prime minister's AI adviser Diaa Al-Jumaili discussed specialised national infrastructure for AI workloads and advanced data processing, and agreed to continue studying projects and cooperation models. This is a scoping signal, not a confirmed tender or funded programme.",
+              "opportunityEn": "Prepare an integrated sovereign-AI cloud, GPU/storage, data-centre networking, security, operations and skills package. Keep it at L2 until the budget and procurement owner are confirmed."
             },
             {
-              "title": "📌 Sanad 访库区行程落地：5G + 第四张牌照 + 过境光缆三议题，处理巴格达-埃尔比勒分歧",
-              "date": "2026-08-22 ~ 08-30",
-              "badge": "The New Region + Shafaq",
-              "text": "📰 The New Region 8/22 + 后续报道：Sanad 8/22 对记者宣布\"下周\"访问库尔德斯坦，与库方讨论第四张移动牌照激活与 5G 服务，使两地\"联合、同步\"启动。此访随后落地并延续到本期。背景脉络：① 因 CMC 与通信部之间的分歧，政府此前暂停了 NMTC 交易；② 议员 al-Khafaji 1 月称分歧与 5G 网络的实施机制有关；③ Sanad 强调联邦部与库区交通通信部\"对外是一个主体\"，尤其在过境光缆问题上。研判：Sanad 密集处理库区关系，本质是为全国 5G 扫清\"分治\"障碍——库区若单独发 5G/频谱，会破坏联邦统一叙事，也影响过境光缆的主权归属。这条线对华为的含义：Korek（库区）与联邦运营商的采购决策可能被纳入统一框架，需两头维护。",
-              "opportunity": "🎯 商机研判库区-联邦统一框架推进 = 华为需在巴格达（ITPC/CMC）+ 埃尔比勒（Korek/KRG 交通通信部）双线同步布局，避免被单边框架排除",
+              "title": "通信部研究把政府安全 LTE 网络扩展至全部政府机构，并评估 5G 升级",
+              "date": "2026-09-09",
+              "badge": "通信部 Telegram 官方频道",
+              "text": "通信部长 Mustafa Sanad 与 Taurus Arm 公司讨论扩大政府安全 LTE 网络覆盖范围，并研究用 5G 提升速度、性能与政府服务安全。官方信息尚未披露采购方式、资金规模或独家安排。",
+              "opportunity": "🎯 立即核实 Taurus Arm 的角色、股权与制裁状况，并向通信部提交分阶段 LTE/5G 政务专网、核心网安全和统一运维方案。",
               "links": [
                 {
-                  "label": "The New Region 8/22",
-                  "url": "https://thenewregion.com/posts/6298"
+                  "label": "通信部 Telegram 9/9",
+                  "url": "https://t.me/mociraq2023/1697"
                 }
-              ]
+              ],
+              "titleEn": "The Ministry of Communications considers extending the secure government LTE network to all public institutions and assessing a 5G upgrade",
+              "textEn": "Communications Minister Mustafa Sanad discussed expanding the secure government LTE network with Taurus Arm and using 5G to improve speed, performance and service security. The official post did not disclose procurement method, funding or exclusivity.",
+              "opportunityEn": "Verify Taurus Arm's role, ownership and sanctions status immediately, then present the ministry with a phased LTE/5G government-network, secure core and unified-operations proposal."
             }
-          ]
+          ],
+          "categoryEn": "Latest ministry and regulator developments"
+        },
+        {
+          "category": "本国财团投资动态",
+          "items": [
+            {
+              "title": "总理主持省际协调高级委员会会议，成立跨部门委员会清理停滞投资项目障碍",
+              "date": "2026-09-10",
+              "badge": "总理府英文频道 + INA 交叉核验",
+              "text": "总理府英文频道表示，委员会将研究并处理已识别停滞或未启动投资项目面临的法律、技术和行政障碍。公开信息没有列出具体项目、资金或时限，因此这是项目解阻机制信号，而不是单项复工公告。",
+              "opportunity": "🎯 把各省数据中心、政府网络和数字基础设施项目按“法律/技术/行政”三类障碍建立清单；仅在项目被正式纳入且责任机构明确后上调机会级别。",
+              "links": [
+                {
+                  "label": "PMO 9/10",
+                  "url": "https://t.me/IraqiPMOEng/24735"
+                },
+                {
+                  "label": "INA 9/10",
+                  "url": "https://t.me/inainaiq/158509"
+                }
+              ],
+              "titleEn": "The prime minister chairs the provincial coordination commission as an inter-agency committee is formed to clear obstacles facing stalled investment projects",
+              "textEn": "The PMO English channel said the committee will examine legal, technical and administrative obstacles affecting identified stalled or uninitiated investment projects. No project list, funding or timeline was published, so this is an unblocking-mechanism signal rather than confirmation that a specific project has restarted.",
+              "opportunityEn": "Create a legal, technical and administrative obstacle register for provincial data-centre, government-network and digital-infrastructure projects. Raise an opportunity only when the project is formally included and the responsible authority is identified."
+            }
+          ],
+          "categoryEn": "Local consortium investment developments"
         },
         {
           "category": "本国政治与大选进展及内幕",
           "items": [
             {
-              "title": "📌 11 月议会选举临近，al-Zaidi 政府进入\"政绩交付冲刺期\"，5G 被列为可视化政绩",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "背景观察",
-              "text": "📰 政治脉络：伊拉克议会选举定于 2026 年 11 月举行。al-Zaidi 政府（5/14 就任）进入选前政绩交付冲刺，5G/数字化、反腐、石油出口修复是三张可视化政绩牌。研判：① Sanad 密集推动 5G 同步落地、过境走廊叙事，部分动机是选前政绩展示；② 但司法冻结 + 财政承压 + 库区协调三重约束下，年底前更可能出\"决议/框架\"而非\"商用网络\";③ 选举结果将决定 Sanad 是否留任，进而影响 NMTC/5G 项目连续性——这是华为需跟踪的政治变量。",
-              "opportunity": "🎯 商机研判选前政绩窗口 = Sanad 有动机加速可视化项目（过境走廊/5G 试点），华为可借\"快速可交付试点\"叙事切入；但避免押注选后人事不确定性",
+              "title": "选举委员会对统一国家身份证用于投票开展技术测试，身份核验基础设施成为近期政治技术变量",
+              "date": "2026-09-08",
+              "badge": "IHEC 官方",
+              "text": "IHEC 的技术与法律小组在选举委员会实验室测试统一国家身份证用于投票的技术和法律要求。该事项表明选举基础设施正在向国家身份数据联动推进，但官方页面尚未证明已形成全国部署决定。",
+              "opportunity": "🎯 与选举相关的身份、网络或数据项目必须保持技术中立并强化数据最小化、访问审计和选举完整性控制。",
               "links": [
                 {
-                  "label": "Iraqi News",
-                  "url": "https://www.iraqinews.com/iraq/"
+                  "label": "IHEC 9/8",
+                  "url": "https://ihec.iq/?lang=en-us"
                 }
-              ]
+              ],
+              "titleEn": "IHEC tests use of the unified national ID for voting, making identity-verification infrastructure a near-term political technology variable",
+              "textEn": "IHEC's technical and legal team tested the technical and legal requirements for using the unified national ID in voting. The signal points toward linkage with national identity data, but the official page does not establish a nationwide deployment decision.",
+              "opportunityEn": "Any election-related identity, network or data project should remain technically neutral and apply strong data-minimisation, access-audit and election-integrity controls."
             }
-          ]
+          ],
+          "categoryEn": "Political and electoral developments"
+        },
+        {
+          "category": "本国 ISP/DSP 和互联网运营商的投资动态",
+          "items": [],
+          "categoryEn": "ISP, DSP and internet-operator investment"
         },
         {
           "category": "ICT 竞争对手最新动态",
+          "items": [],
+          "categoryEn": "Latest ICT competitor developments"
+        },
+        {
+          "category": "运营商在集团侧相关信息",
           "items": [
             {
-              "title": "📌 5G 同步落地信号引发多厂商卡位：Nokia（NMTC 独家）稳守，ZTE 增量抢先，华为存量+过境走廊双线",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "竞争情报综合",
-              "text": "📰 竞争格局拼图：① Nokia — 持 NMTC 5G 三年独家许可（司法冻结中未落地），同时执行 Zain Iraq 3,000 hop E-band 微波存量；② ZTE — 近期动作活跃，卡位过境走廊/骨干网增量（无 OFAC 高曝光顾虑，Iran-aligned 背景下接触较松）；③ 华为 — 6 月曾由 Sanad 亲自主持 5G 会议（审视基础设施就绪度），存量阵地稳固（AsiaCell 100% / Zain Iraq 73% 微波）。研判：5G 同步落地信号一出，三厂商进入卡位战。华为的差异化不在\"政治亲近\"（那是 ZTE 相对强项），而在全球骨干网案例库 + 华为金融杠杆 + 本地团队深度——过境走廊这种大体量、高复杂度、需融资的项目正是华为护城河所在。",
-              "opportunity": "🎯 商机研判把竞争拉到能力维度（骨干网案例+金融+本地团队），不在政治亲近维度跟 ZTE 缠斗；过境走廊技术方案抢先递交 CMC/ITPC 锁定规格",
+              "title": "伊拉克与 Ooredoo 签署海湾—欧洲互联网过境合同，目标 3—4 个月接通；海缆登陆附件拟下月签署",
+              "date": "2026-09-10 ~ 09-11",
+              "badge": "通信部 + INA + 964media",
+              "text": "伊拉克通信与信息总公司与 Ooredoo 签署经伊拉克向欧洲传输国际互联网容量的合同。Sanad 称路线已开工，预计 3—4 个月接通；9 月 11 日进一步说明海缆登陆附件拟下月在多哈签署。公开报道同时显示收益分成仍存在 28% 与 30% 的谈判差异，因此应区分已签过境合同与待签海缆附件。",
+              "opportunity": "🎯 这是 ITPC 国际骨干、DWDM、跨境 PoP、网络安全与低时延运营平台的 L1 机会；投标前核对合同边界、收入分成、既有 Falcon/GCX 路由和库区段责任。",
               "links": [
                 {
-                  "label": "Telecompaper（华为-Sanad 5G 会议）",
-                  "url": "https://www.telecompaper.com/news/iraqi-minister-and-huawei-discuss-strategy-for-5g-rollout--1574638"
+                  "label": "964media 9/10",
+                  "url": "https://en.964media.com/52350/"
+                },
+                {
+                  "label": "NINA 9/11",
+                  "url": "https://ninanews.com/website/News/Details?Key=1314292"
                 }
-              ]
+              ],
+              "titleEn": "Iraq and Ooredoo sign a Gulf-to-Europe internet-transit contract targeting activation in three to four months; a marine-landing addendum is planned next month",
+              "textEn": "Iraq's General Company for Communications and Informatics signed a contract with Ooredoo to carry international internet capacity through Iraq toward Europe. Sanad said work was under way and connection was expected within three to four months; on 11 September he separately said the marine-landing addendum would be signed in Doha next month. Public reporting also points to a 28% versus 30% revenue-share gap, so the signed transit contract and pending landing addendum should be treated separately.",
+              "opportunityEn": "This is an L1 opportunity in ITPC international backbone, DWDM, border PoPs, network security and low-latency operations. Validate scope, revenue share, existing Falcon/GCX routes and responsibility for the Kurdistan segment before bidding."
             }
-          ]
+          ],
+          "categoryEn": "Operator group-level intelligence"
         },
         {
           "category": "美国对本国政治和经济活动的干预",
           "items": [
             {
-              "title": "📌 美伊 8/17 MOU 窗口已过，制裁与霍尔木兹走向成为伊拉克财政与 ICT 合规的持续前置变量",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "区域局势综合",
-              "text": "📰 背景：6/17 美伊凡尔赛 MOU 设定的 60 天谈判窗口已于 8/17 到期。本期内该窗口后续进展成为伊拉克宏观环境的关键不确定源——直接影响石油出口、政府财政与 ICT 采购的 OFAC 合规环境。对华为的传导：① 财政不确定 = 运营商 CAPEX 决策可能更谨慎；② OFAC 环境不明 = 所有伊拉克合同合规须维持 Tier 1 自审；③ 财政承压时，总拥有成本与分期交付方案的权重会上升。",
-              "opportunity": "🎯 商机研判预算收缩期强化华为性价比叙事；合规维持 Tier 1；跟踪 8/17 后续谈判对回款与制裁的传导，W37-38 复盘",
+              "title": "OFAC 新行动直接点名伊拉克通信解决方案企业与承包网络，第三方和最终受益人审查阈值上升",
+              "date": "2026-09-10",
+              "badge": "美国财政部 OFAC 官方",
+              "text": "美国财政部在 Operation Economic Outcast 下制裁 Kata'ib Hizballah 和 Lebanese Hizballah 支持网络。伊拉克相关对象包括 Ain Al-Iraq for Protecting Technology and Audio, Visual, and Communications Solutions Company、Al-Brouj 及多名个人。该公告同时强调 50% 规则、严格责任和部分二级制裁暴露。",
+              "opportunity": "🎯 所有政府、安防、通信集成和经销伙伴须在报价、下单、付款前重新筛查实体、董事、股东、银行和实际受益人；仅做名称模糊匹配不够。",
               "links": [
                 {
-                  "label": "Iraqi News",
-                  "url": "https://www.iraqinews.com/iraq/"
+                  "label": "U.S. Treasury 9/10",
+                  "url": "https://home.treasury.gov/news/press-releases/sb0626/"
                 }
-              ]
+              ],
+              "titleEn": "New OFAC action explicitly names an Iraqi communications-solutions company and contracting networks, raising third-party and beneficial-owner review thresholds",
+              "textEn": "Under Operation Economic Outcast, the U.S. Treasury sanctioned networks supporting Kata'ib Hizballah and Lebanese Hizballah. Iraq-related targets include Ain Al-Iraq for Protecting Technology and Audio, Visual, and Communications Solutions Company, Al-Brouj and several individuals. The notice reiterates the 50 Percent Rule, strict-liability exposure and certain secondary-sanctions risks.",
+              "opportunityEn": "Re-screen entities, directors, shareholders, banks and beneficial owners for every government, security, communications-integration and reseller relationship before quotation, order and payment. Name-only fuzzy matching is insufficient."
             }
-          ]
+          ],
+          "categoryEn": "U.S. intervention and sanctions exposure"
         },
         {
           "category": "本国主流媒体对华为的报道与评价",
-          "items": [
-            {
-              "title": "📌 华为-Sanad 5G 会议获通信部通稿正面报道（本期 5G 议题升温再度被引用）",
-              "date": "2026-06-18（本期回溯引用）",
-              "badge": "Telecompaper + Iraq Business News",
-              "text": "📰 报道要点：通信部通稿披露 Sanad 部长曾主持一场与华为的会议，会上审视了 5G 基础设施就绪度并跟进实施要求，作为\"发展伊拉克电信部门努力\"的一部分。同期通信部也与 Vodafone + 英国大使馆就国家移动牌照会谈。研判：① 通信部把与华为的 5G 技术会议纳入官方正面叙事，是华为在伊拉克官方渠道的正向存在；② 但同期 Vodafone（NMTC 技术伙伴）会谈并行，说明 Sanad 在\"国家牌照走 Vodafone / 网络设备可能多元\"之间保持开放；③ 本期 5G 同步落地信号使这条历史会议被重新提及，华为应把握官方正向叙事延续窗口。",
-              "opportunity": "🎯 商机研判官方正向叙事可延续——争取通信部下一次 5G 技术会议/试点的公开露出，巩固\"华为=5G 就绪技术伙伴\"认知",
-              "links": [
-                {
-                  "label": "Telecompaper",
-                  "url": "https://www.telecompaper.com/news/iraqi-minister-and-huawei-discuss-strategy-for-5g-rollout--1574638"
-                }
-              ]
-            }
-          ]
+          "items": [],
+          "categoryEn": "Local mainstream-media coverage of Huawei"
         },
         {
           "category": "本国头部客户的新机会点",
           "items": [
             {
-              "title": "⭐ ITPC 过境光缆（Basra→欧洲经库区）+ 全国频谱统一分配 = 两条主线机会成型",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "8/29 信号综合",
-              "text": "📰 机会拼图：主线 1 — 过境光缆骨干：8/29 Sanad 明确协调 Basra→欧洲经库区的战略国际过境光缆。ITPC 是唯一执行主体，DWDM、边境 PoP、库区段光缆、海缆登陆全在其采购盘。主线 2 — 全国频谱统一分配：同步含库区的频谱分配，意味着 C-band/n78 的国家级规格制定即将启动，谁先递交技术输入谁占位。研判：两条主线在 8/29 定调后从\"愿景\"转入\"协调执行\"，Q4 是技术规格与清频方案的输入关键期。华为在骨干网（DWDM/OTN）与无线（n78 组网）两端均有对口方案。",
-              "opportunity": "🎯 商机研判（ITPC 🔴 最高优先级）① Q4 向 ITPC 递交过境光缆端到端方案（DWDM+边境 PoP+库区段）；② 向 CMC 递交 C-band/n78 组网与清频技术输入，抢在司法解冻前占规格；③ 库区段需 Korek/KRG 交通通信部同步接触",
+              "title": "本期三条最高优先级机会：国际过境网络、主权 AI 基础设施、政府安全 LTE/5G",
+              "date": "2026-09-12",
+              "badge": "本期综合研判",
+              "text": "三条机会均已出现官方需求信号，但成熟度不同：Ooredoo/ITPC 过境合同已签、属于 L1；政府安全 LTE 扩围有部长级讨论、属于 L2；国家 AI 基础设施仍在论证、属于 L2。Korek 相关机会因监管执行和回款风险降为观察或暂停。",
+              "opportunity": "🎯 七日动作：向 ITPC 提交过境骨干假设清单；向通信部预约政务专网技术会；向 CMC 提交主权 AI 参考架构；对上述项目伙伴执行 OFAC 增量筛查。",
               "links": [
                 {
-                  "label": "Iraqi News 8/29",
-                  "url": "https://www.iraqinews.com/iraq/iraq-simultaneous-5g-rollout-kurdistan-region-mustafa-sanad-2026/"
+                  "label": "Ooredoo 过境合同",
+                  "url": "https://en.964media.com/52350/"
+                },
+                {
+                  "label": "CMC AI 计划",
+                  "url": "https://cmc.iq/2026/09/10/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%83%D8%B4%D9%81-%D8%AE%D8%B7%D8%A9-%D9%84%D8%A8%D9%86%D8%A7/"
                 }
-              ]
+              ],
+              "titleEn": "Three top-priority opportunities this period: international transit, sovereign AI infrastructure and secure government LTE/5G",
+              "textEn": "All three now have official demand signals, but maturity differs: the Ooredoo/ITPC transit contract is signed and rated L1; secure government LTE expansion has ministerial discussion and is L2; national AI infrastructure remains at scoping stage and is L2. Korek-related opportunities move to watch or hold because of enforcement and collection risk.",
+              "opportunityEn": "Seven-day actions: submit a transit-backbone assumptions list to ITPC; request a government-network technical session with the ministry; give CMC a sovereign-AI reference architecture; and run incremental OFAC screening on all project partners."
             }
-          ]
+          ],
+          "categoryEn": "New opportunities with top customers"
         },
         {
           "category": "社交媒体新闻追踪",
           "items": [
             {
-              "title": "⭐ Sanad：政府机构互联网价格降低 40%，未覆盖光纤地区无线塔网速提高 40%",
-              "date": "2026-09-03",
-              "badge": "Telegram · 伊拉克通信部官方",
-              "text": "📰 官方发布：通信部长 Mustafa Sanad 指示，把供应给各政府机构的互联网价格降低 40%，保持容量不变；同时要求面向尚未覆盖光纤的地区，提高居民无线塔互联网速率 40%。🔍 业务解读：政府专线降价会直接挤压运营收入，倒逼 ITPC 与服务商优化带宽成本；无线塔提速则意味着回传、微波和边缘扩容需求将前移。",
-              "opportunity": "🎯 商机研判优先向 ITPC/合作 ISP 推进低 TCO 的 IP+光传送扩容组合，并针对未 FTTH 覆盖区准备微波回传扩容清单",
+              "title": "通信部发布 Ooredoo 过境容量合同签约信息",
+              "date": "2026-09-10",
+              "badge": "Telegram · 通信部",
+              "text": "官方频道确认伊拉克通信与信息总公司与 Ooredoo 签署海湾至欧洲的互联网容量过境合同。",
+              "opportunity": "🎯 并入“运营商集团侧”和“头部客户机会”两条主线。",
               "links": [
                 {
-                  "label": "Telegram 原文",
-                  "url": "https://t.me/mociraq2023/1695"
+                  "label": "Telegram 原帖",
+                  "url": "https://t.me/mociraq2023/1698"
                 }
-              ]
+              ],
+              "titleEn": "Ministry channel announces the Ooredoo transit-capacity contract",
+              "textEn": "The official channel confirmed that Iraq's General Company for Communications and Informatics signed a Gulf-to-Europe internet-transit contract with Ooredoo.",
+              "opportunityEn": "Routed to operator group intelligence and top-customer opportunities."
             },
             {
-              "title": "Sanad 会见中国新任驻伊大使，讨论通信、邮政及数字基础设施合作",
-              "date": "2026-08-27",
-              "badge": "Telegram · 伊拉克通信部官方",
-              "text": "📰 官方发布：Sanad 与中国驻伊拉克新任大使就通信和邮政领域合作、数字基础设施建设及技术经验交流展开讨论。🔍 业务解读：这是中伊 ICT 合作的高级别官方窗口，可衔接 5G、国家骨干网、数据中心和数字政府方案。",
-              "opportunity": "🎯 商机研判以使馆—通信部双边合作议题为牵引，准备数字基础设施合作清单与可快速落地的示范项目",
+              "title": "通信部讨论安全政府 LTE 网络全国扩围与 5G 升级",
+              "date": "2026-09-09",
+              "badge": "Telegram · 通信部",
+              "text": "部长与 Taurus Arm 讨论把安全政府 LTE 网络延伸至全部政府机构，并评估 5G 性能升级。",
+              "opportunity": "🎯 并入“部委动态”和“头部客户机会”。",
               "links": [
                 {
-                  "label": "Telegram 原文",
-                  "url": "https://t.me/mociraq2023/1686"
+                  "label": "Telegram 原帖",
+                  "url": "https://t.me/mociraq2023/1697"
                 }
-              ]
+              ],
+              "titleEn": "Ministry discusses nationwide expansion of secure government LTE and a 5G upgrade",
+              "textEn": "The minister discussed extending the secure government LTE network to all public institutions with Taurus Arm and assessing a 5G performance upgrade.",
+              "opportunityEn": "Routed to ministry developments and top-customer opportunities."
             },
             {
-              "title": "⚠️ CMC 关闭 Korek 在纳杰夫、迪瓦尼耶、巴比伦的多处网点，包括纳杰夫机场网点",
-              "date": "2026-09-02",
-              "badge": "Telegram · CMC 官方",
-              "text": "📰 官方发布：CMC 联合国家安全机构执行监管行动，关闭 Korek 在三省的多处办公室和服务中心。此前 8/31，CMC 还关闭了 Korek 在卡尔巴拉的总部。🔍 业务解读：Korek 的监管与渠道风险明显升高，可能影响新增用户、回款及网络投资节奏；相关项目应提高合规和付款条件审查等级。",
-              "opportunity": "🎯 风险研判Korek 机会继续跟踪，但合同、交付和回款采用更严格里程碑；同步评估监管变化对库区 5G 协调的传导",
+              "title": "CMC 披露国家人工智能基础设施计划",
+              "date": "2026-09-10",
+              "badge": "Telegram · CMC",
+              "text": "CMC 与总理人工智能顾问讨论国家级 AI 和先进数据处理基础设施。",
+              "opportunity": "🎯 并入“部委动态”和“头部客户机会”。",
               "links": [
                 {
-                  "label": "Telegram 原文",
-                  "url": "https://t.me/iraqcmc/10925"
-                },
-                {
-                  "label": "8/31 原文",
-                  "url": "https://t.me/iraqcmc/10914"
+                  "label": "Telegram 原帖",
+                  "url": "https://t.me/iraqcmc/10972"
                 }
-              ]
+              ],
+              "titleEn": "CMC discloses a national AI-infrastructure plan",
+              "textEn": "CMC and the prime minister's AI adviser discussed national infrastructure for AI and advanced data processing.",
+              "opportunityEn": "Routed to regulator developments and top-customer opportunities."
             },
             {
-              "title": "CMC 全面停止纸质许可申请，统一转向电子门户",
-              "date": "2026-09-01",
-              "badge": "Telegram · CMC 官方",
-              "text": "📰 官方发布：从 9 月 1 日起，CMC 不再接收纸质许可申请，企业与个人必须通过电子门户提交。🔍 业务解读：监管流程数字化进入强制执行阶段，后续可能扩展到频谱、设备型式批准、运营商报表和在线监管。",
-              "opportunity": "🎯 商机研判跟踪门户二期需求，关注统一身份、流程平台、数据治理、电子签名及监管数据中心机会",
+              "title": "CMC 讨论虚假 SIM 卡、无人机规则和本地邮件服务",
+              "date": "2026-09-08",
+              "badge": "Telegram · CMC",
+              "text": "CMC 管理层会议同步审议虚假 SIM 卡治理、无人机相关规则、本地邮件服务和部分 Starlink 交付延迟。",
+              "opportunity": "🎯 并入“部委动态”和“营商合规”预警。",
               "links": [
                 {
-                  "label": "Telegram 原文",
-                  "url": "https://t.me/iraqcmc/10911"
+                  "label": "Telegram 原帖",
+                  "url": "https://t.me/iraqcmc/10968"
                 }
-              ]
+              ],
+              "titleEn": "CMC discusses fraudulent SIMs, drone rules and a local mail service",
+              "textEn": "CMC management reviewed fraudulent-SIM controls, drone-related rules, a local mail service and delays affecting some Starlink equipment deliveries.",
+              "opportunityEn": "Routed to regulator developments and business-compliance alerts."
             },
             {
-              "title": "CMC 推出网络质量测速应用，并与 Zain Iraq 启动六个月 AI 培训计划",
-              "date": "2026-08-25 ~ 08-26",
-              "badge": "Telegram · CMC 官方",
-              "text": "📰 官方发布：CMC 推出供用户参与的通信与互联网质量实地评估应用 CMC Speed Test；同时与 Zain Iraq 启动为期六个月的人工智能与应用培训计划。🔍 业务解读：监管重心正从牌照管理扩展到众包网络体验数据与 AI 能力建设，将产生数据平台、智能运维和人才培养需求。",
-              "opportunity": "🎯 商机研判向 CMC 推进体验管理、网络洞察与 AI 监管能力方案；向运营商输出智能运维和联合认证培训",
+              "title": "CMC 将 Korek 场所关闭行动扩大至三省",
+              "date": "2026-09-06",
+              "badge": "Telegram · CMC",
+              "text": "官方频道确认基尔库克、尼尼微和萨拉赫丁的 Korek 办公与服务场所被关闭。",
+              "opportunity": "🎯 并入“运营商动态”和“营商合规”红色预警。",
               "links": [
                 {
-                  "label": "Speed Test 原文",
-                  "url": "https://t.me/iraqcmc/10904"
-                },
-                {
-                  "label": "AI 培训原文",
-                  "url": "https://t.me/iraqcmc/10902"
+                  "label": "Telegram 原帖",
+                  "url": "https://t.me/iraqcmc/10939"
                 }
-              ]
-            },
-            {
-              "title": "📱 INA @ 通信部 · 8/29 Sanad 全国同步 5G 声明官方分发",
-              "date": "2026-08-29",
-              "badge": "INA 官方 · 通信部长渠道",
-              "text": "📝 原文摘录（英译）：existing technical and administrative differences between the federal ministry and the KRG are \"manageable\"，bilateral discussions progressing toward unified protocols。🌐 中文翻译：联邦部与库区政府之间现存的技术与行政分歧\"可控\"，双边讨论正走向统一协议。🔍 业务解读：① Sanad 通过 INA 国家通讯社分发，属政策定调级信号；② \"可控\"措辞是对外释放\"库区问题不会拖累全国 5G\"的信心；③ 华为应将 INA 通信版块维持为 Sanad 政策信号 T1 监控源。",
-              "opportunity": "🎯 商机研判政策定调级信号 = 频谱与过境走廊技术输入的政治窗口已开",
-              "links": [
-                {
-                  "label": "Iraqi News 8/29",
-                  "url": "https://www.iraqinews.com/iraq/iraq-simultaneous-5g-rollout-kurdistan-region-mustafa-sanad-2026/"
-                }
-              ]
-            },
-            {
-              "title": "📱 Sanad 记者会 · 8/22 宣布访库区：\"5G 与第四张牌照联合同步启动\"",
-              "date": "2026-08-22",
-              "badge": "The New Region · 记者会",
-              "text": "📝 原文摘录（英译）：during the visit \"we will discuss the activation of fourth-generation mobile network licences and fifth-generation (5G) services, so that both processes begin jointly and simultaneously in Baghdad and Erbil.\"🌐 中文翻译：访问期间将讨论第四代移动牌照与 5G 服务的激活，使两个进程在巴格达和埃尔比勒联合、同步启动。🔍 业务解读：① \"联合同步\"是 Sanad 对全国统一的核心措辞；② 把 4G 牌照激活与 5G 绑一起谈，说明库区的牌照/频谱历史遗留问题要一次性收口；③ 对华为：库区（Korek 主场）与联邦须双线维护。",
-              "opportunity": "🎯 商机研判库区-联邦一次性收口 = 华为需确保在两套采购体系中都不掉队",
-              "links": [
-                {
-                  "label": "The New Region 8/22",
-                  "url": "https://thenewregion.com/posts/6298"
-                }
-              ]
-            },
-            {
-              "title": "📱 CMC 官方 · 委员会推进吸引国际公司参与项目实施",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "CMC 官方渠道",
-              "text": "📝 观察要点：CMC 委员会近期例会决定推进相关措施，吸引尽可能多的国际公司参与 CMC 项目实施，以促进投资、提升服务水平。🔍 业务解读：① CMC 主动为\"引入国际公司\"铺垫，与年底频谱/C-band 动作的传闻方向一致；② 结合 8/29 全国频谱统一分配，CMC 是频谱规则制定的轴心；③ 华为应把 CMC 委员会公告纳入 T1 监控，第一时间捕捉招标/引资信号。",
-              "opportunity": "🎯 商机研判CMC 引资铺垫 + 频谱轴心地位 = 频谱技术输入与引资方案应同步递交 CMC",
-              "links": [
-                {
-                  "label": "X @iraqcmc",
-                  "url": "https://x.com/iraqcmc"
-                }
-              ]
+              ],
+              "titleEn": "CMC expands Korek location closures to three governorates",
+              "textEn": "The official channel confirmed closure of Korek offices and service locations in Kirkuk, Nineveh and Salah al-Din.",
+              "opportunityEn": "Routed to operator developments and a red business-compliance alert."
             }
-          ]
+          ],
+          "categoryEn": "Social-media and official-channel tracking"
         }
-      ]
+      ],
+      "nameEn": "Iraq"
     },
     "jo": {
       "name": "约旦",
@@ -270,101 +313,213 @@
           "category": "本国运营商最新动态",
           "items": [
             {
-              "title": "📌 8/24 Orange Jordan（JTEL）向安曼交易所提交例行披露，三家运营商处 690 站承诺执行期",
-              "date": "2026-08-24",
-              "badge": "Amman Stock Exchange 披露",
-              "text": "📰 要点：Jordan Telecommunications Company（JTEL / Orange Jordan）8/24 向约旦证券委员会与安曼交易所提交例行交易披露。三家运营商（Orange / Zain / Umniah）当前处于 TRC 690 站建设承诺的执行期，无重大新业务公告。研判：约旦运营商市场稳定，华为在三家 RAN 无存量突破空间，主战场在固网/金融 IT/eKYC 中台与数据中心差异化领域。",
-              "opportunity": "🎯 商机研判运营商 RAN 无突破口，聚焦 eKYC 中台+数据中心+政府云差异化",
+              "title": "Umniah by Beyon 与 Ericsson 推进二期 5G 和全国网络扩容",
+              "date": "2026-09",
+              "badge": "Umniah 官方",
+              "text": "Umniah 宣布继续扩大全国网络容量与性能，并与 Ericsson 推进 5G 二期。官方稿强调对企业云服务、数据交换、网络韧性和连接能力的支撑，但未披露投资额、站点数或新增覆盖地图。",
+              "opportunity": "🎯 跟踪无线扩容、传输、室分、能源和企业专网配套；不得把“二期推进”直接等同于已完成全国覆盖。",
               "links": [
                 {
-                  "label": "MarketScreener 8/24",
-                  "url": "https://www.marketscreener.com/quote/stock/JORDAN-TELECOMMUNICATIONS-6497217/news/"
+                  "label": "Umniah 官方",
+                  "url": "https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"
                 }
-              ]
+              ],
+              "titleEn": "Umniah by Beyon advances phase-two 5G and nationwide network expansion with Ericsson",
+              "textEn": "Umniah said it is expanding network capacity and performance across Jordan while continuing the second phase of its 5G programme with Ericsson. The release highlights support for enterprise cloud services, data exchange, resilience and connectivity, but gives no investment value, site count or new coverage map.",
+              "opportunityEn": "Track radio expansion, transport, indoor coverage, energy and private-network follow-ons. Do not equate 'phase two' with completed nationwide coverage."
             }
-          ]
+          ],
+          "categoryEn": "Latest operator developments"
         },
         {
           "category": "本国部委最新动态",
           "items": [
             {
-              "title": "⭐ TRC 2026 双优先明确：号码携转 MNP（2027/4 上线）+ 5G 扩容；主席 Lara Khateeb",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "TRC + Al-Mamlaka",
-              "text": "📰 要点：约旦电信监管委员会 TRC 将 2026 年两大重点定为号码携转（MNP）项目与 5G 服务扩容。MNP 允许用户携号转网，预计 2027 年 4 月在约旦市场全面可用。TRC 现任主席兼委员会主席为 Lara Khateeb，2026 年 TRC 营收约 $1.027 亿，员工 125 人。研判：① MNP 上线将加剧运营商竞争，推动其网络与 IT 系统升级——承载网/核心网/BSS 改造窗口；② 5G 扩容是持续机会，但 RAN 由 Nokia/Ericsson 占据，华为走承载+核心+数据中心差异化；③ TRC 监管成熟、亲欧标（ETSI），华为需以合规+差异化并重切入。",
-              "opportunity": "🎯 商机研判MNP（2027/4）驱动运营商 IT/承载升级 = BSS/核心网改造窗口；5G 扩容走承载+DC 差异化",
+              "title": "约旦与沙特 HUMAIN 签署人工智能合作备忘录，政府 AI 场景进入联合识别阶段",
+              "date": "2026-09-06",
+              "badge": "Petra 官方媒体",
+              "text": "MoDEE 部长 Sami Smeirat 与 HUMAIN CEO Tareq Amin 签署战略备忘录，合作方向包括人才、创新生态和识别可规模化的政府 AI 场景。备忘录代表合作框架，不等同于已授标项目。",
+              "opportunity": "🎯 以政府 AI 场景发现、主权云/数据、模型治理和人才培养切入；等到预算、数据责任和采购方式明确后再上调机会级别。",
               "links": [
                 {
-                  "label": "SAMENA / Al-Mamlaka",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
+                  "label": "Petra 9/6",
+                  "url": "https://www.petra.gov.jo/en/index.php/en/news/jordan-saudi-arabias-humain-sign-strategic-mou-to-advance-ai-development-and-innovation"
                 }
-              ]
+              ],
+              "titleEn": "Jordan and Saudi Arabia's HUMAIN sign an AI cooperation MoU as government use cases move into joint identification",
+              "textEn": "MoDEE Minister Sami Smeirat and HUMAIN CEO Tareq Amin signed a strategic MoU covering talent, the innovation ecosystem and identification of scalable government AI use cases. The MoU is a cooperation framework, not an awarded project.",
+              "opportunityEn": "Engage around government AI discovery, sovereign cloud/data, model governance and skills. Raise the opportunity stage only after budget, data accountability and procurement method are clear."
+            },
+            {
+              "title": "2026 年《投资环境条例》已入官方公报，“合规承诺式许可”缩短开发区项目启动路径",
+              "date": "2026-09-10",
+              "badge": "投资部官方重核",
+              "text": "投资部确认修订条例已在 6 月 4 日公报发布，并于本期更新官方说明。新机制允许开发区内部分经济活动基于投资者合规声明较快启动，随后接受检查；这不是豁免监管义务。",
+              "opportunity": "🎯 对数据中心、云、软件和数字服务项目，需逐项确认是否属于适用活动、开发区条件、后检查清单和非约旦投资限制。",
+              "links": [
+                {
+                  "label": "投资部官方",
+                  "url": "https://www.moin.gov.jo/En/NewsDetails/Amended_Investment_Environment_Regulation_Published_in_the_Official_Gazette"
+                }
+              ],
+              "titleEn": "The 2026 Investment Environment Regulation is in the Official Gazette, introducing compliance-based licensing for faster starts in development zones",
+              "textEn": "The Ministry of Investment confirmed that the amended regulation was published in the 4 June Gazette and refreshed its official explanation this period. It allows certain development-zone activities to start more quickly on an investor compliance declaration, followed by inspection; it is not an exemption from regulatory duties.",
+              "opportunityEn": "For data-centre, cloud, software and digital-service projects, confirm eligible activities, development-zone conditions, post-inspection controls and foreign-investment restrictions item by item."
             }
-          ]
+          ],
+          "categoryEn": "Latest ministry and regulator developments"
+        },
+        {
+          "category": "本国财团投资动态",
+          "items": [],
+          "categoryEn": "Local consortium investment developments"
+        },
+        {
+          "category": "本国政治与大选进展及内幕",
+          "items": [],
+          "categoryEn": "Political and electoral developments"
+        },
+        {
+          "category": "本国 ISP/DSP 和互联网运营商的投资动态",
+          "items": [],
+          "categoryEn": "ISP, DSP and internet-operator investment"
+        },
+        {
+          "category": "ICT 竞争对手最新动态",
+          "items": [
+            {
+              "title": "Ericsson 锁定 Umniah 二期 5G 扩容，竞争焦点从首发转向容量与体验",
+              "date": "2026-09",
+              "badge": "Umniah 官方",
+              "text": "官方公告确认 Ericsson 继续作为 Umniah 二期 5G 的战略技术伙伴。竞争指标将更多落在容量、体验、自动化运维和企业连接，而不是单纯覆盖口号。",
+              "opportunity": "🎯 围绕多厂商传输、室分、能源效率、自动化运维和企业专网提出可量化替代价值。",
+              "links": [
+                {
+                  "label": "Umniah 官方",
+                  "url": "https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"
+                }
+              ],
+              "titleEn": "Ericsson secures Umniah's phase-two 5G expansion as competition shifts from launch claims to capacity and experience",
+              "textEn": "The official release confirms Ericsson remains Umniah's strategic technology partner for phase-two 5G. Competition will increasingly centre on capacity, experience, automated operations and enterprise connectivity rather than headline coverage claims.",
+              "opportunityEn": "Quantify alternative value in multi-vendor transport, indoor coverage, energy efficiency, automated operations and enterprise private networks."
+            }
+          ],
+          "categoryEn": "Latest ICT competitor developments"
+        },
+        {
+          "category": "运营商在集团侧相关信息",
+          "items": [
+            {
+              "title": "Umniah 以 Beyon 集团品牌继续 5G 二期投入，集团能力向约旦落地",
+              "date": "2026-09",
+              "badge": "Beyon 集团品牌",
+              "text": "Umniah 的公告把网络扩容与 Beyon 集团品牌、企业连接和数字服务能力绑定。该信号有利于从集团伙伴与约旦本地网络两条线同步跟进。",
+              "opportunity": "🎯 同时维护 Beyon 集团技术关系与 Umniah 本地采购/网络团队，避免只在单一层级推进。",
+              "links": [
+                {
+                  "label": "Umniah 官方",
+                  "url": "https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"
+                }
+              ],
+              "titleEn": "Umniah continues phase-two 5G investment under the Beyon brand, bringing group capability into Jordan",
+              "textEn": "Umniah links network expansion with the Beyon group brand, enterprise connectivity and digital services. The signal supports parallel engagement at group-partner and local-network levels.",
+              "opportunityEn": "Maintain both Beyon group technical relationships and Umniah's local procurement/network engagement instead of relying on one level."
+            }
+          ],
+          "categoryEn": "Operator group-level intelligence"
+        },
+        {
+          "category": "美国对本国政治和经济活动的干预",
+          "items": [],
+          "categoryEn": "U.S. intervention and sanctions exposure"
+        },
+        {
+          "category": "本国主流媒体对华为的报道与评价",
+          "items": [],
+          "categoryEn": "Local mainstream-media coverage of Huawei"
         },
         {
           "category": "本国头部客户的新机会点",
           "items": [
             {
-              "title": "📌 MNP（2027/4）+ eKYC 生态延续：银行业与运营商 IT 升级窗口叠加",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "MNP 推演",
-              "text": "📰 机会拼图：TRC 号码携转 2027/4 上线，运营商须完成 BSS/核心网/中央数据库改造以支持携号转网；同时约旦银行业 eKYC 生态（Arab Bank 已落地 Sanad 数字 ID）持续铺开。两条 IT 升级需求叠加。研判：华为可在运营商侧（MNP 承载/数据库）+ 银行侧（eKYC 中台/灾备数据中心）双线切入，均属\"非核心系统差异化\"路径，避开 RAN 与核心银行系统壁垒。",
-              "opportunity": "🎯 商机研判MNP + eKYC 双 IT 升级窗口 = 运营商数据库/承载 + 银行中台/灾备双线切入",
+              "title": "约旦机会组合：Umniah 5G 二期、政府 AI 场景和开发区合规许可",
+              "date": "2026-09-12",
+              "badge": "本期综合研判",
+              "text": "三条主线成熟度分别为 L2、L2 和市场准入条件。约旦总体执行环境稳定，但备忘录和政策说明均不能替代预算、RFP 或许可证。",
+              "opportunity": "🎯 七日动作：建立 Umniah 二期 5G 配套清单；向 MoDEE 提供政府 AI 场景工作坊框架；对开发区数据中心项目完成许可适用性核验。",
               "links": [
                 {
-                  "label": "SAMENA",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
+                  "label": "Umniah",
+                  "url": "https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"
+                },
+                {
+                  "label": "Petra",
+                  "url": "https://www.petra.gov.jo/en/index.php/en/news/jordan-saudi-arabias-humain-sign-strategic-mou-to-advance-ai-development-and-innovation"
                 }
-              ]
+              ],
+              "titleEn": "Jordan opportunity set: Umniah phase-two 5G, government AI use cases and compliance-based development-zone licensing",
+              "textEn": "The three tracks are respectively L2, L2 and a market-entry condition. Jordan remains comparatively executable, but an MoU and policy explanation do not replace a budget, RFP or licence.",
+              "opportunityEn": "Seven-day actions: map Umniah phase-two 5G follow-ons; offer MoDEE a government-AI use-case workshop; and complete licensing applicability checks for development-zone data-centre projects."
             }
-          ]
+          ],
+          "categoryEn": "New opportunities with top customers"
         },
         {
           "category": "社交媒体新闻追踪",
           "items": [
             {
-              "title": "📱 TRC · 号码携转 MNP 与 5G 扩容列为 2026 双优先",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "TRC 官方渠道",
-              "text": "📝 要点：TRC 通过官方渠道明确 2026 两大重点文件为 MNP 与 5G 扩容。🔍 解读：监管层主动释放 IT/网络升级信号，是华为承载+数据中心方案的对接切口。",
-              "opportunity": "🎯 商机研判监管驱动升级信号 = 主动对接 TRC 与运营商 IT 团队",
+              "title": "Umniah 宣布继续网络扩容和二期 5G",
+              "date": "2026-09",
+              "badge": "官网 · Umniah",
+              "text": "官方公告把网络升级与企业云、数据交换和韧性需求直接关联。",
+              "opportunity": "🎯 并入“运营商动态”“竞争对手”和“集团侧”三条主线。",
               "links": [
                 {
-                  "label": "SAMENA",
-                  "url": "https://www.samenacouncil.org/samena_daily_news?news=109931"
+                  "label": "官方原文",
+                  "url": "https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"
                 }
-              ]
+              ],
+              "titleEn": "Umniah announces continued network expansion and phase-two 5G",
+              "textEn": "The official release directly links the upgrade to enterprise cloud, data exchange and resilience needs.",
+              "opportunityEn": "Routed to operator, competitor and group-level tracks."
             },
             {
-              "title": "📱 Orange Jordan · 8/24 交易所例行披露",
-              "date": "2026-08-24",
-              "badge": "Orange Jordan / JTEL",
-              "text": "📝 要点：JTEL 8/24 提交安曼交易所交易披露，无重大战略公告。🔍 解读：运营商处平稳执行期，无并购/大额投资信号。",
-              "opportunity": "🎯 商机研判维持对 Orange/Zain/Umniah IT 升级需求的常态监控",
+              "title": "MoDEE 与 HUMAIN 推进政府 AI 合作",
+              "date": "2026-09-06",
+              "badge": "政府媒体 · Petra",
+              "text": "战略备忘录覆盖人才、创新与可规模化政府 AI 场景识别。",
+              "opportunity": "🎯 并入“部委动态”和“头部客户机会”。",
               "links": [
                 {
-                  "label": "MarketScreener",
-                  "url": "https://www.marketscreener.com/quote/stock/JORDAN-TELECOMMUNICATIONS-6497217/news/"
+                  "label": "Petra 原文",
+                  "url": "https://www.petra.gov.jo/en/index.php/en/news/jordan-saudi-arabias-humain-sign-strategic-mou-to-advance-ai-development-and-innovation"
                 }
-              ]
+              ],
+              "titleEn": "MoDEE and HUMAIN advance government AI cooperation",
+              "textEn": "The strategic MoU covers skills, innovation and identification of scalable government AI use cases.",
+              "opportunityEn": "Routed to ministry developments and top-customer opportunities."
             },
             {
-              "title": "📱 MoDEE · Sanad 数字 ID 生态持续推广（银行/政务多场景）",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "MoDEE 官方渠道",
-              "text": "📝 要点：MoDEE 持续推动 Sanad 数字身份在银行、政务等多场景落地，作为国家数字化 KPI。🔍 解读：生态落地阶段 = 政府云+身份中台采购需求逐步显性化。",
-              "opportunity": "🎯 商机研判保持 MoDEE 部级对话，捕捉政府云/身份中台采购信号",
+              "title": "投资部重申开发区合规承诺式许可机制",
+              "date": "2026-09-10",
+              "badge": "官网 · 投资部",
+              "text": "官方更新说明该机制可缩短启动时间，但仍受后续检查和适用规则约束。",
+              "opportunity": "🎯 并入独立“营商与合规”栏目。",
               "links": [
                 {
-                  "label": "MoDEE 官网",
-                  "url": "https://www.modee.gov.jo/"
+                  "label": "投资部原文",
+                  "url": "https://www.moin.gov.jo/En/NewsDetails/Amended_Investment_Environment_Regulation_Published_in_the_Official_Gazette"
                 }
-              ]
+              ],
+              "titleEn": "Investment Ministry reiterates compliance-based licensing in development zones",
+              "textEn": "The refreshed official explanation says the mechanism can shorten start-up time while remaining subject to post-licensing inspection and applicable rules.",
+              "opportunityEn": "Routed to the standalone business and compliance section."
             }
-          ]
+          ],
+          "categoryEn": "Social-media and official-channel tracking"
         }
-      ]
+      ],
+      "nameEn": "Jordan"
     },
     "lb": {
       "name": "黎巴嫩",
@@ -372,135 +527,187 @@
       "sections": [
         {
           "category": "本国运营商最新动态",
-          "items": [
-            {
-              "title": "⭐ Hajj 部长改革蓝图落地延续：2025 投网络超 $5000 万，光纤一期覆盖 35 万户，三年宽带 5 万→50 万",
-              "date": "2026-07-30（本期延续）",
-              "badge": "NNA / Tele Liban",
-              "text": "📰 NNA / Tele Liban 原文要点：通信部长 Charles Hajj 在 Tele Liban 节目阐述改革进展——五年金融危机+疫情+战争后行业投资不足、网络接近服役末期，政府正推结构改革同时维持基本服务。关键数据：① 已启动 Law 431 落实（通过后 22 年首次），经由 TRA、部委重组与 Liban Telecom 设立；② 向 Ogero/部委员工保证转入新公司将保留并改善其权益薪资；③ 通过 Alfa 与 Touch 更严格支出，2025 年投网络超 $5000 万、增加国库转移约 $2500 万；④ 光纤一期覆盖约 35 万户，三年内宽带用户从 5 万提升至 50 万。研判：改革从\"总统审查\"转入\"部长执行+数据交付\"，Ogero/Alfa/Touch 三家进入网络重建与光纤扩容采购启动期。",
-              "opportunity": "🎯 商机研判（Ogero 🔴 核心）光纤一期 35 万户 + 三年 10 倍宽带增长 = FTTH 主干+OLT 大规模需求；华为经意大利+本地 SI 路径切入",
-              "links": [
-                {
-                  "label": "NNA / AMAN 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            }
-          ]
+          "items": [],
+          "categoryEn": "Latest operator developments"
         },
         {
           "category": "本国部委最新动态",
-          "items": [
-            {
-              "title": "⭐ Hajj 定位黎巴嫩为\"东西方数字枢纽\"：伊-叙区域互联 + 新海缆 + Starlink 定位备份",
-              "date": "2026-07-30（本期延续）",
-              "badge": "NNA / Tele Liban",
-              "text": "📰 要点：Hajj 强调黎巴嫩要成为东西方之间的数字服务枢纽，规划：① 与伊拉克、叙利亚的区域连接；② 新海缆；③ 数据保护与网络安全；④ Starlink 定位为\"互补的、初期面向企业的备份服务\"，而非光纤或移动网络的替代。研判：① \"数字枢纽 + 区域互联\"叙事与伊拉克过境走廊（8/29 Sanad）形成黎凡特跨国数据走廊呼应——Basra→欧洲 与 黎巴嫩东西枢纽可拼接；② 新海缆 = 登陆站+OTN 机会；③ Starlink 定位为备份而非替代，给地面光纤/移动网络留足空间，对华为有利。",
-              "opportunity": "🎯 商机研判① 黎-伊-叙区域互联可与伊拉克过境走廊拼接，跨国方案联合提报；② 新海缆登陆站+OTN；③ Starlink 仅备份=地面网络空间充足",
-              "links": [
-                {
-                  "label": "NNA / AMAN 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
-                }
-              ]
-            }
-          ]
+          "items": [],
+          "categoryEn": "Latest ministry and regulator developments"
+        },
+        {
+          "category": "本国财团投资动态",
+          "items": [],
+          "categoryEn": "Local consortium investment developments"
         },
         {
           "category": "本国政治与大选进展及内幕",
           "items": [
             {
-              "title": "📌 Hezbollah 解武议程 + 以军持续袭击：南部重建的安全前提仍未落实",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "区域局势综合",
-              "text": "📰 背景：2025/9/5 内阁批准黎军独掌武器计划后，什叶派部长曾集体退场抗议。以军对黎南部的打击持续，Hezbollah 解武进程与南部安全形势仍是重建的前置变量。研判：① 南部 215 站重建的工程安全前提取决于停火稳固与解武进展；② Aoun-Salam 改革推进受银行业游说与教派政治掣肘；③ 对华为：南部重建窗口仍需等安全落实，但 Ogero 光纤扩容（非南部）可先行。",
-              "opportunity": "🎯 商机研判南部重建等安全落实；非南部光纤扩容（35 万户一期）可先推进",
+              "title": "总统 Joseph Aoun 赴纳巴提耶视察，南部停火后的安全与网络恢复条件再度承压",
+              "date": "2026-09-12",
+              "badge": "AP + 黎巴嫩国家通讯社转述",
+              "text": "Aoun 在安全机构负责人陪同下访问纳巴提耶。报道指出，Ali Taher 高地附近局势仍紧张。该变化会直接影响南部通信站点进入许可、施工安全、燃料与备件运输及恢复工期。",
+              "opportunity": "🎯 南部通信恢复项目采用分区进入、动态安保评估、移动基站/微波临时恢复和不可抗力里程碑；不以全国性计划替代站点级安全确认。",
               "links": [
                 {
-                  "label": "EUAA Lebanon",
-                  "url": "https://www.euaa.europa.eu/lebanon-country-focus/21-recent-political-developments"
+                  "label": "AP 9/12",
+                  "url": "https://apnews.com/article/867b9fc371b7944264f8647f319520de"
                 }
-              ]
+              ],
+              "titleEn": "President Joseph Aoun visits Nabatiyeh as post-ceasefire security and network-restoration conditions in the south come under renewed pressure",
+              "textEn": "Aoun visited Nabatiyeh accompanied by security chiefs. Reporting says tension remains around the Ali Taher ridge. This directly affects site-access approval, workforce safety, fuel and spare-parts logistics, and restoration schedules for southern telecom assets.",
+              "opportunityEn": "Use zone-by-zone access, dynamic security reviews, mobile-site/microwave temporary restoration and force-majeure milestones. Do not substitute a national plan for site-level security confirmation."
             }
-          ]
+          ],
+          "categoryEn": "Political and electoral developments"
+        },
+        {
+          "category": "本国 ISP/DSP 和互联网运营商的投资动态",
+          "items": [],
+          "categoryEn": "ISP, DSP and internet-operator investment"
+        },
+        {
+          "category": "ICT 竞争对手最新动态",
+          "items": [],
+          "categoryEn": "Latest ICT competitor developments"
+        },
+        {
+          "category": "运营商在集团侧相关信息",
+          "items": [],
+          "categoryEn": "Operator group-level intelligence"
+        },
+        {
+          "category": "美国对本国政治和经济活动的干预",
+          "items": [
+            {
+              "title": "OFAC 制裁黎巴嫩现金、黄金和汇兑网络，付款链与最终受益人风险显著上升",
+              "date": "2026-09-10",
+              "badge": "美国财政部 OFAC 官方",
+              "text": "美国财政部行动点名 Hussein Ibrahim、Abdallah Hamieh、Ghaith Hussein Wehbe，以及相关黄金和汇兑主体，称其参与向 Hezbollah 转移资金。公告同时重申 50% 规则及与受制裁方提供或接受资金、货物、服务的风险。",
+              "opportunity": "🎯 黎巴嫩项目必须筛查客户、分包商、汇兑所、收款银行、实际控制人及 50% 所有权；严禁以现金或非透明换汇绕过银行审查。",
+              "links": [
+                {
+                  "label": "U.S. Treasury 9/10",
+                  "url": "https://home.treasury.gov/news/press-releases/sb0626/"
+                }
+              ],
+              "titleEn": "OFAC sanctions Lebanese cash, gold and exchange networks, materially increasing payment-chain and beneficial-owner risk",
+              "textEn": "The U.S. Treasury action names Hussein Ibrahim, Abdallah Hamieh, Ghaith Hussein Wehbe and related gold and exchange entities, alleging participation in transfers to Hizballah. The notice reiterates the 50 Percent Rule and risks around providing or receiving funds, goods or services involving blocked persons.",
+              "opportunityEn": "Screen customers, subcontractors, exchange houses, receiving banks, controllers and 50%-owned entities. Do not use cash or opaque exchange channels to bypass banking review."
+            }
+          ],
+          "categoryEn": "U.S. intervention and sanctions exposure"
+        },
+        {
+          "category": "本国主流媒体对华为的报道与评价",
+          "items": [],
+          "categoryEn": "Local mainstream-media coverage of Huawei"
         },
         {
           "category": "本国头部客户的新机会点",
           "items": [
             {
-              "title": "⭐ Ogero 三件套 + 数字枢纽海缆：光纤一期 35 万户 / LTE 390 站 / 358 站太阳能 / 新海缆登陆",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "Hajj 蓝图综合",
-              "text": "📰 机会拼图：① 光纤一期覆盖约 35 万户，三年宽带 5 万→50 万（FTTH 主干+OLT）；② LTE 扩展至 390 站，LTE-A 容量 10→40Gbps；③ 358 站太阳能（4MW/463kAh，$960 万，年省 $850 万）；④ 新海缆登陆（数字枢纽战略）。研判：Hajj 改革从蓝图转入采购启动，四条线均有华为对口方案（FTTH/LTE-A/PowerCube/海缆登陆 OTN），经意大利+本地 SI 合规路径参与。",
-              "opportunity": "🎯 商机研判（Ogero 三件套+海缆）FTTH 主干+LTE-A 扩容+PowerCube 太阳能+海缆登陆 OTN，四线并进，经意大利+本地 SI 参与",
+              "title": "黎巴嫩机会应只推进“有资金保障的网络恢复”，银行改革尚未解除回款约束",
+              "date": "2026-09-12",
+              "badge": "本期综合研判",
+              "text": "银行重组法已于 9 月 10 日以第 71 号发布，但公开解读显示其实施仍取决于金融损失/存款回收立法。叠加新一轮 OFAC 行动和南部安全压力，大型无担保项目暂不具备可执行性。",
+              "opportunity": "🎯 优先国际融资、托管账户、预付款或不可撤销保函支持的 FTTH、传输、LTE/5G 恢复项目；所有本地付款与分包链执行强化尽调。",
               "links": [
                 {
-                  "label": "Arab News（Ogero 规划）",
-                  "url": "https://www.arabnews.pk/node/2587374/business-economy"
+                  "label": "银行法更新",
+                  "url": "https://dailybeirut.com/en/lebanon-news/after-approval-in-the-parliament-aoun-publishes-law-on-bank-restructuring/"
                 },
                 {
-                  "label": "NNA 7/30",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
+                  "label": "U.S. Treasury",
+                  "url": "https://home.treasury.gov/news/press-releases/sb0626/"
                 }
-              ]
+              ],
+              "titleEn": "Lebanon opportunities should be limited to funded network restoration; banking reform has not removed collection constraints",
+              "textEn": "The bank-restructuring law was published as Law 71 on 10 September, but public legal analysis says implementation still depends on financial-loss/deposit-recovery legislation. Combined with fresh OFAC action and security pressure in the south, large unsecured projects are not yet executable.",
+              "opportunityEn": "Prioritise FTTH, transport and LTE/5G restoration backed by international finance, escrow, advance payment or irrevocable guarantees. Apply enhanced due diligence to all local payment and subcontracting chains."
             }
-          ]
+          ],
+          "categoryEn": "New opportunities with top customers"
         },
         {
           "category": "社交媒体新闻追踪",
           "items": [
             {
-              "title": "📱 Hajj 部长 · Tele Liban 专访阐述改革与数字枢纽战略",
-              "date": "2026-07-30（本期延续）",
-              "badge": "通信部 · Hajj 渠道",
-              "text": "📝 要点：Hajj 在 Tele Liban 节目系统阐述 Law 431 落实、Liban Telecom、光纤扩容、区域互联与海缆、数字枢纽定位。🔍 解读：部长亲自密集发声=改革进入实质交付期，采购信号密集释放。",
-              "opportunity": "🎯 商机研判改革实质交付期 = 密集对接 Ogero/TRA/Liban Telecom 技术团队",
+              "title": "Aoun 访问纳巴提耶并评估南部局势",
+              "date": "2026-09-12",
+              "badge": "政府动态 · NNA/AP",
+              "text": "总统在安全机构负责人陪同下赴南部，显示站点进入和施工安全仍需动态判断。",
+              "opportunity": "🎯 并入“政治动态”和“头部客户机会”风险条件。",
               "links": [
                 {
-                  "label": "NNA / AMAN",
-                  "url": "https://www.aman-alliance.org/Home/ContentDetail/105401"
+                  "label": "AP 报道",
+                  "url": "https://apnews.com/article/867b9fc371b7944264f8647f319520de"
                 }
-              ]
+              ],
+              "titleEn": "Aoun visits Nabatiyeh and assesses conditions in the south",
+              "textEn": "The president travelled south with security chiefs, showing that site access and workforce security still require dynamic assessment.",
+              "opportunityEn": "Routed to political developments and opportunity execution conditions."
             },
             {
-              "title": "📱 Ogero · 持续 LTE 扩展与光纤一期宣传",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "Ogero 官方渠道",
-              "text": "📝 要点：Ogero 官方持续宣传 LTE 扩展（至 390 站）与光纤一期（35 万户）进展。🔍 解读：Ogero 是黎巴嫩采购主体，其宣传节奏反映项目推进节点。",
-              "opportunity": "🎯 商机研判维护 Ogero 主席 Kreidieh 技术团队关系，捕捉招标节点",
+              "title": "第 71 号银行重组法发布，但实施仍附带前置立法条件",
+              "date": "2026-09-10",
+              "badge": "法律媒体 · 多源核验",
+              "text": "新法推进银行改革，但不能据此认定存款回收、银行付款能力或项目回款已恢复。",
+              "opportunity": "🎯 并入独立“营商与合规”栏目。",
               "links": [
                 {
-                  "label": "Ogero 官网",
-                  "url": "https://www.ogero.gov.lb/"
+                  "label": "法律更新",
+                  "url": "https://dailybeirut.com/en/lebanon-news/after-approval-in-the-parliament-aoun-publishes-law-on-bank-restructuring/"
                 }
-              ]
+              ],
+              "titleEn": "Bank-restructuring Law 71 is published, but implementation remains conditional on further legislation",
+              "textEn": "The law advances bank reform, but does not establish that deposit recovery, banking payment capacity or project collections have normalised.",
+              "opportunityEn": "Routed to the standalone business and compliance section."
             },
             {
-              "title": "📱 总统府 · 持续推动电信改革与南部重建议程",
-              "date": "2026-08-24 ~ 09-04",
-              "badge": "总统府 · Aoun 渠道",
-              "text": "📝 要点：Aoun 总统持续将电信改革与南部重建列为国家优先议程。🔍 解读：总统级背书使改革不可逆，华为可建立长期伙伴关系。",
-              "opportunity": "🎯 商机研判总统级背书=改革不可逆，建立长期技术伙伴定位",
+              "title": "黎巴嫩新媒体法于 9 月 3 日入公报，线上内容与媒体责任规则变化",
+              "date": "2026-09-09",
+              "badge": "公报动态 · Amnesty 复核",
+              "text": "新法改善部分记者和线上表达保护，但对虚假有害新闻、侮辱和诽谤仍保留争议性条款。",
+              "opportunity": "🎯 媒体、内容平台和企业外宣需更新本地法律审查清单。",
               "links": [
                 {
-                  "label": "黎总统府",
-                  "url": "https://www.presidency.gov.lb/"
+                  "label": "Amnesty 9/9",
+                  "url": "https://www.amnesty.org/en/latest/news/2026/09/lebanon-new-media-law-makes-progress-but-leaves-serious-free-expression-gaps/"
                 }
-              ]
+              ],
+              "titleEn": "Lebanon's new media law enters the Gazette on 3 September, changing online-content and media-liability rules",
+              "textEn": "The law improves some protections for journalists and online expression while leaving contested provisions on false or harmful news, insult and defamation.",
+              "opportunityEn": "Media, content platforms and corporate communications should refresh local legal-review checklists."
             }
-          ]
+          ],
+          "categoryEn": "Social-media and official-channel tracking"
         }
-      ]
+      ],
+      "nameEn": "Lebanon"
     }
   },
   "stats": {
-    "news": 29,
-    "opportunities": 24,
-    "telegram": 5,
+    "news": 28,
+    "opportunities": 3,
+    "telegram": 9,
     "countryCounts": {
       "iq": 13,
-      "jo": 4,
+      "jo": 9,
       "lb": 6
     }
-  }
+  },
+  "periodEn": "5–12 September 2026 (rolling update; the full W37–38 window closes on 18 September)",
+  "summaryEn": [
+    "Iraq and Ooredoo signed a Gulf-to-Europe internet-transit contract targeting activation within three to four months; the marine-landing addendum and revenue-share terms remain pending.",
+    "Iraq's Ministry of Communications is considering expansion of the secure government LTE network to all institutions and a 5G upgrade, while CMC has begun scoping national AI infrastructure.",
+    "Korek location closures expanded to Kirkuk, Nineveh and Salah al-Din, further increasing operating, procurement and collection risk.",
+    "A 10 September U.S. Treasury action reaches an Iraqi communications-solutions/contracting network and Lebanese cash, gold and exchange networks, requiring fresh third-party screening.",
+    "Umniah by Beyon and Ericsson are advancing phase-two 5G expansion in Jordan, while Jordan and HUMAIN signed a government-AI cooperation MoU.",
+    "Jordan's compliance-based licensing can accelerate eligible development-zone projects but remains subject to scope rules and post-licensing inspection.",
+    "Lebanon has published bank-restructuring Law 71, but the collection environment still depends on further financial-loss and deposit-recovery legislation.",
+    "Security pressure in southern Lebanon is rising; network-restoration work needs site-level access checks and protected funding.",
+    "This is a rolling W37–38 update through 12 September 2026. New verified facts through 18 September will be added to the same issue by the Sunday automation."
+  ]
 }

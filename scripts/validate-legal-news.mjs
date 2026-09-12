@@ -9,7 +9,9 @@ const requiredOfficialHosts = new Set([
   "cmc.iq",
   "cbi.iq",
   "tax.mof.gov.iq",
-  "investpromo.gov.iq"
+  "investpromo.gov.iq",
+  "home.treasury.gov",
+  "ofac.treasury.gov"
 ]);
 
 const fail = (message) => { throw new Error(`${file}: ${message}`); };

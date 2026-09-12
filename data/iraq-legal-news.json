@@ -1,16 +1,16 @@
 {
-  "issue": "W35-36",
-  "generated": "2026-09-09",
+  "issue": "W37-38",
+  "generated": "2026-09-12",
   "country": "伊拉克",
   "title": "伊拉克法律新闻解读",
   "subtitle": "官方立法、司法与监管动态 · 面向 ICT 项目与商务决策",
-  "methodology": "仅采用伊拉克政府、议会、司法与独立监管机构的一手公开页面；逐条标注法律阶段，区分草案、议会审议、正式发布与监管基线。",
+  "methodology": "优先采用伊拉克政府、议会、司法与独立监管机构的一手公开页面；涉及域外制裁时仅采用发布该措施的政府官方来源。逐条标注法律阶段，区分草案、议会审议、正式发布、监管执法与监管基线。",
   "disclaimer": "本栏目用于商业风险识别，不构成伊拉克法律意见。签约、投标、牌照、税务或争议事项应由当地持牌律师结合阿拉伯语正式文本复核。",
   "refresh": {
     "cadence": "每周日 02:00（巴格达时间）",
-    "windowStart": "2026-08-26",
-    "windowEnd": "2026-09-08",
-    "lastRun": "2026-09-09",
+    "windowStart": "2026-09-05",
+    "windowEnd": "2026-09-12",
+    "lastRun": "2026-09-12",
     "status": "自动刷新已启用"
   },
   "sources": [
@@ -83,9 +83,55 @@
       "tier": "T1",
       "status": "持续监控",
       "scope": "投资法、实施条例、投资许可与投资者指南"
+    },
+    {
+      "id": "us-ofac",
+      "name": "美国财政部 · OFAC",
+      "agency": "美国财政部",
+      "category": "域外制裁",
+      "url": "https://ofac.treasury.gov/",
+      "tier": "T1",
+      "status": "持续监控",
+      "scope": "核验 SDN 指定、50% 所有权规则、执法与二级制裁风险"
     }
   ],
   "items": [
+    {
+      "id": "us-ofac-iraq-networks-2026-09-10",
+      "sourceId": "us-ofac",
+      "date": "2026-09-10",
+      "category": "制裁与第三方",
+      "priority": "最高",
+      "status": "正式指定 · 已生效",
+      "title": "OFAC 新行动点名伊拉克通信解决方案与承包网络",
+      "summary": "美国财政部在 Operation Economic Outcast 下指定支持 Kata'ib Hizballah 与 Lebanese Hizballah 的网络。伊拉克相关对象包括 Ain Al-Iraq for Protecting Technology and Audio, Visual, and Communications Solutions Company、Al-Brouj 及多名个人。",
+      "legalEffect": "对美国人及具有美国连接的交易适用阻断与禁止规则；被阻断方直接或合计持股 50% 以上的实体也被视为阻断。非美国企业仍可能面临促成违规、规避及特定二级制裁风险。",
+      "businessImpact": "政府、安防、音视频、通信集成和设备供应链中的同名或关联实体需要重新核验，付款银行、董事、股东和最终受益人不能只依赖旧版尽调。",
+      "actions": [
+        "将财政部公告中的英文和阿拉伯文姓名、别名及实体名称导入增量筛查",
+        "在报价、下单、发货和收款四个节点复筛实体、董事、股东、银行与最终受益人",
+        "遇到潜在匹配立即暂停，不以名称不完全一致作为放行依据"
+      ],
+      "url": "https://home.treasury.gov/news/press-releases/sb0626/"
+    },
+    {
+      "id": "iq-cmc-korek-enforcement-2026-09-06",
+      "sourceId": "iq-cmc",
+      "date": "2026-09-06",
+      "category": "ICT 监管执法",
+      "priority": "最高",
+      "status": "监管执行 · 持续进行",
+      "title": "CMC 将 Korek 营业场所关闭行动扩大至三省",
+      "summary": "CMC 宣布其北部办公室与国家安全机构在基尔库克、尼尼微和萨拉赫丁关闭 Korek 办公与服务场所，并称行动延续此前多个省份的执行。",
+      "legalEffect": "这是监管机关公开的执行措施，不等于已取得全部争议的终局司法裁判；其适用范围、网络停运时点和用户迁移安排仍应以正式决定及后续公告为准。",
+      "businessImpact": "Korek 的采购、交付、软件续保、渠道和回款面临即时连续性风险。与其相关的合同不能仅依据历史牌照或商业承诺判断可执行性。",
+      "actions": [
+        "取得与具体项目相关的最新 CMC 决定、法院文件和 Korek 授权链",
+        "暂停无付款保障的新信用敞口，并设置服务连续性和终止保护",
+        "核验设备、备件和软件是否会被用于受关停范围内的场所或网络"
+      ],
+      "url": "https://cmc.iq/2026/09/06/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B9-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA/"
+    },
     {
       "id": "iq-ppp-first-reading-2026-09-07",
       "sourceId": "iq-parliament",

@@ -1,15 +1,171 @@
 {
-  "generatedAt": "2026-09-10T09:33:46Z",
+  "generatedAt": "2026-09-12T15:13:12Z",
   "collectionMode": "api",
   "selection": "important-and-translated-only",
   "windowDays": 14,
-  "sourceCount": 6,
-  "scannedMessageCount": 205,
-  "rawMessageCount": 27,
-  "messageCount": 27,
-  "untranslatedCount": 0,
+  "sourceCount": 10,
+  "scannedMessageCount": 552,
+  "rawMessageCount": 98,
+  "messageCount": 30,
+  "untranslatedCount": 68,
   "errors": [],
   "items": [
+    {
+      "id": "tg-inainaiq-158548",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T14:56:26Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 7,
+      "title": "通信部长称 Ooredoo 海缆登陆合同附件拟于下月在多哈签署",
+      "summary": "INA 频道转述 Mustafa Sanad：与 Ooredoo 的海缆登陆合同附件计划下月在多哈签署。该附件应与 9 月 10 日已经签署的互联网容量过境合同区分。",
+      "titleEn": "Communications minister says the Ooredoo marine-landing addendum will be signed in Doha next month",
+      "summaryEn": "INA relayed Mustafa Sanad's statement that the Ooredoo marine-landing contract addendum is planned for signature in Doha next month. It should be distinguished from the internet-transit contract signed on 10 September.",
+      "views": 10720,
+      "forwards": 4,
+      "url": "https://t.me/inainaiq/158548",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
+    {
+      "id": "tg-iraqipmoeng-24735",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T17:09:36Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室（英文）",
+      "owner": "总理府",
+      "handle": "IraqiPMOEng",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "最高",
+      "importanceScore": 9,
+      "title": "伊拉克成立跨部门委员会处理停滞和未启动投资项目的障碍",
+      "summary": "总理府英文频道表示，新委员会将研究并处理已识别停滞或未启动投资项目面临的法律、技术和行政障碍；公开帖文未列出具体项目清单。",
+      "titleEn": "Iraq forms an inter-agency committee to address obstacles facing stalled and uninitiated investment projects",
+      "summaryEn": "The PMO English channel said the committee will examine legal, technical and administrative obstacles affecting identified stalled or uninitiated investment projects. The public post did not list the projects.",
+      "views": 304,
+      "forwards": 0,
+      "url": "https://t.me/IraqiPMOEng/24735",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
+    {
+      "id": "tg-iraqipmoeng-24734",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T17:09:36Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室（英文）",
+      "owner": "总理府",
+      "handle": "IraqiPMOEng",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "最高",
+      "importanceScore": 9,
+      "title": "伊拉克总理主持第五次省际协调高级委员会例会",
+      "summary": "总理府英文频道公布省际协调高级委员会第五次例会。与本简报相关的后续帖文显示，会议推动成立委员会处理停滞投资项目障碍。",
+      "titleEn": "Iraq's prime minister chairs the fifth regular session of the High Commission for Coordination Among the Provinces",
+      "summaryEn": "The PMO English channel announced the commission's fifth regular session. A follow-on post relevant to this briefing described a committee to address obstacles affecting stalled investment projects.",
+      "views": 405,
+      "forwards": 0,
+      "url": "https://t.me/IraqiPMOEng/24734",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
+    {
+      "id": "tg-mociraq2023-1699",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T14:12:09Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克通信部",
+      "owner": "Mustafa Sanad",
+      "handle": "mociraq2023",
+      "category": "通信部",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 7,
+      "title": "伊拉克通信部公布与卡塔尔 Ooredoo 签署互联网容量过境合同现场",
+      "summary": "通信部官方频道发布签约现场，确认由伊拉克通信与信息总公司与 Ooredoo 推进经伊拉克连接海湾与欧洲的国际互联网容量过境。",
+      "titleEn": "Iraq's Ministry of Communications publishes the Ooredoo internet-transit signing ceremony",
+      "summaryEn": "The official channel showed the signing and confirmed that Iraq's General Company for Communications and Informatics and Ooredoo are advancing international internet-capacity transit through Iraq between the Gulf and Europe.",
+      "views": 1247,
+      "forwards": 4,
+      "url": "https://t.me/mociraq2023/1699",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
+    {
+      "id": "tg-mociraq2023-1698",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T11:43:07Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克通信部",
+      "owner": "Mustafa Sanad",
+      "handle": "mociraq2023",
+      "category": "通信部",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 6,
+      "title": "伊拉克与卡塔尔 Ooredoo 签署海湾—欧洲互联网过境合同",
+      "summary": "伊拉克通信与信息总公司与 Ooredoo 签署战略合同，经伊拉克境内传输国际互联网容量，目标是把伊拉克建设为连接海湾和欧洲的短距离、安全数据走廊。",
+      "titleEn": "Iraq and Qatar's Ooredoo sign a Gulf-to-Europe internet-transit contract",
+      "summaryEn": "Iraq's General Company for Communications and Informatics and Ooredoo signed a strategic agreement to carry international internet capacity across Iraq, targeting a short and secure Gulf-to-Europe data corridor.",
+      "views": 1308,
+      "forwards": 3,
+      "url": "https://t.me/mociraq2023/1698",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
+    {
+      "id": "tg-inainaiq-158485",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T11:04:42Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 7,
+      "title": "INA 确认伊拉克与 Ooredoo 签署向欧洲传输互联网容量合同",
+      "summary": "伊拉克国家通讯社频道确认 ITPC 与 Ooredoo 签署战略过境合同，经伊拉克向欧洲传输国际互联网容量。",
+      "titleEn": "INA confirms Iraq and Ooredoo signed an internet-capacity transit contract to Europe",
+      "summaryEn": "The Iraqi News Agency channel confirmed that ITPC and Ooredoo signed a strategic transit contract to carry international internet capacity through Iraq toward Europe.",
+      "views": 11423,
+      "forwards": 4,
+      "url": "https://t.me/inainaiq/158485",
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
+    },
     {
       "id": "tg-iraqcmc-10972",
       "date": "2026-09-10",
@@ -25,11 +181,16 @@
       "importanceScore": 5,
       "title": "伊拉克 CMC 披露国家人工智能基础设施建设计划",
       "summary": "伊拉克通信与媒体委员会执行机构负责人布莱格·阿布·卡拉勒会见总理人工智能事务顾问迪亚·朱迈利，讨论建设国家级专业基础设施，以支撑人工智能应用、先进数据处理和本国技术能力发展。",
-      "views": 111,
+      "titleEn": "Iraq CMC unveils a plan for national artificial-intelligence infrastructure",
+      "summaryEn": "CMC's chief executive met the prime minister's adviser for artificial intelligence to discuss specialised national infrastructure for AI applications, advanced data processing and domestic technical capability.",
+      "views": 268,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10972",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-mociraq2023-1697",
@@ -46,11 +207,16 @@
       "importanceScore": 7,
       "title": "伊拉克通信部研究把政府安全 LTE 网络扩展至全部政府机构",
       "summary": "通信部长穆斯塔法·萨纳德与 Taurus Arm 公司讨论扩大政府安全 LTE 网络覆盖，并考虑采用 5G 技术提升速度和性能，以增强政府数字基础设施、数字化转型能力及服务安全性。",
-      "views": 295,
+      "titleEn": "Iraq plans to extend its secure government LTE network to all public institutions",
+      "summaryEn": "Communications Minister Mustafa Sanad and Taurus Arm discussed expanding the secure government LTE network and using 5G technology to improve speed, performance, digital-government capacity and service security.",
+      "views": 552,
       "forwards": 1,
       "url": "https://t.me/mociraq2023/1697",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-modiraq-13018",
@@ -64,14 +230,19 @@
       "category": "政府机构",
       "tier": "T2",
       "priority": "高",
-      "importanceScore": 5,
+      "importanceScore": 6,
       "title": "伊拉克国防部秘书长调研军官住房建设协会",
       "summary": "国防部秘书长艾哈迈德·萨利姆·巴赫贾特听取土地分配、烈士和伤员家属安置、退休人员及参股军官住房等事项汇报，并研究解决手续推进中的障碍。",
-      "views": 7582,
-      "forwards": 2,
+      "titleEn": "Iraq's Defence Ministry reviews the officers' housing programme",
+      "summaryEn": "The ministry's secretary-general reviewed land allocation, housing for families of fallen and wounded personnel, retirees and participating officers, as well as obstacles delaying procedures.",
+      "views": 11404,
+      "forwards": 3,
       "url": "https://t.me/MODiraq/13018",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10968",
@@ -88,11 +259,16 @@
       "importanceScore": 9,
       "title": "伊拉克 CMC 推进本地邮件服务，并讨论虚假 SIM 卡与无人机监管",
       "summary": "CMC 执行机构负责人主持管理层会议，审议监管和技术项目进度，包括部分用户 Starlink 设备交付延迟、本地邮件服务上线、虚假 SIM 卡治理及无人机相关规则。",
-      "views": 261,
+      "titleEn": "Iraq CMC advances local mail services and reviews fake-SIM and drone rules",
+      "summaryEn": "CMC's chief executive chaired a management meeting covering regulatory and technical projects, including delayed Starlink deliveries, a local mail service, fake-SIM controls and drone-related rules.",
+      "views": 328,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10968",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iqmofa-15158",
@@ -109,11 +285,16 @@
       "importanceScore": 5,
       "title": "伊拉克外长在阿盟部长级会议期间会见卡塔尔外交国务大臣",
       "summary": "伊拉克外长福阿德·侯赛因与卡塔尔外交国务大臣苏丹·本·萨阿德·穆莱希在开罗会晤，讨论双边关系及扩大多领域合作。",
-      "views": 227,
+      "titleEn": "Iraq's foreign minister meets Qatar's minister of state during the Arab League meeting",
+      "summaryEn": "Foreign Minister Fuad Hussein met Qatar's Minister of State Sultan bin Saad Al Muraikhi in Cairo to discuss bilateral relations and broader cooperation.",
+      "views": 242,
       "forwards": 2,
       "url": "https://t.me/iqmofa/15158",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-mociraq2023-1696",
@@ -130,11 +311,16 @@
       "importanceScore": 5,
       "title": "伊拉克通信部与阿巴斯圣陵机构讨论数字和金融合作",
       "summary": "通信部长穆斯塔法·萨纳德会见阿巴斯圣陵机构代表团，双方研究加强数字、电子和金融领域合作，以改善服务、扩大数字化转型并应用新技术。",
-      "views": 527,
+      "titleEn": "Iraq's Communications Ministry discusses digital and financial cooperation with the Al-Abbas Shrine",
+      "summaryEn": "Minister Mustafa Sanad and an Al-Abbas Shrine delegation explored cooperation in digital, electronic and financial services to improve service delivery and expand digital transformation.",
+      "views": 735,
       "forwards": 1,
       "url": "https://t.me/mociraq2023/1696",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10950",
@@ -151,11 +337,16 @@
       "importanceScore": 5,
       "title": "伊拉克 CMC 与驻布加勒斯特文化处讨论 ICT 人才培养",
       "summary": "CMC 委员会代表团访问伊拉克驻布加勒斯特文化处，讨论利用罗马尼亚高校和科研机构资源，支持伊拉克通信与信息技术人才培养及学术合作。",
-      "views": 250,
+      "titleEn": "Iraq CMC and the cultural mission in Bucharest discuss ICT talent development",
+      "summaryEn": "A CMC delegation discussed using Romanian universities and research institutions to develop Iraqi telecommunications and information-technology talent and academic cooperation.",
+      "views": 263,
       "forwards": 0,
       "url": "https://t.me/iraqcmc/10950",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iqmofa-15135",
@@ -172,11 +363,16 @@
       "importanceScore": 5,
       "title": "伊拉克外交部副部长会见中国驻伊拉克大使",
       "summary": "伊拉克外交部多边和法律事务副部长会见中国驻伊拉克大使常毅，讨论加强政治、经济和文化合作，并同意推动新一轮政治磋商和双边委员会工作。",
-      "views": 444,
+      "titleEn": "Iraq's deputy foreign minister meets the Chinese ambassador in Baghdad",
+      "summaryEn": "The two sides discussed stronger political, economic and cultural cooperation and agreed to advance a new round of political consultations and bilateral committee work.",
+      "views": 474,
       "forwards": 1,
       "url": "https://t.me/iqmofa/15135",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10947",
@@ -193,11 +389,16 @@
       "importanceScore": 6,
       "title": "伊拉克 CMC 代表团访问驻罗马尼亚使馆",
       "summary": "CMC 代表团在参加布加勒斯特国际卫星频谱监测会议期间访问伊拉克驻罗马尼亚使馆，讨论监管交流、频谱技术合作和对伊拉克代表团的支持。",
-      "views": 218,
+      "titleEn": "Iraq CMC delegation visits the Iraqi embassy in Romania",
+      "summaryEn": "During the international satellite-spectrum monitoring meeting in Bucharest, the delegation discussed regulatory exchanges, spectrum cooperation and support for Iraqi participation.",
+      "views": 230,
       "forwards": 0,
       "url": "https://t.me/iraqcmc/10947",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10944",
@@ -214,11 +415,16 @@
       "importanceScore": 9,
       "title": "伊拉克 CMC 与罗马尼亚 ANCOM 深化数字监管合作",
       "summary": "双方讨论在数字化转型、通信基础设施、频谱管理与监测、5G、人工智能及网络安全等领域扩大伊拉克—罗马尼亚合作。",
-      "views": 222,
+      "titleEn": "Iraq CMC and Romania's ANCOM deepen digital-regulation cooperation",
+      "summaryEn": "The regulators discussed cooperation in digital transformation, communications infrastructure, spectrum management and monitoring, 5G, artificial intelligence and cybersecurity.",
+      "views": 239,
       "forwards": 0,
       "url": "https://t.me/iraqcmc/10944",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10941",
@@ -235,11 +441,16 @@
       "importanceScore": 8,
       "title": "伊拉克 CMC 参加罗马尼亚国际卫星频谱监测会议",
       "summary": "CMC 代表团与各国监管机构、国际电信联盟、行业专家及国际企业交流卫星频谱监测的最新技术、机制和监管实践。",
-      "views": 228,
+      "titleEn": "Iraq CMC joins the international satellite-spectrum monitoring meeting in Romania",
+      "summaryEn": "CMC exchanged practices on satellite-spectrum monitoring technology and regulation with national regulators, the ITU, industry experts and international companies.",
+      "views": 251,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10941",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10939",
@@ -256,11 +467,16 @@
       "importanceScore": 8,
       "title": "伊拉克 CMC 将 Korek 营业场所关闭行动扩大至三省",
       "summary": "CMC 联合国家安全机构关闭 Korek Telecom 在基尔库克、尼尼微和萨拉赫丁的办公及服务场所。这是此前在巴格达、卡尔巴拉、纳杰夫、迪瓦尼耶和巴比伦等地执法行动的延续。",
-      "views": 292,
+      "titleEn": "Iraq CMC expands Korek closures to Kirkuk, Nineveh and Salah al-Din",
+      "summaryEn": "CMC and the National Security Service closed Korek Telecom offices and service locations in three provinces, extending earlier enforcement in Baghdad, Karbala, Najaf, Diwaniyah, Babil and other areas.",
+      "views": 303,
       "forwards": 3,
       "url": "https://t.me/iraqcmc/10939",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-moiiraqi-73000",
@@ -277,11 +493,16 @@
       "importanceScore": 5,
       "title": "伊拉克警方逮捕摩苏尔活动中随意鸣枪的两名嫌疑人",
       "summary": "尼尼微反犯罪部门与国家安全机构根据公开视频锁定并逮捕两名嫌疑人，查获涉案枪支，并依据 1982 年第 570 号决定采取法律措施。",
-      "views": 4701,
+      "titleEn": "Iraqi police arrest two suspects over celebratory gunfire in Mosul",
+      "summaryEn": "Nineveh's anti-crime department and the National Security Service identified the suspects from a public video, seized the weapons and initiated legal measures under Decision No. 570 of 1982.",
+      "views": 4845,
       "forwards": 4,
       "url": "https://t.me/moiiraqi/73000",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-moiiraqi-72988",
@@ -298,11 +519,16 @@
       "importanceScore": 6,
       "title": "伊拉克内政部警告利用人工智能制作违法低俗内容",
       "summary": "内政部称正跟踪利用人工智能制作不雅或违背公共价值观的视频内容，提醒相关行为可能面临与司法机关协调实施的严厉处罚，并呼吁公众通过官方平台举报。",
-      "views": 28197,
+      "titleEn": "Iraq's Interior Ministry warns against unlawful AI-generated indecent content",
+      "summaryEn": "The ministry said it is monitoring AI-generated videos that violate public-decency standards, warned of strict penalties coordinated with the judiciary and asked the public to report offending accounts.",
+      "views": 28603,
       "forwards": 45,
       "url": "https://t.me/moiiraqi/72988",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10931",
@@ -319,11 +545,16 @@
       "importanceScore": 9,
       "title": "伊拉克 CMC 负责人出席多哈阿拉伯数字化与人工智能高级别论坛",
       "summary": "CMC 执行机构负责人参加以建设包容、可持续数字经济为主题的高级别论坛。活动由联合国开发计划署、Ooredoo 集团和多哈研究生院共同组织，聚焦阿拉伯地区数字政策与人工智能。",
-      "views": 351,
+      "titleEn": "Iraq CMC chief joins a high-level Arab forum on digital transformation and AI in Doha",
+      "summaryEn": "The UNDP, Ooredoo Group and Doha Institute forum focused on building inclusive and sustainable digital economies and shaping digital and AI policy across the Arab region.",
+      "views": 362,
       "forwards": 0,
       "url": "https://t.me/iraqcmc/10931",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10927",
@@ -340,11 +571,16 @@
       "importanceScore": 7,
       "title": "伊拉克 CMC 负责人在多哈会见伊拉克驻卡塔尔大使",
       "summary": "双方在阿拉伯地区数字政策与人工智能高级别论坛期间会面，就伊拉克参与区域数字政策合作及相关代表团工作进行沟通。",
-      "views": 343,
+      "titleEn": "Iraq CMC chief meets Iraq's ambassador to Qatar in Doha",
+      "summaryEn": "The meeting took place alongside a regional forum on digital policy and artificial intelligence and covered Iraq's participation in regional digital-policy cooperation.",
+      "views": 349,
       "forwards": 0,
       "url": "https://t.me/iraqcmc/10927",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-mociraq2023-1695",
@@ -361,11 +597,16 @@
       "importanceScore": 5,
       "title": "伊拉克通信部拟下调政府机构互联网价格并提升无线塔网速",
       "summary": "通信部长要求在带宽不变的情况下把政府机构互联网价格下调 40%，并在价格不变的情况下把未覆盖光纤地区的无线塔互联网速度提升 40%。相关决定拟提交部务意见委员会批准。",
-      "views": 2859,
+      "titleEn": "Iraq plans a 40% government internet price cut and a 40% rise in tower speeds",
+      "summaryEn": "The communications minister directed a 40% price reduction for government internet at unchanged capacity and a 40% speed increase for tower-based users outside fibre coverage, subject to ministry approval.",
+      "views": 3348,
       "forwards": 4,
       "url": "https://t.me/mociraq2023/1695",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iqmofa-15126",
@@ -382,11 +623,16 @@
       "importanceScore": 5,
       "title": "伊拉克研判地区局势并筹备总理后续外访",
       "summary": "有关会谈讨论伊拉克国内政治动向、总理计划中的外访，以及伊拉克同海湾国家和邻国的关系，并就美伊战争后地区协调和共同关切议题交换意见。",
-      "views": 413,
+      "titleEn": "Iraq reviews regional developments and preparations for the prime minister's foreign visits",
+      "summaryEn": "The discussions covered domestic political activity, planned prime-ministerial travel, relations with Gulf and neighbouring states, and regional coordination following the US-Iran war.",
+      "views": 418,
       "forwards": 2,
       "url": "https://t.me/iqmofa/15126",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10925",
@@ -403,11 +649,16 @@
       "importanceScore": 8,
       "title": "伊拉克 CMC 关闭 Korek 在纳杰夫、迪瓦尼耶和巴比伦的服务场所",
       "summary": "CMC 联合国家安全机构关闭 Korek Telecom 在三省的多处办公室和服务中心，行动还覆盖纳杰夫国际机场内的该公司服务中心，属于针对该公司的持续监管措施。",
-      "views": 382,
+      "titleEn": "Iraq CMC closes Korek service locations in Najaf, Diwaniyah and Babil",
+      "summaryEn": "CMC and the National Security Service closed multiple Korek offices and service centres across three provinces, including the company's location at Najaf International Airport.",
+      "views": 389,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10925",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iqmofa-15121",
@@ -424,11 +675,16 @@
       "importanceScore": 6,
       "title": "第四届阿拉伯中小企业峰会将于 11 月在巴格达举行",
       "summary": "峰会定于 2026 年 11 月 18—20 日在巴格达国际展览中心举行，由联合国西亚经济社会委员会与伊拉克规划部共同组织，重点涉及融资、市场准入、数字化转型、人工智能和创业合作。",
-      "views": 486,
-      "forwards": 2,
+      "titleEn": "Fourth Arab SME Summit to take place in Baghdad in November",
+      "summaryEn": "The 18–20 November 2026 summit, organised by ESCWA and Iraq's Planning Ministry, will cover finance, market access, digital transformation, artificial intelligence and entrepreneurial cooperation.",
+      "views": 497,
+      "forwards": 3,
       "url": "https://t.me/iqmofa/15121",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10918",
@@ -445,11 +701,16 @@
       "importanceScore": 9,
       "title": "伊拉克 CMC 在巴士拉关停四个无牌数字电视网络",
       "summary": "CMC 巴士拉办公室联合国家安全及相关安全机构，停止 Oscar、Khor Al-Zubair、Family Basra 和 Al-Rashad 四个未经许可的数字电视网络，称当地无牌数字电视广播已被全面终止。",
-      "views": 440,
+      "titleEn": "Iraq CMC shuts down four unlicensed digital television networks in Basra",
+      "summaryEn": "CMC, the National Security Service and supporting security bodies stopped four unlicensed networks and said unlicensed digital television broadcasting in the province had been fully terminated.",
+      "views": 448,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10918",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-mociraq2023-1692",
@@ -466,11 +727,16 @@
       "importanceScore": 6,
       "title": "巴格达将举办第四届阿拉伯中小企业峰会",
       "summary": "峰会将于 2026 年 11 月 18—20 日举行，议题包括中小企业和初创企业融资、市场拓展、数字化转型、人工智能、合作伙伴关系及增长机会。",
-      "views": 945,
+      "titleEn": "Baghdad to host the fourth Arab SME Summit",
+      "summaryEn": "The 18–20 November 2026 event will address SME and start-up finance, market access, digital transformation, artificial intelligence, partnerships and growth opportunities.",
+      "views": 1076,
       "forwards": 1,
       "url": "https://t.me/mociraq2023/1692",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10914",
@@ -487,11 +753,16 @@
       "importanceScore": 8,
       "title": "伊拉克 CMC 关闭 Korek 在卡尔巴拉的总部",
       "summary": "CMC 卡尔巴拉办公室联合国家安全和情报机构关闭 Korek Telecom 当地总部，作为执行针对该公司监管决定和指令的现场措施。",
-      "views": 517,
+      "titleEn": "Iraq CMC closes Korek's headquarters in Karbala",
+      "summaryEn": "CMC's Karbala office, working with national security and intelligence bodies, closed Korek Telecom's local headquarters as part of ongoing regulatory enforcement.",
+      "views": 525,
       "forwards": 1,
       "url": "https://t.me/iraqcmc/10914",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     },
     {
       "id": "tg-iraqcmc-10911",
@@ -508,74 +779,16 @@
       "importanceScore": 6,
       "title": "伊拉克 CMC 全面停止受理纸质许可证申请",
       "summary": "自 2026 年 9 月 1 日起，个人、企业及其他机构申请 CMC 许可证须统一通过委员会电子服务门户提交，纸质申请不再受理。",
-      "views": 489,
+      "titleEn": "Iraq CMC ends paper-based licence applications",
+      "summaryEn": "From 1 September 2026, individuals, companies and institutions must submit all CMC licence applications through the commission's electronic-services portal.",
+      "views": 496,
       "forwards": 3,
       "url": "https://t.me/iraqcmc/10911",
-      "language": "中文",
-      "translationStatus": "已翻译"
-    },
-    {
-      "id": "tg-iraqcmc-10910",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T17:02:02Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克通信与媒体委员会 CMC",
-      "owner": "Baligh Abu Kalal",
-      "handle": "iraqcmc",
-      "category": "通信监管",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "title": "伊拉克 CMC 负责人介绍 Starlink 许可安全附件",
-      "summary": "CMC 执行机构负责人布莱格·阿布·卡拉勒通过视频说明 Starlink 许可所附安全条款及其监管安排。",
-      "views": 611,
-      "forwards": 0,
-      "url": "https://t.me/iraqcmc/10910",
-      "language": "中文",
-      "translationStatus": "已翻译"
-    },
-    {
-      "id": "tg-mociraq2023-1686",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T15:25:04Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克通信部",
-      "owner": "Mustafa Sanad",
-      "handle": "mociraq2023",
-      "category": "通信部",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "title": "伊拉克通信部长与中国驻伊大使讨论通信和邮政合作",
-      "summary": "双方讨论数字基础设施和服务升级。中方邀请伊拉克参与数字经济与绿色发展国际合作框架和数字丝绸之路项目，并就利用伊拉克区位优势扩大合作提出建议。",
-      "views": 3271,
-      "forwards": 5,
-      "url": "https://t.me/mociraq2023/1686",
-      "language": "中文",
-      "translationStatus": "已翻译"
-    },
-    {
-      "id": "tg-iraqcmc-10909",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T11:03:39Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克通信与媒体委员会 CMC",
-      "owner": "Baligh Abu Kalal",
-      "handle": "iraqcmc",
-      "category": "通信监管",
-      "tier": "T1",
-      "priority": "最高",
-      "importanceScore": 8,
-      "title": "伊拉克 CMC 审议网络犯罪法草案等监管与技术事项",
-      "summary": "CMC 委员会在例会上讨论议会安全与国防委员会提交的网络犯罪法草案，并就相关监管和技术议题提出意见，后续将按程序推进处理。",
-      "views": 598,
-      "forwards": 0,
-      "url": "https://t.me/iraqcmc/10909",
-      "language": "中文",
-      "translationStatus": "已翻译"
+      "languages": [
+        "中文",
+        "English"
+      ],
+      "translationStatus": "双语已完成"
     }
   ]
 }

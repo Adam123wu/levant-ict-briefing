@@ -5,9 +5,9 @@
       "category": "Latest operator developments",
       "items": [
         {
-          "title": "Orange Jordan files a routine market disclosure as operators implement their 690-site commitments",
-          "text": "Jordan Telecommunications Company, or Orange Jordan, filed a routine trading disclosure with the Jordan Securities Commission and Amman Stock Exchange on 24 August. Orange, Zain and Umniah remain in the implementation period for the TRC's 690-site construction commitments, with no major new commercial announcement. The mobile market remains stable and the clearer differentiation opportunities lie in fixed networks, financial IT, eKYC platforms and data centres rather than RAN replacement.",
-          "opportunity": "With limited RAN entry space, prioritise eKYC platforms, data centres, government cloud and other differentiated IT opportunities."
+          "title": "Umniah by Beyon advances phase-two 5G and nationwide network expansion with Ericsson",
+          "text": "Umniah said it is expanding network capacity and performance across Jordan while continuing the second phase of its 5G programme with Ericsson. The release highlights support for enterprise cloud services, data exchange, resilience and connectivity, but gives no investment value, site count or new coverage map.",
+          "opportunity": "Track radio expansion, transport, indoor coverage, energy and private-network follow-ons. Do not equate 'phase two' with completed nationwide coverage."
         }
       ]
     },
@@ -15,39 +15,84 @@
       "category": "Latest ministry and regulator developments",
       "items": [
         {
-          "title": "TRC sets two 2026 priorities: mobile-number portability and continued 5G expansion",
-          "text": "Jordan's Telecommunications Regulatory Commission identifies mobile-number portability and 5G expansion as its two principal 2026 programmes. MNP is expected to become fully available in April 2027. The change will intensify operator competition and require BSS, core-network and transport upgrades. Jordan's mature, European-aligned regulatory environment favours a compliance-led approach, with Huawei differentiating in transport, core-adjacent platforms and data centres.",
-          "opportunity": "Use the April 2027 MNP deadline to pursue BSS, database and transport upgrades; approach 5G expansion through transport and data-centre differentiation."
+          "title": "Jordan and Saudi Arabia's HUMAIN sign an AI cooperation MoU as government use cases move into joint identification",
+          "text": "MoDEE Minister Sami Smeirat and HUMAIN CEO Tareq Amin signed a strategic MoU covering talent, the innovation ecosystem and identification of scalable government AI use cases. The MoU is a cooperation framework, not an awarded project.",
+          "opportunity": "Engage around government AI discovery, sovereign cloud/data, model governance and skills. Raise the opportunity stage only after budget, data accountability and procurement method are clear."
+        },
+        {
+          "title": "The 2026 Investment Environment Regulation is in the Official Gazette, introducing compliance-based licensing for faster starts in development zones",
+          "text": "The Ministry of Investment confirmed that the amended regulation was published in the 4 June Gazette and refreshed its official explanation this period. It allows certain development-zone activities to start more quickly on an investor compliance declaration, followed by inspection; it is not an exemption from regulatory duties.",
+          "opportunity": "For data-centre, cloud, software and digital-service projects, confirm eligible activities, development-zone conditions, post-inspection controls and foreign-investment restrictions item by item."
         }
       ]
     },
     {
-      "category": "New opportunities at key customers",
+      "category": "Local consortium investment developments",
+      "items": []
+    },
+    {
+      "category": "Political and electoral developments",
+      "items": []
+    },
+    {
+      "category": "ISP, DSP and internet-operator investment",
+      "items": []
+    },
+    {
+      "category": "Latest ICT competitor developments",
       "items": [
         {
-          "title": "The MNP deadline and expanding eKYC adoption create overlapping operator and banking IT windows",
-          "text": "Operators must upgrade BSS, core-network interfaces and the central database before MNP goes live in April 2027. At the same time, Jordan's banking eKYC ecosystem continues to adopt the Sanad digital identity. These parallel programmes open opportunities in operator data and transport platforms and in banking identity middleware and disaster-recovery infrastructure.",
-          "opportunity": "Pursue operator databases and transport alongside banking eKYC middleware and disaster-recovery data centres, avoiding entrenched RAN and core-banking barriers."
+          "title": "Ericsson secures Umniah's phase-two 5G expansion as competition shifts from launch claims to capacity and experience",
+          "text": "The official release confirms Ericsson remains Umniah's strategic technology partner for phase-two 5G. Competition will increasingly centre on capacity, experience, automated operations and enterprise connectivity rather than headline coverage claims.",
+          "opportunity": "Quantify alternative value in multi-vendor transport, indoor coverage, energy efficiency, automated operations and enterprise private networks."
         }
       ]
     },
     {
-      "category": "Official social-media tracking",
+      "category": "Operator group-level intelligence",
       "items": [
         {
-          "title": "TRC names mobile-number portability and 5G expansion as its two 2026 priorities",
-          "text": "TRC's official channels identify MNP and 5G expansion as its leading programmes. The regulator is signalling upcoming IT and network upgrades, creating a route into transport and data-centre discussions.",
-          "opportunity": "Engage TRC and operator IT teams early on the regulator-driven upgrade programme."
+          "title": "Umniah continues phase-two 5G investment under the Beyon brand, bringing group capability into Jordan",
+          "text": "Umniah links network expansion with the Beyon group brand, enterprise connectivity and digital services. The signal supports parallel engagement at group-partner and local-network levels.",
+          "opportunity": "Maintain both Beyon group technical relationships and Umniah's local procurement/network engagement instead of relying on one level."
+        }
+      ]
+    },
+    {
+      "category": "U.S. intervention and sanctions exposure",
+      "items": []
+    },
+    {
+      "category": "Local mainstream-media coverage of Huawei",
+      "items": []
+    },
+    {
+      "category": "New opportunities with top customers",
+      "items": [
+        {
+          "title": "Jordan opportunity set: Umniah phase-two 5G, government AI use cases and compliance-based development-zone licensing",
+          "text": "The three tracks are respectively L2, L2 and a market-entry condition. Jordan remains comparatively executable, but an MoU and policy explanation do not replace a budget, RFP or licence.",
+          "opportunity": "Seven-day actions: map Umniah phase-two 5G follow-ons; offer MoDEE a government-AI use-case workshop; and complete licensing applicability checks for development-zone data-centre projects."
+        }
+      ]
+    },
+    {
+      "category": "Social-media and official-channel tracking",
+      "items": [
+        {
+          "title": "Umniah announces continued network expansion and phase-two 5G",
+          "text": "The official release directly links the upgrade to enterprise cloud, data exchange and resilience needs.",
+          "opportunity": "Routed to operator, competitor and group-level tracks."
         },
         {
-          "title": "Orange Jordan submits a routine 24 August stock-exchange disclosure",
-          "text": "JTEL submitted a routine disclosure to the Amman Stock Exchange without announcing a major strategic change. The operators remain in a stable implementation period with no immediate merger or large-investment signal.",
-          "opportunity": "Maintain regular telecom operator watch coverage and continue tracking IT-upgrade demand at Orange, Zain and Umniah."
+          "title": "MoDEE and HUMAIN advance government AI cooperation",
+          "text": "The strategic MoU covers skills, innovation and identification of scalable government AI use cases.",
+          "opportunity": "Routed to ministry developments and top-customer opportunities."
         },
         {
-          "title": "MoDEE continues expanding the Sanad digital-ID ecosystem across banking and government services",
-          "text": "The Ministry of Digital Economy and Entrepreneurship continues promoting Sanad digital identity across banking and public-service use cases as a national digitalisation KPI. Wider adoption should make government-cloud and identity-platform procurement requirements more visible.",
-          "opportunity": "Maintain ministry-level engagement and monitor procurement signals for government cloud and identity middleware."
+          "title": "Investment Ministry reiterates compliance-based licensing in development zones",
+          "text": "The refreshed official explanation says the mechanism can shorten start-up time while remaining subject to post-licensing inspection and applicable rules.",
+          "opportunity": "Routed to the standalone business and compliance section."
         }
       ]
     }

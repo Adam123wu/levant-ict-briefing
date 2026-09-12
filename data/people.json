@@ -85,7 +85,7 @@
     "li": null,
     "account": "个人及机构账号已核验",
     "person": "在任",
-    "verified": "2026-09-10",
+    "verified": "2026-09-12",
     "source": "https://www.cabinet.iq/",
     "priority": "核心"
   },
@@ -370,7 +370,7 @@
     "li": null,
     "account": "首相府机构账号已核验",
     "person": "在任",
-    "verified": "2026-09-10",
+    "verified": "2026-09-12",
     "source": "https://pm.gov.jo/AR/CustomPages/Government",
     "priority": "官方内阁名录；社媒账号待逐项核验"
   },
@@ -685,7 +685,7 @@
     "li": null,
     "account": "MoDEE 机构账号已核验",
     "person": "在任",
-    "verified": "2026-09-10",
+    "verified": "2026-09-12",
     "source": "https://pm.gov.jo/AR/CustomPages/Government",
     "priority": "官方内阁名录；社媒账号待逐项核验"
   },
@@ -820,7 +820,7 @@
     "li": null,
     "account": "总理府机构账号已核验",
     "person": "在任",
-    "verified": "2026-09-10",
+    "verified": "2026-09-12",
     "source": "https://www.pcm.gov.lb/arabic/subpg.aspx?pageid=13587",
     "priority": "官方内阁名录；社媒账号待逐项核验"
   },
