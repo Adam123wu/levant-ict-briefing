@@ -8,11 +8,11 @@
     "owner": "Mustafa Sanad",
     "country": "伊拉克",
     "category": "通信部",
-    "posts14d": 10,
+    "posts14d": 11,
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   },
   {
     "id": "iq-sanad-x",
@@ -41,7 +41,7 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "CMC 官方频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   },
   {
     "id": "iq-cmc-x",
@@ -122,11 +122,11 @@
     "owner": "Fuad Hussein",
     "country": "伊拉克",
     "category": "政府官员",
-    "posts14d": 34,
+    "posts14d": 32,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "外交部机构频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   },
   {
     "id": "jo-trc-x",
@@ -235,11 +235,11 @@
     "owner": "机构账号",
     "country": "伊拉克",
     "category": "政府机构",
-    "posts14d": 26,
+    "posts14d": 22,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   },
   {
     "id": "iq-moi-tg",
@@ -250,11 +250,11 @@
     "owner": "机构账号",
     "country": "伊拉克",
     "category": "政府机构",
-    "posts14d": 104,
+    "posts14d": 90,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   },
   {
     "id": "iq-mohe-tg",
@@ -269,6 +269,6 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-11T00:17:53Z"
+    "lastCollectedAt": "2026-09-12T00:25:23Z"
   }
 ]
