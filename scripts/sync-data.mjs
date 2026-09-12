@@ -59,7 +59,7 @@ for (const [code, name, flag] of countryMeta) {
         links: panel$(item).find(".ni-src a").map((_, a) => ({ label: panel$(a).text().replace(/^→\s*/, "").trim(), url: panel$(a).attr("href") })).get()
       });
     });
-    if (items.length) sections.push({ category, items });
+    sections.push({ category, items });
   });
   report.countries[code] = { name, flag, sections };
   const stated = root.find(".flag-badge").first().text().match(/(\d+)\s*条新闻/);

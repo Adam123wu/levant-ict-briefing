@@ -270,5 +270,61 @@
     "status": "正常",
     "verifiedBy": "机构频道",
     "lastCollectedAt": "2026-09-12T14:52:41Z"
+  },
+  {
+    "id": "iq-ina-tg",
+    "platform": "Telegram",
+    "handle": "inainaiq",
+    "url": "https://t.me/inainaiq",
+    "name": "伊拉克国家通讯社 INA",
+    "owner": "机构媒体",
+    "country": "伊拉克",
+    "category": "新闻媒体",
+    "posts14d": null,
+    "tier": "T1",
+    "status": "已核验",
+    "verifiedBy": "INA 官方网站反向链接 Telegram 频道"
+  },
+  {
+    "id": "iq-alsumaria-tg",
+    "platform": "Telegram",
+    "handle": "alsumariatviraq",
+    "url": "https://t.me/alsumariatviraq",
+    "name": "Alsumaria News",
+    "owner": "机构媒体",
+    "country": "伊拉克",
+    "category": "新闻媒体",
+    "posts14d": null,
+    "tier": "T2",
+    "status": "已核验",
+    "verifiedBy": "Alsumaria 官方网站公布同名 Telegram 频道"
+  },
+  {
+    "id": "iq-pmo-tg",
+    "platform": "Telegram",
+    "handle": "IraqiPmo",
+    "url": "https://t.me/IraqiPmo",
+    "name": "伊拉克总理媒体办公室",
+    "owner": "总理府",
+    "country": "伊拉克",
+    "category": "政府决策",
+    "posts14d": null,
+    "tier": "T1",
+    "status": "已核验",
+    "verifiedBy": "Telegram 认证频道，且与英文频道交叉链接"
+  },
+  {
+    "id": "iq-pmo-en-tg",
+    "platform": "Telegram",
+    "handle": "IraqiPMOEng",
+    "url": "https://t.me/IraqiPMOEng",
+    "name": "伊拉克总理媒体办公室（英文）",
+    "owner": "总理府",
+    "country": "伊拉克",
+    "category": "政府决策",
+    "posts14d": null,
+    "tier": "T1",
+    "status": "已核验",
+    "verifiedBy": "Telegram 认证频道，且与阿拉伯文频道交叉链接"
   }
 ]
