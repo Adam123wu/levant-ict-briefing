@@ -1,18 +1,19 @@
 {
   "issue": "W37-38",
-  "period": "2026年9月5日 — 9月12日（滚动更新，完整周期至9月18日）",
-  "generated": "2026-09-12",
+  "period": "2026年9月5日 — 9月13日（滚动更新，完整周期至9月18日）",
+  "generated": "2026-09-13",
   "sourceFile": "w37-38.html",
   "summary": [
     "🇮🇶 伊拉克与 Ooredoo 签署海湾—欧洲互联网过境合同，目标 3—4 个月接通；海缆登陆附件仍待下月签署并完成收益分成谈判。",
     "🇮🇶 通信部研究将政府安全 LTE 网络扩展至全部政府机构并评估 5G；CMC 同期启动国家级 AI 基础设施论证。",
+    "🇮🇶 北方石油公司签署阿吉勒油田 25 年开发运营合同；数字油田、OT/SCADA 和工业网络仅列 L2，尚无 ICT 分包授标证据。",
     "🇮🇶 Korek 场所关闭扩大至基尔库克、尼尼微和萨拉赫丁，运营、采购与回款风险继续上升。",
     "🇮🇶🇱🇧 9 月 10 日美国财政部新制裁同时触及伊拉克通信解决方案企业/承包网络与黎巴嫩现金、黄金和汇兑网络，第三方审查必须增量重跑。",
     "🇯🇴 Umniah by Beyon 与 Ericsson 推进二期 5G 扩容；约旦与 HUMAIN 签署政府 AI 合作备忘录。",
     "🇯🇴 投资环境条例的“合规承诺式许可”有利于开发区项目加速，但仍受后检查和适用范围约束。",
     "🇱🇧 第 71 号银行重组法已发布，但回款环境仍取决于后续金融损失/存款回收立法。",
     "🇱🇧 南部安全压力上升；网络恢复项目须按站点确认进入条件并采用资金保障。",
-    "📌 本期为 W37–38 滚动更新，信息截止 2026-09-12；9 月 18 日前的新事实将在周日自动任务继续补入同一期。"
+    "📌 本期为 W37–38 滚动更新，信息截止 2026-09-13；9 月 18 日前的新事实将在后续自动任务继续补入同一期。"
   ],
   "countries": {
     "iq": {
@@ -194,11 +195,31 @@
           "category": "本国头部客户的新机会点",
           "items": [
             {
-              "title": "本期三条最高优先级机会：国际过境网络、主权 AI 基础设施、政府安全 LTE/5G",
+              "title": "北方石油公司签署阿吉勒油田 25 年开发运营合同，数字油田与工业网络进入执行前需求识别期",
+              "date": "2026-09-12",
+              "badge": "总理府 Telegram + Shafaq 交叉核验",
+              "text": "总理府确认北方石油公司与伊拉克私营开发商 KEPPT 签署阿吉勒油田开发运营合同。合同目标是把天然气日产量从约 1.35 亿标准立方英尺提升至 3 亿，并把原油日产量从约 3 万桶提升至 4 万桶。主开发合同已经签署，但公开信息没有披露 SCADA、工业网络、数据中心或网络安全分包范围。",
+              "opportunity": "🎯 列为 L2 油气数字化机会：向北方石油公司和主承包商核实 OT/SCADA、生产数据采集、园区光纤、视频监控、边缘计算与网络安全包；报价前完成 KEPPT、分包商、银行和最终受益人筛查，不得把油田主合同误写成 ICT 已授标。",
+              "links": [
+                {
+                  "label": "总理府 Telegram 9/12",
+                  "url": "https://t.me/IraqiPmo/65875"
+                },
+                {
+                  "label": "Shafaq 9/12",
+                  "url": "https://api.shafaq.com/en/Economy/Ajeel-field-targets-122-increase-in-gas-production"
+                }
+              ],
+              "titleEn": "North Oil Company signs a 25-year Ajeel field development and operating contract, opening an execution-stage discovery window for digital-oilfield and industrial-network needs",
+              "textEn": "The PMO confirmed that North Oil Company and Iraqi private developer KEPPT signed the Ajeel field development and operating contract. It targets an increase in gas production from about 135 million to 300 million standard cubic feet per day and in crude output from about 30,000 to 40,000 barrels per day. The main development contract is signed, but no public source discloses SCADA, industrial-network, data-centre or cybersecurity subpackages.",
+              "opportunityEn": "Treat this as an L2 oil-and-gas digitalisation opportunity. Confirm OT/SCADA, production-data acquisition, site fibre, video, edge-compute and cybersecurity packages with North Oil Company and the main contractor. Screen KEPPT, subcontractors, banks and beneficial owners before quotation, and do not misstate the field contract as an ICT award."
+            },
+            {
+              "title": "本期四条优先机会：国际过境网络、主权 AI 基础设施、政府安全 LTE/5G、阿吉勒数字油田配套",
               "date": "2026-09-12",
               "badge": "本期综合研判",
-              "text": "三条机会均已出现官方需求信号，但成熟度不同：Ooredoo/ITPC 过境合同已签、属于 L1；政府安全 LTE 扩围有部长级讨论、属于 L2；国家 AI 基础设施仍在论证、属于 L2。Korek 相关机会因监管执行和回款风险降为观察或暂停。",
-              "opportunity": "🎯 七日动作：向 ITPC 提交过境骨干假设清单；向通信部预约政务专网技术会；向 CMC 提交主权 AI 参考架构；对上述项目伙伴执行 OFAC 增量筛查。",
+              "text": "四条机会均已出现官方需求信号，但成熟度不同：Ooredoo/ITPC 过境合同已签、属于 L1；政府安全 LTE 扩围和国家 AI 基础设施属于 L2；阿吉勒油田主开发合同已签，但 ICT 分包范围尚未披露，因此列为 L2 需求识别。Korek 相关机会因监管执行和回款风险降为观察或暂停。",
+              "opportunity": "🎯 七日动作：向 ITPC 提交过境骨干假设清单；向通信部预约政务专网技术会；向 CMC 提交主权 AI 参考架构；向北方石油公司/KEPPT 核实 OT 与网络分包；对上述项目伙伴执行 OFAC 增量筛查。",
               "links": [
                 {
                   "label": "Ooredoo 过境合同",
@@ -209,9 +230,9 @@
                   "url": "https://cmc.iq/2026/09/10/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%83%D8%B4%D9%81-%D8%AE%D8%B7%D8%A9-%D9%84%D8%A8%D9%86%D8%A7/"
                 }
               ],
-              "titleEn": "Three top-priority opportunities this period: international transit, sovereign AI infrastructure and secure government LTE/5G",
-              "textEn": "All three now have official demand signals, but maturity differs: the Ooredoo/ITPC transit contract is signed and rated L1; secure government LTE expansion has ministerial discussion and is L2; national AI infrastructure remains at scoping stage and is L2. Korek-related opportunities move to watch or hold because of enforcement and collection risk.",
-              "opportunityEn": "Seven-day actions: submit a transit-backbone assumptions list to ITPC; request a government-network technical session with the ministry; give CMC a sovereign-AI reference architecture; and run incremental OFAC screening on all project partners."
+              "titleEn": "Four priority opportunities this period: international transit, sovereign AI infrastructure, secure government LTE/5G and Ajeel digital-oilfield follow-ons",
+              "textEn": "All four now have official demand signals, but maturity differs: the Ooredoo/ITPC transit contract is signed and rated L1; secure government LTE expansion and national AI infrastructure are L2; the Ajeel field's main development contract is signed, but its ICT subpackage is undisclosed and therefore remains an L2 discovery item. Korek-related opportunities move to watch or hold because of enforcement and collection risk.",
+              "opportunityEn": "Seven-day actions: submit a transit-backbone assumptions list to ITPC; request a government-network technical session with the ministry; give CMC a sovereign-AI reference architecture; confirm OT and network packages with North Oil Company/KEPPT; and run incremental OFAC screening on all project partners."
             }
           ],
           "categoryEn": "New opportunities with top customers"
@@ -689,25 +710,26 @@
     }
   },
   "stats": {
-    "news": 28,
-    "opportunities": 3,
-    "telegram": 9,
+    "news": 29,
+    "opportunities": 4,
+    "telegram": 10,
     "countryCounts": {
-      "iq": 13,
+      "iq": 14,
       "jo": 9,
       "lb": 6
     }
   },
-  "periodEn": "5–12 September 2026 (rolling update; the full W37–38 window closes on 18 September)",
+  "periodEn": "5–13 September 2026 (rolling update; the full W37–38 window closes on 18 September)",
   "summaryEn": [
     "Iraq and Ooredoo signed a Gulf-to-Europe internet-transit contract targeting activation within three to four months; the marine-landing addendum and revenue-share terms remain pending.",
     "Iraq's Ministry of Communications is considering expansion of the secure government LTE network to all institutions and a 5G upgrade, while CMC has begun scoping national AI infrastructure.",
+    "North Oil Company signed a 25-year Ajeel field development and operating contract; digital-oilfield, OT/SCADA and industrial-network follow-ons are L2 signals, with no evidence yet of an ICT subcontract award.",
     "Korek location closures expanded to Kirkuk, Nineveh and Salah al-Din, further increasing operating, procurement and collection risk.",
     "A 10 September U.S. Treasury action reaches an Iraqi communications-solutions/contracting network and Lebanese cash, gold and exchange networks, requiring fresh third-party screening.",
     "Umniah by Beyon and Ericsson are advancing phase-two 5G expansion in Jordan, while Jordan and HUMAIN signed a government-AI cooperation MoU.",
     "Jordan's compliance-based licensing can accelerate eligible development-zone projects but remains subject to scope rules and post-licensing inspection.",
     "Lebanon has published bank-restructuring Law 71, but the collection environment still depends on further financial-loss and deposit-recovery legislation.",
     "Security pressure in southern Lebanon is rising; network-restoration work needs site-level access checks and protected funding.",
-    "This is a rolling W37–38 update through 12 September 2026. New verified facts through 18 September will be added to the same issue by the Sunday automation."
+    "This is a rolling W37–38 update through 13 September 2026. New verified facts through 18 September will be added to the same issue by subsequent automation runs."
   ]
 }

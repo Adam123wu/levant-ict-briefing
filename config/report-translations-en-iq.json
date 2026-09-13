@@ -82,9 +82,14 @@
       "category": "New opportunities with top customers",
       "items": [
         {
-          "title": "Three top-priority opportunities this period: international transit, sovereign AI infrastructure and secure government LTE/5G",
-          "text": "All three now have official demand signals, but maturity differs: the Ooredoo/ITPC transit contract is signed and rated L1; secure government LTE expansion has ministerial discussion and is L2; national AI infrastructure remains at scoping stage and is L2. Korek-related opportunities move to watch or hold because of enforcement and collection risk.",
-          "opportunity": "Seven-day actions: submit a transit-backbone assumptions list to ITPC; request a government-network technical session with the ministry; give CMC a sovereign-AI reference architecture; and run incremental OFAC screening on all project partners."
+          "title": "North Oil Company signs a 25-year Ajeel field development and operating contract, opening an execution-stage discovery window for digital-oilfield and industrial-network needs",
+          "text": "The PMO confirmed that North Oil Company and Iraqi private developer KEPPT signed the Ajeel field development and operating contract. It targets an increase in gas production from about 135 million to 300 million standard cubic feet per day and in crude output from about 30,000 to 40,000 barrels per day. The main development contract is signed, but no public source discloses SCADA, industrial-network, data-centre or cybersecurity subpackages.",
+          "opportunity": "Treat this as an L2 oil-and-gas digitalisation opportunity. Confirm OT/SCADA, production-data acquisition, site fibre, video, edge-compute and cybersecurity packages with North Oil Company and the main contractor. Screen KEPPT, subcontractors, banks and beneficial owners before quotation, and do not misstate the field contract as an ICT award."
+        },
+        {
+          "title": "Four priority opportunities this period: international transit, sovereign AI infrastructure, secure government LTE/5G and Ajeel digital-oilfield follow-ons",
+          "text": "All four now have official demand signals, but maturity differs: the Ooredoo/ITPC transit contract is signed and rated L1; secure government LTE expansion and national AI infrastructure are L2; the Ajeel field's main development contract is signed, but its ICT subpackage is undisclosed and therefore remains an L2 discovery item. Korek-related opportunities move to watch or hold because of enforcement and collection risk.",
+          "opportunity": "Seven-day actions: submit a transit-backbone assumptions list to ITPC; request a government-network technical session with the ministry; give CMC a sovereign-AI reference architecture; confirm OT and network packages with North Oil Company/KEPPT; and run incremental OFAC screening on all project partners."
         }
       ]
     },
