@@ -1,13 +1,342 @@
 {
-  "generatedAt": "2026-09-16T00:35:54Z",
+  "generatedAt": "2026-09-17T00:43:34Z",
   "collectionMode": "api",
   "selection": "important-only",
   "windowDays": 14,
   "sourceCount": 10,
-  "scannedMessageCount": 572,
-  "messageCount": 67,
+  "scannedMessageCount": 568,
+  "messageCount": 75,
   "errors": [],
   "items": [
+    {
+      "id": "tg-inainaiq-158936",
+      "messageId": 158936,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T23:54:13Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "عقد"
+      ],
+      "title": "أكسيوس: ترامب سيعقد محادثات بشأن إيران مع قادة دول الخليج في نيويورك الأسبوع المقبل",
+      "summary": "أكسيوس: ترامب سيعقد محادثات بشأن إيران مع قادة دول الخليج في نيويورك الأسبوع المقبل",
+      "views": 797,
+      "forwards": 5,
+      "url": "https://t.me/inainaiq/158936"
+    },
+    {
+      "id": "tg-inainaiq-158935",
+      "messageId": 158935,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T22:51:53Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 7,
+      "matchedTerms": [
+        "عقوبات",
+        "قانون"
+      ],
+      "title": "مجلس النواب الأمريكي يقر مشروع قانون لفرض عقوبات ورسوم جمركية على روسيا",
+      "summary": "مجلس النواب الأمريكي يقر مشروع قانون لفرض عقوبات ورسوم جمركية على روسيا",
+      "views": 2114,
+      "forwards": 8,
+      "url": "https://t.me/inainaiq/158935"
+    },
+    {
+      "id": "tg-iraqipmoeng-24943",
+      "messageId": 24943,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T21:37:55Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室（英文）",
+      "owner": "总理府",
+      "handle": "IraqiPMOEng",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "最高",
+      "importanceScore": 8,
+      "matchedTerms": [
+        "contract",
+        "regulation",
+        "tender",
+        "ai"
+      ],
+      "title": "Prime Minister Ali Faleh Al-Zaidi Chairs the 19th Regular Session of the Council of Ministers",
+      "summary": "Prime Minister Ali Faleh Al-Zaidi Chairs the 19th Regular Session of the Council of Ministers ••••• Prime Minister Ali Faleh Al-Zaidi chaired yesterday evening, Wednesday, the 19th regular session of the Council of Ministers, during which the Council discussed the country's general situation, reviewed the agenda items, and took the necessary decisions. Regarding the oil sector, the Council of Ministers approved the recommendation to exempt oil companies’ subcontracts to facilitate related activities. It also appro…",
+      "views": 169,
+      "forwards": 1,
+      "url": "https://t.me/IraqiPMOEng/24943"
+    },
+    {
+      "id": "tg-iraqipmo-66097",
+      "messageId": 66097,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T21:36:58Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室",
+      "owner": "总理府",
+      "handle": "IraqiPmo",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "عقد"
+      ],
+      "title": "فيديوغرافيك: مقررات جلسة مجلس الوزراء الاعتيادية التاسعة عشرة، والتي عقدت برئاسة رئيس مجلس الوزراء السيد علي فالح الزيدي.",
+      "summary": "فيديوغرافيك: مقررات جلسة مجلس الوزراء الاعتيادية التاسعة عشرة، والتي عقدت برئاسة رئيس مجلس الوزراء السيد علي فالح الزيدي. ••••• المكتب الإعلامي لرئيس مجلس الوزراء 17- أيلول- 2026",
+      "views": 574,
+      "forwards": 1,
+      "url": "https://t.me/IraqiPmo/66097"
+    },
+    {
+      "id": "tg-iraqipmo-66082",
+      "messageId": 66082,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T21:07:55Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室",
+      "owner": "总理府",
+      "handle": "IraqiPmo",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "مناقصة"
+      ],
+      "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يترأس الجلسة الاعتيادية التاسعة عشرة لمجلس الوزراء",
+      "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يترأس الجلسة الاعتيادية التاسعة عشرة لمجلس الوزراء •••••••••• ترأس رئيس مجلس الوزراء السيد علي فالح الزيدي، مساء أمس الأربعاء، الجلسة الاعتيادية التاسعة عشرة لمجلس الوزراء، جرت خلالها مناقشة الأوضاع العامة في البلاد، وبحث الموضوعات المدرجة على جدول الأعمال واتخاذ القرارات اللازمة بشأنها. ففي الشأن النفطي، أقر المجلس التوصية الخاصة باستثناء العقود الثانوية للشركات النفطية، لتسهيل الأنشطة المرتبطة بها، بجانب الموافقة على استثناء شركة المشاريع النفطية من الفقرة (أولًا/5) من قرا…",
+      "views": 694,
+      "forwards": 2,
+      "url": "https://t.me/IraqiPmo/66082"
+    },
+    {
+      "id": "tg-iraqipmo-66080",
+      "messageId": 66080,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T17:20:29Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室",
+      "owner": "总理府",
+      "handle": "IraqiPmo",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "عقد"
+      ],
+      "title": "مجلس الوزراء يعقد جلسته الاعتيادية برئاسة رئيس مجلس الوزراء السيد علي فالح الزيدي .",
+      "summary": "مجلس الوزراء يعقد جلسته الاعتيادية برئاسة رئيس مجلس الوزراء السيد علي فالح الزيدي . ••••• المكتب الإعلامي لرئيس مجلس الوزراء 16- أيلول- 2026",
+      "views": 1160,
+      "forwards": 4,
+      "url": "https://t.me/IraqiPmo/66080"
+    },
+    {
+      "id": "tg-inainaiq-158923",
+      "messageId": 158923,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T17:20:23Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "عقد"
+      ],
+      "title": "مجلس الوزراء يعقد جلسته الاعتيادية برئاسة رئيس مجلس الوزراء علي فالح الزيدي",
+      "summary": "مجلس الوزراء يعقد جلسته الاعتيادية برئاسة رئيس مجلس الوزراء علي فالح الزيدي",
+      "views": 9691,
+      "forwards": 11,
+      "url": "https://t.me/inainaiq/158923"
+    },
+    {
+      "id": "tg-iqmofa-15221",
+      "messageId": 15221,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T16:33:56Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克外交部",
+      "owner": "Fuad Hussein",
+      "handle": "iqmofa",
+      "category": "政府官员",
+      "tier": "T2",
+      "priority": "高",
+      "importanceScore": 6,
+      "matchedTerms": [
+        "تنظيم",
+        "عقد",
+        "قانون",
+        "ai"
+      ],
+      "title": "وكيل الوزارة يترأس الاجتماع التحضيري الرابع لمؤتمر الأمم المتحدة لتعزيز الدعم الدولي لضحايا الإرهاب",
+      "summary": "وكيل الوزارة يترأس الاجتماع التحضيري الرابع لمؤتمر الأمم المتحدة لتعزيز الدعم الدولي لضحايا الإرهاب ترأس وكيل وزارة الخارجية للشؤون متعددة الأطراف والشؤون القانونية، السفير شورش خالد سعيد، يوم الأربعاء الموافق 16 أيلول 2026، الاجتماع الرابع للجنة التنسيق والتحضير لمؤتمر الأمم المتحدة لتعزيز الدعم الدولي لضحايا الإرهاب، المزمع عقده في بغداد نهاية العام الحالي، بحضور ممثلي الوزارات والجهات الوطنية المعنية، ومدير مكتب الأمم المتحدة لمكافحة الإرهاب في بغداد والوفد المرافق له. وجرى خلال الاجتماع استعراض آخر المستجدات ا…",
+      "views": 207,
+      "forwards": 1,
+      "url": "https://t.me/iqmofa/15221"
+    },
+    {
+      "id": "tg-inainaiq-158911",
+      "messageId": 158911,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T14:52:38Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "قانون"
+      ],
+      "title": "رئيس ائتلاف دولة القانون نوري المالكي: القائد العام شكل لجنة تحقيقية بشأن الاعتداء على السعودية وأي جهة يثبت تورطها بالاعتداء ستخضع للمساءلة القانونية",
+      "summary": "رئيس ائتلاف دولة القانون نوري المالكي: القائد العام شكل لجنة تحقيقية بشأن الاعتداء على السعودية وأي جهة يثبت تورطها بالاعتداء ستخضع للمساءلة القانونية",
+      "views": 8484,
+      "forwards": 9,
+      "url": "https://t.me/inainaiq/158911"
+    },
+    {
+      "id": "tg-iraqipmo-66077",
+      "messageId": 66077,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T12:50:17Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克总理媒体办公室",
+      "owner": "总理府",
+      "handle": "IraqiPmo",
+      "category": "政府决策",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "عقد"
+      ],
+      "title": "بالفيديو / رئيس مجلس الوزراء السيد علي فالح الزيدي يشارك في ملتقى حوار الأعمال الذي عقد في برلين.",
+      "summary": "بالفيديو / رئيس مجلس الوزراء السيد علي فالح الزيدي يشارك في ملتقى حوار الأعمال الذي عقد في برلين. https://youtu.be/_m-vArP_q_g",
+      "views": 1452,
+      "forwards": 6,
+      "url": "https://t.me/IraqiPmo/66077"
+    },
+    {
+      "id": "tg-inainaiq-158898",
+      "messageId": 158898,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T12:28:32Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "تنظيم"
+      ],
+      "title": "أمانة بغداد: خطة متكاملة لتنظيم الأسواق وإنشاء بسطات متحركة في العاصمة",
+      "summary": "أمانة بغداد: خطة متكاملة لتنظيم الأسواق وإنشاء بسطات متحركة في العاصمة https://ina.iq/ar/273699-.html",
+      "views": 9368,
+      "forwards": 0,
+      "url": "https://t.me/inainaiq/158898"
+    },
+    {
+      "id": "tg-inainaiq-158894",
+      "messageId": 158894,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T09:33:35Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "سيبراني"
+      ],
+      "title": "الأمن الوطني: أغلقنا 2700 صفحة تواصل وأحبطنا 750 هجمة سيبرانية بالنصف الأول لـ 2026",
+      "summary": "الأمن الوطني: أغلقنا 2700 صفحة تواصل وأحبطنا 750 هجمة سيبرانية بالنصف الأول لـ 2026 https://ina.iq/ar/273688-.html",
+      "views": 11029,
+      "forwards": 9,
+      "url": "https://t.me/inainaiq/158894"
+    },
+    {
+      "id": "tg-inainaiq-158892",
+      "messageId": 158892,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:24:34Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 6,
+      "matchedTerms": [
+        "قانون"
+      ],
+      "title": "وزير العدل: عملنا على ضمان حقوق القاصرين في مشروع تعديل قانون رعاية القاصرين بما يراعي الجوانب المادية والمعنوية",
+      "summary": "وزير العدل: عملنا على ضمان حقوق القاصرين في مشروع تعديل قانون رعاية القاصرين بما يراعي الجوانب المادية والمعنوية",
+      "views": 11865,
+      "forwards": 6,
+      "url": "https://t.me/inainaiq/158892"
+    },
+    {
+      "id": "tg-inainaiq-158887",
+      "messageId": 158887,
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T05:40:46Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 6,
+      "matchedTerms": [
+        "قانون"
+      ],
+      "title": "مجلس القضاء الأعلى بمناسبة اليوم العالمي للديمقراطية: حماية الحريات والحقوق الدستورية وضمان ممارستها تمثل جوهر الدولة الديمقراطية وركيزة لسيادة القان…",
+      "summary": "مجلس القضاء الأعلى بمناسبة اليوم العالمي للديمقراطية: حماية الحريات والحقوق الدستورية وضمان ممارستها تمثل جوهر الدولة الديمقراطية وركيزة لسيادة القانون",
+      "views": 11842,
+      "forwards": 7,
+      "url": "https://t.me/inainaiq/158887"
+    },
     {
       "id": "tg-iraqipmoeng-24939",
       "messageId": 24939,
@@ -28,42 +357,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Returns to Baghdad After Concluding Official European Visit to France and Germany",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Returns to Baghdad After Concluding Official European Visit to France and Germany Prime Minister Ali Faleh Al-Zaidi arrived in Baghdad after concluding his official European visit to France and Germany, which included the following: 🔹 Meeting with Federal President of Germany Frank-Walter Steinmeier. 🔹 Meeting with French President Emmanuel Macron. 🔹 Meeting with German Chancellor Friedrich Merz. 🔹 Chairing the Iraqi delegation during the expanded talks with the German side. 🔹 Hol…",
-      "views": 139,
-      "forwards": 2,
-      "url": "https://t.me/IraqiPMOEng/24939",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        }
-      ]
+      "views": 627,
+      "forwards": 3,
+      "url": "https://t.me/IraqiPMOEng/24939"
     },
     {
       "id": "tg-iraqipmo-66071",
@@ -84,41 +380,9 @@
       ],
       "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يصل العاصمة بغداد، بعد اختتام جولته الاوروبية الرسمية التي شملت كلا من فرنسا وألمانيا والتي تضمنت الآتي :",
       "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يصل العاصمة بغداد، بعد اختتام جولته الاوروبية الرسمية التي شملت كلا من فرنسا وألمانيا والتي تضمنت الآتي : 🔹 لقاء رئيس جمهورية ألمانيا الاتحادية السيد فرانك فالتر شتاينماير. 🔹 لقاء الرئيس الفرنسي إيمانويل ماكرون. 🔹 لقاء مستشار جمهورية ألمانيا الاتحادية السيد فريدريش ميرتس. 🔹 ترؤس وفد العراق في جلسة المباحثات الموسعة مع الجانب الألماني. 🔹 عقد مؤتمر صحفي مشترك مع المستشار الألماني. 🔹 رعاية توقيع اتفاقية مبادىء تعاون الطاقة (المرحلة الرابعة) مع شركة سيمنز الألمانية. 🔹 رعاية توقي…",
-      "views": 234,
+      "views": 1673,
       "forwards": 2,
-      "url": "https://t.me/IraqiPmo/66071",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/66071"
     },
     {
       "id": "tg-inainaiq-158885",
@@ -133,21 +397,38 @@
       "category": "新闻媒体",
       "tier": "T1",
       "priority": "高",
-      "importanceScore": 5,
+      "importanceScore": 6,
       "matchedTerms": [
         "حظر"
       ],
       "title": "الأمين العام لمجلس الوزراء حميد الغزي لوكالة الأنباء العراقية (واع)",
       "summary": "الأمين العام لمجلس الوزراء حميد الغزي لوكالة الأنباء العراقية (واع) رئيس الوزراء ركز على أهمية الاستفادة من التطور التكنولوجي الذي تمتلكه ألمانيا وإدخاله إلى السوق العراقية رئيس الوزراء وجه بتسهيل دخول رجال الأعمال الألمان إلى العراق فوراً ومن دون أي تأخير أو تعقيد رئيس الوزراء طرح خلال اجتماعه مع المستشار الألماني إمكانية مشاركة الجانب الألماني في مشروع يتعلق بأنبوب نقل النفط الخام وإيجاد طرق بديلة لنقل الوقود رئيس الوزراء وجه بالتعاقد مع خبراء واستشاريين دوليين لمعالجة ملاحظات \"إيكاو\" تمهيداً لإعادة الخطوط الجوي…",
-      "views": 3947,
+      "views": 13544,
+      "forwards": 14,
+      "url": "https://t.me/inainaiq/158885"
+    },
+    {
+      "id": "tg-inainaiq-158883",
+      "messageId": 158883,
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T19:00:04Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "استثمار"
+      ],
+      "title": "العبودي: دعوة أكثر من 50 شركة ورجل أعمال ألماني لتعزيز الشراكة الاستثمارية مع العراق",
+      "summary": "العبودي: دعوة أكثر من 50 شركة ورجل أعمال ألماني لتعزيز الشراكة الاستثمارية مع العراق https://ina.iq/ar/273650-.html",
+      "views": 12991,
       "forwards": 9,
-      "url": "https://t.me/inainaiq/158885",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158883"
     },
     {
       "id": "tg-iraqipmoeng-24930",
@@ -171,62 +452,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Participates in German-Iraqi Business Dialogue Forum Held in Berlin",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Participates in German-Iraqi Business Dialogue Forum Held in Berlin ••••• Prime Minister Ali Faleh Al-Zaidi participated today, Tuesday, in the German-Iraqi Business Dialogue Forum, held in the German capital, Berlin, under the theme “Economic Bridges for a Shared Future,” attended by a group of business leaders and representatives of major German companies. During the forum, the Prime Minister affirmed that Iraq and Germany share many areas of common ground, describing Germany as…",
-      "views": 232,
+      "views": 349,
       "forwards": 2,
-      "url": "https://t.me/IraqiPMOEng/24930",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "law"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24930"
     },
     {
       "id": "tg-inainaiq-158879",
@@ -241,22 +469,39 @@
       "category": "新闻媒体",
       "tier": "T1",
       "priority": "高",
-      "importanceScore": 6,
+      "importanceScore": 7,
       "matchedTerms": [
         "قانون",
         "استثمار"
       ],
       "title": "رئيس الوزراء: قانون الاستثمار يتضمن تسهيلات وضمانات واسعة",
       "summary": "رئيس الوزراء: قانون الاستثمار يتضمن تسهيلات وضمانات واسعة",
-      "views": 6945,
+      "views": 11563,
       "forwards": 2,
-      "url": "https://t.me/inainaiq/158879",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158879"
+    },
+    {
+      "id": "tg-inainaiq-158878",
+      "messageId": 158878,
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T18:42:35Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "استثمار"
+      ],
+      "title": "رئيس الوزراء يدعو الشركات الألمانية للاستثمار في العراق ويؤكد الاستعداد لتوفير البيئة الاستثمارية اللازمة",
+      "summary": "رئيس الوزراء يدعو الشركات الألمانية للاستثمار في العراق ويؤكد الاستعداد لتوفير البيئة الاستثمارية اللازمة",
+      "views": 11760,
+      "forwards": 5,
+      "url": "https://t.me/inainaiq/158878"
     },
     {
       "id": "tg-iraqipmo-66061",
@@ -279,83 +524,9 @@
       ],
       "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يشارك في ملتقى حوار الأعمال الألماني العراقي الذي عقد في برلين",
       "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يشارك في ملتقى حوار الأعمال الألماني العراقي الذي عقد في برلين •••••••••• شارك رئيس مجلس الوزراء السيد علي فالح الزيدي، اليوم الثلاثاء، في ملتقى الحوار الألماني العراقي، الذي أقيم في العاصمة الألمانية برلين تحت عنوان (جسور اقتصادية لمستقبل مشترك)، بحضور مجموعة من رجال الأعمال وممثلي الشركات الألمانية الكبرى. وأكد سيادته، خلال الملتقى، وجود مشتركات عديدة تجمع العراق وألمانيا، البلد الصناعي المهم الذي تتطلع الحكومة للتعاون معه في مختلف المجالات والقطاعات، مشيراً إلى أنّ العراق…",
-      "views": 707,
+      "views": 1168,
       "forwards": 2,
-      "url": "https://t.me/IraqiPmo/66061",
-      "topicIds": [
-        "government_updates",
-        "compliance_business",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "حكومة",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 2,
-          "matchedKeywords": [
-            "استثمار",
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/66061"
     },
     {
       "id": "tg-inainaiq-158875",
@@ -370,21 +541,38 @@
       "category": "新闻媒体",
       "tier": "T1",
       "priority": "高",
-      "importanceScore": 5,
+      "importanceScore": 6,
       "matchedTerms": [
         "عقد"
       ],
       "title": "رئيس مجلس الوزراء علي فالح الزيدي يشارك في ملتقى حوار الأعمال الألماني العراقي الذي عقد في برلين",
       "summary": "رئيس مجلس الوزراء علي فالح الزيدي يشارك في ملتقى حوار الأعمال الألماني العراقي الذي عقد في برلين",
-      "views": 6620,
-      "forwards": 2,
-      "url": "https://t.me/inainaiq/158875",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "views": 11209,
+      "forwards": 3,
+      "url": "https://t.me/inainaiq/158875"
+    },
+    {
+      "id": "tg-inainaiq-158873",
+      "messageId": 158873,
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T18:19:05Z",
+      "country": "伊拉克",
+      "platform": "Telegram",
+      "account": "伊拉克国家通讯社 INA",
+      "owner": "机构媒体",
+      "handle": "inainaiq",
+      "category": "新闻媒体",
+      "tier": "T1",
+      "priority": "高",
+      "importanceScore": 5,
+      "matchedTerms": [
+        "استثمار"
+      ],
+      "title": "رجال الأعمال الألمان: خطاب رئيس الوزراء العراقي يفتح أبوابًا جديدة أمام الاستثمار",
+      "summary": "رجال الأعمال الألمان: خطاب رئيس الوزراء العراقي يفتح أبوابًا جديدة أمام الاستثمار https://ina.iq/ar/273647-.html",
+      "views": 11980,
+      "forwards": 4,
+      "url": "https://t.me/inainaiq/158873"
     },
     {
       "id": "tg-iraqcmc-10990",
@@ -407,62 +595,9 @@
       ],
       "title": "هيأة الإعلام والاتصالات تعلن توقفاً مؤقتاً للرقم المجاني (177) لمدة 72 ساعة وتتيح قنوات بديلة لتقديم الشكاوى",
       "summary": "هيأة الإعلام والاتصالات تعلن توقفاً مؤقتاً للرقم المجاني (177) لمدة 72 ساعة وتتيح قنوات بديلة لتقديم الشكاوى تعلن هيأة الإعلام والاتصالات عن توقف مؤقت لخدمة الرقم المجاني (177) لمدة 72 ساعة، وذلك لإجراء أعمال الصيانة الدورية والتطويرية للأنظمة المرتبطة بالخدمة، ضمن خطط الهيأة لتطوير قنوات التواصل مع المواطنين ورفع كفاءة منظومة استقبال الشكاوى ومعالجتها. وتوضح الهيأة أن التوقف يقتصر على خدمة الرقم المجاني (177) خلال المدة المحددة، على أن تعود الخدمة إلى العمل فور استكمال أعمال الصيانة والتطوير. وخلال فترة التوقف، ي…",
-      "views": 179,
+      "views": 254,
       "forwards": 1,
-      "url": "https://t.me/iraqcmc/10990",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "监管"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10990"
     },
     {
       "id": "tg-inainaiq-158855",
@@ -483,15 +618,9 @@
       ],
       "title": "رئيس الوزراء: إقليم كردستان جزء أساسي من الدولة العراقية ولديه مستحقات وفقاً للدستور والقانون",
       "summary": "رئيس الوزراء: إقليم كردستان جزء أساسي من الدولة العراقية ولديه مستحقات وفقاً للدستور والقانون",
-      "views": 7685,
+      "views": 9615,
       "forwards": 1,
-      "url": "https://t.me/inainaiq/158855",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158855"
     },
     {
       "id": "tg-inainaiq-158841",
@@ -512,15 +641,9 @@
       ],
       "title": "المستشار الألماني: على إيران أن تنهي إغلاق مضيق هرمز",
       "summary": "المستشار الألماني: على إيران أن تنهي إغلاق مضيق هرمز",
-      "views": 7600,
+      "views": 9187,
       "forwards": 4,
-      "url": "https://t.me/inainaiq/158841",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158841"
     },
     {
       "id": "tg-iraqipmo-66013",
@@ -542,41 +665,9 @@
       ],
       "title": "تنويه/",
       "summary": "تنويه/ بعد قليل ... بث المؤتمر الصحفي المشترك لرئيس مجلس الوزراء السيد علي فالح الزيدي، والمستشار الألماني السيد فريدرش ميرتس. على التردد : IMN_POOL_HD ‌‌‏Satellite: Arabsat 6A (30.5)E ‌‌‏DownLink Frequency:11588 MHZ ‌‌‏Symbol Rate: 2200 ksym/s ‌‌‏Polarization: H FEC: 4/3 ‌‌‏Video Standard: MPEG-4 ‌‌‏Aspect Ratio: 16/9 ‌‌‏Frame Rate: 25Hz ‌‌‏Resolution: 1920*1080 ‌‌‏Color Type: 4:2:0 ‌‌‏Modulation Mode: DVB-S2 ‌‌‏Modulation Format: 8PSK ‏",
-      "views": 1089,
+      "views": 1252,
       "forwards": 3,
-      "url": "https://t.me/IraqiPmo/66013",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/66013"
     },
     {
       "id": "tg-iraqipmo-66011",
@@ -597,41 +688,9 @@
       ],
       "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يعقد، في العاصمة الألمانية برلين، لقاءً ثنائياً مع المستشار الألماني السيد فريدرش ميرتس.",
       "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يعقد، في العاصمة الألمانية برلين، لقاءً ثنائياً مع المستشار الألماني السيد فريدرش ميرتس. ••••• المكتب الإعلامي لرئيس مجلس الوزراء 15- أيلول-2026",
-      "views": 1095,
+      "views": 1203,
       "forwards": 3,
-      "url": "https://t.me/IraqiPmo/66011",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/66011"
     },
     {
       "id": "tg-inainaiq-158834",
@@ -652,15 +711,9 @@
       ],
       "title": "رئيس مجلس الوزراء علي فالح الزيدي يعقد في العاصمة الألمانية برلين لقاءً ثنائياً مع المستشار الألماني فريدرش ميرتس",
       "summary": "رئيس مجلس الوزراء علي فالح الزيدي يعقد في العاصمة الألمانية برلين لقاءً ثنائياً مع المستشار الألماني فريدرش ميرتس",
-      "views": 7855,
+      "views": 9516,
       "forwards": 7,
-      "url": "https://t.me/inainaiq/158834",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158834"
     },
     {
       "id": "tg-iraqcmc-10988",
@@ -685,104 +738,9 @@
       ],
       "title": "رئيس الجهاز التنفيذي لهيأة الإعلام يبحث مع مجلس الأعمال العراقي البريطاني تعزيز التعاون مع الشركات العالمية وتنظيم السوق الرقمية",
       "summary": "رئيس الجهاز التنفيذي لهيأة الإعلام يبحث مع مجلس الأعمال العراقي البريطاني تعزيز التعاون مع الشركات العالمية وتنظيم السوق الرقمية استقبل معالي رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، في مقر الهيأة ببغداد، المدير التنفيذي لمجلس الأعمال العراقي البريطاني (IBBC) السيد كريستوف ميشيلز والوفد المرافق له، لبحث فرص التعاون في قطاعات الإعلام والاتصالات والتكنولوجيا وتطوير البيئة التنظيمية الداعمة للاستثمار. وبحث اللقاء فرص التعاون مع شركات الإنتاج الإعلامي وصناعة المحتوى الفني والترفيهي، فضلاً عن ا…",
-      "views": 196,
+      "views": 240,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10988",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "iraq_legal_intelligence",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "伊拉克法律新闻解读",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Iraq legal intelligence",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "伊拉克法律新闻解读",
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Iraq legal-news interpretation",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "iraq_legal_intelligence",
-          "label": "伊拉克法律新闻解读",
-          "labelEn": "Iraq legal intelligence",
-          "destinations": [
-            "伊拉克法律新闻解读"
-          ],
-          "destinationsEn": [
-            "Iraq legal-news interpretation"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "استثمار"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10988"
     },
     {
       "id": "tg-inainaiq-158826",
@@ -797,21 +755,15 @@
       "category": "新闻媒体",
       "tier": "T1",
       "priority": "高",
-      "importanceScore": 5,
+      "importanceScore": 6,
       "matchedTerms": [
         "عقد"
       ],
       "title": "مراسلنا: رئيس الوزراء سيعقد طاولة مستديرة مع 30 شركة ألمانية",
       "summary": "مراسلنا: رئيس الوزراء سيعقد طاولة مستديرة مع 30 شركة ألمانية https://ina.iq/ar/273619-.html",
-      "views": 9394,
+      "views": 11147,
       "forwards": 5,
-      "url": "https://t.me/inainaiq/158826",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158826"
     },
     {
       "id": "tg-iraqipmoeng-24877",
@@ -834,43 +786,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi heads to the German capital, Berlin, after concluding his official visit to France, which included the following:",
       "summary": "Prime Minister Ali Faleh Al-Zaidi heads to the German capital, Berlin, after concluding his official visit to France, which included the following: 🔵 Meeting with French President Emmanuel Macron. 🔵 Presiding over the signing of six memoranda of understanding and cooperation, as follows: ■ A Letter of Intent between the Iraqi Ministry of Defense and Harmattan AI. ■ A Declaration of Intent between the Iraqi Ministry of Defense and the French Ministry of the Armed Forces. ■ A Declaration of Intent on partnership to…",
-      "views": 397,
+      "views": 487,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24877",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "minister",
-            "ministry",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24877"
     },
     {
       "id": "tg-inainaiq-158817",
@@ -891,15 +809,9 @@
       ],
       "title": "رئيس مجلس الوزراء علي فالح الزيدي يتوجه إلى العاصمة الألمانية برلين بعد اختتام زيارته الرسمية إلى فرنسا، التي تضمنت ما يأتي:",
       "summary": "رئيس مجلس الوزراء علي فالح الزيدي يتوجه إلى العاصمة الألمانية برلين بعد اختتام زيارته الرسمية إلى فرنسا، التي تضمنت ما يأتي: - لقاء الرئيس الفرنسي إيمانويل ماكرون. - رعاية توقيع (6) مذكرات تفاهم وتعاون وهي الآتي: - خطاب نوايا بين وزارة الدفاع وشركة هرمتان للذكاء الاصطناعي. - إعلان نوايا بين وزارة الدفاع العراقية ووزارة الجيوش الفرنسية. - إعلان نوايا للشراكة في مجال تعزيز فرص الشباب والبحث والابتكار. - إعلان نوايا بشأن تعزيز الشراكة مع منظمة التنمية الفرنسية(AFD). - بروتوكول تعاون بشأن عقد تجهيز وبيع الغاز مع شركة…",
-      "views": 12342,
-      "forwards": 7,
-      "url": "https://t.me/inainaiq/158817",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "views": 13147,
+      "forwards": 8,
+      "url": "https://t.me/inainaiq/158817"
     },
     {
       "id": "tg-iraqipmo-65991",
@@ -920,42 +832,9 @@
       ],
       "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يتوجه إلى العاصمة الألمانية برلين بعد اختتام زيارته الرسمية إلى فرنسا، التي تضمنت ما يأتي:",
       "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يتوجه إلى العاصمة الألمانية برلين بعد اختتام زيارته الرسمية إلى فرنسا، التي تضمنت ما يأتي: 🔵 لقاء الرئيس الفرنسي إيمانويل ماكرون. 🔵 رعاية توقيع (6) مذكرات تفاهم وتعاون وهي الآتي: ■ خطاب نوايا بين وزارة الدفاع وشركة هرمتان للذكاء الاصطناعي. ■ إعلان نوايا بين وزارة الدفاع العراقية ووزارة الجيوش الفرنسية. ■ إعلان نوايا للشراكة في مجال تعزيز فرص الشباب والبحث والابتكار. ■ إعلان نوايا بشأن تعزيز الشراكة مع منظمة التنمية الفرنسية(AFD). ■ بروتوكول تعاون بشأن عقد تجهيز وبيع الغاز مع…",
-      "views": 1761,
+      "views": 1878,
       "forwards": 2,
-      "url": "https://t.me/IraqiPmo/65991",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/65991"
     },
     {
       "id": "tg-iraqcmc-10981",
@@ -980,83 +859,9 @@
       ],
       "title": "مجلس مفوضي هيأة الإعلام والاتصالات يعقد جلسته الاعتيادية ويتخذ عدداً من القرارات",
       "summary": "مجلس مفوضي هيأة الإعلام والاتصالات يعقد جلسته الاعتيادية ويتخذ عدداً من القرارات عقد مجلس مفوضي هيأة الإعلام والاتصالات، برئاسة الدكتور المهندس بلاسم سالم، اليوم الإثنين الموافق 14 أيلول 2026، جلسته الاعتيادية، لمناقشة عدد من الملفات والموضوعات المدرجة على جدول أعماله، واتخاذ القرارات اللازمة بشأنها. واستضاف المجلس خلال الجلسة رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، لبحث عدد من الملفات ذات الأولوية وآليات التنسيق بين مجلس المفوضين والجهاز التنفيذي، بما يعزز تكامل العمل المؤسسي. وصادق المج…",
-      "views": 244,
+      "views": 272,
       "forwards": 1,
-      "url": "https://t.me/iraqcmc/10981",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10981"
     },
     {
       "id": "tg-inainaiq-158807",
@@ -1077,15 +882,9 @@
       ],
       "title": "رئيس الوزراء يعلن الاتفاق مع الرئيس الفرنسي إيمانويل ماكرون عن التهيئة لعقد مؤتمر بغداد- باريس في العاصمة بغداد",
       "summary": "رئيس الوزراء يعلن الاتفاق مع الرئيس الفرنسي إيمانويل ماكرون عن التهيئة لعقد مؤتمر بغداد- باريس في العاصمة بغداد",
-      "views": 12363,
+      "views": 12890,
       "forwards": 12,
-      "url": "https://t.me/inainaiq/158807",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158807"
     },
     {
       "id": "tg-inainaiq-158806",
@@ -1106,15 +905,9 @@
       ],
       "title": "رئيس الوزراء يرحب بزيارة الشركات الفرنسية الراغبة في الاستثمار بالعراق",
       "summary": "رئيس الوزراء يرحب بزيارة الشركات الفرنسية الراغبة في الاستثمار بالعراق",
-      "views": 12104,
+      "views": 12623,
       "forwards": 9,
-      "url": "https://t.me/inainaiq/158806",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158806"
     },
     {
       "id": "tg-inainaiq-158805",
@@ -1135,15 +928,9 @@
       ],
       "title": "رئيس الوزراء: الحكومة ستوفر كل الدعم والتسهيلات والبيئة الاستثمارية الملائمة",
       "summary": "رئيس الوزراء: الحكومة ستوفر كل الدعم والتسهيلات والبيئة الاستثمارية الملائمة",
-      "views": 11911,
+      "views": 12410,
       "forwards": 10,
-      "url": "https://t.me/inainaiq/158805",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/inainaiq/158805"
     },
     {
       "id": "tg-iraqipmoeng-24869",
@@ -1165,42 +952,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Meets Heads and Representatives of Major French Companies",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Meets Heads and Representatives of Major French Companies ••••• Prime Minister Ali Faleh Al-Zaidi met today, Monday, at his residence in the French capital, Paris, the heads and representatives of major French companies to discuss opportunities for their participation and expanded presence in Iraq. During the meeting, Prime Minister Al-Zaidi highlighted the importance of the historic relations between the two countries, affirming that Iraq views France as a trusted partner within…",
-      "views": 422,
+      "views": 441,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24869",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24869"
     },
     {
       "id": "tg-iraqipmo-65982",
@@ -1222,62 +976,9 @@
       ],
       "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل رؤساء وممثلي كبريات الشركات الفرنسية",
       "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل رؤساء وممثلي كبريات الشركات الفرنسية •••••••••• استقبل رئيس مجلس الوزراء السيد علي فالح الزيدي، اليوم الاثنين، بمقر إقامته في العاصمة الفرنسية باريس، رؤساء وممثلي كبريات الشركات الفرنسية، لبحث فرص مشاركتها وزيادة حضورها في العراق. وأشار السيد الزيدي، خلال اللقاء، إلى أهمية العلاقات التاريخية التي تجمع البلدين، مؤكداً أن العراق ينظر إلى فرنسا بوصفها شريكاً موثوقاً في إطار الصداقة الدائمة، وحاجة العراق لشركاء ستراتيجيين. واستعرض سيادته خارطة الاستثمارات الواسعة في مجالا…",
-      "views": 1594,
+      "views": 1650,
       "forwards": 2,
-      "url": "https://t.me/IraqiPmo/65982",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 2,
-          "matchedKeywords": [
-            "استثمار",
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/65982"
     },
     {
       "id": "tg-iraqipmoeng-24868",
@@ -1300,62 +1001,9 @@
       ],
       "title": "11-Both sides reaffirmed their objective of further developing economic relations between the two countries. In this regard, an economic forum was he…",
       "summary": "11-Both sides reaffirmed their objective of further developing economic relations between the two countries. In this regard, an economic forum was held in Paris, attended by representatives of 50 French companies and business leaders, to explore ways to strengthen their business ties, especially in sectors of strategic importance to both countries, such as energy security, infrastructure, industry, defense, services, and healthcare. 12-The two sides stressed the importance of supporting the Iraqi government’s prog…",
-      "views": 395,
+      "views": 403,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24868",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "government",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "law"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24868"
     },
     {
       "id": "tg-iraqipmoeng-24866",
@@ -1377,62 +1025,9 @@
       ],
       "title": "Joint Statement Following the Visit to France by the Prime Minister of the Republic of Iraq, Ali Al-Zaidi (September 13–14, 2026).",
       "summary": "Joint Statement Following the Visit to France by the Prime Minister of the Republic of Iraq, Ali Al-Zaidi (September 13–14, 2026). •••••••••• 1-At the invitation of the President of the French Republic, the Prime Minister of the Republic of Iraq, Mr. Ali Al-Zaydi, paid an official visit to France on September 13 and 14, 2026, at the head of a high-level delegation to strengthen the strategic partnership and friendly relations between France and Iraq. 2-The President of the Republic and the Prime Minister expressed…",
-      "views": 336,
+      "views": 351,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24866",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "law"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24866"
     },
     {
       "id": "tg-mociraq2023-1702",
@@ -1454,42 +1049,9 @@
       ],
       "title": "ترأس وزير الاتصالات السيد مصطفى سند إجتماعاً موسعاً ضم مديري المديريات في بغداد والمحافظات تابع خلاله نسب إنجاز وتسويق الشركات الشريكة لمشاريع الـ(FT…",
       "summary": "ترأس وزير الاتصالات السيد مصطفى سند إجتماعاً موسعاً ضم مديري المديريات في بغداد والمحافظات تابع خلاله نسب إنجاز وتسويق الشركات الشريكة لمشاريع الـ(FTTH) والوقوف على خطط تطوير البنية التحتية الرقمية. إعلام وزارة الاتصالات 2026/9/14",
-      "views": 440,
+      "views": 513,
       "forwards": 2,
-      "url": "https://t.me/mociraq2023/1702",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "وزير"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1702"
     },
     {
       "id": "tg-iraqipmoeng-24865",
@@ -1512,42 +1074,9 @@
       ],
       "title": "Highlights from Prime Minister Ali Faleh Al-Zaidi’s Article Published in French Newspaper Le Figaro",
       "summary": "Highlights from Prime Minister Ali Faleh Al-Zaidi’s Article Published in French Newspaper Le Figaro ••••• 🔵 Iraq-France relations are built on historic ties and a genuine strategic partnership in the fields of economy, energy, industry, and culture. 🔵 Our meeting with President Emmanuel Macron represents an opportunity to redefine our relationship on the basis of mutual interests. 🔵 We want to open a new chapter in our relations, with Iraq as an active partner rather than a country seeking assistance or political…",
-      "views": 194,
+      "views": 202,
       "forwards": 0,
-      "url": "https://t.me/IraqiPMOEng/24865",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24865"
     },
     {
       "id": "tg-iraqipmo-65978",
@@ -1569,99 +1098,9 @@
       ],
       "title": "أبرز ما جاء في مقال رئيس مجلس الوزراء السيد علي فالح الزيدي المنشور في صحيفة (لوفيغارو) الفرنسية",
       "summary": "أبرز ما جاء في مقال رئيس مجلس الوزراء السيد علي فالح الزيدي المنشور في صحيفة (لوفيغارو) الفرنسية •••••••••• 🔵 علاقات العراق وفرنسا مبنية على روابط تاريخية وشراكة استراتيجية حقيقية، في مجالات الاقتصاد والطاقة والصناعة والثقافة. 🔵 اجتماعنا مع الرئيس إيمانويل ماكرون يمثل فرصة لإعادة تعريف علاقتنا على أساس المصالح المشتركة. 🔵 نريد فتح فصل جديد في العلاقات يكون فيه العراق شريكاً فاعلاً، وليس دولة تبحث عن مطالب أو مظلة سياسية. 🔵 زيارتنا إلى فرنسا وألمانيا مهمة في هذا التوقيت الذي تشهده المنطقة، ونحتاج إلى جهد إقليمي وأو…",
-      "views": 1464,
+      "views": 1530,
       "forwards": 4,
-      "url": "https://t.me/IraqiPmo/65978",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-inainaiq-158769",
-      "messageId": 158769,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T15:09:01Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克国家通讯社 INA",
-      "owner": "机构媒体",
-      "handle": "inainaiq",
-      "category": "新闻媒体",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "matchedTerms": [
-        "قانون"
-      ],
-      "title": "رئيس الوزراء والرئيس الفرنسي يجددان التزامهما بالأمن البحري وحرية الملاحة بوصفها مبدأً أساسياً من مبادئ القانون الدولي",
-      "summary": "رئيس الوزراء والرئيس الفرنسي يجددان التزامهما بالأمن البحري وحرية الملاحة بوصفها مبدأً أساسياً من مبادئ القانون الدولي",
-      "views": 5829,
-      "forwards": 1,
-      "url": "https://t.me/inainaiq/158769",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
-    },
-    {
-      "id": "tg-inainaiq-158762",
-      "messageId": 158762,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T15:04:50Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克国家通讯社 INA",
-      "owner": "机构媒体",
-      "handle": "inainaiq",
-      "category": "新闻媒体",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "matchedTerms": [
-        "قانون"
-      ],
-      "title": "رئيس الوزراء والرئيس الفرنسي يعربان عن رؤيتهما المشتركة لتعزيز الأمن والاستقرار في الشرق الأوسط استناداً إلى الالتزام المتبادل باحترام السيادة الوطني…",
-      "summary": "رئيس الوزراء والرئيس الفرنسي يعربان عن رؤيتهما المشتركة لتعزيز الأمن والاستقرار في الشرق الأوسط استناداً إلى الالتزام المتبادل باحترام السيادة الوطنية وعدم التدخل في الشؤون الداخلية وحسن الجوار ووحدة الأراضي، واحترام القانون الدولي",
-      "views": 6000,
-      "forwards": 0,
-      "url": "https://t.me/inainaiq/158762",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/IraqiPmo/65978"
     },
     {
       "id": "tg-iraqipmo-65975",
@@ -1685,62 +1124,9 @@
       ],
       "title": "البيان المشترك بين جمهورية العراق والجمهورية الفرنسية، الصادر في ختام زيارة رئيس مجلس الوزراء السيد علي فالح الزيدي الى العاصمة باريس",
       "summary": "البيان المشترك بين جمهورية العراق والجمهورية الفرنسية، الصادر في ختام زيارة رئيس مجلس الوزراء السيد علي فالح الزيدي الى العاصمة باريس •••••••••• أجرى رئيس مجلس الوزراء السيد علي فالح الزيدي، زيارة رسمية الى العاصمة الفرنسية باريس، بدعوة من رئيس الجمهورية الفرنسية السيد إيمانويل ماكرون، ليومي 13 و14 أيلول 2026، على رأس وفد رفيع المستوى، بهدف تعزيز الشراكة الاستراتيجية وعلاقات الصداقة بين فرنسا والعراق. وفي ختام زيارة سيادته صدر البيان المشترك بين الطرفين، وتضمن ما يلي: 1- يعرب رئيس مجلس الوزراء العراقي ورئيس الجمهو…",
-      "views": 1036,
+      "views": 1078,
       "forwards": 5,
-      "url": "https://t.me/IraqiPmo/65975",
-      "topicIds": [
-        "compliance_business",
-        "government_updates"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/65975"
     },
     {
       "id": "tg-iraqipmo-65976",
@@ -1762,62 +1148,9 @@
       ],
       "title": "12- وقعت الحكومة العراقية وشركة توتال إنرجيز إعلان نوايا لإطلاق عدد من مشاريع الطاقة في العراق في مجالي الكهرباء والنفط، تتضمن استثمارات واسعة النطاق…",
       "summary": "12- وقعت الحكومة العراقية وشركة توتال إنرجيز إعلان نوايا لإطلاق عدد من مشاريع الطاقة في العراق في مجالي الكهرباء والنفط، تتضمن استثمارات واسعة النطاق تهدف إلى زيادة إنتاج العراق من النفط، وتعزيز كفاءة استخدام الطاقة وسيادة العراق في مجال الطاقة، فضلاً عن دعم مسار التحول في قطاع الطاقة. 13- وقعت الحكومتان خطاب نوايا بشأن التمويل المقدم من الوكالة الفرنسية للتنمية (AFD)، بما يؤكد مجدداً التزام الوكالة بمواصلة عملها في العراق والرغبة في الحفاظ على الزخم الإيجابي للتعاون، بالتنسيق الوثيق مع الوزارات والمؤسسات المعنية.…",
-      "views": 1148,
+      "views": 1183,
       "forwards": 6,
-      "url": "https://t.me/IraqiPmo/65976",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "حكومة",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "تنظيم"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPmo/65976"
     },
     {
       "id": "tg-iraqipmoeng-24855",
@@ -1839,72 +1172,9 @@
       ],
       "title": "Six Memoranda of Understanding Signed Between Iraq and France During Prime Minister Ali Faleh Al-Zaidi’s Visit to Paris",
       "summary": "Six Memoranda of Understanding Signed Between Iraq and France During Prime Minister Ali Faleh Al-Zaidi’s Visit to Paris ••••• Under the auspices of Prime Minister Ali Faleh Al-Zaidi and French President Emmanuel Macron, six memoranda of understanding between Iraq and France were signed today, Monday, at the Élysée Palace in the French capital, Paris, covering various fields and sectors of bilateral economic cooperation, as follows: 1. A Letter of Intent between the Iraqi Ministry of Defense and Harmattan AI on str…",
-      "views": 207,
+      "views": 218,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24855",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "minister",
-            "ministry",
-            "政府"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-inainaiq-158758",
-      "messageId": 158758,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T14:28:58Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克国家通讯社 INA",
-      "owner": "机构媒体",
-      "handle": "inainaiq",
-      "category": "新闻媒体",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "matchedTerms": [
-        "عقد"
-      ],
-      "title": "برعاية رئيس مجلس الوزراء علي فالح الزيدي والرئيس الفرنسي إيمانويل ماكرون.. توقيع 6 مذكرات تفاهم بين العراق وفرنسا",
-      "summary": "برعاية رئيس مجلس الوزراء علي فالح الزيدي والرئيس الفرنسي إيمانويل ماكرون.. توقيع 6 مذكرات تفاهم بين العراق وفرنسا 1- خطاب نوايا بين وزارة الدفاع العراقية وشركة هرمتان للذكاء الاصطناعي حول التعاون الاستراتيجي في مجال الدفاع الجوي. 2- إعلان نوايا بين وزارة الدفاع العراقية ووزارة الجيوش الفرنسية، حول تأمين المعدات العسكرية الفرنسية ضمن اطار اعادة الاعمار وتطوير قدرات الدفاع في العراق 3-إعلان نوايا للشراكة في مجال تعزيز فرص الشباب والبحث والابتكار بين وزارة الخارجية العراقية، ووزارة أوروبا والشؤون الخارجية الفرنسية 4-…",
-      "views": 7366,
-      "forwards": 3,
-      "url": "https://t.me/inainaiq/158758",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/IraqiPMOEng/24855"
     },
     {
       "id": "tg-iraqipmo-65967",
@@ -1925,71 +1195,9 @@
       ],
       "title": "توقيع 6 مذكرات تفاهم بين العراق وفرنسا، ضمن زيارة رئيس مجلس الوزراء السيد علي فالح الزيدي الى العاصمة الفرنسية باريس.",
       "summary": "توقيع 6 مذكرات تفاهم بين العراق وفرنسا، ضمن زيارة رئيس مجلس الوزراء السيد علي فالح الزيدي الى العاصمة الفرنسية باريس. •••••••••• برعاية رئيس مجلس الوزراء السيد علي فالح الزيدي، والرئيس الفرنسي السيد إيمانويل ماكرون، شهد قصر الإليزيه الرئاسي بالعاصمة الفرنسية باريس، اليوم الإثنين، توقيع ست مذكرات تفاهم بين العراق وفرنسا في مختلف المجالات والقطاعات الاقتصادية المشتركة، وكما يلي: 1- خطاب نوايا بين وزارة الدفاع العراقية وشركة هرمتان للذكاء الاصطناعي حول التعاون الاستراتيجي في مجال الدفاع الجوي. 2- إعلان نوايا بين وزار…",
-      "views": 1295,
+      "views": 1342,
       "forwards": 5,
-      "url": "https://t.me/IraqiPmo/65967",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "政府"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-inainaiq-158753",
-      "messageId": 158753,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T13:06:33Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克国家通讯社 INA",
-      "owner": "机构媒体",
-      "handle": "inainaiq",
-      "category": "新闻媒体",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "matchedTerms": [
-        "عقد"
-      ],
-      "title": "وزير الكهرباء يوقع مذكرة تفاهم مع شركة توتال الفرنسية عقد تجهيز وبيع الغاز",
-      "summary": "وزير الكهرباء يوقع مذكرة تفاهم مع شركة توتال الفرنسية عقد تجهيز وبيع الغاز",
-      "views": 7847,
-      "forwards": 8,
-      "url": "https://t.me/inainaiq/158753",
-      "topicIds": [],
-      "topicLabels": [],
-      "topicLabelsEn": [],
-      "targetSections": [],
-      "targetSectionsEn": [],
-      "topicMatches": []
+      "url": "https://t.me/IraqiPmo/65967"
     },
     {
       "id": "tg-iraqipmoeng-24830",
@@ -2012,139 +1220,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Meets President of the Arab World Institute in Paris",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Meets President of the Arab World Institute in Paris ••••• Prime Minister Ali Faleh Al-Zaidi met, today, Monday, in the French capital, Paris, with President of the Arab World Institute Anne-Claire Legendre. During the meeting, they reviewed Iraqi-French relations and underscored the importance of continuing to develop them in the cultural and social fields. The Prime Minister affirmed that Iraq is moving firmly toward comprehensive development to remain part of shaping regional a…",
-      "views": 258,
+      "views": 272,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24830",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "minister",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "law"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-iraqipmo-65938",
-      "messageId": 65938,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T11:16:04Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克总理媒体办公室",
-      "owner": "总理府",
-      "handle": "IraqiPmo",
-      "category": "政府决策",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 6,
-      "matchedTerms": [
-        "قانون",
-        "استثمار"
-      ],
-      "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل في باريس رئيسة معهد العالم العربي",
-      "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل في باريس رئيسة معهد العالم العربي •••••••••• استقبل رئيس مجلس الوزراء، السيد علي فالح الزيدي، اليوم الاثنين، في العاصمة الفرنسية باريس، رئيسة معهد العالم العربي السيدة آن كلير لوجندغ. وجرى، خلال اللقاء، استعراض العلاقات العراقية الفرنسية، والتأكيد على أهمية الاستمرار بتطويرها في المجالات الثقافية والاجتماعية. وأكد سيادته أن العراق يتجه بقوة نحو التنمية الشاملة، ليكون دائماً جزءاً من صياغة الحلول الإقليمية والدولية، مبيناً أن الحكومة تسعى إلى بناء اقتصاد أكثر قدرة على…",
-      "views": 1304,
-      "forwards": 2,
-      "url": "https://t.me/IraqiPmo/65938",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "حكومة",
-            "政府"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24830"
     },
     {
       "id": "tg-iraqipmoeng-24827",
@@ -2167,43 +1245,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Receives Mr. Édouard de Rothschild in Paris",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Receives Mr. Édouard de Rothschild in Paris ••••• Prime Minister Ali Faleh Al-Zaidi received today, Monday, at his residence in the French capital, Paris, Mr. Édouard de Rothschild of Rothschild & Co. The meeting focused on ways to expand Iraq’s cooperation with international financial institutions and global banks. It also reviewed the government’s efforts to expand and develop the banking sector, improve Iraq’s credit standing, and advance its objectives of building a strong and…",
-      "views": 262,
+      "views": 278,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24827",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "government",
-            "minister",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24827"
     },
     {
       "id": "tg-iraqipmoeng-24823",
@@ -2225,142 +1269,9 @@
       ],
       "title": "Prime Minister Ali Faleh Al-Zaidi Meets Chairman of TotalEnergies in Paris",
       "summary": "Prime Minister Ali Faleh Al-Zaidi Meets Chairman of TotalEnergies in Paris ••••• Prime Minister Ali Faleh Al-Zaidi met today, Monday, at his residence in Paris with TotalEnergies Chairman Patrick Pouyanné and his accompanying delegation. During the meeting, they reviewed the company's strategic projects in Iraq, particularly in the gas sector. In this regard, the Prime Minister referred to the government’s plans to expand associated gas utilization with a view to achieving self-sufficiency, as well as plans to inc…",
-      "views": 317,
+      "views": 339,
       "forwards": 1,
-      "url": "https://t.me/IraqiPMOEng/24823",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "government",
-            "minister",
-            "政府"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 2,
-          "matchedKeywords": [
-            "investment",
-            "project"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-iraqipmo-65930",
-      "messageId": 65930,
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T09:43:03Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克总理媒体办公室",
-      "owner": "总理府",
-      "handle": "IraqiPmo",
-      "category": "政府决策",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 6,
-      "matchedTerms": [
-        "عقد",
-        "استثمار"
-      ],
-      "title": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل في باريس رئيس شركة توتال انيرجيز",
-      "summary": "رئيس مجلس الوزراء السيد علي فالح الزيدي يستقبل في باريس رئيس شركة توتال انيرجيز •••••••••• استقبل رئيس مجلس الوزراء السيد علي فالح الزيدي، اليوم الاثنين، في مقر إقامته بالعاصمة الفرنسية باريس، رئيس شركة توتال انيرجيز السيد باتريك بوينيه، والوفد المرافق له. وجرى، خلال اللقاء، استعراض المشاريع الاستراتيجية التي تنفذها الشركة في العراق، لاسيما في مجال الغاز. وفي هذا الصدد أشار السيد رئيس مجلس الوزراء إلى خطط الحكومة المعدة للتوسع في استثمار الغاز المصاحب وصولا الى تحقيق الاكتفاء الذاتي، وكذلك خطط التوسع في زيادة الإن…",
-      "views": 1787,
-      "forwards": 4,
-      "url": "https://t.me/IraqiPmo/65930",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "حكومة",
-            "政府"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 2,
-          "matchedKeywords": [
-            "استثمار",
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/IraqiPMOEng/24823"
     },
     {
       "id": "tg-iraqcmc-10976",
@@ -2385,160 +1296,9 @@
       ],
       "title": "هيأة الإعلام والاتصالات تمهل مستخدمي كورك حتى نهاية أيلول لتأمين حساباتهم الرقمية قبل إطفاء بدالات الشركة",
       "summary": "هيأة الإعلام والاتصالات تمهل مستخدمي كورك حتى نهاية أيلول لتأمين حساباتهم الرقمية قبل إطفاء بدالات الشركة تجدد هيأة الإعلام والاتصالات دعوتها إلى مستخدمي شرائح شركة كورك تيليكوم، ممن يعتمدون أرقامهم في توثيق الحسابات أو استقبال رموز التحقق والمصادقة للخدمات والمنصات الرقمية، إلى استكمال الإجراءات الاحترازية التي سبق أن أعلنت عنها الهيأة، وذلك خلال مدة أقصاها نهاية شهر أيلول الجاري. وتؤكد الهيأة أنها ستعمد، بعد انتهاء المهلة المحددة، إلى إطفاء بدالات شركة كورك تيليكوم في العاصمة بغداد وبقية المحافظات العراقية تباعا…",
-      "views": 359,
+      "views": 369,
       "forwards": 5,
-      "url": "https://t.me/iraqcmc/10976",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "iraq_legal_intelligence",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "伊拉克法律新闻解读",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Iraq legal intelligence",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "伊拉克法律新闻解读",
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Iraq legal-news interpretation",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "iraq_legal_intelligence",
-          "label": "伊拉克法律新闻解读",
-          "labelEn": "Iraq legal intelligence",
-          "destinations": [
-            "伊拉克法律新闻解读"
-          ],
-          "destinationsEn": [
-            "Iraq legal-news interpretation"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "استثمار"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-iraqipmo-65924",
-      "messageId": 65924,
-      "date": "2026-09-13",
-      "publishedAt": "2026-09-13T12:29:37Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克总理媒体办公室",
-      "owner": "总理府",
-      "handle": "IraqiPmo",
-      "category": "政府决策",
-      "tier": "T1",
-      "priority": "高",
-      "importanceScore": 5,
-      "matchedTerms": [
-        "عقد"
-      ],
-      "title": "بيان",
-      "summary": "بيان ••••• يجري رئيس مجلس الوزراء السيد علي فالح الزيدي، اليوم الأحد، على رأس وفد رفيع المستوى، جولة أوروبية، تشمل كلاً من فرنسا وألمانيا، بدعوة رسمية من حكومتي البلدين. وتأتي هذه الجولة الأوروبية لسيادته ضمن مساعي الحكومة ونهجها في تطوير العلاقات الدولية، وفتح آفاق أوسع للشراكات مع الجانبين الفرنسي والألماني، ولاسيما في قطاعات الطاقة والأمن والنقل، وغيرها من المجالات الحيوية. وسيلتقي السيد الزيدي، خلال جولته الخارجية، الرئيس الفرنسي السيد إيمانويل ماكرون، والمستشار الألماني السيد فريدرش ميرتس، حيث ستتم مناقشة مجم…",
-      "views": 2208,
-      "forwards": 4,
-      "url": "https://t.me/IraqiPmo/65924",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "حكومة",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10976"
     },
     {
       "id": "tg-iraqcmc-10974",
@@ -2562,84 +1322,9 @@
       ],
       "title": "إعلان- استشارة عامة بشأن مسودة لائحة تنظيم المحتوى الرقمي في العراق",
       "summary": "إعلان- استشارة عامة بشأن مسودة لائحة تنظيم المحتوى الرقمي في العراق استناداً إلى الصلاحيات الممنوحة لهيأة الإعلام والاتصالات بموجب الأمر رقم (65) لسنة 2004 النافذ، وحرصاً على اعتماد مبادئ الشفافية والمشاركة في إعداد اللوائح التنظيمية، تعلن الهيأة طرح «مسودة لائحة تنظيم المحتوى الرقمي في العراق» للاستشارة العامة، وتدعو الجهات المعنية والمختصين وأصحاب المصلحة والجمهور إلى الاطلاع عليها وإبداء آرائهم وملاحظاتهم ومقترحاتهم بشأنها. وتهدف المسودة إلى وضع إطار تنظيمي للمحتوى الرقمي المتاح للجمهور داخل جمهورية العراق أو ا…",
-      "views": 343,
+      "views": 352,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10974",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "iraq_legal_intelligence"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "伊拉克法律新闻解读"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Iraq legal intelligence"
-      ],
-      "targetSections": [
-        "伊拉克法律新闻解读",
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Iraq legal-news interpretation",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "iraq_legal_intelligence",
-          "label": "伊拉克法律新闻解读",
-          "labelEn": "Iraq legal intelligence",
-          "destinations": [
-            "伊拉克法律新闻解读"
-          ],
-          "destinationsEn": [
-            "Iraq legal-news interpretation"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10974"
     },
     {
       "id": "tg-iqmofa-15204",
@@ -2661,42 +1346,9 @@
       ],
       "title": "وزير الخارجية يبحث هاتفياً مع نظيره الإيراني العلاقات الثنائية والتطورات الإقليمية",
       "summary": "وزير الخارجية يبحث هاتفياً مع نظيره الإيراني العلاقات الثنائية والتطورات الإقليمية تلقى وزير الخارجية السيد فؤاد حسين، يوم السبت الموافق 12 أيلول 2026، اتصالاً هاتفياً من وزير خارجية الجمهورية الإسلامية الإيرانية السيد عباس عراقچي. وجرى خلال الاتصال بحث العلاقات الثنائية بين البلدين، فضلاً عن مناقشة الإجراءات المتعلقة بإغلاق عدد من المنافذ الحدودية، وأسباب اتخاذها، وسبل معالجتها. كما بحث الجانبان الهجوم الذي استهدف المملكة العربية السعودية، والإجراءات المتخذة بهذا الشأن، فضلاً عن اللجنة المشتركة المشكلة للتحقيق في…",
-      "views": 503,
+      "views": 538,
       "forwards": 4,
-      "url": "https://t.me/iqmofa/15204",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزير",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/iqmofa/15204"
     },
     {
       "id": "tg-mociraq2023-1700",
@@ -2719,41 +1371,9 @@
       ],
       "title": "تدعو وزارة الاتصالات العراقية المصممين والمهتمين بمجال التصميم الجرافيكي للمشاركة في مسابقة إعادة تصميم الشعار الرسمي (Logo) للوزارة، وفق الشروط والت…",
       "summary": "تدعو وزارة الاتصالات العراقية المصممين والمهتمين بمجال التصميم الجرافيكي للمشاركة في مسابقة إعادة تصميم الشعار الرسمي (Logo) للوزارة، وفق الشروط والتوجيهات التالية: فكرة الشعار: يُفضل أن يعكس التصميم مهام الوزارة ورؤيتها المستقبليّة، مع التركيز على المظاهر الحديثة مثل: خدمات الإنترنيت، البنى التحتية للاتصالات، شبكات الكيبل الضوئي، التحول الرقمي، وخدمات البريد. رؤية التصميم: أفق عالمي وحديث؛ لا يُشترط إدراج العناصر الرمزية التقليدية (كخارطة العراق، النخلة، أو الرموز الرسمية الشائعة)، ويفضل الابتعاد عن المبالغة والت…",
-      "views": 2016,
-      "forwards": 30,
-      "url": "https://t.me/mociraq2023/1700",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "وزارة"
-          ]
-        }
-      ]
+      "views": 2386,
+      "forwards": 31,
+      "url": "https://t.me/mociraq2023/1700"
     },
     {
       "id": "tg-mociraq2023-1699",
@@ -2776,61 +1396,9 @@
       ],
       "title": "جانب من توقيع وزارة الاتصالات عقد إمرار سعات الإنترنت عبر العراق مع شركة أوريدو القطرية.",
       "summary": "جانب من توقيع وزارة الاتصالات عقد إمرار سعات الإنترنت عبر العراق مع شركة أوريدو القطرية. إعلام وزارة الاتصالات 2026/9/10",
-      "views": 2167,
+      "views": 2416,
       "forwards": 4,
-      "url": "https://t.me/mociraq2023/1699",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "وزارة"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1699"
     },
     {
       "id": "tg-mociraq2023-1698",
@@ -2852,62 +1420,9 @@
       ],
       "title": "وزارة الاتصالات توقع مع أوريدو القطرية عقداً هاماً لربط الخليج بأوروبا عبر العراق",
       "summary": "وزارة الاتصالات توقع مع أوريدو القطرية عقداً هاماً لربط الخليج بأوروبا عبر العراق برعاية وزير الاتصالات السيد مصطفى سند وقعت الشركة العامة للاتصالات والمعلوماتية عقداً إستراتيجياً مع الجانب القطري ممثلاً بشركة أوريدو (Ooredoo) لإمرار السعات بأسلوب الترانزيت من الخليج إلى أوروبا عبر الأراضي العراقية وذلك لإمتلاك العراق ممراً قصيراً وآمناً يربط الشرق بالغرب ضمن خارطة الاتصالات العالمية مما يعزز أهميته الإقتصادية في حركة البيانات والسعات الدولية. إعلام وزارة الاتصالات 2026/9/10",
-      "views": 2103,
+      "views": 2311,
       "forwards": 3,
-      "url": "https://t.me/mociraq2023/1698",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "وزير"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1698"
     },
     {
       "id": "tg-iraqcmc-10972",
@@ -2929,83 +1444,9 @@
       ],
       "title": "هيأة الإعلام والاتصالات تكشف خطة لبناء بنية تحتية للذكاء الاصطناعي بدلاً من الاكتفاء باستخدام تطبيقاته",
       "summary": "هيأة الإعلام والاتصالات تكشف خطة لبناء بنية تحتية للذكاء الاصطناعي بدلاً من الاكتفاء باستخدام تطبيقاته استقبل رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، مستشار رئيس مجلس الوزراء لشؤون الذكاء الاصطناعي الدكتور ضياء الجميلي، لبحث آفاق التعاون في مجالات الذكاء الاصطناعي والتقنيات الحديثة وتطوير البنية التقنية الوطنية. وتضمّن اللقاء مناقشة مشروع للتعاون في تأسيس بنية وطنية متخصصة تعتمد أحدث التقنيات اللازمة لتشغيل تطبيقات الذكاء الاصطناعي ومعالجة البيانات المتقدمة. وتناول الاجتماع أهمية الاستثما…",
-      "views": 491,
+      "views": 494,
       "forwards": 1,
-      "url": "https://t.me/iraqcmc/10972",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "استثمار",
-            "مشروع"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "监管"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10972"
     },
     {
       "id": "tg-mociraq2023-1697",
@@ -3028,83 +1469,9 @@
       ],
       "title": "وزير الاتصالات السيد مصطفى سند يبحث مع شركة توروس أرم (Taurus Arm) خطط توسيع مشروع الشبكة الحكومية المؤمنة LTE لتغطية جميع المؤسسات الحكومية بالخدمة…",
       "summary": "وزير الاتصالات السيد مصطفى سند يبحث مع شركة توروس أرم (Taurus Arm) خطط توسيع مشروع الشبكة الحكومية المؤمنة LTE لتغطية جميع المؤسسات الحكومية بالخدمة والإرتقاء بمستويات أدائها وزيادة سرعاتها عبر إعتماد أحدث تقنيات الـ 5G بما يعزز كفاءة البنية التحتية الرقمية الحكومية ويدعم متطلبات التحول الرقمي وتقديم خدمات أكثر تطوراً وأماناً. إعلام وزارة الاتصالات 2026/9/9",
-      "views": 738,
+      "views": 762,
       "forwards": 1,
-      "url": "https://t.me/mociraq2023/1697",
-      "topicIds": [
-        "government_updates",
-        "key_account_opportunities",
-        "operator_market"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "头部客户与商机",
-        "运营商动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Key accounts and opportunities",
-        "Operator developments"
-      ],
-      "targetSections": [
-        "本国头部客户的新机会点",
-        "本国运营商最新动态",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "Latest operator developments",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "وزير"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "5g",
-            "مشروع"
-          ]
-        },
-        {
-          "id": "operator_market",
-          "label": "运营商动态",
-          "labelEn": "Operator developments",
-          "destinations": [
-            "本国运营商最新动态"
-          ],
-          "destinationsEn": [
-            "Latest operator developments"
-          ],
-          "score": 1,
-          "matchedKeywords": [
-            "شبكة"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1697"
     },
     {
       "id": "tg-modiraq-13018",
@@ -3126,41 +1493,9 @@
       ],
       "title": "أمين السر العام يزور جمعية بناء المساكن للضباط",
       "summary": "أمين السر العام يزور جمعية بناء المساكن للضباط زار أمين السر العام، الفريق الركن أحمد سليم بهجت، صباح اليوم الأربعاء 9 أيلول 2026، مقر جمعية بناء المساكن للضباط، وكان في استقباله مدير الجمعية اللواء إداري رعد سعدي محمود وضباط ركن الجمعية. وعقد السيد أمين السر العام اجتماعاً موسعاً قدم خلاله مدير الجمعية إيجازاً مفصلاً حول عدد من الملفات، في مقدمتها آلية توزيع قطع الأراضي وتخصيصها لعوائل الشهداء، والجرحى، والمتقاعدين، والضباط المساهمين المشتركين. كما جرى بحث المعوقات التي تعيق استكمال الإجراءات والسبل الكفيلة بتذلي…",
-      "views": 14008,
+      "views": 14378,
       "forwards": 6,
-      "url": "https://t.me/MODiraq/13018",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/MODiraq/13018"
     },
     {
       "id": "tg-iraqcmc-10968",
@@ -3187,84 +1522,9 @@
       ],
       "title": "رئيس الجهاز التنفيذي لهيأة الإعلام يوجه بإطلاق البريد المحلي للهيأة ويناقش لوائح الشرائح الوهمية والطائرات المسيّرة",
       "summary": "رئيس الجهاز التنفيذي لهيأة الإعلام يوجه بإطلاق البريد المحلي للهيأة ويناقش لوائح الشرائح الوهمية والطائرات المسيّرة ترأس معالي رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، الاجتماع الدوري للملاك المتقدم في الهيأة، بمشاركة مدراء المكاتب في المحافظات عبر تقنية الاتصال المرئي، لمناقشة عدد من الملفات التنظيمية والفنية ومتابعة مراحل إنجاز المشاريع والتكليفات المعتمدة. وناقش الاجتماع الشكاوى الواردة إلى الهيأة بشأن التأخر في تسليم أجهزة ستارلنك إلى بعض المستخدمين، إذ أوضح أن أسباب التأخير ترتبط بإجر…",
-      "views": 470,
+      "views": 477,
       "forwards": 1,
-      "url": "https://t.me/iraqcmc/10968",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "ترخيص",
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "5g"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10968"
     },
     {
       "id": "tg-iqmofa-15158",
@@ -3286,42 +1546,9 @@
       ],
       "title": "وزير الخارجية يلتقي وزير الدولة للشؤون الخارجية القطري على هامش اجتماع مجلس جامعة الدول العربية",
       "summary": "وزير الخارجية يلتقي وزير الدولة للشؤون الخارجية القطري على هامش اجتماع مجلس جامعة الدول العربية التقى وزير الخارجية، السيد فؤاد حسين، يوم الاثنين الموافق 7 أيلول 2026، وزير الدولة للشؤون الخارجية في دولة قطر الشقيقة، السيد سلطان بن سعد المريخي، وذلك على هامش أعمال الدورة العادية الـ(166) لمجلس جامعة الدول العربية على المستوى الوزاري، المنعقدة في العاصمة القاهرة. وجرى خلال اللقاء بحث العلاقات الثنائية بين جمهورية العراق ودولة قطر وسبل تعزيزها وتطوير التعاون المشترك في مختلف المجالات بما يخدم المصالح المشتركة للبلدي…",
-      "views": 256,
+      "views": 262,
       "forwards": 2,
-      "url": "https://t.me/iqmofa/15158",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزير",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/iqmofa/15158"
     },
     {
       "id": "tg-mociraq2023-1696",
@@ -3343,42 +1570,9 @@
       ],
       "title": "بحث وزير الاتصالات السيد مصطفى سند، خلال استقباله وفداً من العتبة العباسية المقدسة، تعزيز التعاون والتنسيق المشترك بين الجانبين، لاسيما في المجالات ا…",
       "summary": "بحث وزير الاتصالات السيد مصطفى سند، خلال استقباله وفداً من العتبة العباسية المقدسة، تعزيز التعاون والتنسيق المشترك بين الجانبين، لاسيما في المجالات الرقمية والإلكترونية والمالية وسبل تطويرها بما يسهم في الارتقاء بمستوى الخدمات وتوسيع نطاق التحول الرقمي والاستفادة من التقنيات الحديثة. إعلام وزارة الاتصالات 2026/9/7",
-      "views": 912,
+      "views": 967,
       "forwards": 1,
-      "url": "https://t.me/mociraq2023/1696",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "وزير"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1696"
     },
     {
       "id": "tg-iraqcmc-10950",
@@ -3401,62 +1595,9 @@
       ],
       "title": "وفد من مجلس مفوضي هيأة الإعلام والاتصالات برئاسة الدكتور بلاسم سالم سميط يزور الملحقية الثقافية العراقية في بوخارست",
       "summary": "وفد من مجلس مفوضي هيأة الإعلام والاتصالات برئاسة الدكتور بلاسم سالم سميط يزور الملحقية الثقافية العراقية في بوخارست زار وفد من مجلس مفوضي هيأة الإعلام والاتصالات، برئاسة رئيس مجلس المفوضين الدكتور بلاسم سالم سميط، مقر الملحقية الثقافية العراقية في بوخارست، حيث كان في استقباله الملحق الثقافي الدكتور حسين هادي الحسني. وجرى خلال اللقاء بحث آليات وسبل التعاون والتنسيق المشترك لدعم وتطوير الموارد البشرية العراقية في مجالات الاتصالات وتكنولوجيا المعلومات، والاستفادة من الإمكانات العلمية والأكاديمية للجامعات والمؤسسات ال…",
-      "views": 296,
+      "views": 297,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10950",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "监管"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10950"
     },
     {
       "id": "tg-iqmofa-15135",
@@ -3479,42 +1620,9 @@
       ],
       "title": "وكيل وزارة الخارجية للشؤون متعددة الأطراف والشؤون القانونية يستقبل السفير الصيني في بغداد",
       "summary": "وكيل وزارة الخارجية للشؤون متعددة الأطراف والشؤون القانونية يستقبل السفير الصيني في بغداد استقبل وكيل وزارة الخارجية للشؤون متعددة الأطراف والشؤون القانونية، السفير شورش خالد سعيد، يوم الأحد الموافق 6 أيلول 2026، سفير جمهورية الصين الشعبية لدى جمهورية العراق، السيد شيانغ بوه، في مقر الوزارة. وجرى خلال اللقاء بحث العلاقات الثنائية بين البلدين الصديقين وسبل تعزيز التعاون المشترك في مختلف المجالات السياسية والاقتصادية والثقافية. واتفق الجانبان على أهمية عقد جولة جديدة من المشاورات السياسية، وتفعيل أعمال اللجنة العراق…",
-      "views": 493,
+      "views": 496,
       "forwards": 1,
-      "url": "https://t.me/iqmofa/15135",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/iqmofa/15135"
     },
     {
       "id": "tg-iraqcmc-10947",
@@ -3538,60 +1646,7 @@
       "summary": "وفد من مجلس مفوضي هيأة الإعلام والاتصالات برئاسة الدكتور بلاسم سالم سميط يزور السفارة العراقية في رومانيا زار وفد من مجلس مفوضي هيأة الإعلام والاتصالات، برئاسة رئيس مجلس المفوضين الدكتور بلاسم سالم سميط، مقر سفارة جمهورية العراق في رومانيا، وذلك على هامش مشاركة الوفد في الاجتماع الدولي لمراقبة الطيف الساتلي الذي عُقد في العاصمة بوخارست للمدة من 1–3 أيلول 2026. وكان في استقبال الوفد القائم بالأعمال في سفارة جمهورية العراق لدى رومانيا الدكتور علاء جعفر السعدي، حيث جرى خلال اللقاء بحث سبل تعزيز التعاون والتنسيق، ودعم…",
       "views": 257,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10947",
-      "topicIds": [
-        "government_updates",
-        "compliance_business"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "监管"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10947"
     },
     {
       "id": "tg-iraqcmc-10944",
@@ -3621,82 +1676,7 @@
       "summary": "وفد مجلس مفوضي هيأة الإعلام والاتصالات يبحث مع ANCOM تعزيز التعاون العراقي–الروماني زار وفد من مجلس مفوضي هيأة الإعلام والاتصالات، برئاسة الدكتور بلاسم سالم الجنابي، رئيس مجلس المفوضين، مقر الهيأة الوطنية لإدارة وتنظيم الاتصالات في رومانيا (ANCOM) وعقد اجتماعاً مع رئيسها. وبحث الجانبان آفاق تعزيز التعاون بين العراق ورومانيا في قطاع الاتصالات وتكنولوجيا المعلومات، ولا سيما في مجالات التحول الرقمي، وتطوير البنية التحتية وشبكات الاتصالات، وإدارة ومراقبة الطيف الترددي، وتقنيات الجيل الخامس (5G) والذكاء الاصطناعي، والح…",
       "views": 276,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10944",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "5g",
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10944"
     },
     {
       "id": "tg-iraqcmc-10941",
@@ -3723,81 +1703,7 @@
       "summary": "وفد من مجلس مفوضي هيأة الإعلام والاتصالات يشارك في الاجتماع الدولي لمراقبة الطيف الترددي الساتلي في رومانيا شارك وفد من مجلس مفوضي هيأة الإعلام والاتصالات، برئاسة الدكتور بلاسم سالم الجنابي، رئيس مجلس المفوضين في أعمال الاجتماع الدولي لمراقبة الطيف الترددي الساتلي الذي أُقيم في رومانيا، بمشاركة ممثلين عن الهيئات التنظيمية والاتحاد الدولي للاتصالات، إلى جانب نخبة من الخبراء والمختصين والشركات العالمية العاملة في هذا المجال. وتضمنت المشاركة حضور الجلسات الفنية والتنظيمية التي تناولت أحدث التقنيات والآليات المعتمدة ف…",
       "views": 275,
       "forwards": 1,
-      "url": "https://t.me/iraqcmc/10941",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "عقد"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10941"
     },
     {
       "id": "tg-iraqcmc-10939",
@@ -3820,84 +1726,9 @@
       ],
       "title": "هيأة الإعلام والاتصالات توسع إجراءات غلق مقرات كورك لتشمل كركوك ونينوى وصلاح الدين",
       "summary": "هيأة الإعلام والاتصالات توسع إجراءات غلق مقرات كورك لتشمل كركوك ونينوى وصلاح الدين واصلت هيأة الإعلام والاتصالات إجراءاتها الميدانية المتعلقة بشركة كورك تيليكوم، إذ نفّذ مكتب الهيأة في المنطقة الشمالية، بالتنسيق مع جهاز الأمن الوطني، جولات ميدانية في محافظات كركوك ونينوى وصلاح الدين، أسفرت عن غلق مقرات ومراكز الشركة. وتأتي هذه الإجراءات امتداداً للجولات التي نفذتها فرق الهيأة خلال الفترة الماضية في بغداد وكربلاء المقدسة والنجف الأشرف والديوانية وبابل ومحافظات أخرى، ضمن متابعة تنفيذ القرارات والإجراءات التنظيمية ال…",
-      "views": 333,
+      "views": 335,
       "forwards": 3,
-      "url": "https://t.me/iraqcmc/10939",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "iraq_legal_intelligence"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "伊拉克法律新闻解读"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Iraq legal intelligence"
-      ],
-      "targetSections": [
-        "伊拉克法律新闻解读",
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Iraq legal-news interpretation",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "iraq_legal_intelligence",
-          "label": "伊拉克法律新闻解读",
-          "labelEn": "Iraq legal intelligence",
-          "destinations": [
-            "伊拉克法律新闻解读"
-          ],
-          "destinationsEn": [
-            "Iraq legal-news interpretation"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10939"
     },
     {
       "id": "tg-iraqcmc-10931",
@@ -3922,84 +1753,9 @@
       ],
       "title": "رئيس الجهاز التنفيذي لهيأة الإعلام يشارك في المنتدى العربي رفيع المستوى للتحول الرقمي والذكاء الاصطناعي في الدوحة",
       "summary": "رئيس الجهاز التنفيذي لهيأة الإعلام يشارك في المنتدى العربي رفيع المستوى للتحول الرقمي والذكاء الاصطناعي في الدوحة شارك معالي رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، في أعمال المنتدى رفيع المستوى لصناع سياسات التحول الرقمي والذكاء الاصطناعي في منطقة الدول العربية، الذي انطلق في الدوحة تحت عنوان \"بناء اقتصادات رقمية شاملة ومستدامة في المنطقة العربية\". وينظم المنتدى برنامج الأمم المتحدة الإنمائي (UNDP) ومجموعة أوريدو، بالشراكة مع معهد الدوحة للدراسات العليا، ويستمر على مدى يومين بمشاركة أكثر…",
-      "views": 383,
+      "views": 385,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10931",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "ترخيص",
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "استثمار"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10931"
     },
     {
       "id": "tg-iraqcmc-10927",
@@ -4023,84 +1779,9 @@
       ],
       "title": "رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات يلتقي سفير العراق في الدوحة على هامش المشاركة في منتدى السياسات الرقمية",
       "summary": "رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات يلتقي سفير العراق في الدوحة على هامش المشاركة في منتدى السياسات الرقمية التقى رئيس الجهاز التنفيذي لهيأة الإعلام والاتصالات السيد بليغ أبو كلل، سعادة سفير جمهورية العراق لدى دولة قطر السيد محمد جعفر الصدر، في مقر السفارة العراقية بالدوحة، ضمن زيارة الوفد العراقي المشارك في أعمال منتدى قادة السياسات الرقمية والذكاء الاصطناعي رفيع المستوى في المنطقة العربية. وجاء اللقاء بحضور رئيس هيئة المستشارين في مكتب رئيس مجلس الوزراء الدكتور يوسف خلف يوسف والوفد المرافق، حيث جرى است…",
-      "views": 376,
+      "views": 378,
       "forwards": 0,
-      "url": "https://t.me/iraqcmc/10927",
-      "topicIds": [
-        "government_updates",
-        "compliance_business",
-        "key_account_opportunities"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "合规与营商",
-        "头部客户与商机"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Compliance and business environment",
-        "Key accounts and opportunities"
-      ],
-      "targetSections": [
-        "合规与营商分析",
-        "本国头部客户的新机会点",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Latest ministry and regulator updates",
-        "New opportunities at key accounts"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "هيئة",
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "تنظيم",
-            "监管"
-          ]
-        },
-        {
-          "id": "key_account_opportunities",
-          "label": "头部客户与商机",
-          "labelEn": "Key accounts and opportunities",
-          "destinations": [
-            "本国头部客户的新机会点"
-          ],
-          "destinationsEn": [
-            "New opportunities at key accounts"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "استثمار"
-          ]
-        }
-      ]
+      "url": "https://t.me/iraqcmc/10927"
     },
     {
       "id": "tg-mociraq2023-1695",
@@ -4122,43 +1803,9 @@
       ],
       "title": "وجه السيد وزير الاتصالات مصطفى سند بتخفيض أسعار الإنترنت المزود لدوائر الدولة كافة بنسبة تخفيض 40% (السعات ثابتة والسعر منخفض -40%) مع التوجيه أيضاً…",
       "summary": "وجه السيد وزير الاتصالات مصطفى سند بتخفيض أسعار الإنترنت المزود لدوائر الدولة كافة بنسبة تخفيض 40% (السعات ثابتة والسعر منخفض -40%) مع التوجيه أيضاً بزيادة سرعات إنترنت الأبراج المزود للمواطنين في المناطق التي لم تُغطَّ بخدمة الكيبل الضوئي وبنسبة زيادة قدرها 40% (السعر ثابت والسعات مرتفعة +40%)، وتلتزم الشركات المزودة للإنترنت بسياسة الوزارة المتضمنة باقتين فقط (باقتين لاشتراكات الأبراج واربع باقات لاشتراكات الكيبل). وسيتم المصادقة على القرارات خلال اجتماع هيئة الرأي يوم الإثنين القادم. إعلام وزارة الاتصالات 2026/…",
-      "views": 3769,
+      "views": 3849,
       "forwards": 4,
-      "url": "https://t.me/mociraq2023/1695",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "هيئة",
-            "وزارة",
-            "وزير"
-          ]
-        }
-      ]
+      "url": "https://t.me/mociraq2023/1695"
     },
     {
       "id": "tg-iqmofa-15126",
@@ -4180,251 +1827,9 @@
       ],
       "title": "كما بحث الجانبان الحراك السياسي العراقي والزيارات الخارجية المرتقبة لرئيس مجلس الوزراء، في إطار علاقات العراق الخارجية وحرصه على تعزيز التواصل مع شرك…",
       "summary": "كما بحث الجانبان الحراك السياسي العراقي والزيارات الخارجية المرتقبة لرئيس مجلس الوزراء، في إطار علاقات العراق الخارجية وحرصه على تعزيز التواصل مع شركائه الإقليميين والدوليين. وتبادل الطرفان وجهات النظر بشأن علاقات العراق مع دول الخليج ودول الجوار في مرحلة ما بعد الحرب الأمريكية الإيرانية، وانعكاسات تلك الحرب والتطورات التي أعقبتها على الأوضاع والعلاقات الإقليمية، إلى جانب بحث عدد من القضايا والتطورات الإقليمية ذات الاهتمام المشترك. وتناول اللقاء كذلك التصورات المتعلقة بمستقبل التنسيق الإقليمي، وصيغ التواصل والتنسي…",
-      "views": 425,
+      "views": 427,
       "forwards": 2,
-      "url": "https://t.me/iqmofa/15126",
-      "topicIds": [
-        "government_updates",
-        "foreign_intervention"
-      ],
-      "topicLabels": [
-        "部委与监管动态",
-        "外部干预与地缘政治"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates",
-        "Foreign intervention and geopolitics"
-      ],
-      "targetSections": [
-        "本国部委最新动态",
-        "美国对本国政治和经济活动的干预"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates",
-        "US and foreign intervention in domestic political and economic activity"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "政府"
-          ]
-        },
-        {
-          "id": "foreign_intervention",
-          "label": "外部干预与地缘政治",
-          "labelEn": "Foreign intervention and geopolitics",
-          "destinations": [
-            "美国对本国政治和经济活动的干预"
-          ],
-          "destinationsEn": [
-            "US and foreign intervention in domestic political and economic activity"
-          ],
-          "score": 2,
-          "matchedKeywords": [
-            "إيران",
-            "عقوبات"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-iraqcmc-10925",
-      "messageId": 10925,
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T18:11:46Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克通信与媒体委员会 CMC",
-      "owner": "Baligh Abu Kalal",
-      "handle": "iraqcmc",
-      "category": "通信监管",
-      "tier": "T1",
-      "priority": "最高",
-      "importanceScore": 8,
-      "matchedTerms": [
-        "إغلاق",
-        "تنظيم",
-        "قانون",
-        "اتصالات"
-      ],
-      "title": "هيأة الإعلام والاتصالات تُغلق مكاتب كورك تيليكوم في النجف والديوانية وبابل بما فيها مطار النجف الدولي",
-      "summary": "هيأة الإعلام والاتصالات تُغلق مكاتب كورك تيليكوم في النجف والديوانية وبابل بما فيها مطار النجف الدولي نفّذت مكاتب هيأة الإعلام والاتصالات في منطقة الفرات الأوسط، بالتنسيق مع جهاز الأمن الوطني، جولات ميدانية أسفرت عن إغلاق عدد من مكاتب ومراكز خدمة شركة كورك تيليكوم في محافظات النجف الأشرف والديوانية وبابل. وامتدت الإجراءات الميدانية لتشمل إغلاق المركز التابع للشركة في مطار النجف الأشرف الدولي، ضمن منظومة الإجراءات التنظيمية المتخذة بشأن الشركة وفق الأطر القانونية المعتمدة. وأكدت الهيأة أن مكاتبها في المحافظات تواصل…",
-      "views": 413,
-      "forwards": 1,
-      "url": "https://t.me/iraqcmc/10925",
-      "topicIds": [
-        "compliance_business",
-        "government_updates",
-        "iraq_legal_intelligence"
-      ],
-      "topicLabels": [
-        "合规与营商",
-        "部委与监管动态",
-        "伊拉克法律新闻解读"
-      ],
-      "topicLabelsEn": [
-        "Compliance and business environment",
-        "Ministry and regulator updates",
-        "Iraq legal intelligence"
-      ],
-      "targetSections": [
-        "伊拉克法律新闻解读",
-        "合规与营商分析",
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Compliance and business-environment analysis",
-        "Iraq legal-news interpretation",
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "compliance_business",
-          "label": "合规与营商",
-          "labelEn": "Compliance and business environment",
-          "destinations": [
-            "合规与营商分析"
-          ],
-          "destinationsEn": [
-            "Compliance and business-environment analysis"
-          ],
-          "score": 5,
-          "matchedKeywords": [
-            "تنظيم",
-            "قانون",
-            "监管"
-          ]
-        },
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "委员会",
-            "监管"
-          ]
-        },
-        {
-          "id": "iraq_legal_intelligence",
-          "label": "伊拉克法律新闻解读",
-          "labelEn": "Iraq legal intelligence",
-          "destinations": [
-            "伊拉克法律新闻解读"
-          ],
-          "destinationsEn": [
-            "Iraq legal-news interpretation"
-          ],
-          "score": 3,
-          "matchedKeywords": [
-            "قانون"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tg-iqmofa-15121",
-      "messageId": 15121,
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T13:06:19Z",
-      "country": "伊拉克",
-      "platform": "Telegram",
-      "account": "伊拉克外交部",
-      "owner": "Fuad Hussein",
-      "handle": "iqmofa",
-      "category": "政府官员",
-      "tier": "T2",
-      "priority": "高",
-      "importanceScore": 6,
-      "matchedTerms": [
-        "تنظيم",
-        "عقد",
-        "رقمي"
-      ],
-      "title": "اعلان",
-      "summary": "اعلان انطلاقاً من رؤية الإعلام الحكومي الرامية إلى تعزيز إسهام المؤسسات الرسمية في دعم الحملات الإعلامية الوطنية، تساهم وزارة الخارجية في تقديم الدعم الإعلامي للحملة الخاصة بـمؤتمر القمة الرابعة للمشاريع الصغيرة والمتوسطة *القمة العربية الرابعة للمشاريع الصغيرة والمتوسطة* تُقام في العاصمة بغداد، للفترة من 18 إلى 20 تشرين الثاني/نوفمبر 2026، أعمال القمة العربية الرابعة للمشاريع الصغيرة والمتوسطة، بتنظيم مشترك بين الإسكوا ووزارة التخطيط العراقية، وذلك على أرض معرض بغداد الدولي، وبرعاية دولة رئيس مجلس الوزراء، وبالشر…",
-      "views": 510,
-      "forwards": 3,
-      "url": "https://t.me/iqmofa/15121",
-      "topicIds": [
-        "government_updates"
-      ],
-      "topicLabels": [
-        "部委与监管动态"
-      ],
-      "topicLabelsEn": [
-        "Ministry and regulator updates"
-      ],
-      "targetSections": [
-        "本国部委最新动态"
-      ],
-      "targetSectionsEn": [
-        "Latest ministry and regulator updates"
-      ],
-      "topicMatches": [
-        {
-          "id": "government_updates",
-          "label": "部委与监管动态",
-          "labelEn": "Ministry and regulator updates",
-          "destinations": [
-            "本国部委最新动态"
-          ],
-          "destinationsEn": [
-            "Latest ministry and regulator updates"
-          ],
-          "score": 4,
-          "matchedKeywords": [
-            "وزارة",
-            "政府"
-          ]
-        }
-      ]
+      "url": "https://t.me/iqmofa/15126"
     }
-  ],
-  "topicRouting": {
-    "version": 1,
-    "routedItemCount": 52,
-    "unroutedItemCount": 15,
-    "counts": {
-      "compliance_business": 23,
-      "foreign_intervention": 1,
-      "government_updates": 52,
-      "iraq_legal_intelligence": 5,
-      "key_account_opportunities": 16,
-      "operator_market": 1
-    },
-    "unroutedIds": [
-      "tg-inainaiq-158885",
-      "tg-inainaiq-158879",
-      "tg-inainaiq-158875",
-      "tg-inainaiq-158855",
-      "tg-inainaiq-158841",
-      "tg-inainaiq-158834",
-      "tg-inainaiq-158826",
-      "tg-inainaiq-158817",
-      "tg-inainaiq-158807",
-      "tg-inainaiq-158806",
-      "tg-inainaiq-158805",
-      "tg-inainaiq-158769",
-      "tg-inainaiq-158762",
-      "tg-inainaiq-158758",
-      "tg-inainaiq-158753"
-    ]
-  }
+  ]
 }

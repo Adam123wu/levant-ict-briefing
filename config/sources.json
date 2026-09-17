@@ -8,11 +8,11 @@
     "owner": "Mustafa Sanad",
     "country": "伊拉克",
     "category": "通信部",
-    "posts14d": 11,
+    "posts14d": 9,
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-sanad-x",
@@ -37,11 +37,11 @@
     "owner": "Baligh Abu Kalal",
     "country": "伊拉克",
     "category": "通信监管",
-    "posts14d": 17,
+    "posts14d": 16,
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "CMC 官方频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-cmc-x",
@@ -122,11 +122,11 @@
     "owner": "Fuad Hussein",
     "country": "伊拉克",
     "category": "政府官员",
-    "posts14d": 33,
+    "posts14d": 32,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "外交部机构频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "jo-trc-x",
@@ -239,7 +239,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-moi-tg",
@@ -250,11 +250,11 @@
     "owner": "机构账号",
     "country": "伊拉克",
     "category": "政府机构",
-    "posts14d": 97,
+    "posts14d": 95,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-mohe-tg",
@@ -269,7 +269,7 @@
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "机构频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-ina-tg",
@@ -280,11 +280,11 @@
     "owner": "机构媒体",
     "country": "伊拉克",
     "category": "新闻媒体",
-    "posts14d": 132,
+    "posts14d": 141,
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "INA 官方网站反向链接 Telegram 频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-alsumaria-tg",
@@ -295,11 +295,11 @@
     "owner": "机构媒体",
     "country": "伊拉克",
     "category": "新闻媒体",
-    "posts14d": 147,
+    "posts14d": 146,
     "tier": "T2",
     "status": "正常",
     "verifiedBy": "Alsumaria 官方网站公布同名 Telegram 频道",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-pmo-tg",
@@ -310,11 +310,11 @@
     "owner": "总理府",
     "country": "伊拉克",
     "category": "政府决策",
-    "posts14d": 49,
+    "posts14d": 43,
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "Telegram 认证频道，且与英文频道交叉链接",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   },
   {
     "id": "iq-pmo-en-tg",
@@ -329,6 +329,6 @@
     "tier": "T1",
     "status": "正常",
     "verifiedBy": "Telegram 认证频道，且与阿拉伯文频道交叉链接",
-    "lastCollectedAt": "2026-09-16T00:35:54Z"
+    "lastCollectedAt": "2026-09-17T00:43:34Z"
   }
 ]
