@@ -25,10 +25,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:29.343791+00:00",
+      "lastCollectedAt": "2026-09-18T21:54:05.072473+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.343791+00:00"
+      "lastAttemptAt": "2026-09-18T21:54:05.072473+00:00"
     },
     {
       "id": "np-mocit",
@@ -52,7 +52,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.344058+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:05.073373+00:00",
       "scanError": "URLError"
     },
     {
@@ -74,10 +74,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:09:06.125788+00:00",
+      "lastCollectedAt": "2026-09-18T21:54:11.950140+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-09-18T00:09:06.125788+00:00"
+      "lastAttemptAt": "2026-09-18T21:54:11.950140+00:00"
     },
     {
       "id": "np-law",
@@ -93,15 +93,15 @@
       "handle": "",
       "owner": "Nepal Law Commission",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T21:54:12.353217+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:09.052033+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:12.353217+00:00",
       "scanError": "URLError"
     },
     {
@@ -126,7 +126,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:10.373254+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:12.378762+00:00",
       "scanError": "URLError"
     },
     {
@@ -143,15 +143,15 @@
       "handle": "",
       "owner": "Public Procurement Monitoring Office",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T21:54:12.426873+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:11.848711+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:12.426873+00:00",
       "scanError": "URLError"
     },
     {
@@ -168,15 +168,15 @@
       "handle": "",
       "owner": "Inland Revenue Department",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T21:54:13.492776+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:12.289781+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:13.492776+00:00",
       "scanError": "URLError"
     },
     {
@@ -193,15 +193,15 @@
       "handle": "",
       "owner": "Investment Board Nepal",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T21:54:14.449880+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:13.331498+00:00",
+      "lastAttemptAt": "2026-09-18T21:54:14.449880+00:00",
       "scanError": "URLError"
     }
   ],
