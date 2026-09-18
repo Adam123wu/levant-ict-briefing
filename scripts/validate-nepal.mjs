@@ -10,7 +10,7 @@ for(const s of d.sources){assert(!ids.has(s.id));ids.add(s.id);assert(s.id.start
 for(const t of read('config/topic-source-routing.json').topics)assert.deepEqual(t.countries,['尼泊尔']);
 const hosts=new Set(d.legal.sources.map(s=>new URL(s.url).hostname));
 for(const s of d.legal.sources)assert(new URL(s.url).hostname.endsWith('.gov.np')||new URL(s.url).hostname.endsWith('.org.np'));
-for(const i of d.legal.items){assert(hosts.has(new URL(i.url).hostname));assert(i.title&&i.titleEn&&i.summary&&i.summaryEn&&i.status&&i.actions.length>=2);}
+for(const i of d.legal.items){assert(hosts.has(new URL(i.url).hostname));assert(i.title&&i.titleEn&&i.summary&&i.summaryEn&&i.status&&i.statusEn&&i.businessImpact&&i.businessImpactEn&&i.actions.length>=2&&i.actionsEn.length===i.actions.length);}
 for(const c of d.compliance.countries){assert.equal(c.code,'np');const score=c.dimensions.reduce((n,x)=>n+x.score*d.compliance.method.find(m=>m.id===x.id).weight/100,0);assert(Math.abs(c.score-Math.round(score*10)/10)<0.001);}
 const count=d.report.countries.np.sections.reduce((n,s)=>n+s.items.length,0);assert.equal(d.report.stats.news,count);
 assert.equal(d.telegram.messageCount,d.telegram.items.length);

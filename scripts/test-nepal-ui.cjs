@@ -17,7 +17,7 @@ const server=http.createServer((req,res)=>{
  try{
  browser=await chromium.launch({headless:true,channel:'chrome'});
  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
- const base=`http://127.0.0.1:${server.address().port}/levant-ict-briefing`;
+ const base=process.env.NEPAL_LIVE_BASE||`http://127.0.0.1:${server.address().port}/levant-ict-briefing`;
  for(const route of ['','briefings','sources','people','compliance','archive']){
   await page.goto(base+'/'+(route?route+'/':''));await page.getByRole('button',{name:'English',exact:true}).click();
   await page.getByRole('heading',{level:1}).first().waitFor();
