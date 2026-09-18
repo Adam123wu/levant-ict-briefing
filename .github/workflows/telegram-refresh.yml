@@ -2,8 +2,8 @@ name: Refresh Telegram intelligence
 
 on:
   schedule:
-    # Daily 01:30 Asia/Baghdad (UTC+3); Sunday feed is ready for the 02:00 briefing run.
-    - cron: "30 22 * * *"
+    # Daily 01:30 Asia/Kathmandu (UTC+5:45).
+    - cron: "45 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,7 +29,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check verified active-market channels
+        id: channels
+        run: |
+          python - <<'PY'
+          import json, os
+          sources=json.load(open('config/sources.json'))
+          enabled=any(s.get('country')=='尼泊尔' and s.get('platform')=='Telegram' and s.get('identityVerified') and s.get('enabled',True) for s in sources)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output: output.write('enabled='+str(enabled).lower()+'\n')
+          print('Verified Nepal channels configured' if enabled else 'Coverage gap: no verified Nepal Telegram channels; no collection performed')
+          PY
+
       - name: Select collection mode
+        if: steps.channels.outputs.enabled == 'true'
         id: mode
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
@@ -61,6 +73,7 @@ jobs:
         run: python scripts/collect_telegram_public.py --days 14
 
       - name: Commit public-safe feed
+        if: steps.channels.outputs.enabled == 'true'
         id: commit
         run: |
           git config user.name "github-actions[bot]"

@@ -51,7 +51,7 @@ def require_credentials() -> tuple[int, str, str]:
 async def collect(days: int, max_per_source: int, dry_run: bool) -> None:
     api_id, api_hash, session = require_credentials()
     sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
-    telegram_sources = [source for source in sources if source.get("platform") == "Telegram" and source.get("handle")]
+    telegram_sources = [source for source in sources if source.get("platform") == "Telegram" and source.get("handle") and source.get("country") == "尼泊尔" and source.get("identityVerified") and source.get("enabled", True)]
     if not telegram_sources:
         raise SystemExit("config/sources.json 中没有 Telegram 信源")
 

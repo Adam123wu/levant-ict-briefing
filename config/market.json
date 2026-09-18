@@ -1,0 +1,14 @@
+{
+  "code": "np",
+  "name": "尼泊尔",
+  "nameEn": "Nepal",
+  "flag": "🇳🇵",
+  "timezone": "Asia/Kathmandu",
+  "sourceLanguages": ["ne", "en"],
+  "outputLanguages": ["zh", "en"],
+  "effectiveDate": "2026-09-18",
+  "countryTerms": ["nepal", "nepali", "kathmandu", "नेपाल", "नेपाली", "काठमाडौं", "尼泊尔"],
+  "entities": ["NTA", "MoCIT", "Nepal Telecom", "Ncell", "WorldLink", "Vianet", "Subisu", "DishHome", "CG NET", "Huawei", "Nokia", "ZTE", "Ericsson", "Cisco"],
+  "telegramPolicy": "Only public Nepal channels with official ownership evidence; no private dialogs or automatic subscriptions. No verified channels is an explicit coverage gap, never permission to reuse former-market channels.",
+  "reportFile": "nepal-w37-38.html"
+}

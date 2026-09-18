@@ -31,7 +31,7 @@ function englishBadge(badge: string) {
 }
 
 export function BriefingView({ countries, language }: {countries: Record<string, Country>; language: "zh" | "en"}) {
-  const [country, setCountry] = useState("iq");
+  const [country, setCountry] = useState(Object.keys(countries)[0]);
   const [open, setOpen] = useState<Record<string, boolean>>({"0": true});
   const current = countries[country];
   const isEnglish = language === "en";
@@ -51,6 +51,7 @@ export function BriefingView({ countries, language }: {countries: Record<string,
             <span style={{display: "flex", alignItems: "center", gap: 8}}><Badge>{section.items.length} {isEnglish ? "items" : "条"}</Badge><ChevronDown size={15} style={{transform: active ? "rotate(180deg)" : "none", transition: ".18s"}}/></span>
           </button>
           {active && <div className="accordion-body">
+            {!section.items.length && <p className="section-sub">{isEnglish ? "No Nepal stories have completed verification in this section yet." : "本栏目尚无完成核验的尼泊尔新闻。"}</p>}
             {section.items.map((item, itemIndex) => <article className="news-card" key={`${country}-${section.category}-${item.title}-${itemIndex}`}>
               <div className="feed-meta"><span>{item.date || (isEnglish ? "Current period" : "本期")}</span>{item.badge && <Badge tone="green">{isEnglish ? englishBadge(item.badge) : item.badge}</Badge>}</div>
               <h3 className="news-title">{isEnglish ? item.titleEn : item.title}</h3>

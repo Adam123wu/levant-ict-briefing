@@ -1,0 +1,31 @@
+import fs from 'node:fs/promises';
+const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
+const save=(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
+export async function syncNepal(){
+ const market=await read('config/market.json');
+ const report=await read('config/nepal-report.json');
+ const sources=await read('config/sources.json');
+ const people=await read('config/nepal-people.json');
+ const compliance=await read('config/compliance-analysis.json');
+ const legal=await read('config/nepal-legal-news.json');
+ const signals=await read('config/social-signals.json');
+ const signalEn=await read('config/social-signal-translations-en.json');
+ const raw=await read('config/telegram-feed.json');
+ const zh=await read('config/telegram-translations.json'),en=await read('config/telegram-translations-en.json');
+ for(const group of [sources,people,signals,raw.items])for(const item of group)if(item.country!=='尼泊尔')throw Error('Non-Nepal data in active inputs: '+(item.id||item.name));
+ const social=signals.map(s=>{const e=signalEn[s.id];if(!e?.title||!e?.summary||!e?.impact)throw Error('Missing English signal: '+s.id);return {...s,titleEn:e.title,summaryEn:e.summary,impactEn:e.impact,accountEn:e.account};});
+ const tg=raw.items.filter(i=>zh[i.id]?.title&&zh[i.id]?.summary&&en[i.id]?.title&&en[i.id]?.summary).map(i=>({...i,...zh[i.id],titleEn:en[i.id].title,summaryEn:en[i.id].summary,translationStatus:'双语已完成'}));
+ const reviewed=new Set(social.flatMap(i=>i.sourceMessageIds||[]));
+ const urls=new Set(social.map(i=>i.url));
+ const feed={...raw,items:tg.filter(i=>!reviewed.has(i.id)&&!urls.has(i.url))};feed.messageCount=feed.items.length;
+ const archive=(await read('data/archive.json')).filter(i=>i.file!==market.reportFile).map(i=>({...i,current:false}));
+ await fs.mkdir('data',{recursive:true});
+ await save('data/report.json',report);await save('data/sources.json',sources);await save('data/people.json',people);
+ await save('data/social-signals.json',social);await save('data/telegram-feed.json',feed);await save('data/compliance-analysis.json',compliance);
+ await save('data/nepal-legal-news.json',legal);await save('data/archive.json',archive);
+ await save('data/nepal.json',{market,report,sources,people,compliance,legal,signals:social,telegram:feed,archive});
+ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const html=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>尼泊尔 ICT 双周简报</title><style>body{font:16px/1.8 system-ui;background:#f5f7fb;color:#172033;max-width:1000px;margin:40px auto;padding:24px}article,section{background:white;padding:24px;margin:16px 0;border-radius:16px}a{color:#1459aa}</style><h1>🇳🇵 尼泊尔 ICT 双周简报 · ${esc(report.issue)}</h1><p>${esc(report.period)}</p><p>${esc(report.status)}</p>${report.countries.np.sections.map(s=>`<section><h2>${esc(s.category)}</h2>${s.items.length?s.items.map(i=>`<article><h3>${esc(i.title)}</h3><p>${esc(i.text)}</p>${i.links.map(l=>`<a href="${esc(l.url)}">${esc(l.label)}</a>`).join(' ')}</article>`).join(''):'<p>本栏目尚无完成核验的尼泊尔新闻。</p>'}</section>`).join('')}</html>`;
+ await fs.writeFile(`public/archive/${market.reportFile}`,html);
+ console.log(`Nepal: ${sources.length} sources, ${people.length} monitored offices; ${report.stats.news} reviewed news.`);
+}

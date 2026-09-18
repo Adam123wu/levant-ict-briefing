@@ -1,6 +1,11 @@
 import fs from "node:fs/promises";
 import * as cheerio from "cheerio";
 
+if (await fs.access('config/market.json').then(()=>true,()=>false)) {
+  const market=JSON.parse(await fs.readFile('config/market.json','utf8'));
+  if(market.code==='np'){const {syncNepal}=await import('./sync-nepal.mjs');await syncNepal();process.exit(0);}
+}
+
 const peopleHtml = await fs.readFile("personnel-monitoring.html", "utf8");
 const match = peopleHtml.match(/const people=(\[.*?\]);let country=/s);
 if (!match) throw new Error("Unable to extract personnel data");

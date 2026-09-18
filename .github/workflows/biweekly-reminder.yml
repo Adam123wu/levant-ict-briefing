@@ -2,8 +2,7 @@ name: Biweekly reminder
 
 # 每双周一 UTC 05:00 (巴格达时间 08:00) 检查是否该出新期
 on:
-  schedule:
-    - cron: '0 5 * * 1'  # 每周一 UTC 5:00
+  # Legacy reminder is manual-only; Nepal editorial scheduling is managed by ict.
   workflow_dispatch:     # 支持手动触发测试
 
 jobs:

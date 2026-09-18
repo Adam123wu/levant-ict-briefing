@@ -7,11 +7,13 @@ from typing import Any
 
 
 CRITICAL_TERMS = (
+    "स्पेक्ट्रम", "अनुमतिपत्र", "खरिद", "ठेक्का", "कानून", "नियमावली",
     "5g", "الجيل الخامس", "spectrum", "طيف", "frequency", "تردد", "license", "ترخيص",
     "tender", "مناقصة", "contract", "عقد", "shutdown", "إغلاق", "ban", "حظر",
     "court", "محكمة", "law", "قانون", "regulation", "تنظيم", "sanction", "عقوبات",
 )
 BUSINESS_TERMS = (
+    "दूरसञ्चार", "इन्टरनेट", "फाइबर", "प्रविधि", "लगानी", "डिजिटल", "कृत्रिम बुद्धिमत्ता",
     "telecom", "اتصالات", "internet", "إنترنت", "fiber", "ألياف", "data center",
     "مركز بيانات", "cloud", "سحابة", "cyber", "سيبراني", "digital", "رقمي",
     "investment", "استثمار", "procurement", "شراء", "ai", "ذكاء اصطناعي",

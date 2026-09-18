@@ -125,7 +125,7 @@ def collect_source(source: dict[str, Any], cutoff: datetime, max_pages: int) -> 
 
 def collect(days: int, max_pages: int, dry_run: bool) -> None:
     sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
-    telegram_sources = [source for source in sources if source.get("platform") == "Telegram" and source.get("handle")]
+    telegram_sources = [source for source in sources if source.get("platform") == "Telegram" and source.get("handle") and source.get("country") == "尼泊尔" and source.get("identityVerified") and source.get("enabled", True)]
     if not telegram_sources:
         raise SystemExit("config/sources.json 中没有 Telegram 信源")
 

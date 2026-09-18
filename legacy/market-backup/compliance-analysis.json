@@ -1,0 +1,73 @@
+{
+  "issue": "W37-38",
+  "generated": "2026-09-13",
+  "disclaimer": "评分为面向 ICT 商务决策的内部分析值，不等同于信用评级、法律意见或第三方营商指数。所有重大决策仍须完成项目级制裁、出口管制、反贿赂和客户尽调。",
+  "method": [
+    {"id":"stability","label":"政治与监管稳定性","weight":20,"description":"政府连续性、监管政策可预期性及执法一致性"},
+    {"id":"market","label":"市场准入与营商便利","weight":20,"description":"牌照、注册、进口、支付和日常经营摩擦"},
+    {"id":"integrity","label":"廉洁与透明度","weight":15,"description":"采购透明度、利益冲突与反贿赂控制环境"},
+    {"id":"sanctions","label":"制裁与交易合规","weight":20,"description":"制裁暴露、最终受益人、银行与付款路径风险"},
+    {"id":"ict","label":"ICT 监管成熟度","weight":15,"description":"频谱、型式核准、数据、网络安全和监管能力"},
+    {"id":"procurement","label":"采购与决策清晰度","weight":10,"description":"预算来源、决策权、招标机制和回款可见度"}
+  ],
+  "countries": [
+    {
+      "code":"iq","name":"伊拉克","flag":"🇮🇶","score":3.0,"risk":"高风险","trend":"承压",
+      "summary":"Ooredoo 过境网络、政府安全 LTE/5G、主权 AI 基础设施和阿吉勒油田开发合同带来机会；Korek 多省执法及 9 月 10 日 OFAC 新增伊拉克通信解决方案相关对象，使关联方、付款路径和最终受益人审查进一步收紧。",
+      "dimensions":[
+        {"id":"stability","score":4.5,"assessment":"政策窗口存在，但监管与地方执行差异较大。"},
+        {"id":"market","score":2.0,"assessment":"准入、付款和运营流程摩擦较高。"},
+        {"id":"integrity","score":3.0,"assessment":"项目需强化第三方与采购廉洁审查。"},
+        {"id":"sanctions","score":1.5,"assessment":"OFAC 新行动点名伊拉克通信解决方案和承包网络，实体、50% 所有权、银行与最终受益人筛查为强制门槛。"},
+        {"id":"ict","score":4.5,"assessment":"过境网络、政府 LTE/5G 与 AI 基础设施窗口打开，但规则和责任边界仍在变化。"},
+        {"id":"procurement","score":3.0,"assessment":"通信部、CMC、ITPC 与地方机构决策边界需逐项确认。"}
+      ],
+      "watchlist":["Korek 多省关停、用户迁移与后续司法进展","Ooredoo 过境合同、海缆登陆附件及 28%/30% 收益分成","政府安全 LTE/5G 扩围的采购主体与 Taurus Arm 角色","CMC 国家 AI 基础设施的预算、数据责任与采购方式","阿吉勒油田 OT/SCADA 与网络分包范围，以及 KEPPT 供应链和付款结构","OFAC 新增对象、50% 所有权及付款链增量筛查"],
+      "actions":["Korek 相关机会维持红色审查，并把监管许可、连续服务和回款保护作为合同前提","所有政府、安防和通信集成伙伴在报价、下单与付款三个节点重复筛查","Ooredoo/ITPC 过境项目逐项核对合同边界、收益分成、制裁和库区段责任","阿吉勒项目先确认 OT/SCADA、园区网络与网络安全分包，再对 KEPPT、分包商、银行和最终受益人开展尽调"],
+      "evidence":[
+        {"label":"CMC：Korek 关停扩大至基尔库克、尼尼微和萨拉赫丁","date":"2026-09-06","url":"https://cmc.iq/2026/09/06/%D9%87%D9%8A%D8%A3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B9-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA/"},
+        {"label":"美国财政部：Operation Economic Outcast 新增伊拉克通信解决方案相关对象","date":"2026-09-10","url":"https://home.treasury.gov/news/press-releases/sb0626/"},
+        {"label":"伊拉克—Ooredoo 国际互联网过境合同","date":"2026-09-10","url":"https://en.964media.com/52350/"},
+        {"label":"总理府与 Shafaq：阿吉勒油田 25 年开发运营合同","date":"2026-09-12","url":"https://api.shafaq.com/en/Economy/Ajeel-field-targets-122-increase-in-gas-production"}
+      ]
+    },
+    {
+      "code":"jo","name":"约旦","flag":"🇯🇴","score":7.8,"risk":"较低风险","trend":"改善",
+      "summary":"Umniah 二期 5G、HUMAIN 政府 AI 合作和开发区合规承诺式许可形成清晰机会组合；整体可执行性较高，但备忘录和政策说明仍须落实为预算、RFP 与许可证。",
+      "dimensions":[
+        {"id":"stability","score":8.0,"assessment":"政策延续性和机构稳定性较好。"},
+        {"id":"market","score":8.0,"assessment":"开发区合规承诺式许可降低部分启动摩擦，但仍需确认活动范围与后检查义务。"},
+        {"id":"integrity","score":6.5,"assessment":"仍需执行标准采购廉洁与第三方尽调。"},
+        {"id":"sanctions","score":8.5,"assessment":"总体暴露较低，常规名单筛查通常足够。"},
+        {"id":"ict","score":7.5,"assessment":"TRC 与 MoDEE 分工明确，5G 与政府 AI 政策连续。"},
+        {"id":"procurement","score":8.0,"assessment":"项目责任主体与采购路径相对集中。"}
+      ],
+      "watchlist":["Umniah 二期 5G 的站点、投资额与配套采购","HUMAIN 合作的预算、数据责任和政府 AI 场景清单","开发区合规承诺式许可的适用活动与后检查规则","MNP、数据保护与跨境云监管细则"],
+      "actions":["建立 Umniah 5G 二期传输、室分、能源与企业专网配套清单","向 MoDEE 提供政府 AI 场景和治理工作坊框架","对开发区数据中心和云项目逐项核对许可适用性"],
+      "evidence":[
+        {"label":"Umniah：二期 5G 与网络扩容","date":"2026-09","url":"https://www.umniah.com/explore-umniah/umniah-network-expansion-with-ericsson/"},
+        {"label":"Petra：约旦—HUMAIN 人工智能合作","date":"2026-09-06","url":"https://www.petra.gov.jo/en/index.php/en/news/jordan-saudi-arabias-humain-sign-strategic-mou-to-advance-ai-development-and-innovation"},
+        {"label":"投资部：2026 年投资环境条例入公报","date":"2026-09-10 重核","url":"https://www.moin.gov.jo/En/NewsDetails/Amended_Investment_Environment_Regulation_Published_in_the_Official_Gazette"}
+      ]
+    },
+    {
+      "code":"lb","name":"黎巴嫩","flag":"🇱🇧","score":4.1,"risk":"中高风险","trend":"承压",
+      "summary":"第 71 号银行重组法和媒体法推进制度改革，但银行法实施仍附带前置立法条件；南部安全压力与 9 月 10 日 OFAC 新增汇兑网络制裁，使回款和第三方风险重新上升。",
+      "dimensions":[
+        {"id":"stability","score":4.5,"assessment":"中央改革继续推进，但南部军事与站点进入风险在本期上升。"},
+        {"id":"market","score":4.0,"assessment":"银行重组法已发布，但付款和存款回收环境仍取决于后续立法。"},
+        {"id":"integrity","score":3.0,"assessment":"采购治理与透明度需要项目级增强控制。"},
+        {"id":"sanctions","score":3.5,"assessment":"OFAC 新行动点名现金、黄金和汇兑网络，付款链、50% 所有权和最终受益人审查必须加强。"},
+        {"id":"ict","score":5.0,"assessment":"TRA、MPT 与 Ogero 治理架构仍处于重建和调整期。"},
+        {"id":"procurement","score":4.5,"assessment":"改革方向存在，但预算、授权、站点安全和回款仍需逐单核实。"}
+      ],
+      "watchlist":["银行重组法与金融损失/存款回收法的衔接","OFAC 新增现金、黄金和汇兑网络及 50% 所有权","南部站点进入、燃料、备件和恢复工期","TRA/Ogero/Alfa/Touch 项目的资金与授权链"],
+      "actions":["仅推进有国际融资、托管、预付款或不可撤销保函的网络项目","筛查客户、分包商、汇兑所、银行、实际控制人与 50% 所有权","南部项目采用分区进入、动态安保和不可抗力里程碑"],
+      "evidence":[
+        {"label":"美国财政部：黎巴嫩现金、黄金和汇兑网络制裁","date":"2026-09-10","url":"https://home.treasury.gov/news/press-releases/sb0626/"},
+        {"label":"黎巴嫩第 71 号银行重组法发布","date":"2026-09-10","url":"https://dailybeirut.com/en/lebanon-news/after-approval-in-the-parliament-aoun-publishes-law-on-bank-restructuring/"},
+        {"label":"黎巴嫩总统赴纳巴提耶视察南部局势","date":"2026-09-12","url":"https://apnews.com/article/867b9fc371b7944264f8647f319520de"}
+      ]
+    }
+  ]
+}

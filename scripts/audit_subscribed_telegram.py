@@ -16,26 +16,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 
 
-COUNTRY_TERMS = {
-    "伊拉克": [
-        "iraq", "iraqi", "baghdad", "kurdistan", "erbil", "العراق", "عراقي", "بغداد", "كردستان", "أربيل",
-        "ina", "alsumaria", "shafaq", "rudaw", "kurdistan24", "alsharqiya", "alrabiaa", "utv iraq",
-        "السومرية", "شفق", "روداو", "الشرقية", "الرابعة",
-        "zain iraq", "asiacell", "korek", "earthlink", "iq networks", "newroz",
-    ],
-    "约旦": [
-        "jordan", "jordanian", "amman", "الأردن", "اردني", "عمان",
-        "petra", "almamlaka", "roya", "alghad", "ammon news", "jordan times",
-        "بترا", "المملكة", "رؤيا", "الغد", "عمون",
-        "zain jordan", "orange jordan", "umniah", "modee", "trc jordan",
-    ],
-    "黎巴嫩": [
-        "lebanon", "lebanese", "beirut", "لبنان", "لبناني", "بيروت",
-        "nna lebanon", "lbci", "mtv lebanon", "al jadeed", "aljadeed", "annahar", "nidaa al watan", "lorient", "naharnet", "lebanon24",
-        "الوطنية للإعلام", "الجديد", "النهار", "نداء الوطن", "الميادين",
-        "ogero", "alfa telecom", "touch lebanon", "mpt lebanon", "tra lebanon",
-    ],
-}
+COUNTRY_TERMS = {'尼泊尔': ['nepal', 'nepali', 'kathmandu', 'नेपाल', 'नेपाली', 'काठमाडौं', 'ncell', 'worldlink', 'vianet', 'subisu', 'techpana', 'ictsamachar', 'gadgetbyte']}
 
 CATEGORY_TERMS = {
     "新闻媒体": [
