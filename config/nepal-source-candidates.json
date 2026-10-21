@@ -1,914 +1,14 @@
 {
   "country": "尼泊尔",
-  "generatedAt": "2026-10-20T22:42:47.492571+00:00",
+  "generatedAt": "2026-10-21T22:48:42.885938+00:00",
   "candidates": [
-    {
-      "id": "175b01033a8937b23c00",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/knowyourbandwidth",
-      "titleOriginal": "आफ्नो इन्टरनेट व्याण्डविथ जान्नुहोस्",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ab88271376f3b5104973",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-127",
-      "titleOriginal": "श्री आइटेल नेटवर्क प्रा.लि.को नेटवर्क सेवा र इन्टर्नेट (इमेल सहित) सेवाको अनुमतिपत्र खारेज गरिएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "da85879cab672508a701",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/re-notice-extension-of-submission-deadline-invitation-for-application-for-auction-of-residual-spectrum-in-800-mhz-band",
-      "titleOriginal": "RE-NOTICE: EXTENSION OF SUBMISSION DEADLINE (Invitation for Application for Auction of Residual Spectrum in 800 MHz Band)",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "6e4393b06888b38c3490",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/b-bb-b-b-b-b",
-      "titleOriginal": "८०० मेगाहर्ज व्याण्डको बाँकी फ्रिक्वेन्सी बढाबढसँग सम्बन्धित प्रि-बिड बैठक सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d43c52e1ad844960801a",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/i-l-l-a-e-b-a",
-      "titleOriginal": "श्री युनाइटेड टेलिकम लिमिटेडको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "7b41093de71de3b0e383",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-9",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणको कोष व्यवस्थापन सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "dd56e10bc94bffe1d53b",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/public-notice-for-selection-of-cyber-security-consulting-firms-6",
-      "titleOriginal": "Public Notice for selection of Cyber Security Consulting Firms",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2e22ae44666dc6f973b6",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-8",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणको कोष व्यवस्थापन सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "90caa88090a533b12395",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-a-e-b",
-      "titleOriginal": "स्पेस लिंक प्रा. लि.को नेटवर्क सेवाको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "243d2022a798d45a2747",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ntarfp20828301re-aa-l-b",
-      "titleOriginal": "NTA/RFP/2082/83/01(Re) को आर्थिक प्रस्ताव खोल्ने सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "46e3ff1cb7b56825a65d",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/e-u-ulb-u",
-      "titleOriginal": "एकीकृत दूरसञ्चार नीतिको मस्यौदा उपर राय सुझाव उपलब्ध गराउने सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ef9a23b58accd7b05237",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-e-a",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "dc98daff5c3c08bab44d",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/invitation-for-comments-and-suggestions-on-the-draft-mobile-broadband-enhancement-plan-nepals-road-to-5g",
-      "titleOriginal": "Mobile Broadband Enhancement Plan (Nepal's Road to 5G) को मस्यौदा उपर राय सुझाव उपलव्ध गराउने सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "b3dc8362c2bf6ddb77a8",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-u-b-1",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणमा मौजुदा सूची दर्ता गराउने सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "01f4b7b545209fc1d6c4",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ntarfp20828301re-b-rfp-document-b-a",
-      "titleOriginal": "परामर्श सेवा [NTA/RFP/2082/83/01(Re)] खरिद सम्बन्धी RFP Document का सम्बन्धमा अत्यन्त जरूरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "aa2af9078d20828cfd9a",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-120",
-      "titleOriginal": "अनधिकृत रूपमा दूरसञ्चार/इन्टरनेट सेवा सञ्चालन तथा प्रयोग नगर्ने/नगराउने सम्बन्धी सार्वजनिक सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "409e80e3bfff0f21d8c1",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/bl-l-a-e-b",
-      "titleOriginal": "श्री बुटवल पावर कम्पनी लिमिटेडको ग्रामीण भिस्याट सेवाको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4d6b7981536478759da0",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-i-iil-a-e-b",
-      "titleOriginal": "श्री सिम्पल मिडिया नेटवर्क प्रा.लि.को इन्टर्नेट (ईमेल सहित) सेवाको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "bdf4a2fa4305e0a5513a",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/contract-no-ntarfp20828301-b-b-e-b",
-      "titleOriginal": "Contract No NTA/RFP/2082/83/01 सम्बन्धी खरिद कारबाही रद्द गरिएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "75d82551ac47fc09616a",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-4",
-      "titleOriginal": "तार व्यवस्थापन गर्ने कार्यका लागि नेपाल दूरसञ्चार प्राधिकरणको जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "7430052e4fd48db10052",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-i-il-a-e-b",
-      "titleOriginal": "श्री टि.पि. लिंक नेटवर्क प्रा.लि.को इन्टर्नेट (इमेल सहित) सेवाको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d986c9ad6034a79073dc",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ntarfp20828301-aa-l-b",
-      "titleOriginal": "NTA/RFP/2082/83/01 को आर्थिक प्रस्ताव खोल्ने सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "081db819960ea10ef227",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/i-il-lii-i-b",
-      "titleOriginal": "इन्टर्नेट (इमेल सहित) सेवा प्रदायकहरूलाई सफाइको मौका दिने सम्बन्धी सार्वजनिक सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "35749c2f06ecc6f60358",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/u-a",
-      "titleOriginal": "उपभोक्ता हक/हित संरक्षण गरी गुणस्तरीय सेवा प्रवाह गर्ने सम्वन्धमा अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d8668e74dbd1c962ef42",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-119",
-      "titleOriginal": "श्री कृति दर्शन मिडिया प्रा.लि.को इन्टरनेट (इमेल सहित) सेवाको अनुमतिपत्र स्वतः रद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "807a4c15cff6a7eace72",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-b-a-4",
-      "titleOriginal": "रोयल्टी तथा ग्रामीण दूरसञ्चार विकास कोष रकम दाखिला गर्ने सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0525544f688a2fce8392",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/bb-l-b-ulb-u-b-l-1",
-      "titleOriginal": "\"ब्रोडब्याड सेवा सञ्चालनमा रहे/नरहेको\" सम्बन्धमा जानकारी उपलब्ध गराउने बारेमा नेपाल दूरसञ्चार प्राधिकरणको सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "01f7d0816ad5727e2b90",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/i-b-b-a",
-      "titleOriginal": "सरसफाइकर्मी खरिद सम्बन्धी कागजातको प्रावधानको संशोधन सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d7613ec729a79791456e",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-116",
-      "titleOriginal": "श्री एयरसन इन्टर्नेट प्रा.लि.को इन्टर्नेट (इमेल सहित) सेवाको अनुमतिपत्र स्वतःरद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "af4cae97987c92a38bce",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-118",
-      "titleOriginal": "श्री गोरेटो कम्यूनिकेशन प्रा.लि.को ग्रामीण इन्टर्नेट (इमेल सहित) सेवाको अनुमतिपत्र स्वतःरद्द भएको सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "cdd606142ee30acf0a7d",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-117",
-      "titleOriginal": "दूरसञ्चार सेवा दस्तुर वापतको रकम दाखिला गरी प्राधिकरणलाई जानकारी गराउने सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ebaa0cd52675c0a3e8ae",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-l-a-1",
-      "titleOriginal": "लोगो प्रयोग सम्बन्धी नेपाल दूरसञ्चार प्राधिकरणको अत्यन्त जरुरी सूचना !",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2d70f22bb5a80e447dcc",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ll-b-b-4",
-      "titleOriginal": "लिलाम बिक्री सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "958554ac092166a75c59",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-115",
-      "titleOriginal": "ग्रामीण दूरसञ्चार विकास कोष प्रयोग गरी स्थानीय तह मार्फत ब्रोडब्याण्ड इन्टरनेट सेवा पुर्‍याउने कार्यक्रमहरूलाई निरन्तरता नदिने सम्बन्धमा नेपाल दूरसञ्चार प्राधिकरणको सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "537765fb39b4322c64b1",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-114",
-      "titleOriginal": "रेडियो उपकरणहरु अवैध रुपमा प्रयोग नगर्ने/नगराउने सम्बन्धमा नेपाल दूरसञ्चार प्राधिकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "1ed1ba2894bb02067514",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-7",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणको ग्रामीण दूरसञ्चार विकास कोष व्यवस्थापन सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "3f8f2d9c71cbe553ba6b",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/public-notice-for-selection-of-cyber-security-consulting-firms-to-get-enlisted-in-a-roster-of-nta-as-is-auditorcloud-auditor-for-fy-208283-202526",
-      "titleOriginal": "Public Notice for selection of Cyber Security Consulting Firms To get enlisted in a roster of NTA as IS Auditor/Cloud Auditor for FY 2082/83 (2025/26)",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4a5ca21dc9004c93591d",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ll-b-b-3",
-      "titleOriginal": "लिलाम बिक्री सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "9151b4db642beacd7984",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-b-a-3",
-      "titleOriginal": "रोयल्टी तथा ग्रामीण दूरसञ्चार विकास कोष रकम दाखिला गर्ने सम्बन्धी अत्यन्त जरुरी सूचना।",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "f33b74a3dc36343494fc",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-113",
-      "titleOriginal": "श्री लुप नेटवर्कस् लिमिटेडको इन्टर्नेट (ईमेल सहित) सेवा र नेटवर्क सेवा प्रदायकको अनुमतिपत्र रद्द गरिएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2ecb8dbcf00c98509f7c",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-112",
-      "titleOriginal": "श्री गण्डकी कम्युनिकेशन प्रा.लि.को इन्टर्नेट (ईमेल सहित) सेवाको अनुमतिपत्र रद्द गरिएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "fd2f263049e657dfe985",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/b-7",
-      "titleOriginal": "ग्रामीण दूरसञ्चार विकास कोष व्यवस्थापन सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4f965a55979ca4f23ae6",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/i-aa-u-l-a",
-      "titleOriginal": "इन्टर्नेट सेवा प्रदायकहरु र आम उपभोक्ताहरुमा नेपाल दूरसञ्चार प्राधिकरणको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "b23df0f0cf78fd02997f",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-u-b",
-      "titleOriginal": "नेपाल दूरञ्चार प्राधिकरणमा मौजुदा सूची दर्ता गराउने सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2ef09c3d2c37ec2d6efd",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-110",
-      "titleOriginal": "वाईफाई हटस्पट सेवा सञ्चालन सम्बन्धमा नेपाल दूरसञ्चार प्राधीकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "387b884b552c25579264",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/telegram-app-l-b-b-a",
-      "titleOriginal": "Telegram App तत्काल बन्द गर्ने सम्बन्धी अत्यन्त जरुरी सूचना !",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "7b2e8562e56dadc6d730",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-109",
-      "titleOriginal": "अनधिकृत Application to Person (A2P) SMS Terminate कार्य नगर्न/नगराउन सम्बन्धी सार्वजनिक सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "6429db87c17649fbdaf8",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/re-notice-on-consultation-paper-on-ipv6-migration-byelaw-20822025",
-      "titleOriginal": "Re - Notice on Consultation Paper on IPv6 Migration Byelaw, 2082(2025)",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "7ddfff15b922860a32c2",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ll-b-b-2",
-      "titleOriginal": "लिलाम बिक्री सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e6daa94382ce87348020",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-b-6",
-      "titleOriginal": "नेपाल दूरसञ्चार प्राधिकरणको ग्रामीण दूरसञ्चार विकास कोष व्यवस्थापन सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "5effc31e047ecbfef377",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/a-le-b-l",
-      "titleOriginal": "अनुमति लिएर मात्र फ्रिक्वेन्सी प्रयोग गर्ने सम्बन्धमा नेपाल दूरसञ्चार प्राधिकरणको सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "46eab22169f3b35df4ce",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/ll-b-b-1",
-      "titleOriginal": "लिलाम बिक्री सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0efc5ef41feb2f0ae111",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/notice-on-consultation-paper-on-ipv6-migration-byelaw-20822025",
-      "titleOriginal": "Notice on Consultation Paper on IPv6 Migration Byelaw, 2082(2025)",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "f437cfaffefd920dd43f",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-108",
-      "titleOriginal": "श्री हक नेट प्रा.लि.को इन्टर्नेट (इमेल सहित) सेवाको अनुमतिपत्र रद्द गरिएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "5cf8cacc3f6d0bb167b2",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-i-iil-a-e",
-      "titleOriginal": "श्री चेरी वर्ल्ड कम्युनिकेशन प्रा.लि.को इन्टर्नेट (ईमेल सहित) सेवाको अनुमतिपत्र खारेज गरिएको सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "9eb58e6929d2527e2908",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-107",
-      "titleOriginal": "अनुमतिपत्र नलिई दूरसञ्चार सेवा सञ्चालन नगर्न/नगराउन नेपाल दूरसञ्चार प्राधिकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना !",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e118c35121e7e642eac5",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/l-l-b-a-2",
-      "titleOriginal": "रोयल्टी तथा ग्रामीण दूरसञ्चार विकास कोष रकम दाखिला गर्ने सम्बन्धी अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "3a32baf8bc1f6477fc9b",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/a-i-u-b-l",
-      "titleOriginal": "अनधिकृत रुपमा दूरसञ्चार (इन्टर्नेट) सेवा प्रयोग नगर्ने/नगराउने सम्बन्धमा नेपाल दूरसञ्चार प्राधिकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "94393892befee70ce873",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/bb-l-b-ulb-u-b-l",
-      "titleOriginal": "\"ब्रोडब्याण्ड सेवा सञ्चालनमा रहे/नरहेको\" सम्बन्धमा जानकारी उपलब्ध गराउने बारेमा नेपाल दूरसञ्चार प्राधिकरणको सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "235f875a548035c69e48",
-      "sourceId": "np-nta",
-      "country": "尼泊尔",
-      "url": "https://www.nta.gov.np/content/-106",
-      "titleOriginal": "रेडियो फ्रिक्वेन्सी सिग्नल (मोबाइल सिग्नल) बुस्टर तथा एमप्लिफायरको अवैध रुपमा प्रयोग नगर्ने /नगराउने सम्बन्धमा नेपाल दूरसञ्चार प्राधिकरणबाट जारी गरिएको अत्यन्त जरुरी सूचना",
-      "observedAt": "2026-10-20T22:42:22.361693+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0f9f26ce19b030f851aa",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/606/guidelines-on-use-and-promotion-of-indigenous/",
-      "titleOriginal": "सार्वजनिक खरिदमा स्वदेशी उत्पादनको प्रयोग र प्रवर्धनसम्बन्धी निर्देशिका,२०८३",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "1e2cdbb07764df3d6ef9",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/605/notice-regarding-the-call-for-applications-of/",
-      "titleOriginal": "सफ्टवेयर विकास तथा सञ्चालन केन्द्रका लागि विज्ञको दरखास्त आह्वान सम्बन्धी सूचना ।",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4239387f2793c669a643",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/599/notice-regarding-appointment-to-the-post-of/",
-      "titleOriginal": "सफ्टवेयर विकास तथा सञ्चालन केन्द्रको कार्यकारी निर्देशक पदमा नियुक्ति सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0fbdf44ed987a1232230",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/597/notification-regarding-the-approval-of-the-letter/",
-      "titleOriginal": "सरसफाइ सेवा खरिद सम्बन्धी बोलपत्र स्वीकृत गर्ने आसयको सूचना (LOI)",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "b38be17e091dde103d1b",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/596/information-regarding-the-interview-of-the-chief/",
-      "titleOriginal": "सफ्टवेयर बिकास तथा सञ्चालन केन्द्रको प्रमुख कार्यकारी अधिकृतको अन्तर्वार्ता सम्बन्धी सूचना ।।",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "cfcd439c80a0b8c6bc74",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/595/notice-regarding-the-revision-of-the-tender/",
-      "titleOriginal": "सरसफाइ सेवा खरिदका लागि आह्वान गरिएको बोलपत्रको कागजात संशोधन सम्बन्धी सूचना ।",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d659705669524ba8594f",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/594/notice-of-tender-invitation-for-procurement-of/",
-      "titleOriginal": "सरसफाई सम्बन्धी कार्यका लागि बोलपत्र आह्वानको सूचना",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "f05bdf09f3fc18bc732c",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/593/notification-for-inviting-applications-for-the-post/",
-      "titleOriginal": "सफ्टवेयर विकास र सञ्चालन केन्द्रको कार्यकारी निर्देशक पदको लागि आवेदन आह्वान सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4c67a71c1431a94d9eda",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/585/press-release-2026/",
-      "titleOriginal": "प्रेश विज्ञप्ती",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2484cfaf41523afdc2d1",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/584/information-on-human-rights-awards/",
-      "titleOriginal": "मानव अधिकार पुरस्कार सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "8d4076a73135da58b87e",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/582/pressabiralbarsha/",
-      "titleOriginal": "प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "45fcf05f4e20fdc729af",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/578/press/",
-      "titleOriginal": "प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0992f61402f5149dc90a",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/574/notice-regarding-presentation-and-interview-for-the/",
-      "titleOriginal": "लगानी बोर्डको प्रमुख कार्याकारी अधिकृतको नियुक्तिका लागि प्रस्तुतिकरण र अन्तरवार्ता सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "305c321fbfeec4d88766",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/533/format-of-application-form-as-per-schedule-1/",
-      "titleOriginal": "सार्वजनिक खरिद पुनरावलोकन समितिको रिक्त अध्यक्ष र सदस्य पदमा दरखास्तका लागि अनुसूची-१ र अनुसूची-२ बमोजिमको आवेदन फारामको ढाँचा।",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "4ea069c085305e321257",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/522/press-release-5-176/",
-      "titleOriginal": "प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "c190293c80605d340aa1",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/519/press-releasee/",
-      "titleOriginal": "प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "fcbb1e7597389bbb4f63",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/our-team-detail/16/",
-      "titleOriginal": "श्री राजन भट्टराई उपसचिव - सहायक प्रवक्ता एवं सूचना अधिकारी",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "c1c1fd3c371eaa7d31b7",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/580/sanitary-services-procurement-2083-84/",
-      "titleOriginal": "सरसफाइ सेवा खरिद सम्बन्धी सूचना १८ साउन, २०८३",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "6db096059f2e4584fbda",
-      "sourceId": "np-pmo",
-      "country": "尼泊尔",
-      "url": "https://www.opmcm.gov.np/content/572/press-release11/",
-      "titleOriginal": "प्रेस विज्ञप्ति ४ साउन, २०८३",
-      "observedAt": "2026-10-20T22:42:22.363101+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "2f6a557bf74b9e0efcb8",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/procurement-content",
-      "titleOriginal": "Procurement Notices (Fiscal Year 2083/84)",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e320fe22150ec908c277",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/notice-regarding-nt-telecom-offices-to-remain-open-during-public-holidays",
-      "titleOriginal": "Notice Regarding Nepal Telecom offices to remain open during Public Holidays",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "cbceca357530f6b59997",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/international-bandwidth",
-      "titleOriginal": "International Bandwidth",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e4b09c6ea903c2c7f334",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/proactive-disclosure",
-      "titleOriginal": "स्वत: प्रकाशन (Proactive Disclosure)",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "8fd3d1bd6b77fdf4c979",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/18th-agm-nepal-telecom",
-      "titleOriginal": "18th AGM - Nepal Telecom",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "12d7ccad9e95f0118c18",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/notices/corporate-social-responsibility",
-      "titleOriginal": "Corporate Social Responsibility",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "f8be825b1e8edc8f00f9",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/post/retirement-main-portal",
-      "titleOriginal": "Retirement Notice Portal",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ec436b52ea1b132b9849",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/news-and-updates/anniversary-offer",
-      "titleOriginal": "20th Anniversary Offer",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "7dcc6ff3d22ded9da3ce",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/news-and-updates/20th-anniversary-offer-2080",
-      "titleOriginal": "20th Anniversary Offer 2080",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "938062421cf1b37d6992",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/news-and-updates/16th-agm-nepal-telecom",
-      "titleOriginal": "16th AGM - Nepal Telecom",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e299af972c225c5a077f",
-      "sourceId": "np-ntc",
-      "country": "尼泊尔",
-      "url": "https://www.ntc.net.np/news-and-updates/dashain-tihar-promotional-offer",
-      "titleOriginal": "Dashain Tihar Promotional Offer",
-      "observedAt": "2026-10-20T22:42:22.363961+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
     {
       "id": "003fbff07861d71c38e5",
       "sourceId": "np-ncell",
       "country": "尼泊尔",
       "url": "https://www.ncell.com.np/en/individual/roaming",
       "titleOriginal": "International Roaming",
-      "observedAt": "2026-10-20T22:42:22.367459+00:00",
+      "observedAt": "2026-10-21T22:48:06.117674+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -918,7 +18,7 @@
       "country": "尼泊尔",
       "url": "https://www.ncell.com.np/en/individual/customer-support",
       "titleOriginal": "Grievance Management",
-      "observedAt": "2026-10-20T22:42:22.367459+00:00",
+      "observedAt": "2026-10-21T22:48:06.117674+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -928,7 +28,7 @@
       "country": "尼泊尔",
       "url": "https://www.ncell.com.np/en/individual/my-number-my-choice/book-number",
       "titleOriginal": "Book Choice Number",
-      "observedAt": "2026-10-20T22:42:22.367459+00:00",
+      "observedAt": "2026-10-21T22:48:06.117674+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -938,7 +38,7 @@
       "country": "尼泊尔",
       "url": "https://www.ncell.com.np/en/individual/packs-and-plans",
       "titleOriginal": "View All Offers",
-      "observedAt": "2026-10-20T22:42:22.367459+00:00",
+      "observedAt": "2026-10-21T22:48:06.117674+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -948,7 +48,7 @@
       "country": "尼泊尔",
       "url": "https://worldlink.com.np/newsletter",
       "titleOriginal": "View Newsletters",
-      "observedAt": "2026-10-20T22:42:22.368356+00:00",
+      "observedAt": "2026-10-21T22:48:06.119950+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -958,7 +58,7 @@
       "country": "尼泊尔",
       "url": "https://worldlink.com.np/newsletter/",
       "titleOriginal": "Our Newsletters",
-      "observedAt": "2026-10-20T22:42:22.368356+00:00",
+      "observedAt": "2026-10-21T22:48:06.119950+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -968,7 +68,7 @@
       "country": "尼泊尔",
       "url": "https://cgnet.com.np/blogs/why-wifi-6-is-the-smart-upgrade-for-modern-homes-in-nepal",
       "titleOriginal": "See For Yourself",
-      "observedAt": "2026-10-20T22:42:24.945924+00:00",
+      "observedAt": "2026-10-21T22:48:09.678362+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -978,7 +78,7 @@
       "country": "尼泊尔",
       "url": "https://cgnet.com.np/blogs/cgnet-winternet",
       "titleOriginal": "See For Yourself",
-      "observedAt": "2026-10-20T22:42:24.945924+00:00",
+      "observedAt": "2026-10-21T22:48:09.678362+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -988,7 +88,7 @@
       "country": "尼泊尔",
       "url": "https://cgnet.com.np/blogs/wi-fi-6-in-nepal",
       "titleOriginal": "See For Yourself",
-      "observedAt": "2026-10-20T22:42:24.945924+00:00",
+      "observedAt": "2026-10-21T22:48:09.678362+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -998,7 +98,7 @@
       "country": "尼泊尔",
       "url": "https://cgnet.com.np/blogs/farewell-to-my-internship-a-journey-of-growth-connections-and-dreams",
       "titleOriginal": "See For Yourself",
-      "observedAt": "2026-10-20T22:42:24.945924+00:00",
+      "observedAt": "2026-10-21T22:48:09.678362+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1008,7 +108,7 @@
       "country": "尼泊尔",
       "url": "https://cgnet.com.np/blogs",
       "titleOriginal": "View more articles",
-      "observedAt": "2026-10-20T22:42:24.945924+00:00",
+      "observedAt": "2026-10-21T22:48:09.678362+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1018,7 +118,7 @@
       "country": "尼泊尔",
       "url": "https://www.gadgetbytenepal.com/huawei-freeclip-2-review/",
       "titleOriginal": "Huawei FreeClip 2 Review: Cute design, Impressive sound?",
-      "observedAt": "2026-10-20T22:42:26.132693+00:00",
+      "observedAt": "2026-10-21T22:48:10.550081+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1028,7 +128,7 @@
       "country": "尼泊尔",
       "url": "https://www.gadgetbytenepal.com/realme-16-5g-price-nepal/",
       "titleOriginal": "Realme 16 5G launched in Nepal with 7000mAh battery, and a 120Hz AMOLED display!",
-      "observedAt": "2026-10-20T22:42:26.132693+00:00",
+      "observedAt": "2026-10-21T22:48:10.550081+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1038,7 +138,7 @@
       "country": "尼泊尔",
       "url": "https://www.gadgetbytenepal.com/oppo-f35-and-f35-pro-5g-price-in-nepal/",
       "titleOriginal": "OPPO F35 Series Lands with 8,000mAh Batteries and 50MP Selfie Cameras!",
-      "observedAt": "2026-10-20T22:42:26.132693+00:00",
+      "observedAt": "2026-10-21T22:48:10.550081+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1048,7 +148,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/how-to-keep-your-nepali-sim-number-for-life-ntc-ncell",
       "titleOriginal": "How to Keep Your Nepali SIM Number for Life (NTC & Ncell)",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1058,7 +158,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/2019/11/latest-ncell-data-pack.html",
       "titleOriginal": "Latest Ncell Data Packs With Volume, Price, and Code in 2026",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1068,7 +168,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/5g-in-nepal",
       "titleOriginal": "5G in Nepal | Features, Spectrum, Availability, Compatible Devices [2026]",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1078,7 +178,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/2018/05/2g-3g-4g-mobile-network-explained.html",
       "titleOriginal": "2G, 3G, 4G and 5G Mobile Networks Explained: A Simple Guide [2026]",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1088,7 +188,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/realme-16-5g-price-in-nepal",
       "titleOriginal": "realme 16 5G Launched in Nepal With 7,000mAh Battery, 50MP Cameras",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1098,7 +198,7 @@
       "country": "尼泊尔",
       "url": "https://www.nepalitelecom.com/2026/10/huawei-hosts-isp-event-2026-to-accelerate-f5g-and-ai-driven-digital-transformation.html",
       "titleOriginal": "Huawei Hosts ISP Event 2026 to Accelerate F5G and AI-Driven Digital Transformation",
-      "observedAt": "2026-10-20T22:42:26.234953+00:00",
+      "observedAt": "2026-10-21T22:48:11.185108+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1108,7 +208,7 @@
       "country": "尼泊尔",
       "url": "https://ictbyte.com/image-size-reducer-compress-image/",
       "titleOriginal": "Image Size Reducer",
-      "observedAt": "2026-10-20T22:42:26.367954+00:00",
+      "observedAt": "2026-10-21T22:48:11.721572+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1118,7 +218,7 @@
       "country": "尼泊尔",
       "url": "https://kathmandupost.com/art-culture/2026/10/17/when-tradition-becomes-a-fashion-statement",
       "titleOriginal": "Nepal’s cultural heritage finds new expression on the runway",
-      "observedAt": "2026-10-20T22:42:26.462574+00:00",
+      "observedAt": "2026-10-21T22:48:12.214529+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1128,7 +228,7 @@
       "country": "尼泊尔",
       "url": "https://kathmandupost.com/health/2026/10/15/nepal-bans-47-immunosuppressant-brands-doctors-question-move",
       "titleOriginal": "Nepal bans 47 immunosuppressant brands, doctors question move",
-      "observedAt": "2026-10-20T22:42:26.462574+00:00",
+      "observedAt": "2026-10-21T22:48:12.214529+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1138,7 +238,7 @@
       "country": "尼泊尔",
       "url": "https://kathmandupost.com/weather/2026/09/25/heavy-rain-flood-risk-rise-as-low-pressure-system-moves-across-nepal",
       "titleOriginal": "Heavy rain, flood risk rise as low-pressure system moves across Nepal",
-      "observedAt": "2026-10-20T22:42:26.462574+00:00",
+      "observedAt": "2026-10-21T22:48:12.214529+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
@@ -1148,354 +248,62 @@
       "country": "尼泊尔",
       "url": "https://english.onlinekhabar.com/ncell-special-bundle-for-iphone.html",
       "titleOriginal": "Ncell announces special bundle for iPhone 18 Pro, Pro Max and Duo buyers",
-      "observedAt": "2026-10-20T22:42:27.404811+00:00",
+      "observedAt": "2026-10-21T22:48:12.278352+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
     {
-      "id": "1b5e35617bbbf955e82f",
-      "sourceId": "np-law",
+      "id": "80efa617b490b7ecdfc1",
+      "sourceId": "np-nrb",
       "country": "尼泊尔",
-      "url": "https://lawcommission.gov.np/content/13546/office-relocated/",
-      "titleOriginal": "कार्यालय स्थानान्तरण भएको सूचना ।",
-      "observedAt": "2026-10-20T22:42:29.087748+00:00",
+      "url": "https://www.nrb.org.np/category/domestic-tenders/",
+      "titleOriginal": "Domestic Tenders",
+      "observedAt": "2026-10-21T22:48:14.053681+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
     {
-      "id": "28dce9628e220bc905a4",
-      "sourceId": "np-law",
+      "id": "266284438f3d3346f788",
+      "sourceId": "np-nrb",
       "country": "尼泊尔",
-      "url": "https://lawcommission.gov.np/category/right-to-information/",
-      "titleOriginal": "सूचनाको हक बमोजिम सार्वजनिक गरिएको विवरण",
-      "observedAt": "2026-10-20T22:42:29.087748+00:00",
+      "url": "https://www.nrb.org.np/category/nepal-rastra-bank-news/?department=ofg",
+      "titleOriginal": "NRB Quarterly news",
+      "observedAt": "2026-10-21T22:48:14.053681+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
     {
-      "id": "26401ed7e346aa4a2585",
-      "sourceId": "np-law",
+      "id": "b32e9088264d295705c1",
+      "sourceId": "np-nrb",
       "country": "尼泊尔",
-      "url": "https://lawcommission.gov.np/our-team-detail/4011/",
-      "titleOriginal": "जलेश्‍वर राम उपसचिव ‍एवम् सूचना अधिकारी",
-      "observedAt": "2026-10-20T22:42:29.087748+00:00",
+      "url": "https://www.nrb.org.np/contents/uploads/2022/08/FXMD-Notice-2_207980_Cryptocurrecy.pdf",
+      "titleOriginal": "Virtual Currency/Cryptocurrency, Network Marketing तथा Hyper Fund कारोबार गैरकानूनी रहेको सम्बन्धी सूचना",
+      "observedAt": "2026-10-21T22:48:14.053681+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
     {
-      "id": "8fcc1c19f7db01dd9d2d",
-      "sourceId": "np-law",
+      "id": "ca93638977fa6f641428",
+      "sourceId": "np-nrb",
       "country": "尼泊尔",
-      "url": "https://lawcommission.gov.np/content/13582/notice-regarding-registration-of-existing-list--/",
-      "titleOriginal": "मौजुदा सूची दर्ता गर्ने सम्बन्धी सूचना - आ.व. २०८३-८४ ६ साउन, २०८३",
-      "observedAt": "2026-10-20T22:42:29.087748+00:00",
+      "url": "https://www.nrb.org.np/fiu/%e0%a4%85%e0%a4%a8%e0%a4%b2%e0%a4%be%e0%a4%87%e0%a4%a8-%e0%a4%a0%e0%a4%97%e0%a5%80-online-scams-fraud-%e0%a4%b8%e0%a4%ae%e0%a5%8d%e0%a4%ac%e0%a4%a8%e0%a5%8d%e0%a4%a7%e0%a5%80-%e0%a4%b5%e0%a4%bf/",
+      "titleOriginal": "अनलाइन ठगी (Online Scams/Fraud) सम्बन्धी विशेष सतर्कताको सूचना (Advisory)",
+      "observedAt": "2026-10-21T22:48:14.053681+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     },
     {
-      "id": "98fab6afb6ebd58b0592",
-      "sourceId": "np-law",
+      "id": "e0774d15edacfe46741d",
+      "sourceId": "np-nrb",
       "country": "尼泊尔",
-      "url": "https://lawcommission.gov.np/content/13631/details-made-public-as-per-the-right/",
-      "titleOriginal": "सूचनाको हक बमोजिम सार्वजनिक गरिएको विवरण- २०८३ वैशाख देखि भाद्र मसान्तसम्म १४ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:29.087748+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "f425d0d8630d058c0ae8",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13574/notice-regarding-issuance-of-will-invoice-/",
-      "titleOriginal": "विल/बीजक जारी गर्ने सम्बन्धी सूचना।",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "e9d18a0579f627e5c7b9",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13518/information-officer-contact-number/",
-      "titleOriginal": "कार्यालयगत सूचना अधिकारीको सम्पर्क नम्बर",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "fab24be45b280b1944f7",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/category/rti/",
-      "titleOriginal": "सूचना प्राप्त गर्ने अधिकार",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ace51f9e20cc6a397623",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/our-team-detail/13194/",
-      "titleOriginal": "केशव रघुवंशी सूचना अधिकारी (निर्देशक)",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "603eef87a4b79c779c79",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13669/loi/",
-      "titleOriginal": "सिलबन्दी दरभाउपत्र स्वीकृत गरिएको सम्बन्धी सूचना २६ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "441b97d358a202d2a17a",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13661/notice-regarding-acceptance-of-seal-bond/",
-      "titleOriginal": "सिलबन्दी दरभाउपत्र स्वीकृत गरिएको सम्बन्धी सूचना २३ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "9cd481499d8c138af5ec",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13657/notice-regarding-approval-of-sealed-bill/",
-      "titleOriginal": "सिलबन्दी दरभाउपत्र स्वीकृत गरिएको सम्बन्धी सूचना १६ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "96722047255bb8e3d7ac",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13641/notice-of-invitation-for-tenders-related-to/",
-      "titleOriginal": "मसलन्द तथा कार्यालय सामाग्री खरिद सम्बन्धी बोलपत्र आव्हानको सूचना । ६ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d5ca5136e797f37f0f63",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13600/right-to-information---rti-2082-083--/",
-      "titleOriginal": "सूचनाको हक ( RTI 2082.083 ) वैशाख-असार १९ साउन, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "539d2dbd6a06ae6f2079",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13522/right-to-information-from-january-2082-to/",
-      "titleOriginal": "सूचनाको हक २०८२ माघ देखि चैत्र मसान्तसम्म २४ बैशाख, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "0b2a5e41349c102c9ba6",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13451/right-to-information--rti-2082-083--kartik-paush/",
-      "titleOriginal": "सूचनाको हक( RTI 2082.083 ) कार्तिक-पौष २० चैत, २०८२",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "a03804b221622a810eb7",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13346/right-to-information--shravan-azoj-2082-/",
-      "titleOriginal": "सूचनाको हक (श्रावण -असोज २०८२) २२ मंसिर, २०८२",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "92a04f6a36a21c527f06",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13673/notice-regarding-invoice-entry-in-taxpayer-incentive/",
-      "titleOriginal": "करदाता प्रोत्साहन उपहार कार्यक्रमको प्रणालीमा बीजक प्रविष्टि सम्बन्धी सूचना २८ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "ddd65ec450f3bbc8c6d1",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13660/-souvenir--notice-regarding-provision-of-manuscript-for/",
-      "titleOriginal": "\"स्मारिका\" प्रकाशनका लागि लेखरचना उपलब्ध गराउने सम्बन्धी सूचना २१ असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "90cf800b9a2c14013a00",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13674/press-release-britacof-7/",
-      "titleOriginal": "सातौँ ब्रिटाकोफ (BRITACOF) सम्मेलन सम्पन्न: संयुक्त घोषणापत्र जारी गर्दै डिजिटल कर सुशासन र क्षमता अभिवृद्धिमा नेपालसहित सदस्य राष्ट्रहरूको साझा प्रतिबद्धता (प्रेस विज्ञप्ति) ३० असोज, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "9d01496807e5d2de1b03",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13501/press-note/",
-      "titleOriginal": "प्रेस नोट १४ बैशाख, २०८३",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "97425bae7b1655db2d64",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/content/13344/official-notification-of-the-government-of-nepal-s/",
-      "titleOriginal": "नेपाल सरकारले मॉरिसससँगको दोहोरो कर मुक्ति सम्झौता (DTAA) खारेज गर्ने निर्णयको औपचारिक सूचना २४ मंसिर, २०८२",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "6d09746497b63d2712d2",
-      "sourceId": "np-ird",
-      "country": "尼泊尔",
-      "url": "https://ird.gov.np/gallery/detail/8700",
-      "titleOriginal": "डिजिटल शासन सूचना तथा सञ्चार प्रविधि पुरस्कार २०२० २ फोटोहरू",
-      "observedAt": "2026-10-20T22:42:30.193682+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "3608895c66bdbfcded54",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/content/110/press-release-regarding-the-video-material-circulated/",
-      "titleOriginal": "लगानी बोर्डको कार्यालयका सम्बन्धमा प्रसारित भिडियो सामग्रीबारे प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "11613fa2c3605d645d6f",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/category/rights-to-information/",
-      "titleOriginal": "सूचनाको हक सम्बन्धी विवरण",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "45b1715fc0fd77b5ce08",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/category/press-release",
-      "titleOriginal": "प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "d7c034ea1d9f0b1d7205",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/our-team-detail/4/",
-      "titleOriginal": "श्री मनोज रेग्मी उप-सचिव (सूचना अधिकारी तथा गुनासो सुन्ने अधिकारी)",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "37048c335bfe31338a05",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/content/109/press-release-of-the-68th-board-meeting/",
-      "titleOriginal": "अठसट्ठीऔँ बोर्ड बैठकको प्रेस विज्ञप्ति",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "71154aea68499596b456",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/content/101/notice-regarding-call-for-applications-for-the/",
-      "titleOriginal": "लगानी बोर्डको प्रमुख कार्यकारी अधिकृत पदका लागि निवेदन आह्वान सम्बन्धी सूचना",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
-      "publishedAt": null,
-      "status": "date-and-content-unverified"
-    },
-    {
-      "id": "b714c47747cd9a87687a",
-      "sourceId": "np-ibn",
-      "country": "尼泊尔",
-      "url": "https://ibn.gov.np/content/99/press-release--thirteenth-monitoring-and-facilitation-committee-/",
-      "titleOriginal": "प्रेस विज्ञप्ति (तेह्रौं अनुगमन तथा सहजीकरण समिति)",
-      "observedAt": "2026-10-20T22:42:30.953692+00:00",
+      "url": "https://www.nrb.org.np/pdm/%e0%a4%85%e0%a4%b8%e0%a5%8b%e0%a4%9c-%e0%a5%a8%e0%a5%a9-%e0%a4%97%e0%a4%a4%e0%a5%87-%e0%a4%b0%e0%a5%81-%e0%a5%ad%e0%a5%a6-%e0%a4%85%e0%a4%b0%e0%a5%8d%e0%a4%ac%e0%a4%95%e0%a5%8b-%e0%a5%a8-%e0%a4%ae/",
+      "titleOriginal": "असोज २३ गते रु.७० अर्बको २ महिने निक्षेप संकलन बोलकबोल सम्बन्धी सूचना ।",
+      "observedAt": "2026-10-21T22:48:14.053681+00:00",
       "publishedAt": null,
       "status": "date-and-content-unverified"
     }
   ],
   "socialCandidates": [
-    {
-      "sourceId": "np-nta",
-      "url": "https://www.facebook.com/NepalTelecommunicationsAuthority/",
-      "evidenceUrl": "https://www.nta.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-nta",
-      "url": "https://twitter.com/ntagovnp",
-      "evidenceUrl": "https://www.nta.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-pmo",
-      "url": "https://www.facebook.com/OPMCMNP",
-      "evidenceUrl": "https://www.opmcm.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-pmo",
-      "url": "https://www.linkedin.com/company/office-of-the-prime-minister-and-council-of-ministers-opmcm-nepal/posts/?feedView=all",
-      "evidenceUrl": "https://www.opmcm.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ntc",
-      "url": "https://www.facebook.com/NepalTelecom.NT/",
-      "evidenceUrl": "https://www.ntc.net.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ntc",
-      "url": "https://twitter.com/ndcl_nt",
-      "evidenceUrl": "https://www.ntc.net.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ntc",
-      "url": "https://www.linkedin.com/company/nepal-telecom",
-      "evidenceUrl": "https://www.ntc.net.np/",
-      "status": "needs-ownership-review"
-    },
     {
       "sourceId": "np-ncell",
       "url": "https://www.facebook.com/ncell/",
@@ -1554,6 +362,18 @@
       "sourceId": "np-vianet",
       "url": "https://twitter.com/Vianetofficial?s=20",
       "evidenceUrl": "https://www.vianet.com.np/",
+      "status": "needs-ownership-review"
+    },
+    {
+      "sourceId": "np-subisu",
+      "url": "https://www.facebook.com/subisu/",
+      "evidenceUrl": "https://www.subisu.net.np/",
+      "status": "needs-ownership-review"
+    },
+    {
+      "sourceId": "np-subisu",
+      "url": "https://www.linkedin.com/company/13292990/admin/",
+      "evidenceUrl": "https://www.subisu.net.np/",
       "status": "needs-ownership-review"
     },
     {
@@ -1671,24 +491,6 @@
       "status": "needs-ownership-review"
     },
     {
-      "sourceId": "np-nokia",
-      "url": "https://twitter.com/nokia",
-      "evidenceUrl": "https://www.nokia.com/newsroom/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-nokia",
-      "url": "https://www.facebook.com/nokia/",
-      "evidenceUrl": "https://www.nokia.com/newsroom/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-nokia",
-      "url": "https://www.linkedin.com/company/nokia",
-      "evidenceUrl": "https://www.nokia.com/newsroom/",
-      "status": "needs-ownership-review"
-    },
-    {
       "sourceId": "np-zte",
       "url": "https://www.facebook.com/ZTECorp",
       "evidenceUrl": "https://www.zte.com.cn/global/about/news.html",
@@ -1743,123 +545,21 @@
       "status": "needs-ownership-review"
     },
     {
-      "sourceId": "np-law",
-      "url": "https://www.facebook.com/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
+      "sourceId": "np-nrb",
+      "url": "https://twitter.com/NepalRastraBank?ref_src=twsrc%5Etfw",
+      "evidenceUrl": "https://www.nrb.org.np/",
       "status": "needs-ownership-review"
     },
     {
-      "sourceId": "np-law",
-      "url": "https://np.linkedin.com/company/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
+      "sourceId": "np-nrb",
+      "url": "https://www.facebook.com/NRB.CentralBank",
+      "evidenceUrl": "https://www.nrb.org.np/",
       "status": "needs-ownership-review"
     },
     {
-      "sourceId": "np-law",
-      "url": "https://www.facebook.com/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-law",
-      "url": "https://np.linkedin.com/company/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-law",
-      "url": "https://www.facebook.com/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-law",
-      "url": "https://np.linkedin.com/company/lawcommission.gov.np",
-      "evidenceUrl": "https://lawcommission.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://www.facebook.com/inlandrevenue.nepal/",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://x.com/ird_nepal?lang=en",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://www.facebook.com/inlandrevenue.nepal/",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://x.com/ird_nepal?lang=en",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://www.facebook.com/inlandrevenue.nepal/",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ird",
-      "url": "https://x.com/ird_nepal?lang=en",
-      "evidenceUrl": "https://ird.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://www.facebook.com/OIBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://x.com/IBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://www.facebook.com/OIBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://x.com/IBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://www.facebook.com/OIBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://x.com/IBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://www.facebook.com/OIBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
-      "status": "needs-ownership-review"
-    },
-    {
-      "sourceId": "np-ibn",
-      "url": "https://x.com/IBNOffice",
-      "evidenceUrl": "https://ibn.gov.np/",
+      "sourceId": "np-nrb",
+      "url": "https://twitter.com/NepalRastraBank",
+      "evidenceUrl": "https://www.nrb.org.np/",
       "status": "needs-ownership-review"
     }
   ],
