@@ -28,7 +28,7 @@
       "lastCollectedAt": "2026-10-20T22:42:22.361693+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:06.115789+00:00",
+      "lastAttemptAt": "2026-10-22T22:46:49.163808+00:00",
       "scanError": "URLError"
     },
     {
@@ -53,7 +53,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:06.116451+00:00",
+      "lastAttemptAt": "2026-10-22T22:46:49.164949+00:00",
       "scanError": "URLError"
     },
     {
@@ -70,15 +70,15 @@
       "handle": "",
       "owner": "Nepal Rastra Bank",
       "enabled": true,
-      "status": "官网可读取·内容待核验",
-      "statusEn": "Website readable; content pending review",
+      "status": "扫描失败·待重试",
+      "statusEn": "Scan failed; retry needed",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
       "lastCollectedAt": "2026-10-21T22:48:14.053681+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-10-21T22:48:14.053681+00:00",
+      "lastAttemptAt": "2026-10-22T22:46:58.963054+00:00",
       "scanError": "URLError"
     },
     {
@@ -103,7 +103,7 @@
       "lastCollectedAt": "2026-10-20T22:42:29.087748+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:14.772662+00:00",
+      "lastAttemptAt": "2026-10-22T22:46:59.252319+00:00",
       "scanError": "URLError"
     },
     {
@@ -128,7 +128,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:15.001922+00:00",
+      "lastAttemptAt": "2026-10-22T22:46:59.991832+00:00",
       "scanError": "URLError"
     },
     {
@@ -153,7 +153,7 @@
       "lastCollectedAt": "2026-09-22T22:25:51.534249+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:17.162440+00:00",
+      "lastAttemptAt": "2026-10-22T22:47:05.216311+00:00",
       "scanError": "URLError"
     },
     {
@@ -178,7 +178,7 @@
       "lastCollectedAt": "2026-10-20T22:42:30.193682+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:22.190144+00:00",
+      "lastAttemptAt": "2026-10-22T22:47:07.606132+00:00",
       "scanError": "URLError"
     },
     {
@@ -203,7 +203,7 @@
       "lastCollectedAt": "2026-10-20T22:42:30.953692+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-10-21T22:48:24.591684+00:00",
+      "lastAttemptAt": "2026-10-22T22:47:07.641092+00:00",
       "scanError": "URLError"
     }
   ],
