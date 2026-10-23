@@ -28,7 +28,7 @@
       "lastCollectedAt": "2026-10-20T22:42:22.361693+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:46:49.163808+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:30.812270+00:00",
       "scanError": "URLError"
     },
     {
@@ -53,7 +53,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:46:49.164949+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:30.813194+00:00",
       "scanError": "URLError"
     },
     {
@@ -78,7 +78,7 @@
       "lastCollectedAt": "2026-10-21T22:48:14.053681+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-10-22T22:46:58.963054+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:40.797398+00:00",
       "scanError": "URLError"
     },
     {
@@ -103,7 +103,7 @@
       "lastCollectedAt": "2026-10-20T22:42:29.087748+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:46:59.252319+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:41.273955+00:00",
       "scanError": "URLError"
     },
     {
@@ -128,7 +128,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:46:59.991832+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:41.291186+00:00",
       "scanError": "URLError"
     },
     {
@@ -153,7 +153,7 @@
       "lastCollectedAt": "2026-09-22T22:25:51.534249+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:47:05.216311+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:49.251422+00:00",
       "scanError": "URLError"
     },
     {
@@ -178,7 +178,7 @@
       "lastCollectedAt": "2026-10-20T22:42:30.193682+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:47:07.606132+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:49.458386+00:00",
       "scanError": "URLError"
     },
     {
@@ -203,7 +203,7 @@
       "lastCollectedAt": "2026-10-20T22:42:30.953692+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-10-22T22:47:07.641092+00:00",
+      "lastAttemptAt": "2026-10-23T22:39:49.523587+00:00",
       "scanError": "URLError"
     }
   ],
