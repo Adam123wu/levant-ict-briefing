@@ -13,15 +13,15 @@
     "handle": "",
     "owner": "Nepal Telecommunications Authority",
     "enabled": true,
-    "status": "扫描失败·待重试",
-    "statusEn": "Scan failed; retry needed",
+    "status": "官网可读取·内容待核验",
+    "statusEn": "Website readable; content pending review",
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-20T22:42:22.361693+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:29.462209+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.nta.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:39.155874+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:29.462209+00:00",
     "scanError": "URLError"
   },
   {
@@ -46,7 +46,7 @@
     "lastCollectedAt": null,
     "scope": "Nepal",
     "verificationUrl": "https://mocit.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:39.156602+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:29.463051+00:00",
     "scanError": "URLError"
   },
   {
@@ -68,10 +68,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:39.157029+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:29.463554+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.opmcm.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:39.157029+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:29.463554+00:00",
     "scanError": "URLError"
   },
   {
@@ -93,10 +93,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:39.157470+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:29.464100+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.ntc.net.np/",
-    "lastAttemptAt": "2026-10-29T23:37:39.157470+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:29.464100+00:00"
   },
   {
     "id": "np-ncell",
@@ -117,10 +117,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:39.158165+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:29.465007+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.ncell.com.np/en",
-    "lastAttemptAt": "2026-10-29T23:37:39.158165+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:29.465007+00:00"
   },
   {
     "id": "np-worldlink",
@@ -141,10 +141,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:39.162162+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:29.467871+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://worldlink.com.np/",
-    "lastAttemptAt": "2026-10-29T23:37:39.162162+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:29.467871+00:00"
   },
   {
     "id": "np-vianet",
@@ -165,10 +165,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:41.089895+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:31.296721+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.vianet.com.np/",
-    "lastAttemptAt": "2026-10-29T23:37:41.089895+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:31.296721+00:00",
     "scanError": "HTTPError"
   },
   {
@@ -190,10 +190,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:41.707599+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:31.737777+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.subisu.net.np/",
-    "lastAttemptAt": "2026-10-29T23:37:41.707599+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:31.737777+00:00",
     "scanError": "URLError"
   },
   {
@@ -215,10 +215,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:41.714676+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:31.741926+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://dishhome.com.np/",
-    "lastAttemptAt": "2026-10-29T23:37:41.714676+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:31.741926+00:00"
   },
   {
     "id": "np-cgnet",
@@ -239,10 +239,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:42.094902+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:31.879744+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://cgnet.com.np/",
-    "lastAttemptAt": "2026-10-29T23:37:42.094902+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:31.879744+00:00"
   },
   {
     "id": "np-techpana",
@@ -266,7 +266,7 @@
     "lastCollectedAt": null,
     "scope": "Nepal",
     "verificationUrl": "https://www.techpana.com/",
-    "lastAttemptAt": "2026-10-29T23:37:42.662324+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:32.722156+00:00",
     "scanError": "HTTPError"
   },
   {
@@ -288,10 +288,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:42.783524+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:32.798387+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://ictsamachar.com/",
-    "lastAttemptAt": "2026-10-29T23:37:42.783524+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:32.798387+00:00",
     "scanError": "URLError"
   },
   {
@@ -313,10 +313,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:43.164840+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:33.078884+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.gadgetbytenepal.com/",
-    "lastAttemptAt": "2026-10-29T23:37:43.164840+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:33.078884+00:00"
   },
   {
     "id": "np-nepalitelecom",
@@ -337,10 +337,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:43.502766+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:33.983942+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.nepalitelecom.com/",
-    "lastAttemptAt": "2026-10-29T23:37:43.502766+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:33.983942+00:00"
   },
   {
     "id": "np-ictbyte",
@@ -361,10 +361,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:43.673486+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.001388+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://ictbyte.com/",
-    "lastAttemptAt": "2026-10-29T23:37:43.673486+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:34.001388+00:00"
   },
   {
     "id": "np-kathmandupost",
@@ -385,10 +385,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:44.193209+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.246139+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://kathmandupost.com/",
-    "lastAttemptAt": "2026-10-29T23:37:44.193209+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:34.246139+00:00"
   },
   {
     "id": "np-onlinekhabar",
@@ -409,10 +409,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:44.517597+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.292342+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://english.onlinekhabar.com/",
-    "lastAttemptAt": "2026-10-29T23:37:44.517597+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:34.292342+00:00",
     "scanError": "IncompleteRead"
   },
   {
@@ -434,10 +434,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:44.567284+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.325584+00:00",
     "scope": "Nepal-only",
     "verificationUrl": "https://www.huawei.com/en/news",
-    "lastAttemptAt": "2026-10-29T23:37:44.567284+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:34.325584+00:00"
   },
   {
     "id": "np-nokia",
@@ -458,10 +458,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:44.787460+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.552336+00:00",
     "scope": "Nepal-only",
     "verificationUrl": "https://www.nokia.com/newsroom/",
-    "lastAttemptAt": "2026-10-29T23:37:44.787460+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:34.552336+00:00",
     "scanError": "HTTPError"
   },
   {
@@ -483,10 +483,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:44.962553+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:34.766336+00:00",
     "scope": "Nepal-only",
     "verificationUrl": "https://www.zte.com.cn/global/about/news.html",
-    "lastAttemptAt": "2026-10-29T23:37:44.962553+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:34.766336+00:00"
   },
   {
     "id": "np-ericsson",
@@ -510,7 +510,7 @@
     "lastCollectedAt": null,
     "scope": "Nepal-only",
     "verificationUrl": "https://www.ericsson.com/en/newsroom",
-    "lastAttemptAt": "2026-10-29T23:37:45.071007+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:34.973798+00:00",
     "scanError": "HTTPError"
   },
   {
@@ -532,10 +532,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:45.223214+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:35.002251+00:00",
     "scope": "Nepal-only",
     "verificationUrl": "https://newsroom.cisco.com/",
-    "lastAttemptAt": "2026-10-29T23:37:45.223214+00:00"
+    "lastAttemptAt": "2026-10-30T23:16:35.002251+00:00"
   },
   {
     "id": "np-nrb",
@@ -556,10 +556,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:45.444709+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:35.263495+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://www.nrb.org.np/",
-    "lastAttemptAt": "2026-10-29T23:37:45.444709+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:35.263495+00:00",
     "scanError": "URLError"
   },
   {
@@ -581,10 +581,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:45.479066+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:35.478276+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://lawcommission.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:45.479066+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:35.478276+00:00",
     "scanError": "URLError"
   },
   {
@@ -609,7 +609,7 @@
     "lastCollectedAt": null,
     "scope": "Nepal",
     "verificationUrl": "https://rajpatra.dop.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:46.229464+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:36.011331+00:00",
     "scanError": "URLError"
   },
   {
@@ -634,7 +634,7 @@
     "lastCollectedAt": "2026-09-22T22:25:51.534249+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://ppmo.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:46.311026+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:36.395366+00:00",
     "scanError": "URLError"
   },
   {
@@ -656,10 +656,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:46.400105+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:37.077870+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://ird.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:46.400105+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:37.077870+00:00",
     "scanError": "URLError"
   },
   {
@@ -681,10 +681,10 @@
     "posts14d": null,
     "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
     "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-    "lastCollectedAt": "2026-10-29T23:37:47.195955+00:00",
+    "lastCollectedAt": "2026-10-30T23:16:37.758285+00:00",
     "scope": "Nepal",
     "verificationUrl": "https://ibn.gov.np/",
-    "lastAttemptAt": "2026-10-29T23:37:47.195955+00:00",
+    "lastAttemptAt": "2026-10-30T23:16:37.758285+00:00",
     "scanError": "URLError"
   },
   {
